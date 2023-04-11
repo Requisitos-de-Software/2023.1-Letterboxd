@@ -1,3 +1,19 @@
-site_name: REQ_Grupo_6
+site_name: Requisitos - Letterboxd
 theme:
   name: material
+  palette:
+    scheme: slate
+    primary: green
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  features:
+    - content.code.copy
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
