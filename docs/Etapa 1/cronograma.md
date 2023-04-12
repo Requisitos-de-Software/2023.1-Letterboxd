@@ -11,14 +11,15 @@ Este é o cronograma de atividades e entregas da equipe, que está sendo elabora
 
 Data limite para desenvolvimento | Descrição da Atividade | Autor(es) | Revisor | Início da revisão | Término da revisão
 --------- | ----------------- | -------------- | ---------- | ------------- | --------------------
-10/04/2023 | Configurar GitHub Pages | [Natan Tavares](https://github.com/Neitan2023) | [Clara Ribeiro](https://github.com/clara-ribeiro) | 11/04/2023 | 11/04/2023 |
-11/04/2023 | Políticas | [Natan Tavares](https://github.com/Neitan2023) | [Clara Ribeiro](https://github.com/clara-ribeiro) | 14/04/2023 | 14/04/2023 |
-11/04/2023 | Criação do cronograma | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Tavares](https://github.com/Neitan2023) | 12/04/2023 | 13/04/2023 |
+10/04/2023 | Configurar GitHub Pages | [Natan Santana](https://github.com/Neitan2023) | [Clara Ribeiro](https://github.com/clara-ribeiro) | 11/04/2023 | 11/04/2023 |
+11/04/2023 | Políticas | [Natan Santana](https://github.com/Neitan2023) | [Clara Ribeiro](https://github.com/clara-ribeiro) | 14/04/2023 | 14/04/2023 |
+11/04/2023 | Criação do cronograma | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2023) | 12/04/2023 | 13/04/2023 |
 13/04/2023 | Apresentação da equipe | [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Gustavo Barbosa](https://github.com/brbsg) | 14/04/2023 | 14/04/2023 |
 13/04/2023 | App Selecionado | [Gustavo Barbosa](https://github.com/brbsg) | [Maciel Júnior](https://github.com/macieljuniormax) | 14/04/2023 | 14/04/2023 |
 13/04/2023 | Ferramentas do projeto | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) | 14/04/2023 | 14/04/2023 |
 13/04/2023 | Adicionar Rich Pictures Individuais | [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) | 14/04/2023 | 14/04/2023 |
 13/04/2023 | Checklist da entrega | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) | 14/04/2023 | 14/04/2023 |
+14/04/2023 | Relato do Checklist | [Natan Santana](https://github.com/Neitan2023) | [Arthur D'Assumpção](https://github.com/ArtAssLou) | 15/04/2023 | 15/04/2023 |
 15/04/2023 | Gravação e Edição da Apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro) | Todos | 16/04/2023 | 17/04/2023 |
 
 <div style="text-align: center">
