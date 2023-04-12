@@ -4,7 +4,7 @@
 
 
 <div style="text-align: justify">
-Este é o cronograma de atividades e entregas da equipe, que está sendo elaborado com base no cronograma de atividades da disciplina Interação Humano Computador. Possui o objetivo de documentar quando cada entrega é feita, por quem é feita e quem faz a revisão. Está dividido por etapas, onde cada etapa corresponde a uma apresentação que o grupo fará. As datas limite de entrega são definidas para dois dias antes da apresentação para assegurar que haja tempo para as últimas revisões.
+Este é o cronograma de atividades e entregas da equipe, que está sendo elaborado com base no cronograma de atividades da disciplina Requisitos de Software. Possui o objetivo de documentar quando cada entrega é feita, por quem é feita e quem faz a revisão. Está dividido por etapas, onde cada etapa corresponde a uma apresentação que o grupo fará. As datas limite de entrega são definidas para dois dias antes da apresentação para assegurar que haja tempo para as últimas revisões.
 </div>
 
 ## Etapa 1
