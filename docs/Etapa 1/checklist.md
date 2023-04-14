@@ -3,7 +3,7 @@
 ## Introdução
 
 <div style="text-align: justify">
-Esse artefato tem como finalidadre padronizar as estregas de artefatos do grupo, além de verificar o comprimento das atividades do grupo.
+Esse artefato tem como finalidade padronizar as estregas de artefatos do grupo, além de verificar o comprimento das atividades do grupo.
 </div>
 
 ## CheckList
