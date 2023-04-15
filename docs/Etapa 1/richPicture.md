@@ -2,15 +2,15 @@
 
 </br>
 
-# Introdução
+## Introdução
 
 <div style="text-align: justify; margin-bottom: 20px">
     </br> Rich Picture é uma técnica de modelagem gráfica utilizada para representar de forma visual a complexidade de um sistema [2]. Basicamente, seu objetivo é proporcionar uma visão geral do problema a ser analisado, representando as principais características e desafios enfrentados pelo mesmo. Sendo assim, o Rich Picture pode ser utilizado como uma ferramenta para auxiliar na compreensão de problemas mais complexos e na identificação de possíveis soluções.
 </div>
 
-# Rich Picture - Letterboxd
+## Rich Picture - Letterboxd
 
-## Clara Marcelino Ribeiro de Sousa - Letterboxd
+### Clara Marcelino Ribeiro de Sousa - Letterboxd
 
 </br>
 <div style="text-align: center">
@@ -21,9 +21,9 @@
 </br>
 </br>
 
-# Rich Pictures - Membros
+## Rich Pictures - Membros
 
-## Arthur D'Assumpção Loureiro - Buser
+### Arthur D'Assumpção Loureiro - Buser
 
 </br>
 <div style="text-align: center">
@@ -34,7 +34,7 @@
 </br>
 </br>
 
-## Débora Caires de Souza Moreira - FGTS
+### Débora Caires de Souza Moreira - FGTS
 
 </br>
 <div style="text-align: center">
@@ -45,7 +45,7 @@
 </br>
 </br>
 
-## Gustavo Barbosa de Oliveira - Uber
+### Gustavo Barbosa de Oliveira - Uber
 
 </br>
 <div style="text-align: center">
@@ -56,7 +56,7 @@
 </br>
 </br>
 
-## Maciel Ferreira Custódio Júnior - Apple Music
+### Maciel Ferreira Custódio Júnior - Apple Music
 
 </br>
 <div style="text-align: center">
@@ -67,7 +67,7 @@
 </br>
 </br>
 
-## Natan Tavares Santana - WebDiet
+### Natan Tavares Santana - WebDiet
 
 </br>
 <div style="text-align: center">
@@ -78,7 +78,7 @@
 </br>
 </br>
 
-## Rhuan Marques Róbias dos Santos - Tinder
+### Rhuan Marques Róbias dos Santos - Tinder
 
 </br>
 <div style="text-align: center">
@@ -89,7 +89,7 @@
 </br>
 </br>
 
-# Referência Bibliográfica
+## Referência Bibliográfica
 
 > [1] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
 
@@ -98,7 +98,7 @@
 </br>
 </br>
 
-# Tabela de Versionamento
+## Tabela de Versionamento
 
 | Data       | Versão | Descrição             | Autor                                             | Revisor                                             |
 | ---------- | ------ | --------------------- | ------------------------------------------------- | --------------------------------------------------- |
