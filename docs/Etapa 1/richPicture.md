@@ -1,4 +1,5 @@
 # Rich Picture
+
 </br>
 
 # Introdução
@@ -8,7 +9,9 @@
 </div>
 
 # Rich Picture - Letterboxd
+
 ## Clara Marcelino Ribeiro de Sousa - Letterboxd
+
 </br>
 <div style="text-align: center">
     <img src='../assets/RichPicture_Clara.png' />
@@ -21,6 +24,7 @@
 # Rich Pictures - Membros
 
 ## Arthur D'Assumpção Loureiro - Buser
+
 </br>
 <div style="text-align: center">
     <img src='../assets/RichPicture_Arthur.png' style="height: 300px"/>
@@ -31,6 +35,7 @@
 </br>
 
 ## Débora Caires de Souza Moreira - FGTS
+
 </br>
 <div style="text-align: center">
     <img src='../assets/RichPicture_Debora.png'/>
@@ -40,17 +45,19 @@
 </br>
 </br>
 
-## Gustavo Barbosa de Oliveira
+## Gustavo Barbosa de Oliveira - Uber
+
 </br>
 <div style="text-align: center">
-    <img src='../assets/RichPicture_Natan.png'/>
-    Figura 4: Rich Picture do 
+    <img src='../assets/RichPicture_Gustavo.jpg'/>
+    Figura 4: Rich Picture do Uber
     <br><small>Fonte: Autoria própria</small>
 </div>
 </br>
 </br>
 
 ## Maciel Ferreira Custódio Júnior - Apple Music
+
 </br>
 <div style="text-align: center">
     <img src='../assets/RichPicture_Maciel.png'/>
@@ -61,6 +68,7 @@
 </br>
 
 ## Natan Tavares Santana - WebDiet
+
 </br>
 <div style="text-align: center">
     <img src='../assets/RichPicture_Natan.png'/>
@@ -71,6 +79,7 @@
 </br>
 
 ## Rhuan Marques Róbias dos Santos - Tinder
+
 </br>
 <div style="text-align: center">
     <img src='../assets/RichPicture_Rhuan.png'/>
@@ -82,15 +91,15 @@
 
 # Referência Bibliográfica
 
->[1] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
+> [1] MONK, Andrew; HOWARD, Steve. "The Rich Picture: A Tool for Reasoning About Work Context". 1998
 
->[2] CHECKLAND, P.; POULTER, J. (2006). Learning for action: A short definitive account of soft systems methodology and its use for practitioner, teachers and students. New York: John Wiley & Sons.
+> [2] CHECKLAND, P.; POULTER, J. (2006). Learning for action: A short definitive account of soft systems methodology and its use for practitioner, teachers and students. New York: John Wiley & Sons.
 
 </br>
 </br>
 
 # Tabela de Versionamento
 
-| Data | Versão | Descrição | Autor | Revisor |
-| ---- | ------ | --------- | ----- | ------- |
-| 14/04/2023 | `0.1`  | Rich Pictures membros | [Débora Moreira](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax)
+| Data       | Versão | Descrição             | Autor                                             | Revisor                                             |
+| ---------- | ------ | --------------------- | ------------------------------------------------- | --------------------------------------------------- |
+| 14/04/2023 | `0.1`  | Rich Pictures membros | [Débora Moreira](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) |
