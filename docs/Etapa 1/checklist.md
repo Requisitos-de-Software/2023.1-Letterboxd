@@ -8,6 +8,13 @@ Esse artefato tem como finalidade padronizar as estregas de artefatos do grupo, 
 
 ## CheckList
 
+| Apresentação |
+| ------------ |
+| A equipe é apresentada com nome e foto dos integrantes? |
+| Vídeo de apresentação na categoria “não listado” no youtube? |
+| Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc).|
+| O vídeo de apresentação foi devidamente linkado? |
+
 | App |
 | --- |
 | O documento possui introdução? |
@@ -15,11 +22,7 @@ Esse artefato tem como finalidade padronizar as estregas de artefatos do grupo, 
 | O documento possui tabela de versionamento? |
 | O documento foi revisado? |
 | As imagens e documentos possuem legendas e são chamadas em texto? |
-| A equipe é apresentada com nome e foto dos integrantes? |
 | O documento apresenta a motivação para a escolha do app? |
-| Vídeo de apresentação na categoria “não listado” no youtube? |
-| Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc).|
-| O vídeo de apresentação foi devidamente linkado? |
 
 <div style="text-align: center">
 <p>Tabela 1: Checklist do App</p>
