@@ -14,7 +14,7 @@
 
 </br>
 <div style="text-align: center">
-    <img src='../assets/RichPicture_Clara.png' />
+    <img src='https://github.com/Requisitos-de-Software/2023.1-Letterboxd/blob/master/docs/assets/RichPicture_Clara.png?raw=true' alt='RichPicture_Clara' />
     Figura 1: Rich Picture do LetterBoxd
     <br><small>Fonte: Autoria própria</small>
 </div>
@@ -27,7 +27,7 @@
 
 </br>
 <div style="text-align: center">
-    <img src='../assets/RichPicture_Arthur.png' style="height: 300px"/>
+    <img src='https://github.com/Requisitos-de-Software/2023.1-Letterboxd/blob/master/docs/assets/RichPicture_Arthur.png?raw=true' alt='RichPicture_Arthur' style="height: 300px"/>
     Figura 2: Rich Picture do Buser
     <br><small>Fonte: Autoria própria</small>
 </div>
@@ -38,7 +38,7 @@
 
 </br>
 <div style="text-align: center">
-    <img src='../assets/RichPicture_Debora.png'/>
+    <img src='https://github.com/Requisitos-de-Software/2023.1-Letterboxd/blob/master/docs/assets/RichPicture_Debora.png?raw=true' alt='RichPicture_Debora'/>
     Figura 3: Rich Picture do FGTS
     <br><small>Fonte: Autoria própria</small>
 </div>
@@ -49,7 +49,7 @@
 
 </br>
 <div style="text-align: center">
-    <img src='../assets/RichPicture_Gustavo.jpg'/>
+    <img src='https://github.com/Requisitos-de-Software/2023.1-Letterboxd/blob/master/docs/assets/RichPicture_Gustavo.png?raw=true' alt='RichPicture_Gustavo'/>
     Figura 4: Rich Picture do Uber
     <br><small>Fonte: Autoria própria</small>
 </div>
