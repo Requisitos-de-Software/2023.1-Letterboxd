@@ -38,8 +38,13 @@ Descrição:
     - Adição da página de políticas
     Closes #1
 
-## 5 - Tabela de Versionamento
+## 5 - Bibliografia
+
+<p><ul>1. KITAMURA, C. Pascal Case e Camel Case: O Que É E Como Usar. Disponível em: <a href="https://celsokitamura.com.br/pascal-case-e-camel-case/#:~:text=J%C3%A1%20Pascal%20Case%20%C3%A9%20a,Pascal%20Case%20e%20camel%20Case.">https://celsokitamura.com.br</a>. Acesso em: 10 abr. 2023.</a>. Acesso em: 10 de abril de 2023.</ul></p>
+
+## 6 - Tabela de Versionamento
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
 | 10/04/2023 | `0.1`  | Criação da página de políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 15/04/2023 | `0.2`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | 
