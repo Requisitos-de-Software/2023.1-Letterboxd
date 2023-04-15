@@ -8,13 +8,6 @@ Esse artefato tem como finalidade padronizar as estregas de artefatos do grupo, 
 
 ## CheckList
 
-| Apresentação |
-| ------------ |
-| A equipe é apresentada com nome e foto dos integrantes? |
-| Vídeo de apresentação na categoria “não listado” no youtube? |
-| Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc).|
-| O vídeo de apresentação foi devidamente linkado? |
-
 | App |
 | --- |
 | O documento possui introdução? |
@@ -70,6 +63,17 @@ Esse artefato tem como finalidade padronizar as estregas de artefatos do grupo, 
 
 <div style="text-align: center">
 <p>Tabela 4: Checklist do Rich Picture</p>
+</div>
+
+| Apresentação |
+| ------------ |
+| A equipe é apresentada com nome e foto dos integrantes? |
+| Vídeo de apresentação na categoria “não listado” no youtube? |
+| Ata(s) da(s) reuniões (com data, horário de início e do final, participantes, objetivo, atividades definidas etc).|
+| O vídeo de apresentação foi devidamente linkado? |
+
+<div style="text-align: center">
+<p>Tabela 5: Checklist da Apresentação</p>
 </div>
 
 ## Bibliografia
