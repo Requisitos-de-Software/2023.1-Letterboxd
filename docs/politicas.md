@@ -47,4 +47,4 @@ Descrição:
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
 | 10/04/2023 | `0.1`  | Criação da página de políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
-| 15/04/2023 | `0.2`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | 
+| 15/04/2023 | `0.2`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
