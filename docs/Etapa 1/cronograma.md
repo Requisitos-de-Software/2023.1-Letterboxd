@@ -19,7 +19,6 @@ Data limite para desenvolvimento | Descrição da Atividade | Autor(es) | Reviso
 13/04/2023 | Ferramentas do projeto | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) | 14/04/2023 | 14/04/2023 |
 13/04/2023 | Adicionar Rich Pictures Individuais | [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) | 14/04/2023 | 14/04/2023 |
 13/04/2023 | Checklist da entrega | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) | 14/04/2023 | 14/04/2023 |
-14/04/2023 | Relato do Checklist | [Natan Santana](https://github.com/Neitan2001) | [Arthur D'Assumpção](https://github.com/ArtAssLou) | 15/04/2023 | 15/04/2023 |
 15/04/2023 | Gravação e Edição da Apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro) | Todos | 16/04/2023 | 17/04/2023 |
 
 <div style="text-align: center">
