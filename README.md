@@ -1,16 +1,12 @@
 # 2023.1 - Grupo 06 - Letterboxd
-Este repositório é dedicado para o desenvolvimento do projeto da disciplina de Requisitos de Software, cursada na Universidade de Brasília - FGA no semestre 2023.1.  
-
-# 
+Este repositório é dedicado ao desenvolvimento do projeto da disciplina de Requisitos de Software, cursada na Universidade de Brasília - FGA no semestre 2023.1.  
 
 ## Objetivo
-Este projeto tem como objetivo analisar e documentar os requisitos do aplicativo [Letterboxd](https://letterboxd.com). Para isso, são utilizadas as ferramentas e técnicas aprendidas durante a disciplina mencionada acima. 
-
-#
+Este projeto tem como objetivo analisar e documentar os requisitos do aplicativo [Letterboxd](https://letterboxd.com/). Para isso, serão utilizadas as ferramentas e técnicas aprendidas durante a disciplina de Requisitos de Software, ministrada no primeiro semestre de 2023 pelo Dr. Professor André Barros na Universidade de Brasília - FGA. 
 
 ## Integrantes da equipe
 
-Na **Tabela 1** tem-se a descrição de todos os membros da equipe, onde todos são estudantes de Engenharia de Software da Universidade de Brasília.
+Na Tabela 1, encontra-se a descrição de todos os membros da equipe, sendo que todos são estudantes de Engenharia de Software da Universidade de Brasília.
 
 <center>
 
@@ -32,11 +28,10 @@ Na **Tabela 1** tem-se a descrição de todos os membros da equipe, onde todos s
 </div>
 </br>
 
-#
-
 ## Histórico de versão
 </br>
 
 |  Versão  |   Data   |                      Descrição                      |    Autor(es)   |  Revisor(es)  |
 | -------- | -------- | --------------------------------------------------- | -------------- | ------------- |
 |  `1.0`   | 15/04/23 | Criação da primeira versão | [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) |
+|  `2.0`   | 15/04/23 | Correção de alguns erros ortográficos e de quebras de linha | [Débora Caires](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro)
