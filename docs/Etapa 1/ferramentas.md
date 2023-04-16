@@ -10,22 +10,38 @@ Abaixo, você encontrará uma tabela contendo as ferramentas que serão utilizad
 
 |                                      Logo                                      |     Ferramenta     |                                                                          Finalidade                                                                           |
 |:------------------------------------------------------------------------------:|:------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| <img src="https://asset.brandfetch.io/idZAyF9rlg/id6a3YYV60.svg" width="200">  |       GitHub       | O GitHub é uma plataforma de hospedagem de código-fonte e versionamento de código e será utilizada como repositório para armazenar a documentação do projeto. |
-| <img src="https://asset.brandfetch.io/idSMdBvwWX/idMOF3QFnH.png" width="200">  |      Telegram      |                                            Aplicativo utilizado para manter uma rápida comunicação entre a equipe.                                            |
-| <img src="https://asset.brandfetch.io/idchmboHEZ/iduap5ndHF.svg" width="200">  |       Teams        |                                         Plataforma utilizada para conduzir e gravar as reuniões e entregas da equipe.                                         |
-| <img src="https://asset.brandfetch.io/id9mVQlyB1/idYpWK1qjb.svg" width="200">  |       Canva        |                                                 Utilizado para criar o Rich Picture do aplicativo Letterboxd.                                                 |
-| <img src="https://asset.brandfetch.io/idrHp6CEjb/idmkPaxxuA.png" width="200">  |     Letterboxd     |                                              Aplicativo escolhido como objeto de estudo para realizar o projeto.                                              |
-| <img src="https://asset.brandfetch.io/idVfYwcuQz/id5E8NIYoL.svg" width="200">  |      Youtube       |                                          Ferramenta utilizada para armazenar os vídeos das reuniões e apresentações.                                          |
-| <img src="https://asset.brandfetch.io/idIkI_7uw6/idxMlc77mp.jpeg" width="200"> | Visual Studio Code |                                          Editor de texto usado para editar e fazer upload da documentação no GitHub.                                          |
-| <img src="https://asset.brandfetch.io/idnnmzqnau/idDJVh1tdc.jpeg" width="200"> |       Mkdocs       |                                                      Utilizado para gerar a documentação no Github Pages                                                      |
+| ![Logo GitHub](../assets/logo-git-hub.png){ width=250px} |       GitHub[¹](#ancora1)       | O GitHub é uma plataforma de hospedagem de código-fonte de programação e será utilizada como repositório para armazenar a documentação do projeto. |
+| ![Logo Telegram](../assets/logo-telegram.png){ width=250px}  |      Telegram[²](#ancora2)       |                                            Aplicativo utilizado para manter uma rápida comunicação entre a equipe.                                            |
+| ![Logo Teams](../assets/logo-teams.png){ width=250px}  |       Teams[³](#ancora3)           |                                         Plataforma utilizada para conduzir e gravar as reuniões e entregas da equipe.                                         |
+| ![Logo Canva](../assets/logo-canva.png){ width=250px}  |       Canva[⁴](#ancora4)         |                                                 Utilizado para criar o Rich Picture do aplicativo Letterboxd.                                                 |
+| ![Logo Letterboxd](../assets/logo-letterboxd.png){ width=250px} |     Letterboxd[⁵](#ancora5)      |                                              Aplicativo escolhido como objeto de estudo para realizar o projeto.                                              |
+| ![Logo Youtube](../assets/logo-yotube.png){ width=250px}  |      Youtube[⁶](#ancora6)        |                                          Ferramenta utilizada para armazenar os vídeos das reuniões e apresentações.                                          |
+| ![Logo Visual Studio Code](../assets/logo-visual-studio-code.png){ width=250px}  | Visual Studio Code[⁷](#ancora7) |                                          Editor de texto usado para editar e fazer upload da documentação no GitHub.                                          |
+| ![Logo Mkdocs](../assets/logo-mkdocs.png){ width=250px}  |       Mkdocs[⁸](#ancora8)         |                                                      Utilizado para gerar a documentação no Github Pages                                                      |
+| ![Logo Google Drive](../assets/logo-google-drive.png){ width=250px}  |       Google Drive[⁹](#ancora9) |                                                      Plataforma de armazenamento na nuvem utilizada pela equipe para armazenar arquivos do projeto.                        |
 
 <div style="text-align: center">
 <p>Tabela 1: Ferramentas utilizadas no projeto</p>
 </div>
 
-## 3. Histórico de Versão
+## 3. Referências
+
+> - <a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <https://github.com>. Acesso em: 16 abr. 2023.
+> - <a id="ancora2"></a>[2] Telegram – a new era of messaging. Disponível em: <https://telegram.org>. Acesso em: 16 abr. 2023.
+> - <a id="ancora3"></a>[3] Aplicativo de Chat Interno e Trabalho Remoto | Microsoft Teams. Disponível em: <https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software>. Acesso em: 16 abr. 2023.
+> - <a id="ancora4"></a>[4] CANVA. Canva. Disponível em: <https://www.canva.com/>. Acesso em: 16 abr. 2023.
+> - <a id="ancora5"></a>[5] Letterboxd • Your life in film. Disponível em: <https://letterboxd.com>. Acesso em: 16 abr. 2023.
+> - <a id="ancora6"></a>[6] YOUTUBE. YouTube. YouTube, 2022. Disponível em: <https://www.youtube.com> Acesso em: 16 abr. 2023.
+> - <a id="ancora7"></a>[7] MICROSOFT. Visual Studio Code. Disponível em: <https://code.visualstudio.com>. Acesso em: 16 abr. 2023.
+> - <a id="ancora8"></a>[8] MkDocs. Disponível em: <https://www.mkdocs.org>. Acesso em: 16 abr. 2023.
+> - <a id="ancora9"></a>[9] Meet Google Drive – One place for all your files. Disponível em: <https://drive.google.com/drive/>. Acesso em: 16 abr. 2023.
+> - <a id="ancora10"></a>O que é GitHub? Disponível em: <https://tecnoblog.net/responde/o-que-e-github/>. Acesso em: 16 abr. 2023.
+> - <a id="ancora10"></a>@ELRUMO. Over 5000+ free icons for macOS Monterey, Big Sur & iOS - massive app icon pack. Disponível em: <https://macosicons.com/#/>. Acesso em: 16 abr. 2023.
+
+## 4. Histórico de Versão
 
 |    Data    | Versão |                                                   Descrição                                                    |                      Autor(es)                      |                 Revisor(es)                 |
 |:----------:|:------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------:|
 | 13/04/2023 |  1.0   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
+| 13/04/2023 |  1.1   | Alteração dos logos, adição da bibliografia, adição da ferramenta google drive. | [Maciel Júnior](https://github.com/macieljuniormax) |  |
 
