@@ -20,4 +20,4 @@ A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/19j35XmbY
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
 | 16/04/2023 | `0.1`  | Criação da página e adição da reunião da etapa 1 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
-| 17/04/2023 | `0.2`  | Adição do vídeo de apresentação da 1° Etapa | [Natan Santana](https://github.com/Neitan2001) |
+| 17/04/2023 | `0.2`  | Adição do vídeo de apresentação da 1° Etapa | [Natan Santana](https://github.com/Neitan2001) | [Débora Caires](https://github.com/deboracaires)
