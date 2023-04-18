@@ -46,5 +46,5 @@ Abaixo, você encontrará uma tabela contendo as ferramentas que serão utilizad
 | :--------: | :----: | :------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------: |
 | 13/04/2023 |  `0.1`   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
 | 13/04/2023 |  `0.2`   |                Alteração dos logos, adição da bibliografia, adição da ferramenta google drive.                 | [Maciel Júnior](https://github.com/macieljuniormax) |                                             |
-| 13/04/2023 |  `0.3`   |                Adição da ferramenta Clideo                 | [Natan Santana](https://github.com/Neitan2001) |                                             |
+| 13/04/2023 |  `0.3`   |                Adição da ferramenta Clideo                 | [Natan Santana](https://github.com/Neitan2001) |   [Débora Caires](https://github.com/deboracaires)                                          |
 
