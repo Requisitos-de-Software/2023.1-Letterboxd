@@ -24,7 +24,7 @@ Antes do usuário responder o questionário, é apresentado um termo de consenti
 
 ### 3.2 - Utilização do App
 
-Dos 56 respondentes, somente 16 utilizam ou já utilizaram o aplicativo. Como o objetivo do formulário é definir o perfil dos usuários do Letterboxd, ao responder "não" a pessoa é redirecionada para o fim do formulário. Na figura 2 é possível observar o gráfico de respostas dessa pergunta:
+Dos 68 respondentes, somente 27 utilizam ou já utilizaram o aplicativo. Como o objetivo do formulário é definir o perfil dos usuários do Letterboxd, ao responder "não" a pessoa é redirecionada para o fim do formulário. Na figura 2 é possível observar o gráfico de respostas dessa pergunta:
 
 <figure markdown>
   ![Figura 2](../assets/pergunta2.png)
@@ -33,7 +33,7 @@ Dos 56 respondentes, somente 16 utilizam ou já utilizaram o aplicativo. Como o 
 
 ### 3.3 - Idade
 
-É possível observar pelo gráfico apresentado na figura 3 que grande parte dos respondentes possuem uma idade entre 21-30 anos.
+É possível observar pelo gráfico apresentado na figura 3 que grande parte dos respondentes possuem uma idade entre 21-30 anos. A segunda maior parte possui de 16-20 anos.
 
 <figure markdown>
   ![Figura 3](../assets/pergunta3.png)
@@ -51,7 +51,7 @@ A maior parte dos respondentes desse formulário são homens, como é apresentad
 
 ### 3.5 - Frequência do uso do aplicativo
 
-A maioria dos respondentes responderam que usam o aplicativo Letterboxd frequentemente, e a segunda maior parte utiliza ocasionalmente (Figura 5).
+A fim de descobrir a experiência do usuário quanto ao aplicativo, foi feito uma pergunta sobre a frequência de uso. As pessoas que utilizam o aplicativo com mais frequência conhecem mais sobre as funcionalidades e limitações do aplicativo do que as que usam ocasionalmente ou raramente. Sendo assim, a maioria dos respondentes deste formulário podem ser classificados como ^^especialistas^^ (Figura 5).
 
 <figure markdown>
   ![Figura 5](../assets/pergunta5.png)
@@ -74,7 +74,7 @@ A fim de entender um pouco dos gostos pessoais do usuário com relação a filme
 
 ### 3.7 - Recursos utilizados
 
-Na oitava pergunta foi listado os principais recursos que existem no aplicativo a fim de observar qual é o menos usado e que pode ser melhorada. De acordo com as respostas, o recurso menos utilizado é o de ver artigos relacionados a filmes (Figura 8). As próximas duas perguntas possuem o objetivo de verificar se o propósito do aplicativo, uma rede social onde os usuário descobrem novos filmes e interagem entre si, é cumprido. Quanto à interação de usuários, uma parte significativa nunca interagiu com outros (Figura 9) e quanto à descoberta de novos filmes, a grande maioria conheceu filmes que não tinham visto por causa das listas e recomendações (Figura 10).
+Na oitava pergunta foi listado os principais recursos que existem no aplicativo a fim de observar qual é o menos usado e que pode ser melhorada. De acordo com as respostas, as funcionalidades mais utilizadas e que podem ser consideradas como as ^^atividades primárias^^ são a de marcar filme assistido, registrar filmes já assistidos e adicionar filmes em listas. Já o recurso menos utilizado é o de ver artigos relacionados a filmes (Figura 8). As próximas duas perguntas possuem o objetivo de verificar se o propósito do aplicativo, uma rede social onde os usuário descobrem novos filmes e interagem entre si[³](#ancora3), é cumprido. Quanto à interação de usuários, somente 33% dos respondentes (9 pessoas) interagem frequentemente ou diariamente com outros usuários (Figura 9) e quanto à descoberta de novos filmes, a grande maioria conheceu filmes que não tinham visto por causa das listas e recomendações (Figura 10).
 
 <figure markdown>
   ![Figura 8](../assets/pergunta8.png)
@@ -91,11 +91,16 @@ Na oitava pergunta foi listado os principais recursos que existem no aplicativo 
   <figcaption>Figura 10: gráfico da décima pergunta (Fonte: autor, 2023)</figcaption>
 </figure>
 
-A fim de verificar o interesse dos usuários pela assinatura que a plataforma oferece, foi listado as funcionalidades exclusivas de um usuário "Pro" (Figura 11) e depois foi perguntando se essas funcionalidades eram suficientes para que se interessassem em se tornar usuários "Pro". Grande parte dos respondentes não se interessaram pelos benefícios e justificaram respondendo que não eram o suficiente para justificar uma assinatura. 
+A fim de verificar o interesse dos usuários pela assinatura que a plataforma oferece, foi listado as funcionalidades exclusivas de um usuário "Pro" (Figura 11) e depois foi perguntando se essas funcionalidades eram suficientes para que se interessassem em se tornar usuários "Pro". A maioria dos respodentes se interessaram pelos benefícios do usuário "Pro", contudo uma parte significativa não achou que essas funcionalidades fossem suficientes para justificar uma assinatura (Figura 12).
 
 <figure markdown>
   ![Figura 11](../assets/pergunta14.png)
   <figcaption>Figura 11: funcionalidades exclusivas para usuários "Pro" (Fonte: autor, 2023)</figcaption>
+</figure>
+
+<figure markdown>
+  ![Figura 12](../assets/pergunta15.png)
+  <figcaption>Figura 12: interesse pelo usuário "Pro" (Fonte: autor, 2023)</figcaption>
 </figure>
 
 ### 3.8 - Elicitação
@@ -104,6 +109,9 @@ A fim de elicitar novos requisitos foram feitas duas perguntas: uma para apontar
 
 > - Verificação de onde assistir o filme é limitado para os Estados Unidos
 > - Séries e animes aparecem no aplicativo sem uma categoria específica para eles, sendo listados como filmes
+> - Criação de listas pouco intuitiva e com muitos cliques
+
+Pode-se observar que poucos problemas foram relatados e a maioria dos respondentes não encontraram problemas na utilização do aplicativo. Logo, infere-se que são usuários ^^tecnófilos^^. 
 
 Os usuários que apontaram esses problemas fizeram sugestões de funcionalidades que poderiam resolver essas limitações, e outros usuários sugeriram algumas outras funcionalidades. A seguinte lista agrupa essas sugestões:
 
@@ -115,8 +123,10 @@ Os usuários que apontaram esses problemas fizeram sugestões de funcionalidades
 6. Mandar mensagens para outros usuários
 7. Sugestão de amigos de acordo com gostos em comum
 8. Encontrar filmes em comum na "watchlist" de dois ou mais usuários
+9. Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva
+10. Sortear filme da watchlist
 
-A sugestão 2, 6, 7 e 8 são funcionaliades que poderiam aumentar a interação entre usuários, diminuindo o número de pessoas que nunca interagiram com outros. Nenhuma das sugestões feitas possuem relação com a funcionalidade de artigos sobre filmes, a funcionalidade menos utilizada de acordo com as respostas do questionário. Logo, foi feito algumas sugestões pelos membros do grupos:
+A sugestão 2, 6, 7 e 8 são funcionaliades que poderiam aumentar a interação entre usuários, aumentando o número de pessoas que interagem frequentemente ou diariamente com outros usuários. Nenhuma das sugestões feitas possuem relação com a funcionalidade de artigos sobre filmes, a funcionalidade menos utilizada de acordo com as respostas do questionário. Logo, foi feito algumas sugestões pelos membros do grupos:
 
 1. Notificar usuários sobre artigos de filmes que estiverem em suas listas
 2. Colocar artigos relacionados na tela de detalhes do filme
@@ -142,6 +152,8 @@ De acordo com a análise das respostas do usuário, é possível definir alguns 
 | QST09       | Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro" |
 | QST10       | Notificar usuários sobre artigos de filmes que estiverem em suas listas |
 | QST11       | Colocar artigos relacionados na tela de detalhes do filme |
+| QST12       | Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva |
+| QST13       | Sortear filme da watchlist |
 
 
 
@@ -149,8 +161,10 @@ De acordo com a análise das respostas do usuário, é possível definir alguns 
 
 > - <a id="ancora1"></a>[1] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1.
 > - <a id="ancora2"></a>[2] CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.
+> - <a id="ancora3"></a>[3] LETTERBOXD. What is Letterboxd?. Disponível em: https://letterboxd.com/about/. Acesso em: 22 abr. 2023.
 
 ## 6 - Tabela de Versionamento
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
 | 21/04/2023 | `0.1`  | Documentação do perfil de usuário e elicitação de requisitos por questionários | [Natan Santana](https://github.com/Neitan2001) |  |
+| 22/04/2023 | `0.2`  | Atualização das informações com novas respostas do formulário | [Natan Santana](https://github.com/Neitan2001) |  |
