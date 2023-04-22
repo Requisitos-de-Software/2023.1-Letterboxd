@@ -43,5 +43,5 @@ Abaixo, você encontrará uma tabela contendo as ferramentas que serão utilizad
 |    Data    | Versão |                                                   Descrição                                                    |                      Autor(es)                      |                 Revisor(es)                 |
 |:----------:|:------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------:|
 | 13/04/2023 |  1.0   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
-| 13/04/2023 |  1.1   | Alteração dos logos, adição da bibliografia, adição da ferramenta google drive. | [Maciel Júnior](https://github.com/macieljuniormax) |  |
+| 13/04/2023 |  2.0   | Alteração dos logos, adição da bibliografia, adição da ferramenta google drive. | [Maciel Júnior](https://github.com/macieljuniormax) |  |
 
