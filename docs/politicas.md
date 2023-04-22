@@ -46,6 +46,6 @@ Descrição:
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 10/04/2023 | `1.0`  | Criação da página de políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
-| 15/04/2023 | `2.0`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
-| 18/04/2023 | `3.0`  | Adição da âncora para a referência bibliográfica | [Natan Santana](https://github.com/Neitan2001) |
+| 10/04/2023 | `0.1`  | Criação da página de políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 15/04/2023 | `0.2`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 18/04/2023 | `0.3`  | Adição da âncora para a referência bibliográfica | [Natan Santana](https://github.com/Neitan2001) |
