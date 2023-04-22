@@ -36,7 +36,7 @@ Data limite para desenvolvimento | Descrição da Atividade | Autor(es) | Reviso
 17/04/2023 | Criação do questionário de perfil dos usuários | [Natan Santana](https://github.com/Neitan2001) | [Débora Caires](https://github.com/deboracaires) e [Clara Ribeiro](https://github.com/clara-ribeiro) | 18/04/2023 | 18/04/2023
 22/04/2023 | Planejamento da entrevista | [Débora Caires](https://github.com/deboracaires) | [Rhuan Marques](https://github.com/RhuanMr) | 23/04/2023 | 24/04/2023
 22/04/2023 | Relato do questionário de Perfil dos Usuários | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)| 23/04/2022 | 24/04/2022
-23/04/2023 | Justificativa das técnicas de elicitação | [Rhuan Marques](https://github.com/RhuanMr) | [Gustavo Barbosa](https://github.com/brbsg) | 24/04/2023 | 25/04/2023
+24/04/2023 | Justificativa das técnicas de elicitação | [Rhuan Marques](https://github.com/RhuanMr) | [Gustavo Barbosa](https://github.com/brbsg) | 25/04/2023 | 26/04/2023
 23/04/2023 | Justificativa das técnicas de priorização | [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Débora Caires](https://github.com/deboracaires) | 24/04/2023 | 25/04/2023
 23/04/2023 | Elicitação por introspecção | [Maciel Júnior](https://github.com/macieljuniormax) | [Clara Ribeiro](https://github.com/clara-ribeiro) | 25/04/2023 | 25/04/2023
 23/04/2023 | Elicitação por Análise de Documentos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Arthur D'Assumpção](https://github.com/ArtAssLou)| 25/04/2023 | 25/04/2023
