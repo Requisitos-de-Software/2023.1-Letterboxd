@@ -17,11 +17,12 @@ Figura 1 - Logo do Letterboxd
 
 ## 3 - Porque escolhemos o Letterboxd
 
-Nós escolhemos utilizar o aplicativo Letterboxd por diversas razões. Uma delas é a existência de uma comunidade ativa de usuários na plataforma, o que nos permite descobrir novos filmes e programas de televisão com base nas avaliações e resenhas de outros cinéfilos. Além disso, não encontramos nenhum impedimento em relação à engenharia reversa nos termos de uso do site [1], o que nos dá a liberdade de explorar e personalizar a plataforma da forma que desejarmos. Por fim, acreditamos que há espaço para aprimorar e acrescentar novas funcionalidades ao site, o que nos motiva a utilizar o Letterboxd e contribuir para o seu desenvolvimento.
+Nós escolhemos utilizar o aplicativo Letterboxd por diversas razões. Uma delas é a existência de uma comunidade ativa de usuários na plataforma, o que nos permite descobrir novos filmes e programas de televisão com base nas avaliações e resenhas de outros cinéfilos. Além disso, não encontramos nenhum impedimento em relação à engenharia reversa nos termos de uso do site [[1]](#referência-bibliográfica), o que nos dá a liberdade de explorar e personalizar a plataforma da forma que desejarmos. Por fim, acreditamos que há espaço para aprimorar e acrescentar novas funcionalidades ao site, o que nos motiva a utilizar o Letterboxd e contribuir para o seu desenvolvimento.
 
-## Bibliografia
+## Referência Bibliográfica
 
 > [1] Terms of use. Disponível em: <https://letterboxd.com/legal/terms-of-use/>.
+
 # Tabela de Versionamento
 
 | Data       | Versão | Descrição              | Autor                                       | Revisor                                             |
