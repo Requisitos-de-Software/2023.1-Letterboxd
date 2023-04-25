@@ -39,14 +39,14 @@ Por ser uma ferramenta já disponibilizada para os estudantes da Universidade de
 
 ### Termo de consentimento
 
-Antes de iniciar a entrevista, o entrevistador deve enviar via e-mail para o entrevistado e deixar claro também verbalmente o [termo de consentimento](https://unbbr-my.sharepoint.com/personal/222015103_aluno_unb_br/_layouts/15/Doc.aspx?sourcedoc={1411077c-e6c6-4520-b701-e50fbbf23f95}&amp;action=embedview). Abaixo segue um guia de todas as informações e passo-a-passo a ser seguido pelo entrevistador.
+Antes de iniciar a entrevista, o entrevistador deve enviar via e-mail para o entrevistado e deixar claro também verbalmente o [termo de consentimento](https://docs.google.com/document/d/1kc8w8nI-s5nouYe-1YQ0BmZwQoi3uKH_/edit?usp=sharing&ouid=113936688363583144171&rtpof=true&sd=true). Abaixo segue um guia de todas as informações e passo-a-passo a ser seguido pelo entrevistador.
 
 1. Deixar claro o propósito da entrevista e o nome do projeto em que ela será utilizada;
 2. Informar ao entrevistado que ele tem o direito de recusar a participação a entrevista ou desistir a qualquer momento sem penalidade ou qualquer consequência negativa;
 3. Deixar claro de que a entrevista será gravada e transcrita e pedir permissão ao entrevistado;
 4. Informar que todos os dados dele e da entrevista serão armazenados e protegidos e deixar claro quem terá acesso à essas informações;
 5. Deixar claro que caso seja da vontade do usuário ele pode solicitar que seus dados e sua entrevista sejam excluídos e informar como ele pode fazer isso;
-6. Pedir que o entrevistado assine o termo de consentimento enviado para ele por e-mail já assinado pelo entrevistador.
+6. Pedir que o entrevistado leia o termo de consentimento apresentado pelo entrevistador e falar se dá o consentimento ou não.
 
 ### Perguntas sobre o aplicativo
 
@@ -61,6 +61,29 @@ Após o termo de consentimento ser assinado tanto pelo entrevistador como pelo e
 
 ---
 
+## Teste Piloto
+
+O teste piloto (ou estudo-piloto) é a execução da entrevista a fim de avaliar os materiais necessários que foram especificados no planejamento e verficiar se as perguntas definidas estão confusas ou insuficientes para uma coleta de dados completa e de qualidade[5]. Mesmo sendo aconselhado realizar esse teste com usuários reais, o grupo optou por realizar entre os próprios membros por conta da quantidade limitada de usuários dispostos a participar de entrevistas. Os membros Natan Tavares Santana e Clara Ribeiro participaram do estudo-piloto no dia 25/06/2023, durante 12:09 até 12:15, na Faculdade Gama da UnB e o áudio do teste foi gravado. O áudio pode ser acessado por este [link](https://drive.google.com/file/d/1QyUBMtJ3TJJw8_7q9IMlGees14Usxmwz/view?usp=sharing).
+
+De acordo com a execução do teste, foi observado que as seguintes mudanças são necessárias:
+
+1. Adicionar algumas perguntas de quebra gelo a fim de deixar o usuário mais confortável
+2. Adicionar algumas perguntas que aprofundam no motivo de o usuário utilizar o aplicativo a fim de levantar requisitos não-funcionais com a técnica Laddering
+
+## Roteiro Final
+
+Com os feedbacks coletados, a seguir será listado o roteiro final que será utilizado na execução das entrevistas:
+
+1. Qual seu nome?
+2. Quantos anos você tem?
+3. Qual a sua profissão?
+4. Por onde você ficou sabendo do questionário sobre o aplicativo Letterboxd?
+5. Você pode me contar um pouco sobre por que você usa o aplicativo Letterboxd?
+6. Por que é importante para você ter esses recursos disponíveis no aplicativo?
+4. O que você espera do aplicativo Letterboxd no futuro?
+5. Você já teve alguma frustração ou problema ao usar o aplicativo?
+6. O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos?
+
 ## Referências Bibliográficas
 
 > <a id="ancora1"></a> [1] LIMA, Rodrigo Pereira. Técnicas para levantamento de requisitos. DevMedia, 2011. Disponível em: <https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151>. Acesso em: 22 abr. 2023.
@@ -70,6 +93,8 @@ Após o termo de consentimento ser assinado tanto pelo entrevistador como pelo e
 > <a id="ancora3"></a>[3]  MOURA, Marcelo Barros de; REZENDE, Solange Oliveira. Métodos de pesquisa para projetos de sistemas de informação. Rio de Janeiro: PUC-Rio, 2004. Disponível em: <https://www.maxwell.vrac.puc-rio.br/19184/19184_4.PDF>. Acesso em: 23 abr. 2023.
 >
 > <a id="ancora4"></a> [4]  COOPER, Alan; REIMANN, Robert; CRONIN, Dave. About face 3: the essentials of interaction design. John Wiley & Sons, 2007. Disponível em: <https://www.slideshare.net/candjcn/wiley-about-face-3-the-essentials-of-interaction-design-may-2007>. Acesso em: 23 abr. 2023.
+>
+> <a id="ancora5"></a>[5] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário, página 136. Autopublicação. ISBN: 978-65-00-19677-1.
 
 ---
 
@@ -77,4 +102,5 @@ Após o termo de consentimento ser assinado tanto pelo entrevistador como pelo e
 
 | Data       | Versão | Descrição             | Autor                                             | Revisor                                             |
 | ---------- | ------ | --------------------- | ------------------------------------------------- | --------------------------------------------------- |
-| 23/04/2023 | `1.0`  | Roteiro entrevista | [Débora Moreira](https://github.com/deboracaires) | [Rhuan Marques](https://github.com/RhuanMr)
+| 23/04/2023 | `0.1`  | Roteiro entrevista | [Débora Moreira](https://github.com/deboracaires) | [Natan Santana](https://github.com/Neitan2001)
+| 25/04/2023 | `0.2`  | Adição do teste piloto | [Natan Santana](https://github.com/Neitan2001) | 
