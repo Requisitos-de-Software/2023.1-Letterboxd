@@ -49,8 +49,8 @@ A Tabela 1 apresenta informações sobre as ferramentas que serão utilizadas du
 
 ## 4. Histórico de Versão
 
-|    Data    | Versão |                                                   Descrição                                                    |                      Autor(es)                      |                 Revisor(es)                 |
+|    Data    | Versão |                                                   Descrição                                                    |                      Autor                      |                 Revisor                |
 |:----------:|:------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------:|
 | 13/04/2023 |  1.0   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
-| 13/04/2023 |  2.0   | Alteração dos logos, adição da bibliografia, adição da ferramenta google drive. | [Maciel Júnior](https://github.com/macieljuniormax) |  |
+| 13/04/2023 |  2.0   | Alteração dos logos, adição da bibliografia, adição da ferramenta google drive. | [Maciel Júnior](https://github.com/macieljuniormax) | [Natan Santana](https://github.com/Neitan2001) |
 | 22/04/2023 |  `0.4` |                Adição das ferramentas Google Docs, Google Forms e This Person Does Not Exist                 | [Maciel Júnior](https://github.com/macieljuniormax) |   [Arthur Loureiro](https://github.com/ArtAssLou)                                           |
