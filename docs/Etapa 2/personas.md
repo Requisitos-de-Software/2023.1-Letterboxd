@@ -59,7 +59,7 @@ Na Figura 1 temos a primeira persona, Lucas Matheus. Ele é um jovem de 19 anos,
 
 ### 3.2 Ana Luiza Santana
 
-Na Figura 2 temos a segunda persona, Ana Luiza Santana. Ela é uma jovem de 26 anos, graduada em jornalismo e possui conhecimento intermediário em tecnologia, ou seja, possui facilidade em aprender a usar novads plataformas e aplicativos. Seu objetivo principal é manter uma lista dos filmes que assistiu ou pretende assistir e compartilhar suas opiniões sobre os filmes que assistiu.
+Na Figura 2 temos a segunda persona, Ana Luiza Santana. Ela é uma jovem de 26 anos, graduada em jornalismo e possui conhecimento intermediário em tecnologia, ou seja, possui facilidade em aprender a usar novas plataformas e aplicativos. Seu objetivo principal é manter uma lista dos filmes que assistiu ou pretende assistir e compartilhar suas opiniões sobre os filmes que assistiu.
 
 <figure markdown>
   ![AnaLuizaSantana](../assets/AnaLuizaSantana_TPDNE.jpeg){width=250px}
