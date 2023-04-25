@@ -1,10 +1,14 @@
 # Personas
 
+---
+
 ## 1.Introdução
 
 A técnica do uso de personas é utilizada com o objetivo de representar um grupo específico de usuários. Durante a etapa de elicitação de requisitos, esta técnica é bastante utilizada para que o time de desenvolvimento consiga manter o foco em um mesmo alvo, quando se diz respeito aos usuários. Com esta técnica, o foco principal é satisfazer os grupos de usuários reais.
 
 Uma persona, é basicamente um personagem fictício criado com base nas características dos grupos de usuários reais. As personas em um projeto são criadas com base em processos investigativos, como questionários que buscam elicitar informações sobre os usuários. Ela tem como objetivo descrever um usuário típico do sistema.
+
+---
 
 ## 2.Metodologia
 
@@ -26,6 +30,8 @@ A partir dos dados coletados, foram criadas 3 personas e 1 antipersona. Suas car
 • Requisitos: necessidades da persona.
 
 • Expectativas: como a persona acredita que o produto funciona.
+
+---
 
 ## 3.Personas
 
@@ -97,7 +103,7 @@ Na Figura 3 temos a terceira persona, Mauro Junior. Ele é um jovem adulto de 33
 
 ### 4.1 Karen Silva
 
-Na Figura 3, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem interesse em assistir filmes. Ela é aposentada, gosta de gatos e teve quatro filhos ao longo de sua vida. Atualmente, dedica grande parte do seu tempo cuidando dos seus netos. Karen é uma pessoa que não se sente à vontade com tecnologia e pode ter dificuldades em usar o site. Ela acredita que assistir filmes é uma perda de tempo e, por isso, não tem expectativas em relação ao Letterboxd. Embora tenha um relacionamento próximo com seus filhos e netos, ela não tem amigos que utilizem o site.
+Na Figura 4, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem interesse em assistir filmes. Ela é aposentada, gosta de gatos e teve quatro filhos ao longo de sua vida. Atualmente, dedica grande parte do seu tempo cuidando dos seus netos. Karen é uma pessoa que não se sente à vontade com tecnologia e pode ter dificuldades em usar o site. Ela acredita que assistir filmes é uma perda de tempo e, por isso, não tem expectativas em relação ao Letterboxd. Embora tenha um relacionamento próximo com seus filhos e netos, ela não tem amigos que utilizem o site.
 
 <figure markdown>
   ![KarenSilva](../assets/KarenSilva_TPDNE.jpeg){width=250px}
@@ -117,9 +123,11 @@ Na Figura 3, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem inte
 
 ---
 
-## 5. Referências
+## 5. Referências Bibliográficas
 
-> - <a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <https://aprender3.unb.br/pluginfile.php/2523062/mod_resource/content/2/ihc-ux-%20Personas.pdf>. Acesso em: 16 abr. 2023.
+> [1] Barbosa, S. D. J. (2010). Interação Humano-Computador e Experiência do Usuário. Elsevier.
+
+---
 
 ## Tabela de Versionamento
 
@@ -127,3 +135,5 @@ Na Figura 3, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem inte
 | ---------- | ------ | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
 | 24/04/2023 | `1.0`  | Criação V1 Personas           | [Arthur Loureiro](https://github.com/ArtAssLou), [Débora Caires](https://github.com/deboracaires), [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001) |
 | 25/04/2023 | `1.1`  | Preenchimento segunda persona | [Débora Caires](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg)                                                 | [Natan Santana](https://github.com/Neitan2001) |
+| 25/04/2023 | `1.2`  | Preenchimento segunda persona e antipersona           | [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001) |
+| 25/04/2023 | `1.3`  | Correções pontuais | [Débora Caires](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001)
