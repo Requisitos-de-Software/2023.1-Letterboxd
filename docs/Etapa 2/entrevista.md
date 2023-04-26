@@ -191,14 +191,14 @@ De acordo com a resposta da pergunta 9, é possível extrair um novo requisito. 
 
 Na tabela 7, é possível observar todos os requisitos que foram elicitados por meio das entrevistas (6 novos requisitos no total).
 
-| Identificação      | Descrição                          |
-| ----------- | ------------------------------------ |
-| ENT01       | Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos  |
-| ENT02       | Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir |
-| ENT03       | Poder buscar filmes registrados no diário  |
-| ENT04       | Traduzir interface do usuário para português |
-| ENT05       | Registro no diário mais intuitivo e com menos cliques |
-| ENT06       | Botão de traduzir nas críticas que estejam em um idioma diferente do usuário  |
+| Identificação      | Descrição                          | Tipo do Requisito |
+| ----------- | ------------------------------------ | ------------------------------------ |
+| ENT01       | Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos  | RF |
+| ENT02       | Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir | RF |
+| ENT03       | Poder buscar filmes registrados no diário  | RF |
+| ENT04       | Traduzir interface do usuário para português | RNF |
+| ENT05       | Registro no diário mais intuitivo e com menos cliques | RNF |
+| ENT06       | Botão de traduzir nas críticas que estejam em um idioma diferente do usuário  | RF |
 <div style="text-align: center">
 <p>Tabela 7: Requisitos elicitado pelas entrevistas</p>
 </div>
