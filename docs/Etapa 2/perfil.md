@@ -139,21 +139,21 @@ A fim de tornar o usuário "Pro" mais atraente, algumas dessas funcionalides sug
 
 De acordo com a análise das respostas do usuário, é possível definir alguns novos requisitos que poderiam ser adicionados no aplicativo. A tabela 1 agrupa todos os requisitos descobertos pela análise do formulário, para identificar os requisitos será utilizado a abreviação QST (questionário) seguido de um número.
 
-| Identificação      | Descrição                          |
-| ----------- | ------------------------------------ |
-| QST01       | Aba para visualizar listas curtidas, para ter fácil acesso à elas. |
-| QST02       | Comentar críticas feitas por outros usuários |
-| QST03       | Mover um filme de uma lista para outra |
-| QST04       | Adicionar categorias para filmes, séries e animes |
-| QST05       | Verificação de onde assistir o filme de acordo com o país do usuário |
-| QST06       | Mandar mensagens para outros usuários |
-| QST07       | Sugestão de amigos de acordo com gostos em comum, exclusivo para usuários "Pro" |
-| QST08       | Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro" |
-| QST09       | Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro" |
-| QST10       | Notificar usuários sobre artigos de filmes que estiverem em suas listas |
-| QST11       | Colocar artigos relacionados na tela de detalhes do filme |
-| QST12       | Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva |
-| QST13       | Sortear filme da watchlist |
+| Identificação      | Descrição                          | Tipo do Requisito |
+| ----------- | ------------------------------------ | ------------------------------------ |
+| QST01       | Aba para visualizar listas curtidas, para ter fácil acesso à elas. | RF |
+| QST02       | Comentar críticas feitas por outros usuários | RF |
+| QST03       | Mover um filme de uma lista para outra | RF |
+| QST04       | Adicionar categorias para filmes, séries e animes | RF |
+| QST05       | Verificação de onde assistir o filme de acordo com o país do usuário | RNF |
+| QST06       | Mandar mensagens para outros usuários | RF |
+| QST07       | Sugestão de amigos de acordo com gostos em comum, exclusivo para usuários "Pro" | RF |
+| QST08       | Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro" | RF |
+| QST09       | Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro" | RF |
+| QST10       | Notificar usuários sobre artigos de filmes que estiverem em suas listas | RF |
+| QST11       | Colocar artigos relacionados na tela de detalhes do filme | RF |
+| QST12       | Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva | RNF |
+| QST13       | Sortear filme da watchlist | RF |
 
 
 
