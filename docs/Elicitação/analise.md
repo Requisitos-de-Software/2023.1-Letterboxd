@@ -2,7 +2,7 @@
 
 ## Introdução
 
-A elicitação de requisitos é uma atividade fundamental no processo de desenvolvimento de software, que visa entender as necessidades e expectativas dos usuários e stakeholders para identificar e especificar os requisitos que o sistema deve atender Existem diversas técnicas e metodologias para realizar essa atividade, e uma delas é a análise de documentos.
+A elicitação de requisitos é uma atividade fundamental no processo de desenvolvimento de software, que visa entender as necessidades e expectativas dos usuários e stakeholders para identificar e especificar os requisitos que o sistema deve atender. Existem diversas técnicas e metodologias para realizar essa atividade, e uma delas é a análise de documentos.
 
 A análise de documentos é uma técnica que consiste na revisão de documentos existentes para extrair informações relevantes sobre o domínio do problema e os requisitos do sistema. Esses documentos podem incluir manuais, relatórios, especificações técnicas, normas, regulamentos, entre outros.
 
@@ -18,7 +18,7 @@ A fonte utilizada para a análise de documentos foi o site [Letterboxd](https://
 
 Ao examinar a documentação existente de um sistema ou aplicativo, é possível identificar seus recursos, funcionalidades, limitações e problemas existentes. Essa análise forneceu informações valiosas sobre o que os usuários querem e precisam, bem como sobre como aprimorar ou expandir um sistema ou aplicativo.
 
-No caso do Letterboxd, a análise de documentos foi extremamente útil. O site é uma plataforma madura e estabelecida, com uma ampla base de usuários e muita documentação disponível. Isso permitiu que fossem identificadas funcionalidades importantes para os usuários, bem como opiniões e sugestões para melhorias no site. Além disso, a análise também possibilitou a identificação de recursos e funcionalidades em potencial que ainda não foram implementados no site, mas que poderiam ser valiosos para os usuários.
+No caso do Letterboxd, a análise de documentos foi extremamente útil. O site é uma plataforma madura e estabelecida, com uma ampla base de usuários e muita documentação disponível. Isso permitiu que fossem identificadas funcionalidades importantes para os usuários, bem como opiniões e sugestões para melhorias no site. Além disso, a análise também possibilitou a identificação de recursos e funcionalidades em potencial que ainda não foram implementados no aplicativo, mas que poderiam ser valiosos para os usuários.
 
 A análise de documentos do Letterboxd permitiu obter uma compreensão mais aprofundada do que os usuários esperam e precisam de uma plataforma de avaliação e compartilhamento de filmes. A partir dessas informações, será possível desenvolver um aplicativo mais completo e satisfatório para os usuários.
 
@@ -88,7 +88,7 @@ Os resultados obtidos com a análise de documentos foi registrada na Tabela 1, e
 | DOC58 | Deve ser exibido no perfil do usuário a quantidade de filmes assistidos pelo usuário | RF |
 | DOC59 | Deve ser exibido no perfil do usuário a quantidade de horas assistidas pelo usuário | RF |
 | DOC61 | Deve garantir que o acesso à conta desativada seja impedido | RNF |
-| DOC62 | Deve garantir que o acesso à conta desativada seja impedido | RNF |
+| DOC62 | Deve garantir que o acesso à conta excluida seja impedido | RNF |
 | DOC63 | Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente | RNF |
 | DOC64 | Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário | RNF |
 | DOC65 | Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço | RNF |
@@ -122,4 +122,4 @@ Letterboxd Frequent questions. Disponível em: <https://letterboxd.com/about/faq
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 25/04/2023 | `1.0`  | Elicitação por análise de documentos | [Clara Ribeiro](https://github.com/clara-ribeiro) | 
+| 25/04/2023 | `1.0`  | Elicitação por análise de documentos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
