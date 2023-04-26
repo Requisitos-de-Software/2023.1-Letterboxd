@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-A introspecção, segundo Milene Serrano e Maurício Serrano[¹](#ancora1) é uma técnica de elicitação de requisitos que requer que o engenheiro de requisitos imagine o que ele gostaria de experimentar ao realizar uma determinada tarefa com os equipamentos e recursos disponíveis. O objetivo é identificar quais características o sistema deve ter para ser bem-sucedido nessa tarefa, permitindo que o engenheiro obtenha uma compreensão mais profunda das necessidades e expectativas do usuário final.
+A introspecção, segundo Milene Serrano e Maurício Serrano[¹](#ancora1), é uma técnica de elicitação de requisitos que requer que o engenheiro de requisitos imagine o que ele gostaria de experimentar ao realizar uma determinada tarefa com os equipamentos e recursos disponíveis. O objetivo é identificar quais características o sistema deve ter para ser bem-sucedido nessa tarefa, permitindo que o engenheiro obtenha uma compreensão mais profunda das necessidades e expectativas do usuário final.
 
 ## 2. Elicitação de requisitos
 
@@ -41,30 +41,31 @@ A partir das informações obtidas na introspecção, presentes na Tabela 1, for
 |     IT05      | A plataforma deve permitir que o usuário pesquise e encontre filmes pelo seu nome ou nome do diretor                                                     |        RF         |
 |     IT06      | A plataforma deve permitir que o usuário pesquise e encontre listas, resenhas, atores, estúdios, outros membros, artigos de jornal e podcasts            |        RF         |
 |     IT07      | O usuário deve poder avaliar os filmes que assiste, em uma escala de classificação de 0 a 5 estrelas, e adicionar comentários e opiniões sobre os filmes |        RF         |
-|     IT08      | O aplicativo deve permitir que os usuários criem suas próprias listas de filmes, como "Curtidos", "Assistir mais tarde", ou uma lista personalizada      |        RF         |
-|     IT09      | O usuário deve poder compartilhar filmes, resenhas, listas e notícias em outras redes sociais, como Facebook, Twitter e Instagram                        |        RF         |
-|     IT10      | O usuário deve poder visualizar e editar seus perfil, adicionar informações como foto de perfil, biografia, localização e filmes preferidos              |        RF         |
-|     IT11      | O usuário deve poder seguir e ser seguido por outros usuários                                                                                            |        RF         |
-|     IT12      | O usuário deve ser capaz de ver suas listas, curtidas, likes, filmes assistidos, seguidores e pessoas que segue                                          |        RF         |
-|     IT13      | O usuário deve ter as opções de sair, desativar e deletar sua conta                                                                                      |        RF         |
-|     IT14      | O aplicativo deve exibir estatísticas de um filme, como listas e notícias em que aparece, média das avaliações e membros que já asssitiram               |        RF         |
-|     IT15      | O aplicativo deve exibir informações um filme, como sinopse, trailer, atores, gênero, linguagem, estúdio e filmes relacionados                           |        RF         |
-|     IT16      | O aplicativo exibir as atividades do usuário e de seus amigos na plataforma                                                                              |        RF         |
-|     IT17      | O usuário deve ser capaz de redefinir sua senha                                                                                                          |        RF         |
-|     IT18      | O usuário deve ser capaz de personalizar as notificações que recebe no aplicativo e em seu e-mail                                                        |        RF         |
-|     IT19      | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas            |        RF         |
-|     IT10      | Deve existir uma tela principal contento os filmes populares da semana                                                                                   |        RNF        |
-|     IT21      | Deve existir uma tela exibindo as resenhas populares                                                                                                     |        RNF        |
-|     IT22      | Deve existir uma tela exibindo as listas populares da semana                                                                                             |        RNF        |
-|     IT23      | Deve existir uma tela exibindo notícias                                                                                                                  |        RNF        |
-|     IT24      | O aplicativo deve ter uma versão paga para não exibir anúncios                                                                                           |        RNF        |
-|     IT25      | O usuário deve conseguir ler os termos de uso e políticas de privacidade pelo aplicativo                                                                 |        RNF        |
+|     IT08      | O usuário deve poder adicionar comentários sobre os filmes |        RF         |
+|     IT09      | O aplicativo deve permitir que os usuários criem suas próprias listas de filmes, como "Curtidos", "Assistir mais tarde", ou uma lista personalizada      |        RF         |
+|     IT10      | O usuário deve poder compartilhar filmes, resenhas, listas e notícias em outras redes sociais, como Facebook, Twitter e Instagram                        |        RF         |
+|     IT11      | O usuário deve poder visualizar e editar seus perfil, adicionar informações como foto de perfil, biografia, localização e filmes preferidos              |        RF         |
+|     IT12      | O usuário deve poder seguir e ser seguido por outros usuários                                                                                            |        RF         |
+|     IT13      | O usuário deve ser capaz de ver suas listas, curtidas, likes, filmes assistidos, seguidores e pessoas que segue                                          |        RF         |
+|     IT14      | O usuário deve ter as opções de sair, desativar e deletar sua conta                                                                                      |        RF         |
+|     IT15      | O aplicativo deve exibir estatísticas de um filme, como listas e notícias em que aparece, média das avaliações e membros que já asssitiram               |        RF         |
+|     IT16      | O aplicativo deve exibir informações um filme, como sinopse, trailer, atores, gênero, linguagem, estúdio e filmes relacionados                           |        RF         |
+|     IT17      | O aplicativo exibir as atividades do usuário e de seus amigos na plataforma                                                                              |        RF         |
+|     IT18      | O usuário deve ser capaz de redefinir sua senha                                                                                                          |        RF         |
+|     IT19      | O usuário deve ser capaz de personalizar as notificações que recebe no aplicativo e em seu e-mail                                                        |        RF         |
+|     IT20      | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas            |        RNF         |
+|     IT21      | Deve existir uma tela principal contento os filmes populares da semana                                                                                   |        RF        |
+|     IT22      | Deve existir uma tela exibindo as resenhas populares                                                                                                     |        RF        |
+|     IT23      | Deve existir uma tela exibindo as listas populares da semana                                                                                             |        RF        |
+|     IT24      | Deve existir uma tela exibindo notícias                                                                                                                  |        RF        |
+|     IT25      | O aplicativo deve ter uma versão paga para não exibir anúncios                                                                                           |        RF        |
+|     IT26      | O usuário deve conseguir ler os termos de uso e políticas de privacidade pelo aplicativo                                                                 |        RF        |
 
 <div style="text-align: center">
 <p>Tabela 2: Requisitos elicitados na introspecção. Fonte: Autoria Própria</p>
 </div>
 
-## 3. Referências
+## 3. Referências Bibliográficas
 
 > - <a id="ancora1"></a>[1] SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07. Disponível em: Aprender3. Acesso em: 22 de abril de 2023.
 
@@ -72,4 +73,4 @@ A partir das informações obtidas na introspecção, presentes na Tabela 1, for
 
 |    Data    | Versão |                            Descrição                             |                        Autor                        |                      Revisor                      |
 | :--------: | :----: | :--------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------: |
-| 22/04/2023 | `0.1`  | Registro da introspecção e requisitos elicitados a partir dessa. | [Maciel Júnior](https://github.com/macieljuniormax) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 22/04/2023 | `1.0`  | Registro da introspecção e requisitos elicitados a partir dessa. | [Maciel Júnior](https://github.com/macieljuniormax) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
