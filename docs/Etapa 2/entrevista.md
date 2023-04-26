@@ -25,7 +25,7 @@ O usuário do produto deve ser o foco principal para a produção do projeto [4]
 
 ## Idealização
 
-Foi aplicado um questionário com o intuito de alcançar os usuários do aplicativo. Na última parte do questionário, fizemos um levantamento dos usuários que teriam disponibilidade para participar de uma entrevista com os membros de nossa equipe. O ideal seria que houvesse entre 12 e 20 usuários para essa entrevista, para que pudéssemos ter informações mais precisas a respeito do Letterboxd.
+Foi aplicado um questionário com o intuito de alcançar os usuários do aplicativo. Na última parte do questionário, fizemos um levantamento dos usuários que teriam disponibilidade para participar de uma entrevista com os membros de nossa equipe.
 
 ---
 
@@ -221,6 +221,6 @@ Na tabela 7, é possível observar todos os requisitos que foram elicitados por 
 
 | Data       | Versão | Descrição              | Autor                                             | Revisor                                        |
 | ---------- | ------ | ---------------------- | ------------------------------------------------- | ---------------------------------------------- |
-| 23/04/2023 | `0.1`  | Roteiro entrevista     | [Débora Moreira](https://github.com/deboracaires) | [Natan Santana](https://github.com/Neitan2001) |
-| 25/04/2023 | `0.2`  | Adição do teste piloto | [Natan Santana](https://github.com/Neitan2001)    |  |
-| 26/04/2023 | `0.3`  | Relato das entrevistas | [Natan Santana](https://github.com/Neitan2001)    |  |
+| 23/04/2023 | `1.0`  | Roteiro entrevista     | [Débora Moreira](https://github.com/deboracaires) | [Natan Santana](https://github.com/Neitan2001) |
+| 25/04/2023 | `2.0`  | Adição do teste piloto | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 26/04/2023 | `3.0`  | Relato das entrevistas | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
