@@ -166,5 +166,5 @@ De acordo com a análise das respostas do usuário, é possível definir alguns 
 ## 6 - Tabela de Versionamento
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 21/04/2023 | `0.1`  | Documentação do perfil de usuário e elicitação de requisitos por questionários | [Natan Santana](https://github.com/Neitan2001) |  |
-| 22/04/2023 | `0.2`  | Atualização das informações com novas respostas do formulário | [Natan Santana](https://github.com/Neitan2001) |  |
+| 21/04/2023 | `1.0`  | Documentação do perfil de usuário e elicitação de requisitos por questionários | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 22/04/2023 | `2.0`  | Atualização das informações com novas respostas do formulário | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
