@@ -87,5 +87,5 @@ Letterboxd é uma rede social global para a descoberta e discussão de filmes po
 
 | Data       | Versão | Descrição             | Autor                                             | Revisor                                             |
 | ---------- | ------ | --------------------- | ------------------------------------------------- | --------------------------------------------------- |
-| 14/04/2023 | `0.1`  | Introdução à Equipe | [Arthur Loureiro](https://github.com/ArtAssLou) | [Gustavo Barbosa](https://github.com/brbsg)
-| 15/04/2023 | `0.2` | Introdução ao projeto e correção de layout |[Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 14/04/2023 | `1.0`  | Introdução à Equipe | [Arthur Loureiro](https://github.com/ArtAssLou) | [Gustavo Barbosa](https://github.com/brbsg)
+| 15/04/2023 | `2.0` | Introdução ao projeto e correção de layout |[Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |

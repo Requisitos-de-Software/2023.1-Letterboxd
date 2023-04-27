@@ -177,4 +177,4 @@ A escolha de tal técnica se baseia na análise das tabelas 9 e 10.
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 24/04/2023 | `0.1`  | Justificativa das técnicas de Elicitação | [Rhuan Marques](https://github.com/RhuanMr) | [Gustavo Barbosa](https://github.com/brbsg) |
+| 24/04/2023 | `1.0`  | Justificativa das técnicas de Elicitação | [Rhuan Marques](https://github.com/RhuanMr) | [Gustavo Barbosa](https://github.com/brbsg) |
