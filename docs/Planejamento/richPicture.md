@@ -79,6 +79,6 @@
 
 | Data       | Versão | Descrição             | Autor                                             | Revisor                                             |
 | ---------- | ------ | --------------------- | ------------------------------------------------- | --------------------------------------------------- |
-| 14/04/2023 | `0.1`  | Rich Pictures membros | [Débora Moreira](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) 
-| 15/04/2023 | `0.2` | Correção de erros |[Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
-| 15/04/2023 | `0.3` | Correção de referenciamento de imagens |[Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 14/04/2023 | `1.0`  | Rich Pictures membros | [Débora Moreira](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) 
+| 15/04/2023 | `2.0` | Correção de erros |[Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 15/04/2023 | `3.0` | Correção de referenciamento de imagens |[Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
