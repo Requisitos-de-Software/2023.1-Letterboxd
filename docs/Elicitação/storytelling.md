@@ -2,11 +2,11 @@
 
 ## Introdução
 
-Story telling é uma técnica se baseia em criar histórias que descrevem as necessidades e uso de um certo contexto. Através dessa tecnoca é possível descrever os usuários fazem, quais tarefas realizam e as informações geradas através das ações realizadas.[²](#ancora2)
+Story telling é uma técnica que se baseia em criar histórias que descrevem as necessidades e uso de um certo contexto. Através dessa técnica é possível descrever o que os usuários fazem, quais tarefas realizam e as informações geradas através das ações realizadas.[²](#ancora2)
 
 ## Metodologia
 
-A partir das personas criadas nessa etapa do projeto, foram cradas histórias sobre o uso do aplicativo, das quais conseguimos elicitar o requisitos utilizados na tabela 1.
+A partir das personas criadas nessa etapa do projeto, foram criadas histórias sobre o uso do aplicativo, das quais conseguimos elicitar o requisitos utilizados na tabela 1.
 
 ## Storytelling
 
@@ -14,7 +14,7 @@ A partir das personas criadas nessa etapa do projeto, foram cradas histórias so
 
 Todos os dias, após as aulas de engenharia na faculdade. Lucas chega em sua casa, abre o aplicativo e verifica sua lista de filmes para assistir WatchList. Hoje após avaliar as críticas, notas e uma sinopse do roteiro, decidiu por assistir o mais recente filme lançado do Batman.
 
-Após o filme, ficou tão facinado com o filme que decidiu pesquisar mais sobre a produção do filme. Voltou na aba do filme, adcionou à sua lista de filmes vistos e buscou nomes da produção e elenco para poder pesquisar mais filmes relacionado com esse.
+AApós o filme, ficou tão fascinado que decidiu pesquisar mais sobre a produção do filme. Voltou na aba do filme, adcionou à sua lista de filmes vistos e buscou nomes da produção e elenco para poder pesquisar mais filmes relacionado com esse.
 
 No outro dia, após uma longa pesquisa, Lucas buscou no app os filmes que o interessou, análisou os dados e adiconou à sua watchlist.
 
@@ -22,17 +22,17 @@ No outro dia, após uma longa pesquisa, Lucas buscou no app os filmes que o inte
 
 Todos os finais de semana, Ana realiza uma sabatina de filmes que estavam salvos em sua Watchlist.
 
-Após a sabatina, Ana acessa o app novamente e começa a ecrever suas críticas sobre cada filme que assistiu, atribuindo aspectos técnicos e atribundo notas para cada um. 
+Após a sabatina, Ana acessa o app novamente e começa a escrever suas críticas sobre cada filme que assistiu, atribuindo aspectos técnicos e atribundo notas para cada um. 
 
 Após escrever suas críticas de cada filme, ela compartilha com os amigos em suas redes sociais.
 
 ### Um novo filme, mesma história (Mauro Júnior)
 
-Para poder organizar mais momentos entre as pessoas de lazer com sua esposa, Mauro Júnior baixou o app afim de encontrar mais filmes.
+Para poder organizar mais momentos entre as pessoas de lazer com sua esposa, Mauro Júnior baixou o app a fim de encontrar mais filmes.
 
-No final de semana eles, buscam procurar filmes de comédia com as melhores notas, o filme escolhido acabou sendo Guardiões da Galáxia, filme da Marvel Studios a qual eles começaram a acompanhar.
+No final de semana, eles buscam procurar filmes de comédia com as melhores notas, o filme escolhido acabou sendo Guardiões da Galáxia, filme da Marvel Studios a qual eles começaram a acompanhar.
 
-Após ver o filme, o qual ele não gostou muito, Mauro decidiu interagir com o pessoas também descontentes comentando em críticas que se adequem com a sua visão sobre o filme.
+Após ver o filme, o qual ele não gostou muito, Mauro decidiu interagir com o pessoas também descontentes comentando em críticas que se adequem à sua visão sobre o filme.
 
 ## Requisitos Elicitados
 
@@ -45,7 +45,7 @@ Após ver o filme, o qual ele não gostou muito, Mauro decidiu interagir com o p
 | ID | Descrição | Tipo |
 | -- | --------- | ---- |
 | ST01 | Eu, como usuário, desejo poder visualizar um catálogo de filmes, para poder visualizar os filmes que a plataforma tem | RF |
-| ST02 | Eu, como usuário, desejo poder pesquisar novos filmes na aba de pesquisa, para pode encontar filmes que já sei o nome | RF |
+| ST02 | Eu, como usuário, desejo poder pesquisar novos filmes na aba de pesquisa, para poder encontrar filmes que já sei o nome | RF |
 | ST03 | Eu, como usuário, desejo poder visualizar a críticas de outros usuários, para poder ter um conhecimento prévio sobre o filme | RF |
 | ST04 | Eu, como usuário, desejo poder adicionar comentários para as críticas de outros usuários | RF |
 | ST05 | Eu, como usuário, desejo poder criar listas personalizadas | RF |
