@@ -14,7 +14,7 @@ A partir das personas criadas nessa etapa do projeto, foram criadas histórias s
 
 Todos os dias, após as aulas de engenharia na faculdade. Lucas chega em sua casa, abre o aplicativo e verifica sua lista de filmes para assistir WatchList. Hoje após avaliar as críticas, notas e uma sinopse do roteiro, decidiu por assistir o mais recente filme lançado do Batman.
 
-AApós o filme, ficou tão fascinado que decidiu pesquisar mais sobre a produção do filme. Voltou na aba do filme, adcionou à sua lista de filmes vistos e buscou nomes da produção e elenco para poder pesquisar mais filmes relacionado com esse.
+Após o filme, ficou tão fascinado que decidiu pesquisar mais sobre a produção do filme. Voltou na aba do filme, adcionou à sua lista de filmes vistos e buscou nomes da produção e elenco para poder pesquisar mais filmes relacionado com esse.
 
 No outro dia, após uma longa pesquisa, Lucas buscou no app os filmes que o interessou, análisou os dados e adiconou à sua watchlist.
 
