@@ -86,4 +86,4 @@ Esse artefato tem como finalidade padronizar as estregas de artefatos do grupo, 
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 13/04/2023 | `0.1`  | Checklist primeira etapa | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) |
+| 13/04/2023 | `1.0`  | Checklist primeira etapa | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) |

@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Nesta página, você encontrará uma lista completa das ferramentas que serão utilizadas durante o processo de levantamento de requisitos do aplicativo Letterboxd. Cada ferramenta possui um propósito específico, abrangendo desde a coleta de informações até o gerenciamento de tarefas e comunicação entre a equipe. Essas ferramentas são essenciais para garantir que todas as etapas do projeto sejam realizadas de forma adequada e dentro do prazo estabelecido.
+Nesta página, você encontrará uma lista completa das ferramentas que serão utilizadas durante o processo de elicitação de requisitos do aplicativo Letterboxd. Cada ferramenta possui um propósito específico, abrangendo desde a coleta de informações até o gerenciamento de tarefas e comunicação entre a equipe. Essas ferramentas são essenciais para garantir que todas as etapas do projeto sejam realizadas de forma adequada e dentro do prazo estabelecido.
 
 ## 2. Ferramentas
 
@@ -44,7 +44,7 @@ Abaixo, você encontrará uma tabela contendo as ferramentas que serão utilizad
 
 |    Data    | Versão |                                                   Descrição                                                    |                      Autor(es)                      |                 Revisor(es)                 |
 | :--------: | :----: | :------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------: |
-| 13/04/2023 |  `0.1`   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
-| 13/04/2023 |  `0.2`   |                Alteração dos logos, adição da bibliografia, adição da ferramenta google drive.                 | [Maciel Júnior](https://github.com/macieljuniormax) |                                             |
-| 13/04/2023 |  `0.3`   |                Adição da ferramenta Clideo                 | [Natan Santana](https://github.com/Neitan2001) |   [Débora Caires](https://github.com/deboracaires)                                          |
+| 13/04/2023 |  `1.0`   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
+| 13/04/2023 |  `2.0`   |                Alteração dos logos, adição da bibliografia, adição da ferramenta google drive.                 | [Maciel Júnior](https://github.com/macieljuniormax) |                                             |
+| 13/04/2023 |  `3.0`   |                Adição da ferramenta Clideo                 | [Natan Santana](https://github.com/Neitan2001) |   [Débora Caires](https://github.com/deboracaires)                                          |
 

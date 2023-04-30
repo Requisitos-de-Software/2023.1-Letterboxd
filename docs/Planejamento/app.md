@@ -23,7 +23,7 @@ Nós escolhemos utilizar o aplicativo Letterboxd por diversas razões. Uma delas
 
 | Data       | Versão | Descrição              | Autor                                       | Revisor                                             |
 | ---------- | ------ | ---------------------- | ------------------------------------------- | --------------------------------------------------- |
-| 14/04/2023 | `0.1`  | Aplicativo selecionado | [Gustavo Barbosa](https://github.com/brbsg) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| 14/04/2023 | `1.0`  | Aplicativo selecionado | [Gustavo Barbosa](https://github.com/brbsg) | [Maciel Júnior](https://github.com/macieljuniormax) |
 
 ## Bibliografia
 
