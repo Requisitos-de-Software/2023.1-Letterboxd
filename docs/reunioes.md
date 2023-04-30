@@ -15,6 +15,15 @@ A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/19j35XmbY
 ### Apresentação 1° Etapa
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BsANHSglTvc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Etapa 2
+
+### Reunião 17/04/2023
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SfRmnL_RTBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/1ivxTzkTKzQNdv4rcGmWmEKP5sajhmHB5qBobVoyNx3o/edit?usp=sharing).
+
+
 ## Tabela de Versionamento
 
 | Data | Versão | Descrição | Autor | Revisor |
