@@ -198,6 +198,8 @@ O resultado da priorização pode ser visualizado na Figura 4:
   <figcaption>Figura 4: tabela utilizada na priorização First Things First (Fonte: autor, 2023)</figcaption>
 </figure>
 
+A gravação da reunião em que foram realizadas as priorizacões pode ser encontrada clicando [aqui](https://youtu.be/-rLBRrg-zt4).
+
 Referência Bibliográfica
 
 <a id="ancora1"></a>[1] KARL EUGENE WIEGERS; BEATTY, J. Software requirements. Redmond, Washington: Microsoft Press, 2015.
