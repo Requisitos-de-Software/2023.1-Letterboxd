@@ -151,3 +151,4 @@ Itens a serem corrigidos da Etapa 2:
 | ---- | ------ | --------- | ----- | ------- |
 | 13/04/2023 | `1.0`  | Checklist primeira etapa | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) |
 | 20/04/2023 | `2.0`  | Correção de erros| [Rhuan Marques](https://github.com/RhuanMr) | [Natan Santana](https://github.com/Neitan2001) |
+| 30/04/2023 | `3.0`  | Checklist da segunda etapa| [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
