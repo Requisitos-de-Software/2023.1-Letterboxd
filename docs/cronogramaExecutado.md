@@ -26,6 +26,6 @@ Data da entrega | Descrição da Atividade | Autor(es) | Revisor | Término da R
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 10/04/2023 | `0.1`  | Adição do esqueleto do cronograma executado | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)
-| 16/04/2023 | `0.2`  | Adição das datas de entrega e revisão da etapa 1 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
-| 18/04/2023 | `0.3`  | Adição da chamada da legenda no texto | [Natan Santana](https://github.com/Neitan2001) | 
+| 10/04/2023 | `1.0`  | Adição do esqueleto do cronograma executado | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)
+| 16/04/2023 | `2.0`  | Adição das datas de entrega e revisão da etapa 1 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 18/04/2023 | `3.0`  | Adição da chamada da legenda no texto | [Natan Santana](https://github.com/Neitan2001) | 
