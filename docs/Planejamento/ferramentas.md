@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 
-Nesta página, você encontrará uma lista completa das ferramentas que serão utilizadas durante o processo de levantamento de requisitos do aplicativo Letterboxd. Cada ferramenta possui um propósito específico, abrangendo desde a coleta de informações até o gerenciamento de tarefas e comunicação entre a equipe. Essas ferramentas são essenciais para garantir que todas as etapas do projeto sejam realizadas de forma adequada e dentro do prazo estabelecido.
+Nesta página, você encontrará uma lista completa das ferramentas que serão utilizadas durante o processo de elicitação de requisitos do aplicativo Letterboxd. Cada ferramenta possui um propósito específico, abrangendo desde a coleta de informações até o gerenciamento de tarefas e comunicação entre a equipe. Essas ferramentas são essenciais para garantir que todas as etapas do projeto sejam realizadas de forma adequada e dentro do prazo estabelecido.
 
 ## 2. Ferramentas
 

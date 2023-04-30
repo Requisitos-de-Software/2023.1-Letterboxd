@@ -1,30 +1,14 @@
-# Análise de Documentos
+# Requisitos Elicitados
 
 ## Introdução
 
-A elicitação de requisitos é uma atividade fundamental no processo de desenvolvimento de software, que visa entender as necessidades e expectativas dos usuários e stakeholders para identificar e especificar os requisitos que o sistema deve atender. Existem diversas técnicas e metodologias para realizar essa atividade, e uma delas é a análise de documentos.
+Este documento apresenta uma lista completa de requisitos do aplicativo Letterboxd, obtidos através da utilização de diversas técnicas de elicitação de requisitos. As técnicas utilizadas incluem [análise de documentos](analise.md), [entrevistas com usuários](entrevista.md), [introspecção](introspeccao.md), [questionários com usuários](perfil.md) e [storytelling](storytelling.md). Os requisitos repetidos foram eliminados.
 
-A análise de documentos é uma técnica que consiste na revisão de documentos existentes para extrair informações relevantes sobre o domínio do problema e os requisitos do sistema. Esses documentos podem incluir manuais, relatórios, especificações técnicas, normas, regulamentos, entre outros.
+Os requisitos elicitados abrangem tanto funcionalidades já implementadas no aplicativo, como também requisitos que ainda não foram implementados. Esta lista é uma importante ferramenta para o desenvolvimento futuro do Letterboxd, pois permite entender as necessidades e expectativas dos usuários e, assim, aprimorar a experiência do usuário e agregar valor ao aplicativo.
 
-A utilização da técnica de análise de documentos para elicitação de requisitos apresenta diversas vantagens. Em primeiro lugar, ela permite que a equipe de desenvolvimento tenha uma visão mais ampla do domínio do problema, compreendendo as particularidades do contexto em que o sistema será utilizado. Além disso, a análise de documentos pode ajudar a identificar requisitos que não foram inicialmente considerados, bem como a validar requisitos já especificados.
+A partir da análise dos requisitos elicitados, é possível identificar as principais demandas dos usuários, tanto em relação às funcionalidades já existentes quanto às que ainda não foram implementadas. A lista de requisitos aqui apresentada é, portanto, um recurso valioso para orientar o planejamento e desenvolvimento do aplicativo Letterboxd, visando a sua melhoria contínua e satisfação dos usuários.
 
-Outro benefício da análise de documentos é a possibilidade de reduzir custos e tempo na elicitação de requisitos, uma vez que muitas informações relevantes já podem estar documentadas e prontamente disponíveis. Isso pode acelerar o processo de desenvolvimento e aumentar a eficiência da equipe.
-
-Por essas razões, a análise de documentos é uma técnica amplamente utilizada para elicitação de requisitos, especialmente em projetos complexos e em que há grande quantidade de informações documentadas. Nós optamos por utilizar tanto técnicas que não precisam de interação com o usuário, como a de análise de documentos, quanto técnicas feitas em conjunto com o usuário, como entrevistas, para enriquecer o processo de elicitação de requisitos e garantir a qualidade e a completude da especificação dos requisitos.
-
-## Metodologia
-
-A fonte utilizada para a análise de documentos foi o site [Letterboxd](https://letterboxd.com/). O site contém uma grande quantidade de documentação, incluindo informações sobre suas funcionalidades, sua interface de usuário e seus recursos.
-
-Ao examinar a documentação existente de um sistema ou aplicativo, é possível identificar seus recursos, funcionalidades, limitações e problemas existentes. Essa análise forneceu informações valiosas sobre o que os usuários querem e precisam, bem como sobre como aprimorar ou expandir um sistema ou aplicativo.
-
-No caso do Letterboxd, a análise de documentos foi extremamente útil. O site é uma plataforma madura e estabelecida, com uma ampla base de usuários e muita documentação disponível. Isso permitiu que fossem identificadas funcionalidades importantes para os usuários, bem como opiniões e sugestões para melhorias no site. Além disso, a análise também possibilitou a identificação de recursos e funcionalidades em potencial que ainda não foram implementados no aplicativo, mas que poderiam ser valiosos para os usuários.
-
-A análise de documentos do Letterboxd permitiu obter uma compreensão mais aprofundada do que os usuários esperam e precisam de uma plataforma de avaliação e compartilhamento de filmes. A partir dessas informações, será possível desenvolver um aplicativo mais completo e satisfatório para os usuários.
-
-## Resultados
-
-Os resultados obtidos com a análise de documentos foi registrada na Tabela 1, exibida abaixo, em que *Identificador* é um código para marcar que a fonte desse requisito foi a análise de documentos e o *Tipo* se refere a requisitos funcionais (RF) ou requisitos não funcionais (RNF).
+## Requisitos elicitados
 
 | Identificador | Requisito | Tipo
 | ------ | ------ | ------ |
@@ -104,22 +88,63 @@ Os resultados obtidos com a análise de documentos foi registrada na Tabela 1, e
 | DOC75 | Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes | RNF |
 | DOC76 | Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias | RNF |
 | DOC77 | Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados | RNF |
+| ENT01 | Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos  | RF |
+| ENT02 | Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir | RF |
+| ENT03 | Poder buscar filmes registrados no diário  | RF |
+| ENT04 | Traduzir interface do usuário para português | RNF |
+| ENT05 | Registro no diário mais intuitivo e com menos cliques | RNF |
+| ENT06 | Botão de traduzir nas críticas que estejam em um idioma diferente do usuário  | RF |
+| IT01 | Deve existir um tutorial exibindo as principais funcionalidades da plataforma quando o usuário acessá-la pela primeira vez | RF |
+| IT02 | O aplicativo deve permitir que o usuário se registre na plataforma com um email, um nome de usuário e uma senha | RF |
+| IT03 | O aplicativo deve permitir que o usuário faça login em sua conta usando seu nome de usuário ou email e senha | RF |
+| IT04 | O usuário deve ser capaz de redefinir sua senha | RF |
+| IT05 | A plataforma deve permitir que o usuário pesquise e encontre filmes pelo seu nome ou nome do diretor | RF |
+| IT06 | A plataforma deve permitir que o usuário pesquise e encontre listas, resenhas, atores, estúdios, outros membros, artigos de jornal e podcas | RF |
+| IT07 | O usuário deve poder avaliar os filmes que assiste, em uma escala de classificação de 0 a 5 estrelas, e adicionar comentários e opiniões sobre os filmes | RF |
+| IT08 | O usuário deve poder adicionar comentários sobre os filmes | RF |
+| IT09 | O aplicativo deve permitir que os usuários criem suas próprias listas de filmes, como "Curtidos", "Assistir mais tarde", ou uma lista personalizada | RF |
+| IT10 | O usuário deve poder compartilhar filmes, resenhas, listas e notícias em outras redes sociais, como Facebook, Twitter e Instagram | RF |
+| IT11 | O usuário deve poder visualizar e editar seus perfil, adicionar informações como foto de perfil, biografia, localização e filmes preferidos | RF |
+| IT12 | O usuário deve poder seguir e ser seguido por outros usuários | RF |
+| IT13 | O usuário deve ser capaz de ver suas listas, curtidas, likes, filmes assistidos, seguidores e pessoas que seguem | RF |
+| IT14 | O usuário deve ter as opções de sair, desativar e deletar sua conta | RF |
+| IT15 | O aplicativo deve exibir estatísticas de um filme, como listas e notícias em que aparece, média das avaliações e membros que já asssitiram | RF |
+| IT16 | O aplicativo deve exibir informações um filme, como sinopse, trailer, atores, gênero, linguagem, estúdio e filmes relacionados | RF |
+| IT17 | O aplicativo exibir as atividades do usuário e de seus amigos na plataforma | RF |
+| IT18 | O usuário deve ser capaz de redefinir sua senha | RF |
+| IT19 | O usuário deve ser capaz de personalizar as notificações que recebe no aplicativo e em seu e-mail | RF |
+| IT20 | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenh |RNF |
+| IT21 | Deve existir uma tela principal contento os filmes populares da semana | RF |
+| IT22 | Deve existir uma tela exibindo as resenhas populares | RF |
+| IT23 | Deve existir uma tela exibindo as listas populares da semana | RF |
+| IT24 | Deve existir uma tela exibindo notícias | RF |
+| IT25 | O aplicativo deve ter uma versão paga para não exibir anúncios | RF |
+| IT26 | O usuário deve conseguir ler os termos de uso e políticas de privacidade pelo aplicativo | RF |
+| QST01 | Aba para visualizar listas curtidas, para ter fácil acesso à elas. | RF |
+| QST03 | Mover um filme de uma lista para outra | RF |
+| QST04 | Adicionar categorias para filmes, séries e animes | RF |
+| QST05 | Verificação de onde assistir o filme de acordo com o país do usuário | RNF |
+| QST06 | Mandar mensagens para outros usuários | RF |
+| QST07 | Sugestão de amigos de acordo com gostos em comum, exclusivo para usuários "Pro" | RF |
+| QST08 | Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro" | RF |
+| QST09 | Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro" | RF |
+| QST10 | Notificar usuários sobre artigos de filmes que estiverem em suas listas | RF |
+| QST11 | Colocar artigos relacionados na tela de detalhes do filme | RF |
+| QST12 | Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva | RNF |
+| QST13 | Sortear filme da watchlist | RF |
+| ST01 | Eu, como usuário, desejo poder visualizar um catálogo de filmes, para poder visualizar os filmes que a plataforma tem | RF |
+| ST02 | Eu, como usuário, desejo poder pesquisar novos filmes na aba de pesquisa, para poder encontrar filmes que já sei o nome | RF |
+| ST03 | Eu, como usuário, desejo poder visualizar a críticas de outros usuários, para poder ter um conhecimento prévio sobre o filme | RF |
+| ST04 | Eu, como usuário, desejo poder adicionar comentários para as críticas de outros usuários | RF |
+| ST08 | Eu, como usuário, desejo poder compartilhar minhas críticas em outras redes socias, para poder gerar mais visualização para minha crítica | RF |
+
 
 <div style="text-align: center">
-<p>Tabela 1: requisitos elicitados com a análise de documentos</p>
+<p>Tabela 1: requisitos elicitados</p>
 </div>
-
-## Bibliografia
-
-CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.
-
-Guia facetado de técnicas elicitação de requisitos. Disponível em: <https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-analise-de-documentos>. Acesso em: 21 abr. 2023.
-
-Letterboxd Frequent questions. Disponível em: <https://letterboxd.com/about/faq/>. Acesso em: 21 abr. 2023.
-
 
 ## Tabela de Versionamento
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 25/04/2023 | `1.0`  | Elicitação por análise de documentos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| 27/04/2023 | `1.0`  | Unificação dos requisitos elicitados | [Clara Ribeiro](https://github.com/clara-ribeiro) |  |

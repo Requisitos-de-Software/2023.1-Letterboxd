@@ -68,7 +68,7 @@ O teste piloto (ou estudo-piloto) é a execução da entrevista a fim de avaliar
 De acordo com a execução do teste, foi observado que as seguintes mudanças são necessárias:
 
 1. Adicionar algumas perguntas de quebra gelo a fim de deixar o usuário mais confortável
-2. Adicionar algumas perguntas que aprofundam no motivo de o usuário utilizar o aplicativo a fim de levantar requisitos não-funcionais com a técnica Laddering
+2. Adicionar algumas perguntas que aprofundam no motivo de o usuário utilizar o aplicativo a fim de elicitar requisitos não-funcionais com a técnica Laddering
 
 ## Roteiro Final
 
@@ -87,7 +87,7 @@ Com os feedbacks coletados, a seguir será listado o roteiro final que será uti
 
 ## Resultado das Entrevistas
 
-Abaixo será documentado os resultados e os requisitos levantados em cada uma das entrevistas. No total, foram realizadas 3 entrevistas e cada participante é uma pessoa que respondeu o [questionário](./perfil.md), ou seja, fazem parte do perfil de usuário do aplicativo. O entrevistador das três entrevistas foi o membro do grupo Natan Tavares Santana.
+Abaixo será documentado os resultados e os requisitos elicitados em cada uma das entrevistas. No total, foram realizadas 3 entrevistas e cada participante é uma pessoa que respondeu o [questionário](./perfil.md), ou seja, fazem parte do perfil de usuário do aplicativo. O entrevistador das três entrevistas foi o membro do grupo Natan Tavares Santana.
 
 ### Entrevista 1
 
@@ -143,7 +143,7 @@ Na tabela 3 é possível observar a síntese das respostas para cada pergunta.
 <p>Tabela 3: Síntese das respostas da entrevista 2</p>
 </div>
 
-Com as respostas das perguntas 8 e 9, é possível levantar três novos requisitos. Essas novas funcionalidades serão listadas e descritas na tabela 4.
+Com as respostas das perguntas 8 e 9, é possível elicitar três novos requisitos. Essas novas funcionalidades serão listadas e descritas na tabela 4.
 
 | Identificação      | Descrição                          |
 | ----------- | ------------------------------------ |
