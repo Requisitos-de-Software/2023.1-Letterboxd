@@ -82,7 +82,7 @@ Esse segmento compõe a verificação da padronização dos artefatos específic
 
 ### Etapa 2
 
-Esse segmento compõe a verificação da padronização dos artefatos específicos da Etapa 2, representado pelas tabelas x à x.[¹](#ancora1)
+Esse segmento compõe a verificação da padronização dos artefatos específicos da Etapa 2, representado pelas tabelas 7 à 9.[¹](#ancora1)
 
 | Perfil de Usuário | Relatos |
 | ------------ | ------- |
@@ -121,24 +121,24 @@ cliente e/ou persona do projeto?  | Incompleto |
 
 | Priorização | Relatos |
 | ------------ | ------- |
-| Um cronograma (data e horário) e local para realização da priorização dos requisitos com o do
-cliente e/ou persona do projeto?  |  |
-| No mínimo duas técnicas de priorização |  |
-| A participação do cliente e/ou persona no processo de priorização? |  |
-| A gravação e o(s) registro(s) da atividade de priorização dos requisitos? |  |
+| Um cronograma (data e horário) e local para realização da priorização dos requisitos com o cliente e/ou persona do projeto?  | Não |
+| No mínimo duas técnicas de priorização | Sim |
+| A participação do cliente e/ou persona no processo de priorização? | Sim |
+| A gravação e o(s) registro(s) da atividade de priorização dos requisitos? | Sim |
 
 <div style="text-align: center">
 <p>Tabela 9: Checklist da Priorização (Fonte: autor,2023)</p>
 </div>
 
-Itens a serem corrigidos:
+Itens a serem corrigidos da Etapa 2:
 
-1. Tabelas na página "Análise de Documentos" está sem fonte - Clara
-2. Tabelas na página "Entrevista" está sem fonte - Natan
-3. Tabela na página "Questionário" está sem legenda e fonte - Natan
-4. Tabela na página "Storytelling" está sem chamada no texto - Rhuan
-5. Nas "Personas" está faltando a justificativa da quantidade de personas - Arthur
-6. Na técnica de elicitação da "Entrevista" está faltando o cronograma da elicitação com os clientes - Natan
+1. Tabelas na página "Análise de Documentos" está sem fonte
+2. Tabelas na página "Entrevista" está sem fonte
+3. Tabela na página "Questionário" está sem legenda e fonte
+4. Tabela na página "Storytelling" está sem chamada no texto
+5. Nas "Personas" está faltando a justificativa da quantidade de personas
+6. Na técnica de elicitação da "Entrevista" está faltando o cronograma da elicitação com os clientes
+7. Na "Priorização" está faltando o cronograma da reunião com o cliente, assim como o local e o nome dos participantes (tanto dos clientes quanto dos membros do grupo que participaram)
 
 ## Referências Bibliográfica
 
