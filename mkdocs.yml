@@ -2,7 +2,6 @@ site_name: Requisitos - Letterboxd
 theme:
   name: material
   palette:
-    scheme: slate
     primary: green
   logo: assets/logo.png
   favicon: assets/logo.png

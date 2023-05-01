@@ -14,7 +14,7 @@ O questionário foi distribuído em grupos do telegram e whatsapp que os partici
 
 ### 3.1 - Termo de Consentimento
 
-Antes do usuário responder o questionário, é apresentado um termo de consentimento que o usuário precisa concordar para participar da coleta de dados. Caso ele não concorde, o formulário é encerrado. Das 56 respostas que foram obtidas, todos os 56 respondentes deram consentimento para a realização do questionário. A figura 1 abaixo é a primeira parte do formulário com o termo de consentimento:
+Antes do usuário responder o questionário, é apresentado um termo de consentimento que o usuário precisa concordar para participar da coleta de dados. Caso ele não concorde, o formulário é encerrado. Das 68 respostas que foram obtidas, todos os 68 respondentes deram consentimento para a realização do questionário. A figura 1 abaixo é a primeira parte do formulário com o termo de consentimento:
 
 
 <figure markdown>

@@ -6,23 +6,25 @@ Nesta página, você encontrará uma lista completa das ferramentas que serão u
 
 ## 2. Ferramentas
 
-Abaixo, você encontrará uma tabela contendo as ferramentas que serão utilizadas durante o projeto juntamente com uma breve descrição de seus objetivos.
+A Tabela 1 apresenta informações sobre as ferramentas que serão utilizadas durante o projeto, juntamente com uma breve descrição de seus objetivos.
 
-|                                      Logo                                       |           Ferramenta            |                                                                     Finalidade                                                                     |
-| :-----------------------------------------------------------------------------: | :-----------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------: |
-|            ![Logo GitHub](../assets/logo-git-hub.png){ width=250px}             |       GitHub[¹](#ancora1)       | O GitHub é uma plataforma de hospedagem de código-fonte de programação e será utilizada como repositório para armazenar a documentação do projeto. |
-|           ![Logo Telegram](../assets/logo-telegram.png){ width=250px}           |      Telegram[²](#ancora2)      |                                      Aplicativo utilizado para manter uma rápida comunicação entre a equipe.                                       |
-|              ![Logo Teams](../assets/logo-teams.png){ width=250px}              |       Teams[³](#ancora3)        |                                   Plataforma utilizada para conduzir e gravar as reuniões e entregas da equipe.                                    |
-|              ![Logo Canva](../assets/logo-canva.png){ width=250px}              |       Canva[⁴](#ancora4)        |                                           Utilizado para criar o Rich Picture do aplicativo Letterboxd.                                            |
-|         ![Logo Letterboxd](../assets/logo-letterboxd.png){ width=250px}         |     Letterboxd[⁵](#ancora5)     |                                        Aplicativo escolhido como objeto de estudo para realizar o projeto.                                         |
-|            ![Logo Youtube](../assets/logo-yotube.png){ width=250px}             |      Youtube[⁶](#ancora6)       |                                    Ferramenta utilizada para armazenar os vídeos das reuniões e apresentações.                                     |
-| ![Logo Visual Studio Code](../assets/logo-visual-studio-code.png){ width=250px} | Visual Studio Code[⁷](#ancora7) |                                    Editor de texto usado para editar e fazer upload da documentação no GitHub.                                     |
-|             ![Logo Mkdocs](../assets/logo-mkdocs.png){ width=250px}             |       Mkdocs[⁸](#ancora8)       |                                                Utilizado para gerar a documentação no Github Pages                                                 |
-|       ![Logo Google Drive](../assets/logo-google-drive.png){ width=250px}       |    Google Drive[⁹](#ancora9)    |                           Plataforma de armazenamento na nuvem utilizada pela equipe para armazenar arquivos do projeto.                           |
-|             ![Logo Clideo](../assets/logo-clideo.png){ width=250px}             |      Clideo[¹⁰](#ancora10)      |                                          Plataforma utilizada para cortar e juntar vídeos gratuitamente.                                           |
+|                                      Logo                                      |     Ferramenta     |                                                                          Finalidade                                                                           |
+|:------------------------------------------------------------------------------:|:------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| ![Logo GitHub](../assets/logo-git-hub.png){ width=250px} |       GitHub[¹](#ancora1)       | O GitHub é uma plataforma de hospedagem de código-fonte de programação e será utilizada como repositório para armazenar a documentação do projeto. |
+| ![Logo Telegram](../assets/logo-telegram.png){ width=250px}  |      Telegram[²](#ancora2)       |                                            Aplicativo utilizado para manter uma rápida comunicação entre a equipe.                                            |
+| ![Logo Teams](../assets/logo-teams.png){ width=250px}  |       Teams[³](#ancora3)           |                                         Plataforma utilizada para conduzir e gravar as reuniões e entregas da equipe.                                         |
+| ![Logo Canva](../assets/logo-canva.png){ width=250px}  |       Canva[⁴](#ancora4)         |                                                 Utilizado para criar o Rich Picture do aplicativo Letterboxd.                                                 |
+| ![Logo Letterboxd](../assets/logo-letterboxd.png){ width=250px} |     Letterboxd[⁵](#ancora5)      |                                              Aplicativo escolhido como objeto de estudo para realizar o projeto.                                              |
+| ![Logo Youtube](../assets/logo-yotube.png){ width=250px}  |      Youtube[⁶](#ancora6)        |                                          Ferramenta utilizada para armazenar os vídeos das reuniões e apresentações.                                          |
+| ![Logo Visual Studio Code](../assets/logo-visual-studio-code.png){ width=250px}  | Visual Studio Code[⁷](#ancora7) |                                          Editor de texto usado para editar e fazer upload da documentação no GitHub.                                          |
+| ![Logo Mkdocs](../assets/logo-mkdocs.png){ width=250px}  |       Mkdocs[⁸](#ancora8)         |                                                      Utilizado para gerar a documentação no Github Pages                                                      |
+| ![Logo Google Drive](../assets/logo-google-drive.png){ width=250px}  |       Google Drive[⁹](#ancora9) |                                                      Plataforma de armazenamento na nuvem utilizada pela equipe para armazenar arquivos do projeto.                        |
+|             ![Logo Google Docs](../assets/logo-google-docs.png){ width=250px}             |      Google Docs[¹¹](#ancora11)      |                                          Utilizado para criar e armazenar as Atas das reuniões.                                           |
+|             ![Logo Google Forms](../assets/logo-google-forms.png){ width=250px}             |      Google Forms[¹²](#ancora12)      |                                          Plataforma utilizada para criar formulários para coletar informações para o projeto.                                          |
+|             ![Logo This Person Does Not Exist ](../assets/logo-this-person.png){ width=250px}             |      This Person Does Not Exist[¹³](#ancora13)      |                                          Site que gera imagens de pessoas fictícias, será utilizado pela equipe para a criação das personas.                                             |
 
 <div style="text-align: center">
-<p>Tabela 1: Ferramentas utilizadas no projeto</p>
+<p>Tabela 1: Ferramentas utilizadas no projeto. Fonte: Autoria Própria</p>
 </div>
 
 ## 3. Referências
@@ -36,15 +38,19 @@ Abaixo, você encontrará uma tabela contendo as ferramentas que serão utilizad
 > - <a id="ancora7"></a>[7] MICROSOFT. Visual Studio Code. Disponível em: <https://code.visualstudio.com>. Acesso em: 16 abr. 2023.
 > - <a id="ancora8"></a>[8] MkDocs. Disponível em: <https://www.mkdocs.org>. Acesso em: 16 abr. 2023.
 > - <a id="ancora9"></a>[9] Meet Google Drive – One place for all your files. Disponível em: <https://drive.google.com/drive/>. Acesso em: 16 abr. 2023.
-> - <a id="ancora10"></a>[10] Clideo. Disponível em: <https://clideo.com/pt/>. Acesso em: 17 abr. 2023.
+> - <a id="ancora11"></a>[11] Google Docs. Disponível em: <https://docs.google.com/>. Acesso em: 22 abr. 2023.
+> - <a id="ancora12"></a>[12] Google Forms. Disponível em: <https://docs.google.com/forms/>. Acesso em: 22 abr. 2023.
+> - <a id="ancora13"></a>[13] This Person Does Not Exist. Disponível em: <https://thispersondoesnotexist.com/>. Acesso em: 22 abr. 2023. Refererenciado do grupo Fifa Plus da disciplina de Requisitos de Software. Disponível em: <https://requisitos-de-software.github.io/2022.2-FifaPlus/Planejamento/ferramentas/>
 > - <a></a>O que é GitHub? Disponível em: <https://tecnoblog.net/responde/o-que-e-github/>. Acesso em: 16 abr. 2023.
 > - <a></a>@ELRUMO. Over 5000+ free icons for macOS Monterey, Big Sur & iOS - massive app icon pack. Disponível em: <https://macosicons.com/#/>. Acesso em: 16 abr. 2023.
 
+> - <a id="ancora10"></a>O que é GitHub? Disponível em: <https://tecnoblog.net/responde/o-que-e-github/>. Acesso em: 16 abr. 2023.
+> - <a id="ancora10"></a>@ELRUMO. Over 5000+ free icons for macOS Monterey, Big Sur & iOS - massive app icon pack. Disponível em: <https://macosicons.com/#/>. Acesso em: 16 abr. 2023.
+
 ## 4. Histórico de Versão
 
-|    Data    | Versão |                                                   Descrição                                                    |                      Autor(es)                      |                 Revisor(es)                 |
-| :--------: | :----: | :------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------: |
+|    Data    | Versão |                                                   Descrição                                                    |                      Autor                      |                 Revisor                |
+|:----------:|:------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------:|
 | 13/04/2023 |  `1.0`   | Criação da primeira versão do documento, incluindo as primeiras ferramentas utilizadas, logotipo e sua função. | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
-| 13/04/2023 |  `2.0`   |                Alteração dos logos, adição da bibliografia, adição da ferramenta google drive.                 | [Maciel Júnior](https://github.com/macieljuniormax) |                                             |
-| 13/04/2023 |  `3.0`   |                Adição da ferramenta Clideo                 | [Natan Santana](https://github.com/Neitan2001) |   [Débora Caires](https://github.com/deboracaires)                                          |
-
+| 13/04/2023 |  `2.0`   | Alteração dos logos, adição da bibliografia, adição da ferramenta google drive. | [Maciel Júnior](https://github.com/macieljuniormax) | [Natan Santana](https://github.com/Neitan2001) |
+| 22/04/2023 |  `3.0` |                Adição das ferramentas Google Docs, Google Forms e This Person Does Not Exist                 | [Maciel Júnior](https://github.com/macieljuniormax) |   [Arthur Loureiro](https://github.com/ArtAssLou)                                           |

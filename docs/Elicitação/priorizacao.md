@@ -200,7 +200,7 @@ O resultado da priorização pode ser visualizado na Figura 4:
 
 A gravação da reunião em que foram realizadas as priorizacões pode ser encontrada clicando [aqui](https://youtu.be/-rLBRrg-zt4).
 
-Referência Bibliográfica
+## Referência Bibliográfica
 
 > <a id="ancora1"></a>[1] KARL EUGENE WIEGERS; BEATTY, J. Software requirements. Redmond, Washington: Microsoft Press, 2015.
 > <br/> <a id="ancora2"></a>[2] WIEGERS Karl E. First Things First: Prioritizing Requirements. Setembro de 1999. Disponível em <https://www.processimpact.com/articles/prioritizing.pdf>. Acesso em 26 de abril de 2023.

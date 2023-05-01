@@ -10,7 +10,7 @@ As branchs devem ser sempre criadas a partir da "master" onde o código mais atu
 git checkout -b "X-NomeDaBranch"
 ```
 
-Onde "X" é o número da issue da Branch e o nome deve estar em PascalCase, ou seja, a primeira letra de cada palavra deve estar maiúscula. O nome deve estar em português.
+Onde "X" é o número da issue da Branch e o nome deve estar em PascalCase, ou seja, a primeira letra de cada palavra deve estar maiúscula[¹](#ancora1). O nome deve estar em português.
 
 ## 3 - Políticas de Commits
 Os commits devem seguir o seguinte padrão:
@@ -38,13 +38,14 @@ Descrição:
     - Adição da página de políticas
     Closes #1
 
-## 5 - Bibliografia
+## 5 - Referência Bibliográfica
 
-<p><ul>1. KITAMURA, C. Pascal Case e Camel Case: O Que É E Como Usar. Disponível em: <a href="https://celsokitamura.com.br/pascal-case-e-camel-case/#:~:text=J%C3%A1%20Pascal%20Case%20%C3%A9%20a,Pascal%20Case%20e%20camel%20Case.">https://celsokitamura.com.br</a>. Acesso em: 10 abr. 2023.</a>. Acesso em: 10 de abril de 2023.</ul></p>
+<p><ul id="ancora1">1. KITAMURA, C. Pascal Case e Camel Case: O Que É E Como Usar. Disponível em: <a href="https://celsokitamura.com.br/pascal-case-e-camel-case/#:~:text=J%C3%A1%20Pascal%20Case%20%C3%A9%20a,Pascal%20Case%20e%20camel%20Case.">https://celsokitamura.com.br</a>. Acesso em: 10 abr. 2023.</a>. Acesso em: 10 de abril de 2023.</ul></p>
 
 ## 6 - Tabela de Versionamento
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 10/04/2023 | `1.0`  | Criação da página de políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
-| 15/04/2023 | `2.0`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 10/04/2023 | `0.1`  | Criação da página de políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 15/04/2023 | `0.2`  | Adição da bibliografia | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 18/04/2023 | `0.3`  | Adição da âncora para a referência bibliográfica | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
