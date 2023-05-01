@@ -14,11 +14,11 @@ Esse segmento compõe a verificação da padronização geral de todos os atefat
 
 | Descrição | Etapa 1 | Etapa 2 | Etapa 3 |
 | --------- | ------- | ------- | ------- |
-| Os documentos possuem introdução? | Sim | Não avaliado | Não avaliado |
-| Os documentos possuem referências bibliograficas? | Sim | Não avaliado | Não avaliado |
-| Os documentos possuem tabelas de versionamento? | Sim | Não avaliado | Não avaliado |
-| Os documentos foi revisado? | Sim | Não avaliado | Não avaliado |
-| As imagens e documentos possuem legendas e são chamadas em texto? | Sim | Não avaliado | Não avaliado |
+| Os documentos possuem introdução? | Sim | Sim | Não avaliado |
+| Os documentos possuem referências bibliograficas? | Sim | Sim | Não avaliado |
+| Os documentos possuem tabelas de versionamento? | Sim | Sim | Não avaliado |
+| Os documentos foi revisado? | Sim | Sim | Não avaliado |
+| As imagens e documentos possuem legendas, são chamadas em texto e possuem fontes? | Sim | Incompleto | Não avaliado |
 
 <div style="text-align: center">
 <p>Tabela 1: Checklist geral (Fonte: autor,2023)</p>
@@ -80,6 +80,66 @@ Esse segmento compõe a verificação da padronização dos artefatos específic
 <p>Tabela 6: Checklist da Apresentação (Fonte: autor,2023)</p>
 </div>
 
+### Etapa 2
+
+Esse segmento compõe a verificação da padronização dos artefatos específicos da Etapa 2, representado pelas tabelas 7 à 9.[¹](#ancora1)
+
+| Perfil de Usuário | Relatos |
+| ------------ | ------- |
+| A Especificação do Perfil do usuário possui informação de idade? | Sim |
+| A Especificação do Perfil do usuário possui informação de experiência? | Sim |
+| A Especificação do Perfil do usuário possui informação de atitudes (tecnófilos, tecnófobos)? | Sim |
+| A Especificação do Perfil do usuário possui informação de tarefas primárias? | Sim |
+
+<div style="text-align: center">
+<p>Tabela 7: Checklist do Perfil de Usuário (Fonte: autor,2023)</p>
+</div>
+
+| Personas | Relatos |
+| ------------ | ------- |
+| Cada persona possui identidade, idade, foto, status, objetivos, habilidades, tarefas, relacionamentos, requisitos, expectativas | Sim |
+| As informações de como as Personas foram elaboradas? | Sim |
+| A referência bibliográfica sobre o conteúdo de Personas e do método da construção das
+personas? | Sim |
+| O Elenco de Personas? Quantas Personas no Projeto? O porquê dessa quantidade? | Incompleto |
+
+<div style="text-align: center">
+<p>Tabela 8: Checklist das Personas (Fonte: autor,2023)</p>
+</div>
+
+| Elicitação | Relatos |
+| ------------ | ------- |
+| Um cronograma (data e horário) e local para realização da elicitação dos requisitos com o do
+cliente e/ou persona do projeto?  | Incompleto |
+| No mínimo três técnicas? | Sim |
+| A participação do cliente e/ou persona na elicitação de requisitos? | Sim |
+| A gravação e o(s) registro(s) da elicitação dos requisitos (pré-rastreabilidade)? | Sim |
+
+<div style="text-align: center">
+<p>Tabela 9: Checklist da Elicitação (Fonte: autor,2023)</p>
+</div>
+
+| Priorização | Relatos |
+| ------------ | ------- |
+| Um cronograma (data e horário) e local para realização da priorização dos requisitos com o cliente e/ou persona do projeto?  | Não |
+| No mínimo duas técnicas de priorização | Sim |
+| A participação do cliente e/ou persona no processo de priorização? | Sim |
+| A gravação e o(s) registro(s) da atividade de priorização dos requisitos? | Sim |
+
+<div style="text-align: center">
+<p>Tabela 9: Checklist da Priorização (Fonte: autor,2023)</p>
+</div>
+
+Itens a serem corrigidos da Etapa 2:
+
+1. Tabelas na página "Análise de Documentos" está sem fonte
+2. Tabelas na página "Entrevista" está sem fonte
+3. Tabela na página "Questionário" está sem legenda e fonte
+4. Tabela na página "Storytelling" está sem chamada no texto
+5. Nas "Personas" está faltando a justificativa da quantidade de personas
+6. Na técnica de elicitação da "Entrevista" está faltando o cronograma da elicitação com os clientes
+7. Na "Priorização" está faltando o cronograma da reunião com o cliente, assim como o local e o nome dos participantes (tanto dos clientes quanto dos membros do grupo que participaram)
+
 ## Referências Bibliográfica
 
 > - <a id="ancora1"></a>[1] SALES, André Barros. Plano de ensino da disciplina. Disponível em: <https://aprender3.unb.br.> Acesso em: 12 de abril de 2023.
@@ -89,5 +149,6 @@ Esse segmento compõe a verificação da padronização dos artefatos específic
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 13/04/2023 | `0.1`  | Checklist primeira etapa | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) |
-| 20/04/2023 | `0.2`  | Correção de erros| [Rhuan Marques](https://github.com/RhuanMr) | [Natan Santana](https://github.com/Neitan2001) |
+| 13/04/2023 | `1.0`  | Checklist primeira etapa | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) |
+| 20/04/2023 | `2.0`  | Correção de erros| [Rhuan Marques](https://github.com/RhuanMr) | [Natan Santana](https://github.com/Neitan2001) |
+| 30/04/2023 | `3.0`  | Checklist da segunda etapa| [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
