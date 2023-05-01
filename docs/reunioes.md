@@ -23,6 +23,10 @@ A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/19j35XmbY
 
 A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/1ivxTzkTKzQNdv4rcGmWmEKP5sajhmHB5qBobVoyNx3o/edit?usp=sharing).
 
+### Apresentação 2° Etapa
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kStq8x0C3Dg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Tabela de Versionamento
 
