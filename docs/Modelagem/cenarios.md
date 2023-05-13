@@ -6,7 +6,7 @@ No campo da Engenharia de Requisitos, cenários são descrições evolutivas de 
 
 ## Metodologia
 
-Após a definição dos requisitos na etapa passada, baseado nos requisitos elicitado pela metodologia do Storytelling, foram criados 5 cenários representados pelas tabelas 1 à 5.
+Após a definição dos requisitos na etapa passada, baseado nos requisitos elicitado pela metodologia do Storytelling, foram criados 5 cenários representados pelas tabelas 1 à 5.[²](#ancora2)
 
 ## Cenários
 
