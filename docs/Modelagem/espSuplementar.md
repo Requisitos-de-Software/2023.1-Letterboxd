@@ -31,11 +31,53 @@ A seguir, são apresentados os requisitos do aplicativo letterboxd para cada cat
 ### 3.1. Funcionalidade (Functionality)
 A categoria funcionalidade enfoca os requisitos funcionais que foram elicitados utilizando as técnicas de análise de documento, introspecção, entrevista e questionário e podem ser conferidos [aqui](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicitação/requisitos/).
 ### 3.2. Usabilidade (Usability)
+| Identificador | Descrição | Requisito Relacionado |
+| :---: | :---: | :---: |
+| U01 | Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido | DOC31 |
+| U02 | Deve ser indicado ao usuário através da cor verde que o filme foi assistido | DOC32 |
+| U03 | Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes | DOC33 |
+| U04 | Os dados do usuário devem ser atualizados em tempo real, sem a necessidade de atualizar a página ou fechar e abrir o aplicativo novamente | DOC71 |
+| U05 | Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias	 | DOC76 |
+| U06 | Traduzir interface do usuário para português	 | ENT04 |
+| U07 | Registro no diário mais intuitivo e com menos cliques	 | ENT05 |
+| U08 | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas	 | IT20 |
+| U09 | Verificação de onde assistir o filme de acordo com o país do usuário	 | QST05 |
+
 
 ### 3.3. Confiabilidade (Reliability)
+| Identificador | Descrição | Requisito Relacionado |
+| :---: | :---: | :---: |
+| C01 | Deve garantir que o acesso à conta desativada seja impedido | DOC61 |
+| C02 | Deve garantir que o acesso à conta excluida seja impedido | DOC62 |
+| C03 | Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente | DOC63 |
+| C04 | Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço | DOC65 |
+| C05 | Deve ser enviado um e-mail de confirmação para garantir que o endereço de e-mail associado à conta é válido | DOC68 |
+| C06 | Deve ter moderação para remover o conteúdo que viole a política de comunidade, sendo contra à diversidade e inclusão, com discursos de ódio e marginalização | DOC69 |
+| C07 | Deve ser mantida a privacidade das listas ou watchlists definidas como privadas, exceto para o próprio usuário | DOC73 |
+| C08 | Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados | DOC77 |
 
 ### 3.4. Desempenho (Performance)
+| Identificador | Descrição | Requisito Relacionado |
+| :---: | :---: | :---: |
+| D01 | Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário | DOC64 |
+| D02 | Deve ser atualizado automaticamente a avaliação do filme quando uma nova avaliação for adicionada | DOC67 |
+| D03 | O tempo de resposta do servidor deve ser rápido o suficiente para oferecer uma experiência de usuário satisfatória | DOC72 |
+| D04 | Deve ser limitado o tamanho máximo do arquivo de upload para 1 MB | DOC72 |
 
 ### 3.5. Suportabilidade (Supportability)
+| Identificador | Descrição | Requisito Relacionado |
+| :---: | :---: | :---: |
+| S01 | Deve ser exigido que os usuários insiram sua senha ao desativar a conta | DOC11 |
+| S02 | Deve existir a opção de solicitar a exclusão permanente da conta e de todos os dados associados | DOC12 |
+| S03 | Deve ser possível desativar contas de usuários | DOC13 |
+| S04 | Deve ser possível o usuário ter uma assinatura paga Pro | DOC34 |
+| S05 | Deve ser possível o usuário ter uma assinatura paga Patron | DOC35 |
+| S06 | Deve ser possível exportar todos os dados da conta do usuário, incluindo conteúdo excluído e avaliações para filmes excluídos, em um único arquivo zip de documentos CSV | DOC38 |
+| S07 | Deve ser possível importar filmes, classificações e listas de outros serviços por meio do formato CSV do Letterboxd | DOC39 |
+| S08 | Para usuários Patron ou Pro, não deve haver nenhuma publicidade no aplicativo | DOC42 |
+| S09 | Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes | DOC75 |
+
+
+
 
 
