@@ -4,7 +4,7 @@
 
 A Especificação Suplementar, segundo Milene Serrano e Maurício Serrano[¹](#ancora1), trata-se de um documento em linguagem natural, no qual são descritos os requisitos não funcionais de um sistema ou software. O principal objetivo desse documento é capturar requisitos do sistema que não são prontamente capturados em outros artefatos de requisitos comportamentais, como as especificações de caso de uso.
 
-Além disso, o documento pode auxiliar na identificação de outros requisitos, como:
+Além disso, o documento pode auxiliar na identificação de outros requisitos[³](#ancora3) , como:
 
 - Requisitos legais e de regulamentação e padrões de aplicativo;
 - Atributos de qualidade do sistema a ser criado, incluindo requisitos de usabilidade, confiabilidade, desempenho e suportabilidade;
@@ -76,6 +76,20 @@ A categoria funcionalidade enfoca os requisitos funcionais que foram elicitados 
 | S07 | Deve ser possível importar filmes, classificações e listas de outros serviços por meio do formato CSV do Letterboxd | DOC39 |
 | S08 | Para usuários Patron ou Pro, não deve haver nenhuma publicidade no aplicativo | DOC42 |
 | S09 | Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes | DOC75 |
+
+## 4. Referências Bibliográficas
+
+> - <a id="ancora1"></a>[1] SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 13. Páginas 28 - 30 Disponível em: Aprender3. Acesso em: 13 de maio de 2023.
+> - <a id="ancora2"></a>[2] CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016. p. 167–168
+> - <a id="ancora3"></a>[3] Artefato: Especificações Suplementares. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_supplementary_specification_F5ACAA22.html>. Acesso em: 14 maio. 2023.
+‌
+
+## 5. Histórico de Versão
+
+|    Data    | Versão |                            Descrição                             |                        Autores                        |                      Revisor                      |
+| :--------: | :----: | :--------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------: |
+| 13/05/2023 | `1.0`  | Criação do documento de especificação suplementar | [Maciel Júnior](https://github.com/macieljuniormax), [ArtAssLou](https://github.com/ArtAssLou)  | [Gustavo Barbosa](https://github.com/brbsg) |
+
 
 
 
