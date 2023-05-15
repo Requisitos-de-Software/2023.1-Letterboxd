@@ -71,7 +71,7 @@ Ao explorar os léxicos do Letterboxd, examinaremos seus sinônimos, a noção q
 ### Léxico 12: Like
 | Léxico | Tradução | Sinônimo | Noção | Impacto | Classificação |
 | ---- | ------ | ------ | --------- | ----- | ------- |
-| Like | Curtir | Adicionar aos Favoritos | ndica a ação de destacar um filme como favorito ou preferido pelo usuári | Os usuários podem marcar filmes como favoritos para sinalizar suas obras preferidas, facilitando o acesso rápido a esses filmes e compartilhando suas preferências com outros usuário | Ação |
+| Like | Curtir | Adicionar aos Favoritos | Indica a ação de destacar um filme como favorito ou preferido pelo usuário. | Os usuários podem marcar filmes como favoritos para sinalizar suas obras preferidas, facilitando o acesso rápido a esses filmes e compartilhando suas preferências com outros usuários. | Ação |
 
 ### Léxico 13: Patron
 | Léxico | Tradução | Sinônimo | Noção | Impacto | Classificação |
