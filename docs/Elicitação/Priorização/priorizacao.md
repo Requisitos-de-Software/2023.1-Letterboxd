@@ -10,6 +10,10 @@ Ambas as técnicas foram aplicadas no processo de priorização dos requisitos d
 
 No decorrer deste documento, serão apresentados os requisitos do Letterboxd, classificados de acordo com a técnica de priorização utilizada. Isso permitirá uma melhor compreensão dos requisitos mais críticos e garantirá que o desenvolvimento do aplicativo atenda às necessidades dos usuários de forma mais eficiente.
 
+## Metodologia
+
+A priorização foi feita com a presença de um usuário do aplicativo, que desempenhou o papel do stakeholder e foi realizada em uma reunião virtual na plataforma Teams. Essa reunião foi realizada com a [Clara Ribeiro](https://github.com/clara-ribeiro) e [Débora Caires](https://github.com/deboracaires), em conjunto com o usuário, no dia 28 de Abril de 2023, com início as 18:10 e término as 18:47.
+
 ## Escala de Três Níveis
 
 A primeira técnica de priorização de requisitos usada foi a de Escala de 3 níveis. Essa técnica foi aplicada em conjunto com um usuário, que desempenhou o papel de stakeholder, e utilizou os critérios de importância e urgência para classificar os requisitos em alta, média e baixa prioridade.
@@ -173,7 +177,7 @@ Na Tabela 1 é apresentado os requisitos priorizados, com suas respectivas justi
 <p>Tabela 1: priorização dos requisitos em alta, média e baixa prioridade</p>
 </div>
 
-## First Things Firts
+## First Things First
 
 A técnica de priorização First Things First foi aplicada em conjunto com um usuário que desempenhou o papel de stakeholder. Para esta técnica, foi criada uma tabela que lista os requisitos elicitados para o projeto. Os requisitos avaliados foram somente os que não foram implementados ainda, pois entende-se que os que já foram implementados possuem uma alta prioridade. A tabela foi organizada de acordo com as colunas de riscos, custos, benefícios e penalidades relativas de cada requisito.
 
