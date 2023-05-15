@@ -79,11 +79,11 @@ Após a definição dos requisitos na etapa passada, baseado nos requisitos elic
 
 | Elementos | Respostas |
 | --------- | --------- |
-| **Objetivo** | Compartilhar minha crítica no aplicativo "Intagram" |x
-| **Contexto** | - Local: Qualquer tela da aplicação; <br> - Tempo: entre 3 e 4 min; <br> - Pré-condição: Estar logado no app, ter o aplicativo "Intagram" intalado e logado no smartphone e possuir acesso a internet. |
+| **Objetivo** | Compartilhar minha crítica no aplicativo "Instagram" |
+| **Contexto** | - Local: Qualquer tela da aplicação; <br> - Tempo: entre 3 e 4 min; <br> - Pré-condição: Estar logado no app, ter o aplicativo "Instagram" intalado e logado no smartphone e possuir acesso a internet. |
 | **Atores** | Usuários |
-| **Recursos** | - Smartphone; <br> - Internet; <br> - Ter o aplicativo do "Intagram" instalado <br> - Estar logado no aplicativo "Instagram" <br> - Acesso ao app. |
-| **Exceção** | - Smartphone descarregado; <br> - Não ter o aplicativo do "Intagram" instalado <br> - Não estar logado no aplicativo "Instagram" <br> - Perda de conexão com a internet. |
+| **Recursos** | - Smartphone; <br> - Internet; <br> - Ter o aplicativo do "Instagram" instalado <br> - Estar logado no aplicativo "Instagram" <br> - Acesso ao app. |
+| **Exceção** | - Smartphone descarregado; <br> - Não ter o aplicativo do "Instagram" instalado <br> - Não estar logado no aplicativo "Instagram" <br> - Perda de conexão com a internet. |
 | **Episódios** | - Usuário abre a aplicação; <br> - Usuário clica no ícone de perfil (último da esquerda para direita); <br> - Usuário clica no botão do filme que fez a crítica; <br> - Usuário clica no ícone de "more" (representado pelas reticências no canto superior direito da tela); <br> - Usuário aperta na opção "Share to Instagram Stories". |
 | **Rastreabilidade** | ST08 |
 
@@ -100,4 +100,4 @@ Após a definição dos requisitos na etapa passada, baseado nos requisitos elic
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-|  11/05/2023 | `1.0`  | Criação dos Cenários  | [Rhuan Marques](https://github.com/RhuanMr) | [Débora Caires](https://github.com/deboracaires) |
+|  11/05/2023 | `1.0`  | Criação dos Cenários  | [Rhuan Marques](https://github.com/RhuanMr) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
