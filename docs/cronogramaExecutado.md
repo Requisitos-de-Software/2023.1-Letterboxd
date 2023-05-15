@@ -24,7 +24,7 @@ Data da entrega | Descrição da Atividade | Autor(es) | Revisor | Início da Re
 
 ## Etapa 2
 
-Na tabela 2 está disponível o cronograma executado da primeira etapa do projeto.
+Na tabela 2 está disponível o cronograma executado da segunda etapa do projeto.
 
 Data limite para desenvolvimento | Descrição da Atividade | Autor(es) | Revisor | Início da revisão | Término da revisão
 --------- | ----------------- | -------------- | ---------- | ------------- | --------------------
@@ -48,6 +48,23 @@ Início: 29/04/2023 Término: 30/04/2023 | Gravação e Edição da Apresentaç�
 <p>Tabela 2: planejamento da segunda etapa</p>
 </div>
 
+## Etapa 3
+
+Na tabela 3 está disponível o cronograma executado da terceira etapa do projeto.
+
+Data limite para desenvolvimento | Descrição da Atividade | Autor(es) | Revisor | Início da revisão | Término da revisão
+--------- | ----------------- | -------------- | ---------- | ------------- | --------------------
+Início: 01/05/2023 Término: ==13/05/2023== | Cenários | [Rhuan Marques](https://github.com/RhuanMr) | [Clara Ribeiro](https://github.com/clara-ribeiro) | 13/05/2023 | 15/05/2023
+Início: 01/05/2023 Término: ==14/05/2023== | Léxico | [Clara Ribeiro](https://github.com/clara-ribeiro)| [Natan Santana](https://github.com/Neitan2001) | 14/05/2023 | 15/05/2023
+Início: 01/05/2023 Término: ==15/05/2023== | Casos de uso | [Gustavo Barbosa](https://github.com/brbsg) e [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) | 15/05/2023 | 15/05/2023
+Início: 01/05/2023 Término: ==14/05/2023== | Especificação Suplementar | [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax) | [Gustavo Barbosa](https://github.com/brbsg) | 14/05/2023 | 15/05/2023
+Início: 01/05/2023 Término: ==15/05/2023== | Ajustes de acordo com feedback da apresentação 2 | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 15/04/2023 | 15/04/2023
+Início: 01/05/2023 Término: 15/05/2023 | Gravação e Edição da Apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro) | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 16/05/2023 | 16/05/2023
+
+<div style="text-align: center">
+<p>Tabela 3: cronograma executado da etapa 3</p>
+</div>
+
 ## Tabela de Versionamento
 
 | Data | Versão | Descrição | Autor | Revisor |
@@ -56,3 +73,4 @@ Início: 29/04/2023 Término: 30/04/2023 | Gravação e Edição da Apresentaç�
 | 16/04/2023 | `2.0`  | Adição das datas de entrega e revisão da etapa 1 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
 | 18/04/2023 | `3.0`  | Adição da chamada da legenda no texto | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) 
 | 30/04/2023 | `4.0`  | Adição das data da entrega e revisão da etapa 2 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) 
+| 15/05/2023 | `5.0`  | Adição das data da entrega e revisão da etapa 3 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) 
