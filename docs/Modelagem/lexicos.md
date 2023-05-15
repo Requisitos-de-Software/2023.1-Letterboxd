@@ -117,4 +117,4 @@ SERRANO, Milene. Requisitos - Aula 10. Local: UnB-FGA, Gama, DF. Disponível em:
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 14/04/2023 | `1.0`  | Documentação dos Léxicos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| 15/05/2023 | `1.0`  | Documentação dos Léxicos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
