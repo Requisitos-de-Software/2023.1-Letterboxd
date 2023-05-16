@@ -218,6 +218,8 @@ A especificação do UC01 pode ser observado na tabela 1 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC02
+
 A especificação do UC02 pode ser observado na tabela 2 a seguir.
 
 <figure markdown>
@@ -225,6 +227,8 @@ A especificação do UC02 pode ser observado na tabela 2 a seguir.
   <figcaption>Tabela 2: Especificação de caso 2</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
+
+#### UC03
 
 A especificação do UC03 pode ser observado na tabela 3 a seguir.
 
@@ -234,6 +238,8 @@ A especificação do UC03 pode ser observado na tabela 3 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC04
+
 A especificação do UC04 pode ser observado na tabela 4 a seguir.
 
 <figure markdown>
@@ -241,6 +247,8 @@ A especificação do UC04 pode ser observado na tabela 4 a seguir.
   <figcaption>Tabela 4: Especificação de caso 4</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
+
+#### UC05
 
 A especificação do UC05 pode ser observado na tabela 5 a seguir.
 
@@ -250,6 +258,8 @@ A especificação do UC05 pode ser observado na tabela 5 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC06
+
 A especificação do UC06 pode ser observado na tabela 6 a seguir.
 
 <figure markdown>
@@ -257,6 +267,8 @@ A especificação do UC06 pode ser observado na tabela 6 a seguir.
   <figcaption>Tabela 6: Especificação de caso 6</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
+
+#### UC07
 
 A especificação do UC07 pode ser observado na tabela 7 a seguir.
 
@@ -266,6 +278,8 @@ A especificação do UC07 pode ser observado na tabela 7 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC08
+
 A especificação do UC08 pode ser observado na tabela 8 a seguir.
 
 <figure markdown>
@@ -273,6 +287,8 @@ A especificação do UC08 pode ser observado na tabela 8 a seguir.
   <figcaption>Tabela 8: Especificação de caso 8</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
+
+#### UC09
 
 A especificação do UC09 pode ser observado na tabela 9 a seguir.
 
@@ -282,6 +298,8 @@ A especificação do UC09 pode ser observado na tabela 9 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC10
+
 A especificação do UC010 pode ser observado na tabela 10 a seguir.
 
 <figure markdown>
@@ -289,6 +307,8 @@ A especificação do UC010 pode ser observado na tabela 10 a seguir.
   <figcaption>Tabela 10: Especificação de caso 10</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
+
+#### UC11
 
 A especificação do UC011 pode ser observado na tabela 11 a seguir.
 
@@ -298,6 +318,8 @@ A especificação do UC011 pode ser observado na tabela 11 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC12
+
 A especificação do UC012 pode ser observado na tabela 12 a seguir.
 
 <figure markdown>
@@ -306,6 +328,8 @@ A especificação do UC012 pode ser observado na tabela 12 a seguir.
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
 
+#### UC13
+
 A especificação do UC013 pode ser observado na tabela 13 a seguir.
 
 <figure markdown>
@@ -313,6 +337,8 @@ A especificação do UC013 pode ser observado na tabela 13 a seguir.
   <figcaption>Tabela 13: Especificação de caso 13</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Gustavo Barbosa</p>
 </figure>
+
+#### UC14
 
 A especificação do UC014 pode ser observado na tabela 14 a seguir.
 
