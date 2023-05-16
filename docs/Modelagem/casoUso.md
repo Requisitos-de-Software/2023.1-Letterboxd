@@ -358,7 +358,7 @@ A especificação do UC014 pode ser observado na tabela 14 a seguir.
 
 ## 5. Tabela de Versionamento
 
-| Data       | Versão | Descrição                                               | Autor                                          | Revisor |
-| ---------- | ------ | ------------------------------------------------------- | ---------------------------------------------- | ------- |
-| 14/05/2023 | `1.0`  | Adição da introdução e do diagrama de Criticas e Filmes | [Natan Santana](https://github.com/Neitan2001) |         |
-| 15/05/2023 | `1.1`  | Adição do diagrama de Listas e Diário                   | [Gustavo Barbosa](https://github.com/brbsg)    |         |
+| Data       | Versão | Descrição                                               | Autor                                          | Revisor                                             |
+| ---------- | ------ | ------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------- |
+| 14/05/2023 | `1.0`  | Adição da introdução e do diagrama de Criticas e Filmes | [Natan Santana](https://github.com/Neitan2001) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| 15/05/2023 | `1.1`  | Adição do diagrama de Listas e Diário                   | [Gustavo Barbosa](https://github.com/brbsg)    | [Maciel Júnior](https://github.com/macieljuniormax) |
