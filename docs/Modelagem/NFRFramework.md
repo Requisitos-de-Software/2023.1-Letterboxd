@@ -1,8 +1,7 @@
 # NFR Framework
 
 ## Introdução
-
-
+O Non-Functional Requirements Framework é uma abordagem para analisar, definir e identificar requisitos não funcionais em um projeto ou sistema. Esses descrevem características e restrições relacionadas ao desempensenho, confiabilidade, segurança e entre outros aspectos do projeto, além dos requisitos principais. No contexto deste projeto, o uso do NFR Frameworl permitirá uma análise abrangente dos requisitos NF do sistema, considerando aspectos de escabilidade, segurança de dados, eficiência de busca e entre outros. Ao aplicar o NFR Framework, será possível garantir que o Letterboxd atenda às expectativas dos usuários em termos de qualidade e experiência de uso, além de oferecer uma base sólida para a evolução e melhoria contínua da plataforma.
 
 ## Metodologia
 
