@@ -6,7 +6,7 @@
 
 ## Metodologia
 
-
+Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Interdependency Graph(SIG) para a implementação do NFR Framework. Cada categoria foi implemantada baseado no documento de especificação suplementar, que é visto nas imagens de 3 a 10.
 
 ## Legenda
 
@@ -54,29 +54,77 @@
 
 ## NFR
 
-### NFR Usabilidade
+### Usabilidade
 
 #### Sem Propagação
 
+![Usabilidade](../assets/NFR/NFR-Usabilidade.jpg)
+
+<div style="text-align: center">
+<p>Imagem 3: NFR Usabilidade (Fonte: Autor, 2023)</p>
+</div>
+
 #### Com Propagação
+
+![Propagação](../assets/NFR/NFR-Usabilidade.jpg)
+
+<div style="text-align: center">
+<p>Imagem 4: NFR Usabilidade com propagação (Fonte: Autor, 2023)</p>
+</div>
 
 ### Confiabilidade
 
 #### Sem Propagação
 
+![Usabilidade](../assets/NFR/NFR-Confiabilidade.jpg)
+
+<div style="text-align: center">
+<p>Imagem 5: NFR Confiabilidade (Fonte: Autor, 2023)</p>
+</div>
+
 #### Com Propagação
+
+![Propagação](../assets/NFR/NFR-ConfiabilidadePro.jpg)
+
+<div style="text-align: center">
+<p>Imagem 6: NFR Confiabilidade com propagação (Fonte: Autor, 2023)</p>
+</div>
 
 ### Desempenho
 
 #### Sem Propagação
 
+![Usabilidade](../assets/NFR/NFR-Desempenho.jpg)
+
+<div style="text-align: center">
+<p>Imagem 7: NFR Desempenho (Fonte: Autor, 2023)</p>
+</div>
+
 #### Com Propagação
+
+![Propagação](../assets/NFR/NFR-DesempenhoPro.jpg)
+
+<div style="text-align: center">
+<p>Imagem 8: NFR Desempenho com propagação (Fonte: Autor, 2023)</p>
+</div>
 
 ### Suportabilidade
 
 #### Sem Propagação
 
+![Usabilidade](../assets/NFR/NFR-Suportabilidade.jpeg)
+
+<div style="text-align: center">
+<p>Imagem 9: NFR Suportabilidade (Fonte: Autor, 2023)</p>
+</div>
+
 #### Com Propagação
+
+![Propagação](../assets/NFR/NFR-SuportabilidadePro.jpg)
+
+<div style="text-align: center">
+<p>Imagem 10: NFR Suportabilidade com propagação (Fonte: Autor, 2023)</p>
+</div>
 
 ## Referências Bibliográficas
 
