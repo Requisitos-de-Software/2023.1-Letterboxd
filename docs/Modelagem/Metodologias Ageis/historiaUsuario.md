@@ -12,7 +12,7 @@ História de usuário é um artefato essencial no desenvolvimento de software á
 
 ## Metodologia
 
-A metodologia utilizada para a criação das histórias de usuário baseou-se nos requisitos do aplicativo Letterboxd, que foram identificados e levantados como funcionalidades que ainda não foram implementadas. 
+A metodologia utilizada para a criação das histórias de usuário baseou-se nos requisitos do aplicativo Letterboxd, que foram identificados e levantados como funcionalidades que ainda não foram implementadas.
 
 As histórias de usuário são uma forma eficiente de descrever essas funcionalidades de maneira clara e concisa, seguindo um formato padronizado. Cada história é escrita no formato: "Eu, como usuário, quero [o que], pelo [motivo]". Além disso, cada história é acompanhada por um título e critérios de aceitação. Cada história também terá um código identificador, que iniciará com US seguido por uma numeração.
 
@@ -43,7 +43,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário Pro, desejo receber sugestões de amigos com base nos gostos cinematográficos em comum para poder trocar recomendações e descobrir novos filmes que provavelmente me agradarão.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - A funcionalidade de sugestão de amigos com gostos em comum deve estar disponível apenas para usuários Pro.
 - As sugestões de amigos devem ser baseadas em interesses cinematográficos semelhantes.
@@ -56,7 +56,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, quero ter acesso a artigos relacionados ao filme na tela de detalhes para poder aprofundar meu conhecimento e interesse sobre a obra cinematográfica.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - A seção de artigos relacionados deve ser exibida na tela de detalhes do filme.
 - Os artigos relacionados devem ser pertinentes ao filme em questão, fornecendo informações adicionais relevantes.
@@ -69,7 +69,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, desejo ter a possibilidade de expressar minhas emoções ao assistir a um filme, podendo selecionar entre as opções de emoções disponíveis (como chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgado, confuso e tenso) para compartilhar e registrar minhas reações emocionais em relação aos filmes que assisto.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - Deve haver uma lista de emoções disponíveis para escolha, incluindo as opções: chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgado, confuso e tenso.
 - O usuário deve ser capaz de selecionar a emoção desejada e associá-la ao filme específico.
@@ -82,7 +82,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário Pro, gostaria de participar de sorteios exclusivos de pôsteres assinados pelo elenco de filmes recentes para ter a chance de obter itens colecionáveis exclusivos relacionados aos filmes que aprecio, além de recompensar minha fidelidade como usuário Pro.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - A funcionalidade de sorteios de pôsteres assinados deve estar disponível apenas para usuários Pro.
 - Os sorteios devem ser baseados em filmes recentes, proporcionando aos usuários a oportunidade de obter pôsteres assinados pelo elenco dessas produções.
@@ -96,7 +96,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, desejo ter a capacidade de enviar mensagens para outros usuários para interagir, trocar recomendações ou discutir filmes com outras pessoas na plataforma.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - Deve haver um recurso de mensagens disponível para os usuários interagirem uns com os outros.
 - Os usuários devem poder enviar mensagens para outros usuários da plataforma.
@@ -110,7 +110,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, gostaria de ter a opção de sortear um filme da minha watchlist para me ajudar a decidir qual filme assistir quando estou indeciso ou quando quero experimentar algo novo.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - O usuário deve ter uma watchlist de filmes a partir da qual o sorteio será realizado.
 - Deve haver um botão de "Sortear Filme" disponível na página da watchlist.
@@ -124,7 +124,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, desejo ter a capacidade de sincronizar automaticamente os dados dos serviços de streaming que utilizo com o aplicativo para manter minha lista de filmes atualizada e evitar a necessidade de marcar manualmente cada filme assistido.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - O aplicativo deve ter a capacidade de se integrar com serviços de streaming populares.
 - Ao assistir a um filme em um serviço de streaming conectado, o aplicativo deve receber a notificação e atualizar automaticamente o status do filme para "Assistido" na lista do usuário.
@@ -137,7 +137,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, gostaria de ter a capacidade de criar e participar de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos para poder interagir com outros usuários que compartilham interesses similares e trocar opiniões, recomendações e análises sobre filmes.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - Os usuários devem ter a opção de criar grupos de discussão sobre temas específicos.
 - Os grupos devem ser categorizados de acordo com gêneros cinematográficos, diretores, filmes clássicos ou outros critérios relevantes.
@@ -152,7 +152,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Descricão:** Eu, como usuário, quero que o processo de registro de um filme no diário seja mais intuitivo e requerendo menos cliques para que seja mais rápido e conveniente registrar um filme que assisti, permitindo-me manter um histórico completo das minhas experiências cinematográficas.
 
-**Critérios de aceitação:** 
+**Critérios de aceitação:**
 
 - O processo de registro de um filme no diário deve ser simplificado, exigindo menos etapas e cliques por parte do usuário.
 - Deve haver uma opção fácil de acesso para registrar um filme, seja na página de detalhes do filme ou em um local visível do aplicativo.
@@ -160,12 +160,132 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 - O usuário deve poder adicionar comentários ou avaliações ao registrar o filme, se desejar.
 - O registro no diário deve ser concluído de forma rápida e responsiva, proporcionando uma experiência fluida ao usuário.
 
+### US11 - Possibilidade de fazer o acompanhamento de séries no aplicativo
+
+**Título:** Possibilidade de fazer o acompanhamento de séries no aplicativo.
+
+**Descricão:** Eu, como usuário, quero ter a capacidade de acompanhar séries no aplicativo, permitindo-me manter um registro organizado do meu progresso de visualização.
+
+**Critérios de aceitação:**
+
+- O usuário deve ser capaz de adicionar séries à "watchlist".
+- O usuário deve poder atualizar as "watchlist", adicionando ou removendo séries.
+- O usuário deve poder marcar episódios como assistidos nas séries da lista.
+- Deve ser possível visualizar o progresso de visualização das séries.
+- O aplicativo deve fornecer recursos de busca ou sugestões para ajudar o usuário a encontrar novas séries para adicionar à "watchlist".
+
+### US12 - Adicionar categorias para filmes, séries e animes
+
+**Título:** Adicionar categorias para filmes, séries e animes.
+
+**Descricão:** Eu, como usuário, quero ter a opção de adicionar categorias para filmes, séries e animes no aplicativo, permitindo-me organizar e filtrar meu conteúdo de acordo com minhas preferências.
+
+**Critérios de aceitação:**
+
+- O aplicativo deve fornecer a funcionalidade de adicionar categorias para filmes, séries e animes.
+- Deve ser possível associar várias categorias a um único item de mídia.
+- O aplicativo deve oferecer opções de filtragem por categorias, permitindo que o usuário visualize apenas os itens de mídia relacionados a uma categoria específica.
+- Deve ser possível editar e remover categorias.
+
+### US13 - Geração de lista de recomendações de filmes em comum com amigos
+
+**Título:** Geração de lista de recomendações de filmes em comum com amigos.
+
+**Descricão:** Eu, como usuário, desejo ter a capacidade de gerar uma lista de recomendações de filmes que sejam em comum entre mim e um amigo, facilitando a descoberta e compartilhamento de filmes de interesse mútuo.
+
+**Critérios de aceitação:**
+
+- O usuário deve ter a opção de selecionar um amigo específico com quem deseja gerar a lista de recomendações.
+- O aplicativo deve analisar as preferências de filmes do usuário e do amigo, levando em consideração as classificações, histórico de visualização, listas de favoritos ou quaisquer outros dados relevantes.
+- Com base na análise das preferências, o aplicativo deve gerar uma lista de filmes que sejam comuns tanto ao usuário quanto ao amigo.
+- O usuário deve ter a opção de compartilhar a lista de recomendações com o amigo por meio do aplicativo ou outras plataformas de comunicação.
+- O aplicativo deve atualizar dinamicamente a lista de recomendações com base em alterações nas preferências de filmes do usuário ou do amigo.
+
+### US14 - Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário
+
+**Título:** Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário.
+
+**Descricão:** Eu, como usuário, quero que no meu perfil do aplicativo seja exibida a quantidade de filmes que já assisti, permitindo-me ter um registro visível e compartilhar minha atividade de visualização.
+
+**Critérios de aceitação:**
+
+- No perfil do usuário, deve haver um campo ou seção dedicado para exibir a quantidade de filmes assistidos.
+- A quantidade de filmes assistidos deve ser calculada com base no histórico de visualização do usuário no aplicativo.
+- A exibição da quantidade de filmes assistidos deve ser atualizada automaticamente sempre que o usuário marcar um novo filme como assistido.
+
+### US15 - Exibição da Quantidade de Horas Assistidas no Perfil do Usuário
+
+**Título:** Exibição da Quantidade de Horas Assistidas no Perfil do Usuário.
+
+**Descricão:** Eu, como usuário, quero que no meu perfil do aplicativo seja exibida a quantidade de horas que já assisti de conteúdo, permitindo-me ter uma visão clara do tempo de conteúdo visualizado.
+
+**Critérios de aceitação:**
+
+- No perfil do usuário, deve haver um campo ou seção dedicado para exibir a quantidade de horas assistidas.
+- A quantidade de horas assistidas deve ser calculada com base no histórico de visualização do usuário no aplicativo.
+- A exibição da quantidade de horas assistidas deve ser atualizada automaticamente sempre que o usuário assistir a um novo conteúdo.
+
+### US16 - Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques
+
+**Título:** Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques.
+
+**Descricão:** Eu, como usuário, desejo que o processo de criação de listas no aplicativo seja mais simples e envolva menos cliques, proporcionando uma experiência mais intuitiva e eficiente.
+
+**Critérios de aceitação:**
+
+- O aplicativo deve oferecer uma interface simplificada para a criação de listas, com menos etapas e campos obrigatórios.
+- O usuário deve poder acessar a função de criação de listas de maneira fácil e direta, sem a necessidade de navegar por várias telas ou menus.
+- O aplicativo deve minimizar a quantidade de cliques necessários para criar uma lista.
+
+### US17 - Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais
+
+**Título:** Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais.
+
+**Descricão:** Eu, como usuário, quero ter acesso a uma aba chamada "Perto de Você" no aplicativo, que exiba críticas de usuários na minha região, com o objetivo de facilitar a busca por amigos com interesses semelhantes e recomendações relevantes.
+
+**Critérios de aceitação:**
+
+- O aplicativo deve incluir uma aba dedicada chamada "Perto de Você" facilmente acessada na interface principal do aplicativo
+- A aba "Perto de Você" deve exibir as críticas de usuários da mesma região geográfica do usuário atual, com base nas configurações de localização.
+- A aba "Perto de Você" deve ser atualizada regularmente, garantindo que as críticas sejam relevantes e recentes para os usuários.
+- O aplicativo deve fornecer uma opção de pesquisa na aba "Perto de Você" para permitir que os usuários encontrem críticas específicas ou procurem por amigos com base em seus interesses.
+
+### US18 - Comentários em Críticas de Outros Usuários
+
+**Título:** Comentários em Críticas de Outros Usuários.
+
+**Descricão:** Eu, como usuário, quero ter a capacidade de comentar nas críticas feitas por outros usuários no aplicativo, permitindo-me uma interação direta e possibilitando trocas de opiniões e discussões sobre o conteúdo avaliado.
+
+**Critérios de aceitação:**
+
+- O aplicativo deve fornecer a opção de comentar nas críticas feitas por outros usuários.
+- Os usuários devem ter a possibilidade de visualizar os comentários feitos em cada crítica.
+- Deve haver um limite razoável de caracteres para os comentários, a fim de manter a clareza e evitar abusos.
+- Os usuários devem ter a opção de editar ou excluir seus próprios comentários, caso desejem fazer modificações ou remover o comentário por completo.
+- O aplicativo deve notificar os usuários quando eles receberem novos comentários em suas críticas.
+- Os comentários devem ser exibidos de forma organizada e em ordem cronológica.
+
+### US19 - Notificações de Artigos de Filmes nas Listas dos Usuários
+
+**Título:** Notificações de Artigos de Filmes nas Listas dos Usuários.
+
+**Descricão:** Eu, como usuário, quero receber notificações no aplicativo quando houver artigos relevantes sobre os filmes presentes nas minhas listas, permitindo-me manter-me atualizado e obter informações adicionais sobre os filmes do meu interesse.
+
+**Critérios de aceitação:**
+
+- O aplicativo deve fornecer a opção de os usuários receberem notificações sobre artigos relacionados aos filmes presentes em suas listas.
+- Os usuários devem ter a possibilidade de ativar ou desativar as notificações de artigos, de acordo com suas preferências.
+- As notificações devem ser enviadas em tempo hábil, assim que um novo artigo relacionado a um filme em uma lista do usuário estiver disponível.
+- Os usuários devem poder acessar diretamente o artigo mencionado na notificação, com um clique na notificação redirecionando-os para o conteúdo completo.
+- O aplicativo deve respeitar as preferências de notificação dos usuários, permitindo que eles escolham o horário ou a frequência em que desejam receber as notificações.
+- Os usuários devem ter a opção de gerenciar suas configurações de notificação, podendo ajustar ou desativar as notificações a qualquer momento.
+
 ## Bibliografia
 
 ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 21 maio 2023.
 
 ## Tabela de Versionamento
 
-| Data | Versão | Descrição | Autor | Revisor |
-| ---- | ------ | --------- | ----- | ------- |
-| 21/05/2023 | `1.0`  | Documentação das Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Data       | Versão | Descrição                              | Autor                                                                                                 | Revisor |
+| ---------- | ------ | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------- |
+| 21/05/2023 | `1.0`  | Documentação das Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax) |         |
