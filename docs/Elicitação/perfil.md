@@ -1,4 +1,4 @@
-# Questionário - Perfil de Usuário e Elicitação
+# Questionário
 
 ## 1 - Introdução
 
@@ -154,7 +154,9 @@ De acordo com a análise das respostas do usuário, é possível definir alguns 
 | QST11       | Colocar artigos relacionados na tela de detalhes do filme | RF |
 | QST12       | Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva | RNF |
 | QST13       | Sortear filme da watchlist | RF |
-
+<div style="text-align: center">
+<p>Tabela 1: requisitos elicitados (Fonte: autor, 2023)</p>
+</div>
 
 
 ## 5 - Referência Bibliográfica

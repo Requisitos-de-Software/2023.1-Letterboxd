@@ -85,6 +85,15 @@ Com os feedbacks coletados, a seguir será listado o roteiro final que será uti
 9. Você já teve alguma frustração ou problema ao usar o aplicativo?
 10. O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos?
 
+## Cronograma das entrevistas
+
+| Entrevistado | Dia | Horário | Local |
+| ------------ | --- | ------- | ----- |
+| Cairo        | 25/04/2023 | 14:30 | FGA |
+| Paola        | 25/04/2023 | 15:30 | Online via Microsoft Teams |
+| Vitória      | 25/04/2023 | 17:30 | Online via Microsoft Teams |
+
+
 ## Resultado das Entrevistas
 
 Abaixo será documentado os resultados e os requisitos elicitados em cada uma das entrevistas. No total, foram realizadas 3 entrevistas e cada participante é uma pessoa que respondeu o [questionário](./perfil.md), ou seja, fazem parte do perfil de usuário do aplicativo. O entrevistador das três entrevistas foi o membro do grupo Natan Tavares Santana.
@@ -107,6 +116,7 @@ A primeira entrevista foi realizada com o Cairo presencialmente na FGA às 14:30
 | O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos? | Não, o objetivo que o aplicativo não consegue ajudar o Cairo é na facilidade de acessar os filmes nas plataformas que possuem disponíveis assim como o google faz. Seria interessante se tivesse um comportamento semelhante ao Google em que se clica em uma das plataformas disponíveis e é redirecionado para o site ou aplicativo com o filme |
 <div style="text-align: center">
 <p>Tabela 1: Síntese das respostas da entrevista 1</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 De acordo com essas respostas, é possível sugerir dois novos requisitos para o aplicativo. Na tabela 2, o primeiro requisito busca ajudar na busca de amigos que estejam perto do usuário para motivá-lo a continuar usando o aplicativo e o segundo requisito busca ajudar no objetivo de acesso facilitado para assistir filmes.
@@ -117,6 +127,7 @@ De acordo com essas respostas, é possível sugerir dois novos requisitos para o
 | ENT02       | Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir |
 <div style="text-align: center">
 <p>Tabela 2: Requisitos elicitado na entrevista 1</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 ### Entrevista 2
@@ -141,6 +152,7 @@ Na tabela 3 é possível observar a síntese das respostas para cada pergunta.
 | O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos? | Sim |
 <div style="text-align: center">
 <p>Tabela 3: Síntese das respostas da entrevista 2</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 Com as respostas das perguntas 8 e 9, é possível elicitar três novos requisitos. Essas novas funcionalidades serão listadas e descritas na tabela 4.
@@ -152,6 +164,7 @@ Com as respostas das perguntas 8 e 9, é possível elicitar três novos requisit
 | ENT05       | Registro no diário mais intuitivo e com menos cliques |
 <div style="text-align: center">
 <p>Tabela 4: Requisitos elicitado na entrevista 2</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 ### Entrevista 3
@@ -176,6 +189,7 @@ Na tabela 5 é possível observar a síntese das respostas para cada pergunta.
 | O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos? | Sim |
 <div style="text-align: center">
 <p>Tabela 5: Síntese das respostas da entrevista 3</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 De acordo com a resposta da pergunta 9, é possível extrair um novo requisito. Na tabela 6, essa funcionalidade pode ser observada com mais detalhes.
@@ -185,6 +199,7 @@ De acordo com a resposta da pergunta 9, é possível extrair um novo requisito. 
 | ENT06       | Botão de traduzir nas críticas que estejam em um idioma diferente do usuário  |
 <div style="text-align: center">
 <p>Tabela 6: Requisitos elicitado na entrevista 3</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 ## Requisitos Elicitados
@@ -201,6 +216,7 @@ Na tabela 7, é possível observar todos os requisitos que foram elicitados por 
 | ENT06       | Botão de traduzir nas críticas que estejam em um idioma diferente do usuário  | RF |
 <div style="text-align: center">
 <p>Tabela 7: Requisitos elicitado pelas entrevistas</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </div>
 
 ## Referências Bibliográficas

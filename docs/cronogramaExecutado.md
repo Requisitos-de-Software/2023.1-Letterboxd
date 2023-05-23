@@ -45,7 +45,7 @@ Início: 26/04/2023 Término: ==30/04/2023== | Priorização: First Things First
 Início: 29/04/2023 Término: 30/04/2023 | Gravação e Edição da Apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro) | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 01/04/2023 | 01/04/2023
 
 <div style="text-align: center">
-<p>Tabela 2: planejamento da segunda etapa</p>
+<p>Tabela 2: cronograma executado da etapa 2</p>
 </div>
 
 ## Etapa 3

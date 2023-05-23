@@ -106,7 +106,7 @@ Os resultados obtidos com a análise de documentos foi registrada na Tabela 1, e
 | DOC77 | Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados | RNF |
 
 <div style="text-align: center">
-<p>Tabela 1: requisitos elicitados com a análise de documentos</p>
+<p>Tabela 1: requisitos elicitados com a análise de documentos <br/> Fonte: Autoria própria, 2023</p>
 </div>
 
 ## Bibliografia
