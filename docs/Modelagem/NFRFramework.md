@@ -134,4 +134,4 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 22/05/2023 | `1.0`  | Criação do NFR Framework | [Rhuan Marques](https://github.com/RhuanMr)</br> [Débora Caires](https://github.com/deboracaires) | [Natan Santana](https://github.com/Neitan2001) |
+| 22/05/2023 | `1.0`  | Criação do NFR Framework | [Rhuan Marques](https://github.com/RhuanMr)</br> [Débora Caires](https://github.com/deboracaires) | [Arthur D'Assumpção](https://github.com/ArtAssLou) |
