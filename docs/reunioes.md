@@ -35,6 +35,10 @@ A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/1ivxTzkTK
 
 A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/1PWceDINlYSRQhpiq38YTlU6DtqmiLnxpxdJTw4Vw1Iw/edit?usp=sharing).
 
+### Apresentação 3° Etapa
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IAKl1VXL_e4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Tabela de Versionamento
 
@@ -43,4 +47,5 @@ A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/1PWceDINl
 | 16/04/2023 | `1.0`  | Criação da página e adição da reunião da etapa 1 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
 | 17/04/2023 | `2.0`  | Adição do vídeo de apresentação da 1° Etapa | [Natan Santana](https://github.com/Neitan2001) | [Débora Caires](https://github.com/deboracaires)
 | 15/05/2023 | `3.0`  | Adição dos vídeos de reuniões da 2° e 3° Etapa | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
+| 23/05/2023 | `4.0`  | Adição da apresentação da 3° Etapa | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro)
 
