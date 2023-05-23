@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Este documento apresenta uma lista completa de requisitos do aplicativo Letterboxd, obtidos através da utilização de diversas técnicas de elicitação de requisitos. As técnicas utilizadas incluem [análise de documentos](analise.md), [entrevistas com usuários](entrevista.md), [introspecção](introspeccao.md), [questionários com usuários](perfil.md) e [storytelling](storytelling.md). Os requisitos repetidos foram eliminados.
+Este documento apresenta uma lista completa de requisitos do aplicativo Letterboxd, obtidos através da utilização de diversas técnicas de elicitação de requisitos. As técnicas utilizadas incluem [análise de documentos](../Elicita%C3%A7%C3%A3o/analise.md), [entrevistas com usuários](../Elicita%C3%A7%C3%A3o/entrevista.md), [introspecção](../Elicita%C3%A7%C3%A3o/introspeccao.md), [questionários com usuários](../Elicita%C3%A7%C3%A3o/perfil.md) e [storytelling](../Elicita%C3%A7%C3%A3o/storytelling.md). Os requisitos repetidos foram eliminados.
 
 Os requisitos elicitados abrangem tanto funcionalidades já implementadas no aplicativo, como também requisitos que ainda não foram implementados. Esta lista é uma importante ferramenta para o desenvolvimento futuro do Letterboxd, pois permite entender as necessidades e expectativas dos usuários e, assim, aprimorar a experiência do usuário e agregar valor ao aplicativo.
 
