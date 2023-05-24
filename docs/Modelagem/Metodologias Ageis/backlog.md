@@ -92,7 +92,8 @@ Na tabela 9 é possível observar o épico e as histórias de usuário do tema G
 
 ## 4. Validação com o PO
 
-Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário presentes no backlog proposto. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. Os principais pontos evidenciados foram:
+Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário presentes no backlog proposto. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. A reunião ocorreu de forma remota na plataform do Google Meet e teve um tempo de duração de 20 minutos. Pelo fato de o usuário ser leigo nos conceitos de software, foi feita uma explicação prévia sobre os termos técnicos abordados ao longo da reunião.
+Os principais pontos evidenciados foram:
 
 - Abdicar da funcionalidade de chat, visto que, perderia um pouco do propósito de ser uma rede nichada e se assemelharia mais a uma rede social comum;
 - Um modelo de fórum já entende que seja mais compatível com a proposta da aplicação;
