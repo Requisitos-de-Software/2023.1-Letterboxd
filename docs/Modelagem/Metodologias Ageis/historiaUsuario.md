@@ -433,4 +433,5 @@ ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível
 
 | Data       | Versão | Descrição                              | Autor                                                                                                 | Revisor |
 | ---------- | ------ | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------- |
-| 21/05/2023 | `1.0`  | Documentação das Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax), [Arthur D'Assumpção](https://github.com/ArtAssLou) |         |
+| 21/05/2023 | `1.0`  | Documentação das 20 primeiras Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax) |  [Natan Santana](https://github.com/Neitan2001)       |
+| 24/05/2023 | `2.0`  | Documentação das últimas 10 Histórias de Usuários | [Arthur D'Assumpção](https://github.com/ArtAssLou) |    [Natan Santana](https://github.com/Neitan2001)     |
