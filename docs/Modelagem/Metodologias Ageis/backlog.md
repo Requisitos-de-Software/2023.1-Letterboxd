@@ -109,5 +109,5 @@ Uma reunião foi conduzida com um usuário da aplicação para validar as Histó
 
 | Data       | Versão | Descrição                         | Autor                                          | Revisor |
 | ---------- | ------ | --------------------------------- | ---------------------------------------------- | ------- |
-| 23/05/2023 | `1.0`  | Adição da documentação do backlog | [Natan Santana](https://github.com/Neitan2001) |         |
-| 24/05/2023 | `1.1`  | Adição da Validação com o PO      | [Gustavo Barbosa](https://github.com/brbsg)    |         |
+| 23/05/2023 | `1.0`  | Adição da documentação do backlog | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 24/05/2023 | `1.1`  | Adição da Validação com o PO      | [Gustavo Barbosa](https://github.com/brbsg)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
