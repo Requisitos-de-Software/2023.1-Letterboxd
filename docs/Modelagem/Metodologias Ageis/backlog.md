@@ -90,14 +90,24 @@ Na tabela 9 é possível observar o épico e as histórias de usuário do tema G
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria</p>
 </figure>
 
-## 4. Bibliografia
+## 4. Validação com o PO
+
+Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário presentes no backlog proposto. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. Os principais pontos evidenciados foram:
+
+- Abdicar da funcionalidade de chat, visto que, perderia um pouco do propósito de ser uma rede nichada e se assemelharia mais a uma rede social comum;
+- Um modelo de fórum já entende que seja mais compatível com a proposta da aplicação;
+- Busca pelo gosto é mais interessante que a busca pela localização;
+- Não acha necessário a feature de acompanhar o andamento de filmes e séries pela aplicação, visto que, nas plataformas de streaming já existem essa funcionalidade.
+
+## 5. Bibliografia
 
 > [1] PRESSMAN, R. S. Engenharia de software: uma abordagem profissional. [s.l.] Porto Alegre (Rs): Amgh, 2011.
 
 ---
 
-## 5. Tabela de Versionamento
+## 6. Tabela de Versionamento
 
-| Data       | Versão | Descrição                                               | Autor                                          | Revisor                                             |
-| ---------- | ------ | ------------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------- |
-| 23/05/2023 | `1.0`  | Adição da documentação do backlog | [Natan Santana](https://github.com/Neitan2001) |  |
+| Data       | Versão | Descrição                         | Autor                                          | Revisor |
+| ---------- | ------ | --------------------------------- | ---------------------------------------------- | ------- |
+| 23/05/2023 | `1.0`  | Adição da documentação do backlog | [Natan Santana](https://github.com/Neitan2001) |         |
+| 24/05/2023 | `1.1`  | Adição da Validação com o PO      | [Gustavo Barbosa](https://github.com/brbsg)    |         |
