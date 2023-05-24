@@ -13,7 +13,7 @@ Uma persona, é basicamente um personagem fictício criado com base nas caracter
 ## 2.Metodologia
 
 Neste projeto, a metodologia aplicada para a coleta de dados dos usuários reais foi a de aplicação de questionário. Este foi enviado tanto em grupos da Universidade de Brasília quanto em comunidades de cinéfilos em plataformas, como o Facebook.
-A partir dos dados coletados, foram criadas 3 personas e 1 antipersona. Suas características foram baseadas nos elementos especificados por Barbosa e Silva(2010), que são:
+A partir dos dados coletados, foram criadas 3 personas e 1 antipersona. A quantidade foi baseada em Barbosa e Silva, que por sua vez, recomenda de 3 a 12 personas e pelo menos umas persona por papel de usuário. Suas características foram baseadas nos elementos especificados por Barbosa e Silva(2010), que são:
 
 • Identidade: Nome, Sobrenome, Idade.
 
@@ -49,13 +49,17 @@ Na Figura 1 temos a primeira persona, Lucas Matheus. Ele é um jovem de 19 anos,
 
 1. Nome: Lucas Matheus;
 2. Idade: 19 anos;
-3. Status: Persona Primária;
-4. Objetivos: Descobrir novos filmes e manter uma lista dos filmes que assistiu ou pretende assistir;
-5. Habilidades: Cursa Engenharia de Software e trabalha como desenvolvedor;
-6. Tarefas: Ler avaliações de filmes, adicionar filmes à sua lista de "assistidos" e "quero assistir";
-7. Relacionamentos: Segue cineastas, diretores e críticos de cinema;
-8. Requisitos: Recomendações de filmes personalizadas com base em seus interesses;
-9. Expectativas: Espera que a plataforma apresente recomendações de filmes pertinentes ao seu perfil.
+3. Gênero: Masculino
+4. Estado-civil: Solteiro
+5. Educação: Ensino Médio completo
+6. Nível de renda familiar: 3 a 10 salários mínimos.
+7. Status: Persona Primária;
+8. Objetivos: Descobrir novos filmes e manter uma lista dos filmes que assistiu ou pretende assistir;
+9. Habilidades: Cursa Engenharia de Software e trabalha como desenvolvedor;
+10. Tarefas: Ler avaliações de filmes, adicionar filmes à sua lista de "assistidos" e "quero assistir";
+11. Relacionamentos: Segue cineastas, diretores e críticos de cinema;
+12. Requisitos: Recomendações de filmes personalizadas com base em seus interesses;
+13. Expectativas: Espera que a plataforma apresente recomendações de filmes pertinentes ao seu perfil.
 
 ### 3.2 Ana Luiza Santana
 
@@ -69,13 +73,17 @@ Na Figura 2 temos a segunda persona, Ana Luiza Santana. Ela é uma jovem de 26 a
 
 1. Nome: Ana Luiza Santana;
 2. Idade: 26 anos;
-3. Status: Persona Secundária;
-4. Objetivos: Manter uma lista dos filmes que assistiu e quer assistir e compartilhar suas opiniões sobre os filmes que assistiu;
-5. Habilidades: graduada em jornalismo e possui facilidade em aprender a usar novas plataformas e aplicativos;
-6. Tarefas: Buscar filmes para assistir, verificar as avaliações e opiniões de outros usuários sobre os filmes e escrever avaliações e comentários sobre os filmes que assistiu;
-7. Relacionamentos: Segue amigos e conhecidos na plataforma Letterboxd;
-8. Requisitos: Uma plataforma intuitiva e fácil de usar, recomendações de filmes personalizadas com base em seus interesses e comentários e avaliações de outros usuários;
-9. Expectativas: Espera que a plataforma seja uma comunidade engajada de usuários que compartilham suas opiniões e recomendam filmes uns aos outros.
+3. Gênero: Feminino
+4. Estado-civil: Solteira
+5. Educação: Ensino Superior completo
+6. Nível de renda familiar: 10 a 20 salários mínimos.
+7. Status: Persona Secundária;
+8. Objetivos: Manter uma lista dos filmes que assistiu e quer assistir e compartilhar suas opiniões sobre os filmes que assistiu;
+9. Habilidades: graduada em jornalismo e possui facilidade em aprender a usar novas plataformas e aplicativos;
+10. Tarefas: Buscar filmes para assistir, verificar as avaliações e opiniões de outros usuários sobre os filmes e escrever avaliações e comentários sobre os filmes que assistiu;
+11. Relacionamentos: Segue amigos e conhecidos na plataforma Letterboxd;
+12. Requisitos: Uma plataforma intuitiva e fácil de usar, recomendações de filmes personalizadas com base em seus interesses e comentários e avaliações de outros usuários;
+13. Expectativas: Espera que a plataforma seja uma comunidade engajada de usuários que compartilham suas opiniões e recomendam filmes uns aos outros.
 
 ### 3.3 Mauro Júnior
 
@@ -89,13 +97,17 @@ Na Figura 3 temos a terceira persona, Mauro Junior. Ele é um jovem adulto de 33
 
 1. Identidade: Mauro Junior, 33 anos;
 2. Idade: 33 anos;
-3. Status: Persona Primária;
-4. Objetivos: Mauro utiliza o Letterboxd para descobrir novos filmes para assistir com sua esposa e para registrar suas opiniões;
-5. Habilidades: Mauro possui graduação em Marketing e é familiarizado com tecnologia;
-6. Tarefas: Mauro utiliza o Letterboxd para buscar informações sobre filmes, ler críticas e avaliações, adicionar filmes à sua lista de desejos, registrar os filmes que assistiu e avaliá-los;
-7. Relacionamentos: Mauro é casado e utiliza o Letterboxd principalmente para encontrar novos filmes para assistir com sua esposa;
-8. Requisitos: Mauro busca uma plataforma fácil de usar, com uma grande variedade de filmes e informações relevantes e com a possibilidade de interagir com outros usuários;
-9. Expectativas: Mauro espera encontrar avaliações e críticas confiáveis, recomendações personalizadas com base em seus interesses e preferências;
+3. Gênero: Masculino
+4. Estado-civil: Casado
+5. Educação: Ensino Superior completo
+6. Nível de renda familiar: 10 a 20 salários mínimos.
+7. Status: Persona Primária;
+8. Objetivos: Mauro utiliza o Letterboxd para descobrir novos filmes para assistir com sua esposa e para registrar suas opiniões;
+9. Habilidades: Mauro possui graduação em Marketing e é familiarizado com tecnologia;
+10. Tarefas: Mauro utiliza o Letterboxd para buscar informações sobre filmes, ler críticas e avaliações, adicionar filmes à sua lista de desejos, registrar os filmes que assistiu e avaliá-los;
+11. Relacionamentos: Mauro é casado e utiliza o Letterboxd principalmente para encontrar novos filmes para assistir com sua esposa;
+12. Requisitos: Mauro busca uma plataforma fácil de usar, com uma grande variedade de filmes e informações relevantes e com a possibilidade de interagir com outros usuários;
+13. Expectativas: Mauro espera encontrar avaliações e críticas confiáveis, recomendações personalizadas com base em seus interesses e preferências;
 
 ---
 
@@ -113,13 +125,17 @@ Na Figura 4, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem inte
 
 1. Identidade: Karen Silva;
 2. Idade: 70 anos;
-3. Status: Antipersona;
-4. Objetivos: Não tem interesse em usar o site para descobrir ou avaliar filmes;
-5. Habilidades: Não é familiarizada com tecnologia e pode ter dificuldades em navegar no site;
-6. Tarefas: Não realiza tarefas no site;
-7. Relacionamentos: Tem um relacionamento próximo com seus filhos, netos e não tem amigos que utilizem o site;
-8. Requisitos: Não tem nenhum requisito para o site;
-9. Expectativas: Acredita que assistir filmes é uma perda de tempo.
+3. Gênero: Feminino
+4. Estado-civil: Casada
+5. Educação: Ensino Médio completo
+6. Nível de renda familiar: 3 a 10 salários mínimos.
+7. Status: Antipersona;
+8. Objetivos: Não tem interesse em usar o site para descobrir ou avaliar filmes;
+9. Habilidades: Não é familiarizada com tecnologia e pode ter dificuldades em navegar no site;
+10. Tarefas: Não realiza tarefas no site;
+11. Relacionamentos: Tem um relacionamento próximo com seus filhos, netos e não tem amigos que utilizem o site;
+12. Requisitos: Não tem nenhum requisito para o site;
+13. Expectativas: Acredita que assistir filmes é uma perda de tempo.
 
 ---
 
@@ -131,9 +147,9 @@ Na Figura 4, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem inte
 
 ## Tabela de Versionamento
 
-| Data       | Versão | Descrição                     | Autor                                                                                                                                          | Revisor                                        |
-| ---------- | ------ | ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| 24/04/2023 | `1.0`  | Criação V1 Personas           | [Arthur Loureiro](https://github.com/ArtAssLou), [Débora Caires](https://github.com/deboracaires), [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001) |
-| 25/04/2023 | `1.1`  | Preenchimento segunda persona | [Débora Caires](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg)                                                 | [Natan Santana](https://github.com/Neitan2001) |
-| 25/04/2023 | `1.2`  | Preenchimento segunda persona e antipersona           | [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001) |
-| 25/04/2023 | `1.3`  | Correções pontuais | [Débora Caires](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001)
+| Data       | Versão | Descrição                                   | Autor                                                                                                                                          | Revisor                                        |
+| ---------- | ------ | ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| 24/04/2023 | `1.0`  | Criação V1 Personas                         | [Arthur Loureiro](https://github.com/ArtAssLou), [Débora Caires](https://github.com/deboracaires), [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001) |
+| 25/04/2023 | `1.1`  | Preenchimento segunda persona               | [Débora Caires](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg)                                                 | [Natan Santana](https://github.com/Neitan2001) |
+| 25/04/2023 | `1.2`  | Preenchimento segunda persona e antipersona | [Gustavo Barbosa](https://github.com/brbsg)                                                                                                    | [Natan Santana](https://github.com/Neitan2001) |
+| 25/04/2023 | `1.3`  | Correções pontuais                          | [Débora Caires](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg)                                                 | [Natan Santana](https://github.com/Neitan2001) |
