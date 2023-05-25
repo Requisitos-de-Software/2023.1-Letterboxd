@@ -92,7 +92,8 @@ Na tabela 9 é possível observar o épico e as histórias de usuário do tema G
 
 ## 4. Validação com o PO
 
-Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário presentes no backlog proposto. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. Os principais pontos evidenciados foram:
+Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário presentes no backlog proposto. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. A reunião ocorreu de forma remota na plataforma do Google Meet e teve um tempo de duração de 20 minutos. Pelo fato de o usuário ser leigo nos conceitos de software, foi feita uma explicação prévia sobre os termos técnicos abordados ao longo da reunião.
+Os principais pontos evidenciados foram:
 
 - Abdicar da funcionalidade de chat, visto que, perderia um pouco do propósito de ser uma rede nichada e se assemelharia mais a uma rede social comum;
 - Um modelo de fórum já entende que seja mais compatível com a proposta da aplicação;
@@ -107,7 +108,7 @@ Uma reunião foi conduzida com um usuário da aplicação para validar as Histó
 
 ## 6. Tabela de Versionamento
 
-| Data       | Versão | Descrição                         | Autor                                          | Revisor |
-| ---------- | ------ | --------------------------------- | ---------------------------------------------- | ------- |
+| Data       | Versão | Descrição                         | Autor                                          | Revisor                                           |
+| ---------- | ------ | --------------------------------- | ---------------------------------------------- | ------------------------------------------------- |
 | 23/05/2023 | `1.0`  | Adição da documentação do backlog | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 24/05/2023 | `1.1`  | Adição da Validação com o PO      | [Gustavo Barbosa](https://github.com/brbsg)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
