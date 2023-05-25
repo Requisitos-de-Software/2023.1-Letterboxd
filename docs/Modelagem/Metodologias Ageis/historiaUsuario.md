@@ -130,6 +130,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 - Ao assistir a um filme em um serviço de streaming conectado, o aplicativo deve receber a notificação e atualizar automaticamente o status do filme para "Assistido" na lista do usuário.
 - A sincronização dos dados deve ocorrer de forma rápida e confiável, refletindo com precisão os filmes assistidos nos serviços de streaming.
 - Os usuários devem ter a opção de desativar a sincronização automática, caso prefiram marcar manualmente os filmes assistidos.
+- Os filmes são adicionados automaticamente no diário com as informações do dia que foi assistido
 
 ### US09 - Criar e participar de grupos de discussão
 
@@ -280,6 +281,150 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 - O aplicativo deve respeitar as preferências de notificação dos usuários, permitindo que eles escolham o horário ou a frequência em que desejam receber as notificações.
 - Os usuários devem ter a opção de gerenciar suas configurações de notificação, podendo ajustar ou desativar as notificações a qualquer momento.
 
+### US20 - Deve ser possível registrar usuários e criar contas
+
+**Título:** Deve ser possível registrar usuários e criar contas
+
+**Descricão:** Como um administrador de um sistema de gerenciamento de usuários, eu gostaria de registrar novos usuários e criar contas para que eles possam acessar os recursos do sistema.
+
+**Critérios de aceitação:**
+
+- Como administrador, devo ter a capacidade de registrar um novo usuário fornecendo informações básicas, como nome, endereço de e-mail e senha.
+- Após o registro, o sistema deve armazenar com segurança as informações do usuário, incluindo as credenciais de acesso.
+- O sistema deve garantir que o endereço de e-mail fornecido seja único para cada usuário registrado.
+
+### US21	- Deve ser possível adicionar filmes assistidos
+
+**Título:** Deve ser possível adicionar filmes assistidos
+
+**Descricão:** Como usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder adicionar filmes que já assisti à minha lista de filmes assistidos para acompanhar meu histórico de visualização.
+
+**Critérios de aceitação:**
+
+- Como usuário, devo ter a capacidade de pesquisar o título do filme que assisti para adicioná-lo à minha lista de filmes assistidos.
+- O sistema deve fornecer uma ampla variedade de fontes de dados, como um banco de dados interno ou uma API externa, para que eu possa pesquisar o filme pelo título.
+- Após selecionar o filme correto da lista de resultados, devo poder adicioná-lo à minha lista de filmes assistidos com um único clique ou toque.
+
+### US22 -	Deve ser possível avaliar filmes
+
+**Título:** Deve ser possível avaliar filmes
+
+**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder avaliar os filmes que assisti para expressar minha opinião sobre eles e ajudar a compartilhar recomendações com outros usuários.
+
+**Critérios de aceitação:**
+
+- Como usuário, devo ter a capacidade de atribuir uma classificação numérica ou uma avaliação em formato de estrelas a um filme que assisti, indicando minha opinião sobre sua qualidade.
+- O sistema deve exibir a classificação média dos usuários para cada filme, calculada com base nas avaliações recebidas.
+- Devo ter a opção de fornecer um comentário ou uma resenha detalhada para acompanhar minha avaliação, compartilhando meus pensamentos e insights sobre o filme.
+
+### US23	- Deve ser possível fazer a resenha de filmes
+
+**Título:** Deve ser possível fazer a resenha de filmes
+
+**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder escrever resenhas detalhadas sobre os filmes que assisti para compartilhar minhas opiniões e experiências com outros usuários.
+
+**Critérios de aceitação:** 
+
+- Como usuário, devo ter a capacidade de escrever uma resenha para um filme específico, fornecendo uma análise detalhada da trama, desempenho dos atores, direção e outros aspectos relevantes.
+- O sistema deve permitir que eu classifique minha resenha com base em critérios como qualidade, entretenimento, originalidade, etc.
+- Devo ter a opção de adicionar tags ou palavras-chave à minha resenha, para facilitar a pesquisa e a descoberta de filmes com temas semelhantes.
+
+### US24 -	Deve ser possível marcar filmes como favoritos
+
+**Título:** Deve ser possível marcar filmes como favoritos
+
+**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder marcar filmes como favoritos para criar uma lista personalizada dos filmes que mais gosto e desejo acessar facilmente.
+
+**Critérios de aceitação:** 
+
+- Como usuário, devo ter a capacidade de marcar um filme como favorito com um simples clique ou toque em um botão específico.
+- O sistema deve fornecer feedback visual claro para confirmar que o filme foi adicionado à lista de favoritos com sucesso.
+- O sistema deve permitir que eu adicione vários filmes à minha lista de favoritos, sem limitação de quantidade.
+
+### US25 -	Deve ser possível criar listas de filmes
+
+**Título:** Deve ser possível criar listas de filmes
+
+**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder criar listas personalizadas de filmes para organizar e categorizar meus filmes de acordo com diferentes temas, gêneros ou qualquer critério que eu escolher.
+
+**Critérios de aceitação:**  
+
+- Como usuário, devo ter a capacidade de criar uma nova lista de filmes, fornecendo um nome descritivo para ela.
+- O sistema deve permitir que eu adicione filmes à minha lista, selecionando-os a partir de uma pesquisa no banco de dados interno ou por meio de uma API externa.
+- Devo ter a opção de adicionar múltiplos filmes à minha lista de uma só vez, caso eu queira adicionar vários filmes relacionados ao mesmo tema.
+
+### US26 -	Deve ser possível seguir outros usuários
+
+**Título:** Deve ser possível seguir outros usuários
+
+**Descricão:** outros usuários para acompanhar suas atividades, descobrir novos filmes e compartilhar recomendações com base em seus interesses.
+
+**Critérios de aceitação:** 
+
+- Como usuário, devo ter a capacidade de pesquisar e encontrar outros usuários dentro do aplicativo.
+- O sistema deve exibir informações relevantes sobre os usuários, como nome de usuário, foto de perfil e uma breve descrição, para facilitar a identificação e a seleção de quem seguir.
+- Devo ter a opção de seguir outros usuários com um simples clique ou toque em um botão específico.
+
+### US27 -	Deve ser possível receber notificações sobre lista de filmes para assistir
+
+**Título:** Deve ser possível receber notificações sobre lista de filmes para assistir
+
+**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de receber notificações sobre listas de filmes para assistir, com base em categorias de interesse ou recomendações personalizadas, para descobrir novos filmes e acompanhar lançamentos relevantes.
+
+**Critérios de aceitação:** 
+
+- Como usuário, devo ter a opção de habilitar as notificações sobre listas de filmes para assistir.
+- O sistema deve fornecer diferentes categorias de interesse para que eu possa escolher quais tipos de filmes desejo receber notificações, como "Lançamentos", "Filmes de Ação", "Comédias", entre outras.
+- Devo ter a capacidade de personalizar as configurações de notificação, como a frequência (diária, semanal) e o horário preferido para recebê-las.
+
+### US28 -	Deve ser possível filtrar resultados por serviço de streaming
+
+**Título:** Deve ser possível filtrar resultados por serviço de streaming
+
+**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder filtrar os resultados de pesquisa e listas de filmes por serviço de streaming, para encontrar rapidamente os filmes disponíveis em plataformas específicas às quais sou assinante.
+
+**Critérios de aceitação:** 
+
+- Como usuário, devo ter a opção de selecionar um ou vários serviços de streaming populares, como Netflix, Amazon Prime Video, Disney+, entre outros.
+- O sistema deve exibir os serviços de streaming disponíveis para seleção de forma clara e intuitiva.
+- Devo poder aplicar o filtro de serviço de streaming durante a pesquisa por um filme específico ou ao navegar por uma lista de filmes em uma categoria ou tema.
+
+### US29	- Deve ser possível que os usuários desativem suas contas
+
+**Título:** Deve ser possível que os usuários desativem suas contas
+
+**Descricão:**  Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de ter a opção de desativar minha conta, caso decida não utilizar mais o aplicativo ou não deseje manter meus dados pessoais armazenados.
+
+**Critérios de aceitação:** 
+
+- Como usuário, devo ter a capacidade de desativar minha conta a qualquer momento, através das configurações da minha conta no aplicativo.
+- O sistema deve fornecer informações claras sobre as consequências da desativação da conta, como a exclusão permanente dos meus dados e a perda de acesso a todas as funcionalidades e informações do aplicativo.
+- Devo ser solicitado a confirmar minha decisão de desativar a conta, para evitar desativações acidentais.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Bibliografia
 
 ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 21 maio 2023.
@@ -288,4 +433,5 @@ ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível
 
 | Data       | Versão | Descrição                              | Autor                                                                                                 | Revisor |
 | ---------- | ------ | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------- |
-| 21/05/2023 | `1.0`  | Documentação das Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax) |         |
+| 21/05/2023 | `1.0`  | Documentação das 20 primeiras Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax) |  [Natan Santana](https://github.com/Neitan2001)       |
+| 24/05/2023 | `2.0`  | Documentação das últimas 10 Histórias de Usuários | [Arthur D'Assumpção](https://github.com/ArtAssLou) |    [Natan Santana](https://github.com/Neitan2001)     |
