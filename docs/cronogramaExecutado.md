@@ -90,3 +90,4 @@ Na tabela 4 está disponível o cronograma executado na quarta etapa do projeto.
 | 18/04/2023 | `3.0`  | Adição da chamada da legenda no texto            | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 30/04/2023 | `4.0`  | Adição das data da entrega e revisão da etapa 2  | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 15/05/2023 | `5.0`  | Adição das data da entrega e revisão da etapa 3  | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 12/06/2023 | `6.0`  | Adição das data da entrega e revisão da etapa 4  | [Gustavo Barbosa](https://github.com/brbsg)       | [Clara Ribeiro](https://github.com/clara-ribeiro) |
