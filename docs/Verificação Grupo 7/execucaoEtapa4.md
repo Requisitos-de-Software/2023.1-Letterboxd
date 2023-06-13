@@ -15,7 +15,9 @@ Este documento possui como objetivo documentar os resultados da verificação do
 
 ## Checklist
 
-Na tabela 2 a seguir está disponível o checklist desenvolvido durante o [planejamento](./planejamento.md) respondido de acordo com os artefatos avaliados.
+Nas tabela 2, 3 e 4 a seguir está disponível o checklist desenvolvido durante o [planejamento](./planejamento.md) respondido de acordo com os artefatos avaliados.
+
+### Histórias de Usuário
 
 | Número     | Pergunta | Resposta |
 | ----------- | ----------- | ----------- | 
@@ -31,11 +33,27 @@ Na tabela 2 a seguir está disponível o checklist desenvolvido durante o [plane
 | 10 | As histórias de usuária foram validadas como negociáveis e valiosas pelo PO? | ==Não== |
 | 11 | As histórias de usuário aparentam ser estimáveis e pequenas de modo que poderiam ser alocados à uma sprint? | Sim |
 | 12 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis? | Sim |
+<div style="text-align: center">
+<p>Tabela 2: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan, 2023)</p>
+</div>
+
+### Backlog
+
+| Número     | Pergunta | Resposta |
+| ----------- | ----------- | ----------- | 
 | 13 | Foi usado uma metodologia para a construção do backlog? | Sim |
 | 14 | É explicado como a metodologia DEEP foi utilizada no backlog? | ==Não== |
 | 15 | O backlog possui épicos e temas bem definidos e descritos? | ==Não== |
 | 16 | O PO participou da construção e/ou da validação do backlog? | ==Não== |
 | 17 | Foi documentado se o PO pediu alguma mudança no backlog? | ==Não== |
+<div style="text-align: center">
+<p>Tabela 3: Checklist de verificação do artefato "Backlog" (Fonte: Natan, 2023)</p>
+</div>
+
+### NFR Framework
+
+| Número     | Pergunta | Resposta |
+| ----------- | ----------- | ----------- | 
 | 18 | Os softgoals NFR representam requisitos não-funcionais? | Sim |
 | 19 | Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização? | Sim |
 | 20 | Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento? | Sim |
@@ -45,7 +63,7 @@ Na tabela 2 a seguir está disponível o checklist desenvolvido durante o [plane
 | 24 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência? | ==Não== |
 | 25 | Os diagramas documentados estão legíveis? | ==Não== |
 <div style="text-align: center">
-<p>Tabela 2: Checklist da Etapa 4 (Fonte: Natan, 2023)</p>
+<p>Tabela 4: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan, 2023)</p>
 </div>
 
 ## Resultados
@@ -78,4 +96,4 @@ Quanto ao NFR Framework:
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 12/06/2023 | `1.0`  | Documentação da execução da verificação | [Natan Santana](https://github.com/Neitan2001) |  |
+| 12/06/2023 | `1.0`  | Documentação da execução da verificação | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |

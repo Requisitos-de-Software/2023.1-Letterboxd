@@ -40,11 +40,15 @@ A seguir será apresentado os checklists feitos para a avaliação dos artefatos
 
 ## Etapa 4
 
-O seguinte checklist de verificação apresentado na tabela 4 foi criado por meio do estudo das referências utilizadas para a construção dos artefatos da quarta etapa do Grupo 7. As perguntas de número 1, 14, 23 e 24 foram baseadas no plano de ensino da matéria de Requisitos de software. As perguntas 2 à 12 foram baseadas no livro Engenharia de Requisitos da Sheila Reinehr, enquanto as de 18 à 22 foram baseadas na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" de Reinaldo Antônio. As demais foram feitas pelo avaliador Natan Tavares Santana. Os resultados da execução da verificação de acordo com esse checklist pode ser verificada nesse [link](./execucaoEtapa4.md).
+Os seguintes checklists de verificação foi criado por meio do estudo das referências utilizadas para a construção dos artefatos da quarta etapa do Grupo 7. As perguntas de número 1, 14, 23 e 24 foram baseadas no plano de ensino da matéria de Requisitos de software. As perguntas 2 à 12 foram baseadas no livro Engenharia de Requisitos da Sheila Reinehr, enquanto as de 18 à 22 foram baseadas na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" de Reinaldo Antônio. As demais foram feitas pelo avaliador Natan Tavares Santana. Os resultados da execução da verificação de acordo com esse checklist pode ser verificada nesse [link](./execucaoEtapa4.md).
+
+### Histórias de Usuário
+
+A tabela 4 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
-| 1 | As histórias de usuário seguem um modelo? |
+| 1 | As histórias de usuário seguem o padrão de voz de usuário? |
 | 2 | As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?  |
 | 3 | As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário? |
 | 4 | As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?  |
@@ -56,11 +60,31 @@ O seguinte checklist de verificação apresentado na tabela 4 foi criado por mei
 | 10 | As histórias de usuária foram validadas como negociáveis e valiosas pelo PO? |
 | 11 | As histórias de usuário aparentam ser estimáveis e pequenas de modo que poderiam ser alocados à uma sprint? | 
 | 12 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis? |
+<div style="text-align: center">
+<p>Tabela 4: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
+</div>
+
+### Backlog
+
+A tabela 5 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.
+
+| Número     | Pergunta
+| ----------- | ----------- |
 | 13 | Foi usado uma metodologia para a construção do backlog? |
 | 14 | É explicado como a metodologia DEEP foi utilizada no backlog? |
 | 15 | O backlog possui épicos e temas bem definidos e descritos? |
 | 16 | O PO participou da construção e/ou da validação do backlog? |
-| 17 | Foi documentado se o PO pediu alguma mudança no backlog? |
+| 17 | Foi documentado se o PO pediu alguma mudança no backlog? | 
+<div style="text-align: center">
+<p>Tabela 5: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
+</div>
+
+### NFR Framework
+
+A tabela 6 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.
+
+| Número     | Pergunta
+| ----------- | ----------- | 
 | 18 | Os softgoals NFR representam requisitos não-funcionais? |
 | 19 | Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização? |
 | 20 | Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento? |
@@ -70,7 +94,7 @@ O seguinte checklist de verificação apresentado na tabela 4 foi criado por mei
 | 24 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência? |
 | 25 | Os diagramas documentados estão legíveis? |
 <div style="text-align: center">
-<p>Tabela 4: Checklist da Etapa 4 (Fonte: Natan,2023)</p>
+<p>Tabela 6: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
 </div>
 
 ## Referência bibliográfica
