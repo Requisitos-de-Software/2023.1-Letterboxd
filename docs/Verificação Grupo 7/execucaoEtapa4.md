@@ -21,7 +21,7 @@ Nas tabela 2, 3 e 4 a seguir está disponível o checklist desenvolvido durante 
 
 | Número     | Pergunta | Resposta |
 | ----------- | ----------- | ----------- | 
-| 1 | As histórias de usuário seguem um modelo? | Sim |
+| 1 | As histórias de usuário seguem o padrão de voz de usuário? | Sim |
 | 2 | As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?  | Sim |
 | 3 | As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário? | Sim |
 | 4 | As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?  | Sim |
