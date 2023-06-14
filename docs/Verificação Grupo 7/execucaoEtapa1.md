@@ -65,9 +65,22 @@ Para a validação da entrega do Cronograma sera usado uma tabala de checklists 
 
 <font size="3"><p style="text-align: center">Fonte: [Arthur D'Assumpção](https://github.com/ArtAssLou).</p></font>
 
+## Resultados
+
+É possível observar pela Tabela 1, 2 e 3 que das 23 perguntas do checklist, 4 foram respondidas como "Não" ou "Medio" (17,4%) enquanto 19 foram respondidas como "Sim" (82,6%). A seguir será documentado as observações feitas sobre cada um dos artefatos com os pontos de atenção que foram notados pela execução do checklist.
+
+Quanto ao Rich Picture:
+
+- A metodologia da Rich Picture estimula o uso de imagens, que possam dar ao leitor bom entendimento sobre o que esta acontecendo. è recomentado que p grupo use de mais imagens e mais significativas.
+
+Quanto as Metodologias: 
+
+- Revisar o documento e nomerar as tabelas
+- As funções da equipe não são bem detalhadas
 
 ## Histórico de versões
 
 | Versão | Data       | Descrição                  | Autor(es)                                                                                    | Revisor(es)                                  |
 | ------ | ---------- | -------------------------- | -------------------------------------------------------------------------------------------- | -------------------------------------------- |
 | `1.0`   | 14/06/2023 | Criação do documento | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | - |
+| `1.1`   | 14/06/2023 | Edição dos resultados | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | - |
