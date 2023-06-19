@@ -76,4 +76,4 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
 | 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
-| 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4 | [Natan Santana](https://github.com/Neitan2001) |  |
+| 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
