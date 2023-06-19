@@ -14,7 +14,7 @@ Os protótipos foram desenvolvido com base nos requisitos definidos na etapa de 
 
 Com base nos requisitos selecionados, foram desenvolvidos os protótipos abaixo. Para uma vizualização mais detalhada, é possível clicar em cima da imagem para ser redirecionado para a página do protótipo no Figma.
 
-### 3.1. Protótipo 1: Sortear Filme
+### 3.1 Protótipo 1 - Sortear Filme
 
 O protótipo a seguir, representado pela Figura 1, tem como objetivo atender ao requisito QST13 (Sortear filme da watchlist). Para isso foi adicionado um botão na págin de Watchlist que, ao ser clicado, sorteia um filme da lista de filmes do usuário.
 
@@ -26,7 +26,7 @@ O protótipo a seguir, representado pela Figura 1, tem como objetivo atender ao 
     </figure>
 </center>
 
-### 3.2. Protótipo 2: Filmes em Comum
+### 3.2 Protótipo 2 - Filmes em Comum
 
 O protótipo a seguir, representado pela Figura 2, tem como objetivo representar o requisito QST08 (Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro"). Para tal, foi adicionado na parte inferior da página de Watchlists a miniatura dos amigos do usuário. Ao clicar em um amigo, é exibida uma lista com os filmes em comum entre o usuário e o amigo selecionado.
 
@@ -38,7 +38,7 @@ O protótipo a seguir, representado pela Figura 2, tem como objetivo representar
     </figure>
 </center>
 
-### 3.3. Protótipo 3: Grupos de Discussão
+### 3.3 Protótipo 3 - Grupos de Discussão
 
 O protótipo a seguir, representado pela Figura 3, tem como objetivo representar o requisito DOC57 (Deve ser possível que os usuários criem e participem de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos). Dessa forma, foi adicionado na página inicial uma aba a mais. Ao clicar nessa aba, são exibidos alguns grupos que o usuário pode fazer parte. Ao clicar em um grupo, é exibida uma página com as informações do grupo e uma lista com alguns usuários que fazem parte do grupo.
 
@@ -50,7 +50,7 @@ O protótipo a seguir, representado pela Figura 3, tem como objetivo representar
     </figure>
 </center>
 
-### 3.4. Protótipo 4: Acompanhamento de Séries
+### 3.4 Protótipo 4 - Acompanhamento de Séries
 
 O protótipo a seguir, representado pela Figura 4, tem como objetivo representar o requisito DOC51 (Deve ser possível fazer o acompanhamento de séries no aplicativo). Para tal, foi adicionado na página inicial uma aba a mais. Ao clicar nessa aba, são exibidas algumas séries que o usuário pode acompanhar.
 
@@ -62,7 +62,7 @@ O protótipo a seguir, representado pela Figura 4, tem como objetivo representar
     </figure>
 </center>
 
-### 3.5. Protótipo 5: Tempo de Tela
+### 3.5 Protótipo 5 - Tempo de Tela
 
 O protótipo a seguir, representado pela Figura 5, tem como objetivo representar os requisitos DOC58 (Deve ser exibido no perfil do usuário a quantidade de filmes assistidos pelo usuário) e DOC59 (Deve ser exibido no perfil do usuário a quantidade de horas assistidas pelo usuário). Para isso foram adicionados dois quadros na página de perfil do usuário, um com a quantidade de filmes assistidos e outro com a quantidade de horas assistidas.
 
@@ -73,3 +73,14 @@ O protótipo a seguir, representado pela Figura 5, tem como objetivo representar
     <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
     </figure>
 </center>
+
+## 4. Referências
+
+> - <a id="ancora1"></a>[1] SOMMERVILLE, I. Software engineering. 10.ed. Harlow: Pearson Education, 2016 p.76–77
+> - <a id="ancora2"></a>[2] Figma. Disponível em: <https://www.figma.com>. Acesso em: 18 jun. 2023.
+
+## . Histórico de Versão
+
+|    Data    | Versão |                   Descrição                    |                        Autor                        | Revisor |
+| :--------: | :----: | :--------------------------------------------: | :-------------------------------------------------: | :-----: |
+| 18/06/2023 | `1.0`  | Criação do documento de validação e protótipos | [Maciel Júnior](https://github.com/macieljuniormax) |         |
