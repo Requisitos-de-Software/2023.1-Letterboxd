@@ -28,7 +28,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Encontrar filmes em comum na "watchlist" de usuários Pro
 
-**Descricão:** Eu, como usuário Pro, quero ter a capacidade de encontrar filmes em comum na "watchlist" de dois ou mais usuários para descobrir quais filmes são do interesse de outras pessoas que possuem gostos semelhantes, permitindo-me explorar novas opções cinematográficas em comum.
+**Descricão:** Eu, como assinante, quero ter a capacidade de encontrar filmes em comum na "watchlist" de dois ou mais usuários para descobrir quais filmes são do interesse de outras pessoas que possuem gostos semelhantes, permitindo-me explorar novas opções cinematográficas em comum.
 
 **Critérios de aceitação:**
 
@@ -41,7 +41,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Sugestão de amigos com gostos em comum para usuários Pro
 
-**Descricão:** Eu, como usuário Pro, desejo receber sugestões de amigos com base nos gostos cinematográficos em comum para poder trocar recomendações e descobrir novos filmes que provavelmente me agradarão.
+**Descricão:** Eu, como assinante, desejo receber sugestões de amigos com base nos gostos cinematográficos em comum para poder trocar recomendações e descobrir novos filmes que provavelmente me agradarão.
 
 **Critérios de aceitação:**
 
@@ -54,7 +54,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Adicionar artigos relacionados à tela de detalhes do filme
 
-**Descricão:** Eu, como usuário, quero ter acesso a artigos relacionados ao filme na tela de detalhes para poder aprofundar meu conhecimento e interesse sobre a obra cinematográfica.
+**Descricão:** Eu, como cinéfilo, quero ter acesso a artigos relacionados ao filme na tela de detalhes para poder aprofundar meu conhecimento e interesse sobre a obra cinematográfica.
 
 **Critérios de aceitação:**
 
@@ -67,7 +67,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Reagir com diferentes emoções aos filmes
 
-**Descricão:** Eu, como usuário, desejo ter a possibilidade de expressar minhas emoções ao assistir a um filme, podendo selecionar entre as opções de emoções disponíveis (como chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgado, confuso e tenso) para compartilhar e registrar minhas reações emocionais em relação aos filmes que assisto.
+**Descricão:** Eu, como cinéfilo, desejo ter a possibilidade de expressar minhas emoções ao assistir a um filme, podendo selecionar entre as opções de emoções disponíveis (como chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgado, confuso e tenso) para compartilhar e registrar minhas reações emocionais em relação aos filmes que assisto.
 
 **Critérios de aceitação:**
 
@@ -80,7 +80,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Sorteios de pôsteres assinados por elenco de filmes recentes para usuários Pro
 
-**Descricão:** Eu, como usuário Pro, gostaria de participar de sorteios exclusivos de pôsteres assinados pelo elenco de filmes recentes para ter a chance de obter itens colecionáveis exclusivos relacionados aos filmes que aprecio, além de recompensar minha fidelidade como usuário Pro.
+**Descricão:** Eu, como assinante, gostaria de participar de sorteios exclusivos de pôsteres assinados pelo elenco de filmes recentes para ter a chance de obter itens colecionáveis exclusivos relacionados aos filmes que aprecio, além de recompensar minha fidelidade como assinante.
 
 **Critérios de aceitação:**
 
@@ -94,7 +94,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Enviar mensagens para outros usuários
 
-**Descricão:** Eu, como usuário, desejo ter a capacidade de enviar mensagens para outros usuários para interagir, trocar recomendações ou discutir filmes com outras pessoas na plataforma.
+**Descricão:** Eu, como cinéfilo, desejo ter a capacidade de enviar mensagens para outros usuários para interagir, trocar recomendações ou discutir filmes com outras pessoas na plataforma.
 
 **Critérios de aceitação:**
 
@@ -108,7 +108,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Sortear filme da watchlist
 
-**Descricão:** Eu, como usuário, gostaria de ter a opção de sortear um filme da minha watchlist para me ajudar a decidir qual filme assistir quando estou indeciso ou quando quero experimentar algo novo.
+**Descricão:** Eu, como cinéfilo, gostaria de ter a opção de sortear um filme da minha watchlist para me ajudar a decidir qual filme assistir quando estou indeciso ou quando quero experimentar algo novo.
 
 **Critérios de aceitação:**
 
@@ -122,7 +122,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Sincronizar dados de serviços de streaming com o aplicativo
 
-**Descricão:** Eu, como usuário, desejo ter a capacidade de sincronizar automaticamente os dados dos serviços de streaming que utilizo com o aplicativo para manter minha lista de filmes atualizada e evitar a necessidade de marcar manualmente cada filme assistido.
+**Descricão:** Eu, como cinéfilo, desejo ter a capacidade de sincronizar automaticamente os dados dos serviços de streaming que utilizo com o aplicativo para manter minha lista de filmes atualizada e evitar a necessidade de marcar manualmente cada filme assistido.
 
 **Critérios de aceitação:**
 
@@ -136,7 +136,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Criar e participar de grupos de discussão
 
-**Descricão:** Eu, como usuário, gostaria de ter a capacidade de criar e participar de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos para poder interagir com outros usuários que compartilham interesses similares e trocar opiniões, recomendações e análises sobre filmes.
+**Descricão:** Eu, como cinéfilo, gostaria de ter a capacidade de criar e participar de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos para poder interagir com outros usuários que compartilham interesses similares e trocar opiniões, recomendações e análises sobre filmes.
 
 **Critérios de aceitação:**
 
@@ -151,7 +151,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Registro no diário mais intuitivo e com menos cliques
 
-**Descricão:** Eu, como usuário, quero que o processo de registro de um filme no diário seja mais intuitivo e requerendo menos cliques para que seja mais rápido e conveniente registrar um filme que assisti, permitindo-me manter um histórico completo das minhas experiências cinematográficas.
+**Descricão:** Eu, como cinéfilo, quero que o processo de registro de um filme no diário seja mais intuitivo e requerendo menos cliques para que seja mais rápido e conveniente registrar um filme que assisti, permitindo-me manter um histórico completo das minhas experiências cinematográficas.
 
 **Critérios de aceitação:**
 
@@ -165,7 +165,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Possibilidade de fazer o acompanhamento de séries no aplicativo.
 
-**Descricão:** Eu, como usuário, quero ter a capacidade de acompanhar séries no aplicativo, permitindo-me manter um registro organizado do meu progresso de visualização.
+**Descricão:** Eu, como cinéfilo, quero ter a capacidade de acompanhar séries no aplicativo, permitindo-me manter um registro organizado do meu progresso de visualização.
 
 **Critérios de aceitação:**
 
@@ -179,7 +179,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Adicionar categorias para filmes, séries e animes.
 
-**Descricão:** Eu, como usuário, quero ter a opção de adicionar categorias para filmes, séries e animes no aplicativo, permitindo-me organizar e filtrar meu conteúdo de acordo com minhas preferências.
+**Descricão:** Eu, como cinéfilo, quero ter a opção de adicionar categorias para filmes, séries e animes no aplicativo, permitindo-me organizar e filtrar meu conteúdo de acordo com minhas preferências.
 
 **Critérios de aceitação:**
 
@@ -192,7 +192,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Geração de lista de recomendações de filmes em comum com amigos.
 
-**Descricão:** Eu, como usuário, desejo ter a capacidade de gerar uma lista de recomendações de filmes que sejam em comum entre mim e um amigo, facilitando a descoberta e compartilhamento de filmes de interesse mútuo.
+**Descricão:** Eu, como cinéfilo, desejo ter a capacidade de gerar uma lista de recomendações de filmes que sejam em comum entre mim e um amigo, facilitando a descoberta e compartilhamento de filmes de interesse mútuo.
 
 **Critérios de aceitação:**
 
@@ -206,7 +206,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário.
 
-**Descricão:** Eu, como usuário, quero que no meu perfil do aplicativo seja exibida a quantidade de filmes que já assisti, permitindo-me ter um registro visível e compartilhar minha atividade de visualização.
+**Descricão:** Eu, como cinéfilo, quero que no meu perfil do aplicativo seja exibida a quantidade de filmes que já assisti, permitindo-me ter um registro visível e compartilhar minha atividade de visualização.
 
 **Critérios de aceitação:**
 
@@ -218,7 +218,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Exibição da Quantidade de Horas Assistidas no Perfil do Usuário.
 
-**Descricão:** Eu, como usuário, quero que no meu perfil do aplicativo seja exibida a quantidade de horas que já assisti de conteúdo, permitindo-me ter uma visão clara do tempo de conteúdo visualizado.
+**Descricão:** Eu, como cinéfilo, quero que no meu perfil do aplicativo seja exibida a quantidade de horas que já assisti de conteúdo, permitindo-me ter uma visão clara do tempo de conteúdo visualizado.
 
 **Critérios de aceitação:**
 
@@ -230,7 +230,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques.
 
-**Descricão:** Eu, como usuário, desejo que o processo de criação de listas no aplicativo seja mais simples e envolva menos cliques, proporcionando uma experiência mais intuitiva e eficiente.
+**Descricão:** Eu, como cinéfilo, desejo que o processo de criação de listas no aplicativo seja mais simples e envolva menos cliques, proporcionando uma experiência mais intuitiva e eficiente.
 
 **Critérios de aceitação:**
 
@@ -242,7 +242,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais.
 
-**Descricão:** Eu, como usuário, quero ter acesso a uma aba chamada "Perto de Você" no aplicativo, que exiba críticas de usuários na minha região, com o objetivo de facilitar a busca por amigos com interesses semelhantes e recomendações relevantes.
+**Descricão:** Eu, como cinéfilo, quero ter acesso a uma aba chamada "Perto de Você" no aplicativo, que exiba críticas de usuários na minha região, com o objetivo de facilitar a busca por amigos com interesses semelhantes e recomendações relevantes.
 
 **Critérios de aceitação:**
 
@@ -255,7 +255,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Comentários em Críticas de Outros Usuários.
 
-**Descricão:** Eu, como usuário, quero ter a capacidade de comentar nas críticas feitas por outros usuários no aplicativo, permitindo-me uma interação direta e possibilitando trocas de opiniões e discussões sobre o conteúdo avaliado.
+**Descricão:** Eu, como cinéfilo, quero ter a capacidade de comentar nas críticas feitas por outros usuários no aplicativo, permitindo-me uma interação direta e possibilitando trocas de opiniões e discussões sobre o conteúdo avaliado.
 
 **Critérios de aceitação:**
 
@@ -270,7 +270,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Notificações de Artigos de Filmes nas Listas dos Usuários.
 
-**Descricão:** Eu, como usuário, quero receber notificações no aplicativo quando houver artigos relevantes sobre os filmes presentes nas minhas listas, permitindo-me manter-me atualizado e obter informações adicionais sobre os filmes do meu interesse.
+**Descricão:** Eu, como cinéfilo, quero receber notificações no aplicativo quando houver artigos relevantes sobre os filmes presentes nas minhas listas, permitindo-me manter-me atualizado e obter informações adicionais sobre os filmes do meu interesse.
 
 **Critérios de aceitação:**
 
@@ -285,7 +285,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível registrar usuários e criar contas
 
-**Descricão:** Como um administrador de um sistema de gerenciamento de usuários, eu gostaria de registrar novos usuários e criar contas para que eles possam acessar os recursos do sistema.
+**Descricão:** Eu, como um administrador de um sistema de gerenciamento de usuários, gostaria de registrar novos usuários e criar contas para que eles possam acessar os recursos do sistema.
 
 **Critérios de aceitação:**
 
@@ -297,7 +297,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível adicionar filmes assistidos
 
-**Descricão:** Como usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder adicionar filmes que já assisti à minha lista de filmes assistidos para acompanhar meu histórico de visualização.
+**Descricão:** Eu, como cinéfilo, gostaria de poder adicionar filmes que já assisti à minha lista de filmes assistidos para acompanhar meu histórico de visualização.
 
 **Critérios de aceitação:**
 
@@ -309,7 +309,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível avaliar filmes
 
-**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder avaliar os filmes que assisti para expressar minha opinião sobre eles e ajudar a compartilhar recomendações com outros usuários.
+**Descricão:** Eu, como um cinéfilo, gostaria de poder avaliar os filmes que assisti para expressar minha opinião sobre eles e ajudar a compartilhar recomendações com outros usuários.
 
 **Critérios de aceitação:**
 
@@ -321,7 +321,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível fazer a resenha de filmes
 
-**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder escrever resenhas detalhadas sobre os filmes que assisti para compartilhar minhas opiniões e experiências com outros usuários.
+**Descricão:** Eu, como um cinéfilo, gostaria de poder escrever resenhas detalhadas sobre os filmes que assisti para compartilhar minhas opiniões e experiências com outros usuários.
 
 **Critérios de aceitação:** 
 
@@ -333,7 +333,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível marcar filmes como favoritos
 
-**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder marcar filmes como favoritos para criar uma lista personalizada dos filmes que mais gosto e desejo acessar facilmente.
+**Descricão:** Eu, como um cinéfilo, gostaria de poder marcar filmes como favoritos para criar uma lista personalizada dos filmes que mais gosto e desejo acessar facilmente.
 
 **Critérios de aceitação:** 
 
@@ -345,7 +345,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível criar listas de filmes
 
-**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder criar listas personalizadas de filmes para organizar e categorizar meus filmes de acordo com diferentes temas, gêneros ou qualquer critério que eu escolher.
+**Descricão:** Eu, como um cinéfilo, gostaria de poder criar listas personalizadas de filmes para organizar e categorizar meus filmes de acordo com diferentes temas, gêneros ou qualquer critério que eu escolher.
 
 **Critérios de aceitação:**  
 
@@ -357,7 +357,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível seguir outros usuários
 
-**Descricão:** outros usuários para acompanhar suas atividades, descobrir novos filmes e compartilhar recomendações com base em seus interesses.
+**Descricão:** Eu, como um cinéfilo, gostaria de seguir outros cinéfilos para acompanhar suas atividades, descobrir novos filmes e compartilhar recomendações com base em seus interesses.
 
 **Critérios de aceitação:** 
 
@@ -369,7 +369,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível receber notificações sobre lista de filmes para assistir
 
-**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de receber notificações sobre listas de filmes para assistir, com base em categorias de interesse ou recomendações personalizadas, para descobrir novos filmes e acompanhar lançamentos relevantes.
+**Descricão:** Eu, como um cinéfilo, gostaria de receber notificações sobre listas de filmes para assistir, com base em categorias de interesse ou recomendações personalizadas, para descobrir novos filmes e acompanhar lançamentos relevantes.
 
 **Critérios de aceitação:** 
 
@@ -381,7 +381,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível filtrar resultados por serviço de streaming
 
-**Descricão:** Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de poder filtrar os resultados de pesquisa e listas de filmes por serviço de streaming, para encontrar rapidamente os filmes disponíveis em plataformas específicas às quais sou assinante.
+**Descricão:** Eu, como um cinéfilo, gostaria de poder filtrar os resultados de pesquisa e listas de filmes por serviço de streaming, para encontrar rapidamente os filmes disponíveis em plataformas específicas às quais sou assinante.
 
 **Critérios de aceitação:** 
 
@@ -393,7 +393,7 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 
 **Título:** Deve ser possível que os usuários desativem suas contas
 
-**Descricão:**  Como um usuário do aplicativo de gerenciamento de filmes, eu gostaria de ter a opção de desativar minha conta, caso decida não utilizar mais o aplicativo ou não deseje manter meus dados pessoais armazenados.
+**Descricão:**  Eu, como um cinéfilo, gostaria de ter a opção de desativar minha conta, caso decida não utilizar mais o aplicativo ou não deseje manter meus dados pessoais armazenados.
 
 **Critérios de aceitação:** 
 
@@ -435,3 +435,4 @@ ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível
 | ---------- | ------ | -------------------------------------- | ----------------------------------------------------------------------------------------------------- | ------- |
 | 21/05/2023 | `1.0`  | Documentação das 20 primeiras Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax) |  [Natan Santana](https://github.com/Neitan2001)       |
 | 24/05/2023 | `2.0`  | Documentação das últimas 10 Histórias de Usuários | [Arthur D'Assumpção](https://github.com/ArtAssLou) |    [Natan Santana](https://github.com/Neitan2001)     |
+| 20/06/2023 | `3.0`  | Correção do artefato de acordo com a verificação | [Natan Santana](https://github.com/Neitan2001) |    [Clara Ribeiro](https://github.com/clara-ribeiro)     |
