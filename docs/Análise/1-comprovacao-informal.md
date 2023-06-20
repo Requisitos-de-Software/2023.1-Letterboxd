@@ -29,6 +29,6 @@ Até a data de criação deste documento (20/06/2023), não houve retorno da equ
 
 ## 4. Histórico de Versão
 
-|    Data    | Versão |                  Descrição                   |                        Autor                        | Revisor |
-| :--------: | :----: | :------------------------------------------: | :-------------------------------------------------: | :-----: |
-| 18/06/2023 | `1.0`  | Criação do documento de comprovação informal | [Maciel Júnior](https://github.com/macieljuniormax) |         |
+|    Data    | Versão |                  Descrição                   |                        Autor                        |                     Revisor                     |
+| :--------: | :----: | :------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------: |
+| 18/06/2023 | `1.0`  | Criação do documento de comprovação informal | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou) |

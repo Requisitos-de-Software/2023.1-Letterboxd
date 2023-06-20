@@ -135,6 +135,6 @@ O protótipo a seguir, representado pela Figura 10, foi desenvolvido para repres
 
 ## 4. Histórico de Versão
 
-|    Data    | Versão |                   Descrição                    |                        Autor                        | Revisor |
-| :--------: | :----: | :--------------------------------------------: | :-------------------------------------------------: | :-----: |
-| 18/06/2023 | `1.0`  | Criação do documento de validação e protótipos | [Maciel Júnior](https://github.com/macieljuniormax) |         |
+|    Data    | Versão |                   Descrição                    |                        Autor                        |                     Revisor                     |
+| :--------: | :----: | :--------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------: |
+| 18/06/2023 | `1.0`  | Criação do documento de validação e protótipos | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou) |
