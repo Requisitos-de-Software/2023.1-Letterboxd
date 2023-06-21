@@ -64,7 +64,7 @@ Nas tabela 2, 3 e 4 a seguir está disponível o checklist desenvolvido durante 
 
 ## Resultados
 
-É possível observar pela Figura 1 que das 35 perguntas do checklist, 5 foram respondidas como "Não" ou "Incompleto" (14,3%) enquanto 30 foram respondidas como "Sim" (85,7%). A seguir será documentado as observações feitas sobre cada um dos artefatos com os pontos de atenção que foram notados pela execução do checklist.
+É possível observar pela Figura 1 que das 21 perguntas do checklist, 6 foram respondidas como "Não" (28,6%) enquanto 17 foram respondidas como "Sim" (71,4%). A seguir será documentado as observações feitas sobre cada um dos artefatos com os pontos de atenção que foram notados pela execução do checklist.
 
 Quanto às histórias de usuário:
 

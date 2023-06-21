@@ -89,6 +89,8 @@ A tabela 2 a seguir possui as perguntas do checklist que será utilizado para fa
 
 ## Resultados
 
+É possível observar pela Figura 1 que das 35 perguntas do checklist, 5 foram respondidas como "Não" ou "Incompleto" (14,3%) enquanto 30 foram respondidas como "Sim" (85,7%). A seguir será documentado as observações feitas sobre cada um dos artefatos com os pontos de atenção que foram notados pela execução do checklist.
+
 Cenários
 
 - Os léxicos estão presentes nos cenários?
