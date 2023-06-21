@@ -123,4 +123,4 @@ Casos de Uso
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
-| 18/06/2023 | `1.0`  | Documentação da execução da verificação | [Clara Ribeiro](https://github.com/clara-ribeiro) | |
+| 18/06/2023 | `1.0`  | Documentação da execução da verificação | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |

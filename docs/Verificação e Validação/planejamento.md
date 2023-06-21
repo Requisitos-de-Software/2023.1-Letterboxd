@@ -80,7 +80,7 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 2 | Possui um fluxo principal?⁵ |
 | 3 | O fluxo principal representa o modo “default”/padrão que o ator irá usar a funcionalidade?⁵ |
 | 4 | Possui fluxo alternativo, quando aplicável?⁵ |
-| 5 | Possui fluxo de excessão, quando aplicável? |
+| 5 | Possui fluxo de excessão, quando aplicável?⁵ |
 | 6 | Há relacionamentos extend e include?⁵ |
 | 7 | Possui atores?⁷ |
 | 8 | Possui sistemas?⁷ |
@@ -186,3 +186,4 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | ---- | ------ | --------- | ----- | ------- |
 | 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 18/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 1 e 3 | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
