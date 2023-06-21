@@ -6,9 +6,112 @@
 
 ## Etapa 1
 
+Os checklists a seguir abordam os artefatos entregues na Entrega 1, sendo eles: Rich Picture, Escolha do Aplicativo, Cronograma de Atividades e Ferramentas do Projeto.
+
+### Rich Picture
+
+A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Rich Picture.
+
+| Número     | Pergunta
+| ----------- | ----------- | 
+| 1 | Possui palavras-chave para compreender a situação?⁴ |
+| 2 | Possui imagens e diagramas para representar os conceitos e relacionementos?⁴ |
+| 3 | Possui mais imagens e diagramas do que palavras?⁴ |
+| 4 | É compreensível para quem não possui conhecimento da aplicação/do problema?⁴ |
+| 5 | Possui atores com legendas descritivas?⁴ |
+| 6 | Possui operações? (Geralmente são ações que estão escritas dentro de uma elipse)⁴ |
+| 7 | Possui armazenamento de dados? (também conhecido como tabelas)⁴ |
+| 8 | Possui setas?⁴ |
+| 9 | Possui o limite do sistema?⁴ |
+| 10 | Os componentes possuem explicação?⁴ |
+| 11 | Possui linguagem de fácil entendimento para todos?⁴ |
+
+<div style="text-align: center">
+<p>Tabela X: Checklist de verificação do artefato "Rich Picture"</p>
+</div>
+
 ## Etapa 2
 
 ## Etapa 3
+
+Os checklists a seguir abordam os artefatos entregues na Entrega 3, sendo eles: Cenários, Léxicos, Diagrama de Casos de Uso e Especificação Suplementar.
+
+### Cenários
+A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Cenários.
+
+| Número     | Pergunta
+| ----------- | ----------- | 
+| 1 | Os cenários possuem título?⁸ |
+| 2 | Os cenários possuem metas/objetivos?⁸ |
+| 3 | Os cenários possuem contexto?⁸ |
+| 4 | Os cenários possuem atores?⁸ |
+| 5 | Os cenários possuem recursos?⁸ |
+| 6 | Os cenários possuem exceção?⁸ |
+| 7 | Os cenários possuem episódios?⁸ |
+| 8 | O título do cenário é de fácil compreensão?⁶ |
+| 9 | As situações descritas são relevantes para o uso do sistema?⁶ |
+| 10 | Os léxicos estão presentes nos cenários?⁶ |
+
+<div style="text-align: center">
+<p>Tabela X: Checklist de verificação do artefato "Cenários"</p>
+</div>
+
+
+### Léxicos
+A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Léxicos.
+
+| Número     | Pergunta
+| ----------- | ----------- | 
+| 1 | Os símbolos possuem noção (o significado so símbolo)?⁸ |
+| 2 | Os símbolos possuem impacto (o efeito do símbolo na aplicação)?⁸ |
+| 3 | Os símbolos possuem sinônimos?⁸ |
+| 4 | Os símbolos possuem tipo (verbo/objeto/estado)?⁸ |
+
+<div style="text-align: center">
+<p>Tabela X: Checklist de verificação do artefato "Léxicos"</p>
+</div>
+
+### Diagrama de Casos de Uso
+A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Diagrama de Casos de Uso.
+
+| Número     | Pergunta |
+| ----------- | ----------- |
+| 1 | Utiliza verbos no infinitivo?⁷ |
+| 2 | Possui um fluxo principal?⁵ |
+| 3 | O fluxo principal representa o modo “default”/padrão que o ator irá usar a funcionalidade?⁵ |
+| 4 | Possui fluxo alternativo, quando aplicável?⁵ |
+| 5 | Possui fluxo de excessão, quando aplicável?⁵ |
+| 6 | Há relacionamentos extend e include?⁵ |
+| 7 | Possui atores?⁷ |
+| 8 | Possui sistemas?⁷ |
+| 9 | Possui metas?⁷ |
+| 10 | Possui as atividades e variantes usadas para atingir as metas?⁷ |
+| 11 | O ator principal está ao lado esquerdo do sistema?⁷ |
+| 12 | O usuário está fora das fronteiras da aplicação?⁷ |
+| 13 | Os casos especificados são de requisitos funcionais?⁷ |
+| 14 | Os casos de uso são representados com um formato oval na horizontal e representa os diferentes usos que um usuários pode ter?⁷ |
+
+<div style="text-align: center">
+<p>Tabela X: Checklist de verificação do artefato "Diagrama de Casos de Uso"</p>
+</div>
+
+### Especificação Suplementar
+A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Especificação Suplementar.
+
+| Número     | Pergunta
+| ----------- | ----------- | 
+| 1 | O modelo adotado na especificação é o FURPS?⁵ |
+| 2 | É possível testar os requisitos analisados?⁵ |
+| 3 | A especificação explicita a funcionalidade do requisito?⁵ |
+| 4 | A especificação explicita a usabilidade do requisito?⁵ |
+| 5 | A especificação explicita a confiabilidade do requisito?⁵ |
+| 6 | A especificação explicita a performance do requisito?⁵ |
+| 7 | A especificação explicita a suportabilidade do requisito?⁵ |
+
+<div style="text-align: center">
+<p>Tabela X: Checklist de verificação do artefato "Especificação Suplementar"</p>
+</div>
+
 
 ## Etapa 4
 
@@ -69,7 +172,13 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 
 > - [1] SILVA, Reinaldo Antônio da. NFR4ES:Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Recife, 2019. Disponível em: <https://repositorio.ufpe.br/handle/123456789/34150#:~:text=Neste%20trabalho%20foi%20desenvolvido%20um,n%C3%A3o%2Dfuncionais%20em%20sistemas%20embarcados./> Lido em: 12 jun. 2023.
 > - [2] REINEHR, Sheila. Engenharia de Requisitos. Porto Alegre: Sagah, 2020. Lido em: 12 jun. 2023.
-> - [3] SALES, André Barros. Plano de ensino da disciplina. Disponível em: <a href="https://aprender3.unb.br">https://aprender3.unb.br</a>. Acesso em: 16 de junho de 2023.</ul></p>
+> - [3] SALES, André Barros. Plano de ensino da disciplina. Disponível em: <a href="https://aprender3.unb.br">https://aprender3.unb.br</a>. Acesso em: 16 de junho de 2023.
+> - [4] Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: <https://aprender3.unb.br/>. Acessado em: 16 de junho de 2023
+> - [5] “Requisitos – Aula 11”, Milene Serrano e Maurício Serrano. Disponível em: <https://aprender3.unb.br/> Acesso em: 16 de junho de 2023.
+> - [6] Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997)
+> - [7] Diagrama de caso de uso UML: O que é, como fazer e exemplos. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml>.
+> - [8] “Requisitos – Aula 10”, Milene Serrano e Maurício Serrano. Disponível em: <https://aprender3.unb.br/> Acesso em: 16 de junho de 2023.
+> - [9]
 
 ## Tabela de Versionamento
 
@@ -77,3 +186,4 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | ---- | ------ | --------- | ----- | ------- |
 | 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 18/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 1 e 3 | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
