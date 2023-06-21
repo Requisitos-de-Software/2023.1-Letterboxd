@@ -128,13 +128,41 @@ O protótipo a seguir, representado pela Figura 10, foi desenvolvido para repres
     </figure>
 </center>
 
-## 3. Referências
+## 4. Relato do usuario 
+
+### 4.1 Introdução 
+
+A entrevista da Prototipação foi feita a partir de uma entrevista online da plataforma teams, a qual foi apresentado os prototipos feitos no Figma e o usuario nos forneceu suas impressões sobre os prototipos criados.
+
+### 4.2 Objetivos
+
+O objetivo da entrevista foi validar se o produto da prototipação atende aos requisitos eleicitados com usuarios e suas impressões sobre.
+
+### 4.3 Metologia 
+
+A metodologia utilizada para a avaliação foi a entrevista. A entrevista foi realizada por um membro do grupo. Na entrevista foram apresentadas questões acerca das políticas de termos de consentimento, uma pequena introdução acerca do nosso projeto e que o entrevistado teria total liberdade de não responder caso fosse solicitado.
+
+### 4.4 Gravação da entrevista
+
+<iframe width="1903" height="792" src="https://www.youtube.com/watch?v=wDJx6E0gotc" title="IHC - Entrevista Prototipção dLetterboxd Grupo 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+### 4.5 Resultado da entrevista
+
+- Protótipo 01 - Sortear Filme: Usuario teve fecilidade em reconhecer como essa funcionalidade opera e gostou de como a funcionalidade de sortear o filme pode ser aplicada.
+- Protótipo 02 - Filmes em Comum: Usuario teve facilidade em reconhecer como essa funcionalidade opera, usuario questionou sobre como seria feita a seleção de filmes em comum com seus amigos e sugeriu a ideia do uso de IAs para achar filmes em comum e tambem sugeriu a possibilidade a função virar um esquema de encontros por meio de gostos por filmes em comum.
+- Protótipo 03 - Grupos de Discussão: Usuario teve facilidade em reconhecer como essa funcionalidade opera e aprovou o prototipo. O usuario elogiou as possibilidades com o requisito, como o app virar uma especie de rede social.
+- Protótipo 04 - Acompanhamento de Séries: Usuario teve facilidade em reconhecer como essa funcionalidade opera.
+- Protótipo 06 - Emoções: Usuario teve facilidade em reconhecer como essa funcionalidade opera e gostou das possiblidades de ter novas reações
+
+   
+## 5. Referências
 
 > - <a id="ancora1"></a>[1] SOMMERVILLE, I. Software engineering. 10.ed. Harlow: Pearson Education, 2016 p.77
 > - <a id="ancora2"></a>[2] Figma. Disponível em: <https://www.figma.com>. Acesso em: 18 jun. 2023.
 
-## 4. Histórico de Versão
+## 6. Histórico de Versão
 
-|    Data    | Versão |                   Descrição                    |                        Autor                        |                     Revisor                     |
-| :--------: | :----: | :--------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------: |
-| 18/06/2023 | `1.0`  | Criação do documento de validação e protótipos | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou) |
+|    Data    | Versão |                   Descrição                    |                        Autor                        |                     Revisor                         |
+| :--------: | :----: | :--------------------------------------------: | :-------------------------------------------------: | :---------------------------------------------:     |
+| 18/06/2023 | `1.0`  | Criação do documento de validação e protótipos | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou)     |
+| 20/06/2023 | `2.0`  | Criação do item Relato do usuario              |   [Arthur Loureiro](https://github.com/ArtAssLou)   | [Maciel Júnior](https://github.com/macieljuniormax) |
