@@ -10,7 +10,7 @@ Os checklists a seguir abordam os artefatos entregues na Entrega 1, sendo eles: 
 
 ### Rich Picture
 
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Rich Picture.
+A tabela 1 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Rich Picture.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -27,17 +27,15 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 11 | Possui linguagem de fácil entendimento para todos?⁴ |
 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Rich Picture"</p>
+<p>Tabela 1: Checklist de verificação do artefato "Rich Picture"</p>
 </div>
-
-## Etapa 2
 
 ## Etapa 3
 
 Os checklists a seguir abordam os artefatos entregues na Entrega 3, sendo eles: Cenários, Léxicos, Diagrama de Casos de Uso e Especificação Suplementar.
 
 ### Cenários
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Cenários.
+A tabela 2 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Cenários.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -53,12 +51,12 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 10 | Os léxicos estão presentes nos cenários?⁶ |
 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Cenários"</p>
+<p>Tabela 2: Checklist de verificação do artefato "Cenários"</p>
 </div>
 
 
 ### Léxicos
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Léxicos.
+A tabela 3 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Léxicos.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -68,11 +66,11 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 4 | Os símbolos possuem tipo (verbo/objeto/estado)?⁸ |
 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Léxicos"</p>
+<p>Tabela 3: Checklist de verificação do artefato "Léxicos"</p>
 </div>
 
 ### Diagrama de Casos de Uso
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Diagrama de Casos de Uso.
+A tabela 4 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Diagrama de Casos de Uso.
 
 | Número     | Pergunta |
 | ----------- | ----------- |
@@ -92,11 +90,11 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 14 | Os casos de uso são representados com um formato oval na horizontal e representa os diferentes usos que um usuários pode ter?⁷ |
 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Diagrama de Casos de Uso"</p>
+<p>Tabela 4: Checklist de verificação do artefato "Diagrama de Casos de Uso"</p>
 </div>
 
 ### Especificação Suplementar
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Especificação Suplementar.
+A tabela 5 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Especificação Suplementar.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -109,7 +107,7 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 7 | A especificação explicita a suportabilidade do requisito?⁵ |
 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Especificação Suplementar"</p>
+<p>Tabela 5: Checklist de verificação do artefato "Especificação Suplementar"</p>
 </div>
 
 
@@ -119,7 +117,7 @@ Os seguintes checklists de verificação foi retirada do planejamento da verific
 
 ### Histórias de Usuário
 
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.
+A tabela 6 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -133,12 +131,12 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 8 | É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário? (autoria pŕopria)  |
 | 9 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis?² |
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
+<p>Tabela 6: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
 </div>
 
 ### Backlog
 
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.
+A tabela 7 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.
 
 | Número     | Pergunta
 | ----------- | ----------- |
@@ -147,12 +145,12 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 12 | O PO participou da construção e/ou da validação do backlog?³ |
 | 13 | Foi documentado se o PO pediu alguma mudança no backlog?³ | 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
+<p>Tabela 7: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
 </div>
 
 ### NFR Framework
 
-A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.
+A tabela 8 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -165,7 +163,7 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 | 20 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência?¹ |
 | 21 | Os diagramas documentados estão legíveis? (autoria própria) |
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
+<p>Tabela 8: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
 </div>
 
 ## Referência bibliográfica
@@ -178,7 +176,6 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 > - [6] Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997)
 > - [7] Diagrama de caso de uso UML: O que é, como fazer e exemplos. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml>.
 > - [8] “Requisitos – Aula 10”, Milene Serrano e Maurício Serrano. Disponível em: <https://aprender3.unb.br/> Acesso em: 16 de junho de 2023.
-> - [9]
 
 ## Tabela de Versionamento
 
