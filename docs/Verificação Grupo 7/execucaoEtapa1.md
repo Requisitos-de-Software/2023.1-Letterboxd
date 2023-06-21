@@ -5,7 +5,7 @@
 Neste artefato se encontra a verificação de toda a Etaoa 1, do grupo 7 (Petz). Essa etapa tem como objetivo fazer uma verificação dos artefatos desenvolvidos na etapa 1.
 
 ## Rich Picture 
-### Metodologia para a veficicação
+### Metodologia para a verificação
 
 Para a validação da entrega da Rich Pictura, sera usado uma tabala de checklists que foram criados a partir do documento "Introducing Rich Picture". A versão utilizada para a verificação será a 1.1, feita no dia 30 de abril de 2023
 
@@ -29,7 +29,7 @@ Para a validação da entrega da Rich Pictura, sera usado uma tabala de checklis
 
 
 ## Metodologias  
-### Metodologia para a veficicação
+### Metodologia para a verificação
 
 Para a validação da entrega da Metodologia sera usado uma tabala de checklists. A versão utilizada para a verificação será a 1.0, feita no dia 13 de abril de 2023
 
@@ -50,7 +50,7 @@ Para a validação da entrega da Metodologia sera usado uma tabala de checklists
 <font size="3"><p style="text-align: center">Fonte: [Arthur D'Assumpção](https://github.com/ArtAssLou).</p></font>
 
 ## Cronograma  
-### Metodologia para a veficicação
+### Metodologia para a verificação
 
 Para a validação da entrega do Cronograma sera usado uma tabala de checklists . A versão utilizada para a verificação será a 1.1, feita no dia 30 de abril de 2023
 
