@@ -144,7 +144,7 @@ A metodologia utilizada para a avaliação foi a entrevista. A entrevista foi re
 
 ### 4.4 Gravação da entrevista
 
-<iframe width="1903" height="792" src="https://www.youtube.com/watch?v=wDJx6E0gotc" title="IHC - Entrevista Prototipção dLetterboxd Grupo 6" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wDJx6E0gotc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### 4.5 Resultado da entrevista
 
