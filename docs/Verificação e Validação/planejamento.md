@@ -321,7 +321,7 @@ A tabela 17 a seguir possui as perguntas do checklist que será utilizado para f
 
 ## Etapa 5
 
-A tabela a seguir possui as perguntas do checklist que será utilizado para fazer a verificação da Etapa5.
+A tabela 18 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação da Etapa 5.
 
 | Número | Pergunta                                                                | Resposta |
 | ------ | ----------------------------------------------------------------------- | -------- |
@@ -336,7 +336,7 @@ A tabela a seguir possui as perguntas do checklist que será utilizado para faze
 | 9      | Todas as Etapas foram verificadas?                                      | não      |
 
 <div style="text-align: center">
-<p>Tabela 5: Checklist de verificação do artefato "NFR Framework" (Fonte: Gustavo,2023)</p>
+<p>Tabela 18: Checklist de verificação do artefato "NFR Framework" (Fonte: Gustavo,2023)</p>
 </div>
 
 ## Referência bibliográfica
