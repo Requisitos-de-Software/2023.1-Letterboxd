@@ -18,17 +18,18 @@ Os seguintes checklists de verificação foi retirada do planejamento da verific
 
 A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.
 
-| Número     | Pergunta
-| ----------- | ----------- | 
-| 1 | As histórias de usuário seguem o padrão de voz de usuário?² |
-| 2 | As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?²  |
-| 3 | As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário?² |
-| 4 | As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?²  |
-| 5 | As histórias de usuário possui o resultado da ação ou o valor de negócio (porque) de acordo com o modelo de voz de usuário?² |
-| 6 | Nas história de usuário, o papel representa quem se beneficiará da funcionalidade, e não quem está solicitando a funcionalidade?² |
-| 7 | Nas histórias de usuário, é usado um termo representando o perfil em vez do termo genérico "usuário"?²  |
-| 8 | É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário? (autoria pŕopria)  |
-| 9 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis?² |
+| Número | Pergunta                                                                                                                          |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| 1      | As histórias de usuário seguem o padrão de voz de usuário?²                                                                       |
+| 2      | As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?²                              |
+| 3      | As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário?²                                          |
+| 4      | As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?²                                          |
+| 5      | As histórias de usuário possui o resultado da ação ou o valor de negócio (porque) de acordo com o modelo de voz de usuário?²      |
+| 6      | Nas história de usuário, o papel representa quem se beneficiará da funcionalidade, e não quem está solicitando a funcionalidade?² |
+| 7      | Nas histórias de usuário, é usado um termo representando o perfil em vez do termo genérico "usuário"?²                            |
+| 8      | É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário? (autoria pŕopria)                  |
+| 9      | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis?²                               |
+
 <div style="text-align: center">
 <p>Tabela X: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
 </div>
@@ -37,12 +38,13 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 
 A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.
 
-| Número     | Pergunta
-| ----------- | ----------- |
-| 10 | Foi usado uma metodologia para a construção do backlog?³ |
-| 11 | O backlog possui épicos e temas bem definidos e descritos?³ |
-| 12 | O PO participou da construção e/ou da validação do backlog?³ |
-| 13 | Foi documentado se o PO pediu alguma mudança no backlog?³ | 
+| Número | Pergunta                                                     |
+| ------ | ------------------------------------------------------------ |
+| 10     | Foi usado uma metodologia para a construção do backlog?³     |
+| 11     | O backlog possui épicos e temas bem definidos e descritos?³  |
+| 12     | O PO participou da construção e/ou da validação do backlog?³ |
+| 13     | Foi documentado se o PO pediu alguma mudança no backlog?³    |
+
 <div style="text-align: center">
 <p>Tabela X: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
 </div>
@@ -51,18 +53,39 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 
 A tabela X a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.
 
-| Número     | Pergunta
-| ----------- | ----------- | 
-| 14 | Os softgoals NFR representam requisitos não-funcionais?¹ |
-| 15 | Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização?¹ |
-| 16 | Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento?¹ |
-| 17 | Os softgoals NFR possuem um tipo e pode possuir um ou mais tópicos?¹ |
-| 18 | Os tipos de contribuição seguem as definições apresentada na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados"?¹ |
-| 19 | Os impactos foram corretamente propagados?³ |
-| 20 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência?¹ |
-| 21 | Os diagramas documentados estão legíveis? (autoria própria) |
+| Número | Pergunta                                                                                                                                                                                              |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 14     | Os softgoals NFR representam requisitos não-funcionais?¹                                                                                                                                              |
+| 15     | Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização?¹                                                      |
+| 16     | Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento?¹                                                                                                                     |
+| 17     | Os softgoals NFR possuem um tipo e pode possuir um ou mais tópicos?¹                                                                                                                                  |
+| 18     | Os tipos de contribuição seguem as definições apresentada na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados"?¹                                                |
+| 19     | Os impactos foram corretamente propagados?³                                                                                                                                                           |
+| 20     | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência?¹ |
+| 21     | Os diagramas documentados estão legíveis? (autoria própria)                                                                                                                                           |
+
 <div style="text-align: center">
 <p>Tabela X: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
+</div>
+
+## Etapa 5
+
+A tabela a seguir possui as perguntas do checklist que será utilizado para fazer a verificação da Etapa5.
+
+| Número | Pergunta                                                                | Resposta |
+| ------ | ----------------------------------------------------------------------- | -------- |
+| 1      | As etapas possuem uma introdução mostrando oque será avaliado?          | não      |
+| 2      | Todas as etapas possuem Referência bibliográfica?                       | não      |
+| 3      | Todos os artefatos possuem checklist?                                   | sim      |
+| 4      | Cada uma das perguntas possuem referência bibliográfica?                | não      |
+| 5      | Os documentos descrevem a metodologia utilizada?                        | não      |
+| 6      | Há um resumo explicando os principais pontos de melhoria dos artefatos? | sim      |
+| 7      | Cada verificação possui uma análise simples de dados?                   | sim      |
+| 8      | Possuem tabela de versionamento?                                        | sim      |
+| 9      | Todas as Etapas foram verificadas?                                      | não      |
+
+<div style="text-align: center">
+<p>Tabela 5: Checklist de verificação do artefato "NFR Framework" (Fonte: Gustavo,2023)</p>
 </div>
 
 ## Referência bibliográfica
@@ -73,7 +96,7 @@ A tabela X a seguir possui as perguntas do checklist que será utilizado para fa
 
 ## Tabela de Versionamento
 
-| Data | Versão | Descrição | Autor | Revisor |
-| ---- | ------ | --------- | ----- | ------- |
-| 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Data       | Versão | Descrição                                        | Autor                                          | Revisor                                           |
+| ---------- | ------ | ------------------------------------------------ | ---------------------------------------------- | ------------------------------------------------- |
+| 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo                  | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
