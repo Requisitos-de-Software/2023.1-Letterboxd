@@ -30,12 +30,152 @@ A tabela 1 a seguir possui as perguntas do checklist que será utilizado para fa
 <p>Tabela 1: Checklist de verificação do artefato "Rich Picture"</p>
 </div>
 
+## Etapa 2
+
+Na etapa 2, foram desenvolvidos os seguintes artefatos: Perfil de Usuário, Personas, Análise de Documentos, Entrevista, Instrospecção, Priorização, Questionário e Storytelling. Os checklists a seguir abordam esses artefatos.
+
+### Perfil de Usuário
+
+A Tabela 2 possui as perguntas do checklist para a verificação do artefato Perfil de Usuário. Todas elas foram retiradas da outra etapa de [verificação](/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) deste artefato em outra equipe. 
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Os dados foram obtidos por meio de pesquisas, entrevistas, observação ou análise de dados existentes? |
+| 2 | Os usuários foram agrupados em segmentos com base em características comuns? |
+| 3 | Foram criadas personas fictícias que representem perfis típicos de usuários, com base nas informações coletadas |
+| 4 | As porcentagens de usuários em cada segmento foram determinadas? |
+<div style="text-align: center">
+<p>Tabela 2: Checklist de verificação do artefato "Perfil de Usuário"</p>
+</div>
+
+### Personas
+
+A Tabela 3 possui as perguntas do checklist para a verificação do artefato Personas. Todas elas também foram retiradas da outra etapa de [verificação](/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) deste artefato em outra equipe.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Foram identificados os objetivos e as tarefas que os usuários desejam realizar ao interagir com o sistema ou produto? |
+| 2 | As personas contém Nome, Idade, Gênero, Status, Objetivos, Habilidades, Relacionamentos, Requisitos e Expectativas? |
+| 3 | Possui entre 3 a 12 personas? |
+| 4 | Possui justificativa do número de personas? |
+| 5 | Possui uma pelo menos uma antipersona? |
+<div style="text-align: center">
+<p>Tabela 3: Checklist de verificação do artefato "Personas"</p>
+</div>
+
+### Análise de Documentos
+
+A Tabela 4 possui as perguntas do checklist para a verificação do artefato Análise de Documentos.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Foi feita uma análise preliminar para selecionar os documentos mais relevantes para a coleta dos requisitos?⁹ |
+| 2 | Foram listados quais documentos foram analisados?⁹ |
+| 3 | Foram elicitados requisitos funcionais?⁹ |
+| 4 | Foram elicitados requisitos não funcionais?⁹ |
+| 5 | A classificação dos requisitos está correta?⁹ |
+<div style="text-align: center">
+<p>Tabela 4: Checklist de verificação do artefato "Análise de Documentos"</p>
+</div>
+
+### Entrevista
+
+A Tabela 5 possui as perguntas do checklist para a verificação do artefato Entrevista.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Foi utilizada alguma metodologia para o planejamento da entrevista? |
+| 2 | Foi apresentado um roteiro para a entrevista? |
+| 3 | Foi aplicado um termo de consentimento, para o devido uso das informações coletadas, aos entrevistados? |
+| 4 | Foi realizado algum teste piloto? |
+| 5 | Os entrevistados eram usuários da plataforma em estudo? |
+| 6 | Foram escritos resumos das entrevistas? |
+| 7 | Os requisitos elicitados foram documentados? |
+<div style="text-align: center">
+<p>Tabela 5: Checklist de verificação do artefato "Entrevista". Fonte: Débora, 2023</p>
+</div>
+
+### Introspecção
+
+A Tabela 6 possui as perguntas do checklist para a verificação do artefato Introspecção.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Foram levantados comportamentos esperados do aplicativo?¹⁰ |
+| 2 | Cada comportamento esperado possui um cenário de utilização completo?¹⁰ |
+| 3 | Foram elicitados requisitos funcionais?¹⁰ |
+| 4 | Foram elicitados requisitos não funcionais?¹⁰ |
+| 5 | A classificação dos requisitos está correta?¹⁰ |
+<div style="text-align: center">
+<p>Tabela 6: Checklist de verificação do artefato "Introspecção"</p>
+</div>
+
+### Priorização - Escala de Três Níveis
+
+A Tabela 7 possui as perguntas do checklist para a verificação do artefato Priorização - Escala de Três Níveis. Todas elas também foram retiradas da outra etapa de [verificação](/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) deste artefato em outra equipe.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | A priorização levou em consideração os critérios importância e urgência? |
+| 2 | Os níveis de priorização foram divididos em Alta, Média e Baixa? |
+| 3 | O modelo de quadrante utilizado para classificar os requisitos foi visualmente intuitivo e facilmente compreensível para os stakeholders? |
+| 4 | As dependências entre requisitos foram consideradas no processo de ranqueamento e priorização, garantindo que requisitos dependentes tenham prioridades consistentes? |
+<div style="text-align: center">
+<p>Tabela 7: Checklist de verificação do artefato "Priorização - Escala de Três Níveis"</p>
+</div>
+
+### Questionário
+
+A Tabela 8 possui as perguntas do checklist para a verificação do artefato Questionário.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Foi aplicado um termo de consentimento? |
+| 2 | Foram aplicadas perguntas referente ao uso da plataforma? |
+| 3 | Foram aplicadas perguntas referentes a quais recursos os usuários utilizam? |
+| 4 | Foram elicitados requisitos funcionais e não funcionais? |
+| 5 | Os resultados do questionário foram devidamente documentados? |
+<div style="text-align: center">
+<p>Tabela 8: Checklist de verificação do artefato "Questionário"</p>
+</div>
+
+### Storytelling
+
+A Tabela 9 possui as perguntas do checklist para a verificação do artefato Storytelling. Todas elas também foram retiradas da outra etapa de [verificação](/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) deste artefato em outra equipe.
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | Os registros da atividade de priorização dos requisitos foram adequadamente documentados? |
+| 2 | As histórias conseguem comunicar claramente a visão e as necessidades dos usuários para os membros da equipe de desenvolvimento? |
+| 3 | O Storytelling incorpora elementos emocionais e contextuais para criar empatia e compreensão dos usuários e suas necessidades? |
+| 4 | O Storytelling aborda as restrições e limitações do sistema, fornecendo informações importantes para a equipe de desenvolvimento considerar durante a implementação? |
+| 5 | As histórias do Storytelling foram validadas e verificadas por meio de revisões e feedback dos stakeholders relevantes para garantir sua precisão e adequação? |
+<div style="text-align: center">
+<p>Tabela 9: Checklist de verificação do artefato "Storytelling"</p>
+</div>
+
+### Priorização - First Things First
+
+A Tabela 10 possui as perguntas do checklist para a verificação do artefato Priorização - First Things First. 
+
+| Número     | Pergunta
+| ----------- | ----------- |
+| 1 | A técnica foi aplicada em conjunto com um usuário real da plataforma? ¹¹ |
+| 2 | Foram utilizados requisitos funcionais e não funcionais?¹¹ |
+| 3 | O benefício relativo foi estimado?¹¹ |
+| 4 | A penalidade relativa foi estimada?¹¹ |
+| 5 | O resultado foi devidamente documentado? ¹¹ |
+<div style="text-align: center">
+<p>Tabela 10: Checklist de verificação do artefato "Priorização - First Things First"</p>
+</div>
+
+
 ## Etapa 3
 
 Os checklists a seguir abordam os artefatos entregues na Entrega 3, sendo eles: Cenários, Léxicos, Diagrama de Casos de Uso e Especificação Suplementar.
 
 ### Cenários
-A tabela 2 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Cenários.
+A tabela 11 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Cenários.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -51,12 +191,12 @@ A tabela 2 a seguir possui as perguntas do checklist que será utilizado para fa
 | 10 | Os léxicos estão presentes nos cenários?⁶ |
 
 <div style="text-align: center">
-<p>Tabela 2: Checklist de verificação do artefato "Cenários"</p>
+<p>Tabela 11: Checklist de verificação do artefato "Cenários"</p>
 </div>
 
 
 ### Léxicos
-A tabela 3 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Léxicos.
+A tabela 12 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Léxicos.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -66,11 +206,11 @@ A tabela 3 a seguir possui as perguntas do checklist que será utilizado para fa
 | 4 | Os símbolos possuem tipo (verbo/objeto/estado)?⁸ |
 
 <div style="text-align: center">
-<p>Tabela 3: Checklist de verificação do artefato "Léxicos"</p>
+<p>Tabela 12: Checklist de verificação do artefato "Léxicos"</p>
 </div>
 
 ### Diagrama de Casos de Uso
-A tabela 4 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Diagrama de Casos de Uso.
+A tabela 13 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Diagrama de Casos de Uso.
 
 | Número     | Pergunta |
 | ----------- | ----------- |
@@ -90,11 +230,11 @@ A tabela 4 a seguir possui as perguntas do checklist que será utilizado para fa
 | 14 | Os casos de uso são representados com um formato oval na horizontal e representa os diferentes usos que um usuários pode ter?⁷ |
 
 <div style="text-align: center">
-<p>Tabela 4: Checklist de verificação do artefato "Diagrama de Casos de Uso"</p>
+<p>Tabela 13: Checklist de verificação do artefato "Diagrama de Casos de Uso"</p>
 </div>
 
 ### Especificação Suplementar
-A tabela 5 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Especificação Suplementar.
+A tabela 14 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Especificação Suplementar.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -107,7 +247,7 @@ A tabela 5 a seguir possui as perguntas do checklist que será utilizado para fa
 | 7 | A especificação explicita a suportabilidade do requisito?⁵ |
 
 <div style="text-align: center">
-<p>Tabela 5: Checklist de verificação do artefato "Especificação Suplementar"</p>
+<p>Tabela 14: Checklist de verificação do artefato "Especificação Suplementar"</p>
 </div>
 
 
@@ -117,7 +257,7 @@ Os seguintes checklists de verificação foi retirada do planejamento da verific
 
 ### Histórias de Usuário
 
-A tabela 6 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.
+A tabela 15 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -131,12 +271,12 @@ A tabela 6 a seguir possui as perguntas do checklist que será utilizado para fa
 | 8 | É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário? (autoria pŕopria)  |
 | 9 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis?² |
 <div style="text-align: center">
-<p>Tabela 6: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
+<p>Tabela 15: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
 </div>
 
 ### Backlog
 
-A tabela 7 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.
+A tabela 16 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.
 
 | Número     | Pergunta
 | ----------- | ----------- |
@@ -145,12 +285,12 @@ A tabela 7 a seguir possui as perguntas do checklist que será utilizado para fa
 | 12 | O PO participou da construção e/ou da validação do backlog?³ |
 | 13 | Foi documentado se o PO pediu alguma mudança no backlog?³ | 
 <div style="text-align: center">
-<p>Tabela 7: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
+<p>Tabela 16: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
 </div>
 
 ### NFR Framework
 
-A tabela 8 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.
+A tabela 17 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.
 
 | Número     | Pergunta
 | ----------- | ----------- | 
@@ -163,7 +303,7 @@ A tabela 8 a seguir possui as perguntas do checklist que será utilizado para fa
 | 20 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência?¹ |
 | 21 | Os diagramas documentados estão legíveis? (autoria própria) |
 <div style="text-align: center">
-<p>Tabela 8: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
+<p>Tabela 17: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
 </div>
 
 ## Referência bibliográfica
@@ -176,6 +316,9 @@ A tabela 8 a seguir possui as perguntas do checklist que será utilizado para fa
 > - [6] Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997)
 > - [7] Diagrama de caso de uso UML: O que é, como fazer e exemplos. Disponível em: <https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml>.
 > - [8] “Requisitos – Aula 10”, Milene Serrano e Maurício Serrano. Disponível em: <https://aprender3.unb.br/> Acesso em: 16 de junho de 2023.
+> - [9] ANÁLISE DE DOCUMENTOS. In: RETRAINING - Guia de Engenharia de Requisitos. [S.l.], [s.d.]. Disponível em: https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-analise-de-documentos. Acesso em: 21 jun. 2023.
+> - [10] SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07. Disponível em: Aprender3. Acesso em: 21 de junho de 2023.
+> - [11] WIEGERS Karl E. First Things First: Prioritizing Requirements. Setembro de 1999. Disponível em https://www.processimpact.com/articles/prioritizing.pdf. Acesso em 21 de junho de 2023.
 
 ## Tabela de Versionamento
 
@@ -184,3 +327,4 @@ A tabela 8 a seguir possui as perguntas do checklist que será utilizado para fa
 | 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4 | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 18/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 1 e 3 | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| 21/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 2 | [Débora Moreira](https://github.com/deboracaires) |  |
