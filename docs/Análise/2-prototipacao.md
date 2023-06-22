@@ -116,7 +116,7 @@ O protótipo a seguir, representado pela Figura 9, foi desenvolvido para represe
     </figure>
 </center>
 
-### 2.10 Protótipo 10 - Traduzir Críticas
+### 2.10 Protótipo 10 - Artigos Relacionados
 
 O protótipo a seguir, representado pela Figura 10, foi desenvolvido para representar o requisito QST11 (Colocar artigos relacionados na tela de detalhes do filme). Desta forma, foi adicionado na página do filme, uma seção de artigos relacionados, n qual o usuário poderá ler artigos relacionados ao filme.
 
