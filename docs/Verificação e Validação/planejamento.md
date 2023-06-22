@@ -2,7 +2,22 @@
 
 ## Introdução
 
+O presente documento tem como objetivo realizar uma análise criteriosa dos artefatos produzidos pelo próprio grupo responsável pela avaliação do aplicativo Letterboxd, a fim de identificar possíveis áreas de aprimoramento em seu projeto. Essa verificação tem como propósito contribuir para o aperfeiçoamento da qualidade e eficiência do trabalho realizado pela equipe, sem qualquer intenção de depreciar ou menosprezar suas conquistas. Adotando uma abordagem fundamentada em conhecimentos acadêmicos, buscar-se-á uma avaliação minuciosa dos elementos apresentados, visando fornecer recomendações construtivas embasadas para a otimização do projeto.
+
 ## Metodologia
+
+
+A metodologia de verificação de Fagan, utilizando checklist, é um processo estruturado e sistemático para identificar e corrigir erros em um produto de software. Essa abordagem é composta por diferentes fases, incluindo a preparação, reunião de verificação, correção e acompanhamento dos erros encontrados.
+
+Na fase de preparação, uma equipe é selecionada para realizar a verificação do produto. São definidos os critérios de aceitação, estabelecendo quais aspectos serão verificados e os padrões a serem seguidos. Além disso, uma checklist é elaborada, contendo uma lista de possíveis erros a serem procurados durante a verificação.
+
+A reunião de verificação é o próximo passo, no qual a equipe revisa o produto utilizando a checklist como guia. Cada item da lista é verificado individualmente, buscando identificar erros e discrepâncias em relação aos critérios estabelecidos. Durante essa fase, é importante que os participantes se concentrem na identificação de problemas e não na solução imediata.
+
+Após a reunião de verificação, a fase de correção se inicia. Os erros encontrados são registrados e comunicados à equipe responsável pelo desenvolvimento do produto. Essa equipe é encarregada de corrigir os erros e realizar as alterações necessárias para atender aos critérios de aceitação estabelecidos. É importante que haja uma comunicação clara entre a equipe de verificação e a equipe de desenvolvimento para garantir que os erros sejam corrigidos de forma eficaz.
+
+Por fim, vem a fase de acompanhamento dos erros encontrados. Nessa etapa, é verificado se as correções foram efetuadas adequadamente e se os erros foram eliminados. A equipe de verificação pode realizar uma nova revisão do produto para verificar se os problemas foram resolvidos corretamente. Caso sejam encontrados novos erros ou se as correções não forem satisfatórias, o ciclo de correção e acompanhamento pode ser repetido até que o produto atinja os critérios de qualidade estabelecidos.
+
+Em resumo, a metodologia de verificação de Fagan, utilizando checklist, consiste em uma abordagem estruturada que envolve fases de preparação, reunião de verificação, correção e acompanhamento dos erros encontrados. Esse processo contribui para a identificação e solução de problemas, garantindo a qualidade do produto de software [12].
 
 ## Etapa 1
 
@@ -352,6 +367,7 @@ A tabela 18 a seguir possui as perguntas do checklist que será utilizado para f
 > - [9] ANÁLISE DE DOCUMENTOS. In: RETRAINING - Guia de Engenharia de Requisitos. [S.l.], [s.d.]. Disponível em: https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-analise-de-documentos. Acesso em: 21 jun. 2023.
 > - [10] SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07. Disponível em: Aprender3. Acesso em: 21 de junho de 2023.
 > - [11] WIEGERS Karl E. First Things First: Prioritizing Requirements. Setembro de 1999. Disponível em https://www.processimpact.com/articles/prioritizing.pdf. Acesso em 21 de junho de 2023.
+> - [12] Gerência e Qualidade de Software - Aula 06 - Técnica de revisão, Fábio Levy Siqueira. Disponível em: https://www.youtube.com/watch?v=nA1BVDd9GUE- Acesso em 12/06/2023
 
 ## Tabela de Versionamento
 
