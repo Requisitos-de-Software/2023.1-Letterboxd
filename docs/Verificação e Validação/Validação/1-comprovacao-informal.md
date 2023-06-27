@@ -10,13 +10,13 @@ Existem diferentes técnicas que podem ser utilizadas durante o processo de vali
 
 <center>
     <figure markdown>
-    [![Figura 1: Mensagem enviada para a equipe da plataforma Letterboxd](../assets/validacao-informal.png)](../assets/validacao-informal.png){:target="_blank"}
+    [![Figura 1: Mensagem enviada para a equipe da plataforma Letterboxd](../../assets/validacao-informal.png)](../../assets/validacao-informal.png){:target="_blank"}
     <figcaption>Figura 1: Mensagem enviada para a equipe da plataforma Letterboxd</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Clara Ribeiro</p>
     </figure>
 </center>
 
-Além disso, para a realização da validação, foi utilizada também a técnica de prototipação, que poder ser conferida [aqui](../An%C3%A1lise/2-prototipacao.md).
+Além disso, para a realização da validação, foi utilizada também a técnica de prototipação, que poder ser conferida [aqui](./2-prototipacao.md).
 
 ## 3. Resultados
 

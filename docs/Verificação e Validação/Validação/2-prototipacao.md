@@ -14,7 +14,7 @@ O protótipo a seguir, representado pela Figura 1, tem como objetivo atender ao 
 
 <center>
     <figure markdown>
-    [![Figura 1: Protótipo 1](../assets/prototipo1.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=23-3&viewport=133%2C2365%2C0.29&scaling=min-zoom){:target="_blank"}
+    [![Figura 1: Protótipo 1](../../assets/prototipo1.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=23-3&viewport=133%2C2365%2C0.29&scaling=min-zoom){:target="_blank"}
     <figcaption>Figura 1: Protótipo 1</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
     </figure>
@@ -26,7 +26,7 @@ O protótipo a seguir, representado pela Figura 2, tem como objetivo representar
 
 <center>
     <figure markdown>
-    [![Figura 2: Protótipo 2](../assets/prototipo2.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=23-3&viewport=133%2C2365%2C0.29&scaling=min-zoom){:target="_blank"}
+    [![Figura 2: Protótipo 2](../../assets/prototipo2.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=23-3&viewport=133%2C2365%2C0.29&scaling=min-zoom){:target="_blank"}
     <figcaption>Figura 2: Protótipo 2</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
     </figure>
@@ -38,7 +38,7 @@ O protótipo a seguir, representado pela Figura 3, tem como objetivo representar
 
 <center>
     <figure markdown>
-    [![Figura 3: Protótipo 3](../assets/prototipo3.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=31-1148&viewport=193%2C3121%2C0.41&scaling=min-zoom){:target="_blank"}
+    [![Figura 3: Protótipo 3](../../assets/prototipo3.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=31-1148&viewport=193%2C3121%2C0.41&scaling=min-zoom){:target="_blank"}
     <figcaption>Figura 3: Protótipo 3</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
     </figure>
@@ -50,7 +50,7 @@ O protótipo a seguir, representado pela Figura 4, tem como objetivo representar
 
 <center>
     <figure markdown>
-    [![Figura 4: Protótipo 4](../assets/prototipo4.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=31-1148&viewport=193%2C3121%2C0.41&scaling=min-zoom){:target="_blank"}
+    [![Figura 4: Protótipo 4](../../assets/prototipo4.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=31-1148&viewport=193%2C3121%2C0.41&scaling=min-zoom){:target="_blank"}
     <figcaption>Figura 4: Protótipo 4</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
     </figure>
@@ -62,7 +62,7 @@ O protótipo a seguir, representado pela Figura 5, tem como objetivo representar
 
 <center>
     <figure markdown>
-     [![Figura 5: Protótipo 5](../assets/prototipo5.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=31-1809&viewport=199%2C2839%2C0.41&scaling=min-zoom){:target="_blank"}
+     [![Figura 5: Protótipo 5](../../assets/prototipo5.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=31-1809&viewport=199%2C2839%2C0.41&scaling=min-zoom){:target="_blank"}
     <figcaption>Figura 5: Protótipo 5</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
     </figure>
@@ -74,7 +74,7 @@ O protótipo a seguir, representado pela Figura 6, tem como objetivo representar
 
 <center>
     <figure markdown>
-     [![Figura 6: Protótipo 6](../assets/prototipo6.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-125&viewport=-2037%2C4806%2C0.64&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
+     [![Figura 6: Protótipo 6](../../assets/prototipo6.gif){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-125&viewport=-2037%2C4806%2C0.64&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
     <figcaption>Figura 6: Protótipo 6</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
     </figure>
@@ -86,7 +86,7 @@ O protótipo a seguir, representado pela Figura 7, foi desenvolvido para represe
 
 <center>
     <figure markdown>
-     [![Figura 7: Protótipo 7](../assets/prototipo7.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-132&viewport=-2331%2C5439%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
+     [![Figura 7: Protótipo 7](../../assets/prototipo7.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-132&viewport=-2331%2C5439%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
     <figcaption>Figura 7: Protótipo 7</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
     </figure>
@@ -98,7 +98,7 @@ O protótipo a seguir, representado pela Figura 8, foi desenvolvido para represe
 
 <center>
     <figure markdown>
-     [![Figura 8: Protótipo 8](../assets/prototipo8.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-168&viewport=-2331%2C5439%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
+     [![Figura 8: Protótipo 8](../../assets/prototipo8.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-168&viewport=-2331%2C5439%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
     <figcaption>Figura 8: Protótipo 8</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
     </figure>
@@ -110,7 +110,7 @@ O protótipo a seguir, representado pela Figura 9, foi desenvolvido para represe
 
 <center>
     <figure markdown>
-     [![Figura 9: Protótipo 9](../assets/prototipo9.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-171&viewport=-2331%2C5439%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
+     [![Figura 9: Protótipo 9](../../assets/prototipo9.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-171&viewport=-2331%2C5439%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
     <figcaption>Figura 9: Protótipo 9</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
     </figure>
@@ -122,7 +122,7 @@ O protótipo a seguir, representado pela Figura 10, foi desenvolvido para repres
 
 <center>
     <figure markdown>
-     [![Figura 10: Protótipo 10](../assets/prototipo10.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-175&viewport=-2445%2C5341%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
+     [![Figura 10: Protótipo 10](../../assets/prototipo10.jpg){ width=250px}](https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&type=design&node-id=68-175&viewport=-2445%2C5341%2C0.79&scaling=min-zoom&starting-point-node-id=68%3A125){:target="_blank"}
     <figcaption>Figura 10: Protótipo 10</figcaption>
     <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
     </figure>
