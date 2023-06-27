@@ -6,6 +6,8 @@ Aqui será apresentado na Tabela 1 uma matriz de rastreabilidade geral que combi
 
 A combinação dos dados do backward-from e do forward-from possibilita estabelecer uma rastreabilidade bidirecional dos requisitos. Isso significa que podemos compreender tanto as partes do projeto afetadas por cada requisito quanto as partes responsáveis por atendê-los. A matriz de rastreabilidade geral permite gerenciar de maneira abrangente os requisitos do projeto, assegurando sua adequada cobertura e alinhamento com as partes relevantes.
 
+## Metodologia
+
 A metodologia adotada para construir essa matriz envolveu a identificação e definição do backlog, dos casos de uso, dos requisitos não funcionais, das técnicas de elicitação e da priorização. Além disso, foi realizado o mapeamento dos requisitos para o protótipo das telas. Essas informações foram integradas em uma única matriz, estabelecendo as relações entre os requisitos e todas as demais informações relevantes.
 
 Com a matriz de rastreabilidade geral, temos uma ferramenta poderosa para o gerenciamento e o rastreamento dos requisitos do projeto. Essa matriz auxilia na compreensão das dependências entre os requisitos e as partes do projeto, facilitando a tomada de decisões, a identificação de impactos e a garantia de que todas as funcionalidades sejam adequadamente implementadas.
