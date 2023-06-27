@@ -25,6 +25,6 @@ Com a matriz de rastreabilidade geral, temos uma ferramenta poderosa para o gere
 
 ## Tabela de Versionamento
 
-| Data | Versão | Descrição | Autor | Revisor |
-| ---- | ------ | --------- | ----- | ------- |
-| 27/06/2023 | `1.0`  | Adição da matriz Forward-From | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Natan Santana](https://github.com/Neitan2001)|  |
+| Data       | Versão | Descrição                     | Autor                                                                                              | Revisor                                             |
+| ---------- | ------ | ----------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| 27/06/2023 | `1.0`  | Adição da matriz Forward-From | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Natan Santana](https://github.com/Neitan2001) | [Maciel Júnior](https://github.com/macieljuniormax) |
