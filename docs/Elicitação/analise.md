@@ -16,7 +16,7 @@ Por essas razões, a análise de documentos é uma técnica amplamente utilizada
 
 A fonte utilizada para a análise de documentos foi o site [Letterboxd](https://letterboxd.com/). O site contém uma grande quantidade de documentação, incluindo informações sobre suas funcionalidades, sua interface de usuário e seus recursos.
 
-Ao examinar a documentação existente de um sistema ou aplicativo, é possível identificar seus recursos, funcionalidades, limitações e problemas existentes. Essa análise forneceu informações valiosas sobre o que os usuários querem e precisam, bem como sobre como aprimorar ou expandir um sistema ou aplicativo.
+No contexto deste artefato, nos baseamos em um documento específico encontrado no Letterboxd, que foi o FAQ de perguntas. Essa seção forneceu um conjunto abrangente de perguntas e respostas que nos auxiliaram na compreensão detalhada do funcionamento e das características do site. Dessa forma, foi possível identificar seus recursos, funcionalidades, limitações e problemas existentes. Essa análise forneceu informações valiosas sobre o que os usuários querem e precisam, bem como sobre como aprimorar ou expandir um sistema ou aplicativo.
 
 No caso do Letterboxd, a análise de documentos foi extremamente útil. O site é uma plataforma madura e estabelecida, com uma ampla base de usuários e muita documentação disponível. Isso permitiu que fossem identificadas funcionalidades importantes para os usuários, bem como opiniões e sugestões para melhorias no site. Além disso, a análise também possibilitou a identificação de recursos e funcionalidades em potencial que ainda não foram implementados no aplicativo, mas que poderiam ser valiosos para os usuários.
 
@@ -119,6 +119,7 @@ Letterboxd Frequent questions. Disponível em: <https://letterboxd.com/about/faq
 
 ## 5. Tabela de Versionamento
 
-| Data       | Versão | Descrição                            | Autor                                             | Revisor                                        |
-| ---------- | ------ | ------------------------------------ | ------------------------------------------------- | ---------------------------------------------- |
-| 25/04/2023 | `1.0`  | Elicitação por análise de documentos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Data       | Versão | Descrição                                 | Autor                                               | Revisor                                        |
+| ---------- | ------ | ----------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| 25/04/2023 | `1.0`  | Elicitação por análise de documentos      | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| 27/06/2023 | `2.0`  | Adiciona o documento específico utilizado | [Maciel Júnior](https://github.com/macieljuniormax) |                                                |
