@@ -119,7 +119,7 @@ Letterboxd Frequent questions. Disponível em: <https://letterboxd.com/about/faq
 
 ## 5. Tabela de Versionamento
 
-| Data       | Versão | Descrição                                 | Autor                                               | Revisor                                        |
-| ---------- | ------ | ----------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
-| 25/04/2023 | `1.0`  | Elicitação por análise de documentos      | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
-| 27/06/2023 | `2.0`  | Adiciona o documento específico utilizado | [Maciel Júnior](https://github.com/macieljuniormax) |                                                |
+| Data       | Versão | Descrição                                 | Autor                                               | Revisor                                         |
+| ---------- | ------ | ----------------------------------------- | --------------------------------------------------- | ----------------------------------------------- |
+| 25/04/2023 | `1.0`  | Elicitação por análise de documentos      | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001)  |
+| 27/06/2023 | `2.0`  | Adiciona o documento específico utilizado | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou) |

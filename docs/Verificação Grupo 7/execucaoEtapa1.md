@@ -93,8 +93,8 @@ Quanto as Metodologias:
 
 ## Histórico de versões
 
-| Versão | Data       | Descrição                                                               | Autor(es)                                           | Revisor(es) |
-| ------ | ---------- | ----------------------------------------------------------------------- | --------------------------------------------------- | ----------- |
-| `1.0`  | 14/06/2023 | Criação do documento                                                    | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | -           |
-| `1.1`  | 14/06/2023 | Edição dos resultados                                                   | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | -           |
-| `1.2`  | 14/06/2023 | Adiciona artefatos avaliados na introdução e corrige erros ortográficos | [Maciel Júnior](https://github.com/macieljuniormax) |             |
+| Versão | Data       | Descrição                                                               | Autor(es)                                           | Revisor(es)                                     |
+| ------ | ---------- | ----------------------------------------------------------------------- | --------------------------------------------------- | ----------------------------------------------- |
+| `1.0`  | 14/06/2023 | Criação do documento                                                    | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | -                                               |
+| `1.1`  | 14/06/2023 | Edição dos resultados                                                   | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | -                                               |
+| `1.2`  | 14/06/2023 | Adiciona artefatos avaliados na introdução e corrige erros ortográficos | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou) |

@@ -21,4 +21,4 @@ De acordo com as respostas obtidas pelo [questionário](./perfil.md), o seguinte
 | Data       | Versão | Descrição                                                          | Autor                                               | Revisor                                           |
 | ---------- | ------ | ------------------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------- |
 | 14/05/2023 | `1.0`  | Documentação do perfil de usuário                                  | [Natan Santana](https://github.com/Neitan2001)      | [Clara Ribeiro](https://github.com/clara-ribeiro) |
-| 14/05/2023 | `2.0`  | Adição do gênero no perfil e correção da faixa de idades do perfil | [Maciel Júnior](https://github.com/macieljuniormax) |                                                   |
+| 14/05/2023 | `2.0`  | Adição do gênero no perfil e correção da faixa de idades do perfil | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur Loureiro](https://github.com/ArtAssLou)   |
