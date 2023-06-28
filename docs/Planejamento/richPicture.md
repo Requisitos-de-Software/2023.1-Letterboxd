@@ -22,7 +22,7 @@ Versão 1.0
 <figure markdown>
   ![RichPictureClara](../assets/RichPicture_CorrecaoClara.jpg){width: 90vw}
   <figcaption>Figura 1: Rich Picture do Letterboxd</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria Própria</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Arthur D'Assumpção</p>
 </figure>
 
 Versão 2.0
