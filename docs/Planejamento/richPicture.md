@@ -13,19 +13,17 @@
 
 <figure markdown>
   ![RichPictureClara](../assets/RichPicture_Clara.png){width: 90vw}
-  <figcaption>Figura 1: Rich Picture do Letterboxd</figcaption>
+  <figcaption>Figura 1: 1º Versão da Rich Picture do Letterboxd</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria Própria</p>
 </figure>
 
-Versão 1.0
-
 <figure markdown>
   ![RichPictureClara](../assets/RichPicture_CorrecaoClara.jpg){width: 90vw}
-  <figcaption>Figura 1: Rich Picture do Letterboxd</figcaption>
+  <figcaption>Figura 2: 2º Versão da Rich Picture do Letterboxd</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Arthur D'Assumpção</p>
 </figure>
 
-Versão 2.0
+
 
 
 
