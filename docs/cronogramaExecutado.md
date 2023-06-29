@@ -81,6 +81,41 @@ Na tabela 4 está disponível o cronograma executado na quarta etapa do projeto.
 <p>Tabela 4: cronograma executado da etapa 4</p>
 </div>
 
+## Etapa 5.1
+
+Abaixo, na Tabela 5, está disponível o cronograma executado na quarta etapa do projeto.
+
+| Data limite para desenvolvimento       | Descrição da Atividade                           | Autor(es)                                            | Revisor                                              | Início da revisão | Término da revisão |
+| -------------------------------------- | ------------------------------------------------ | ---------------------------------------------------- | ---------------------------------------------------- | ----------------- | ------------------ |
+| Início: 24/05/2023 Término: 02/06/2023 | Verificação do Etapa 1 do Grupo 7                | [Natan Santana](https://github.com/Neitan2001)       | [Gustavo Barbosa](https://github.com/brbsg)          | 03/06/2023        | 21/06/2023         |
+| Início: 24/05/2023 Término: 02/06/2023 | Verificação do Etapa 2 do Grupo 7                | [Clara Ribeiro](https://github.com/clara-ribeiro)    | [Arthur D'Assumpção](https://github.com/ArtAssLou)   | 03/06/2023        | 12/06/2023         |
+| Início: 24/05/2023 Término: 02/06/2023 | Verificação do Etapa 3 do Grupo 7                | [Débora Caires](https://github.com/deboracaires)     | [Rhuan Marques](https://github.com/RhuanMr)          | 03/06/2023        | 21/06/2023         |
+| Início: 24/05/2023 Término: 02/06/2023 | Verificação do Etapa 4 do Grupo 7                | [Rhuan Marques](https://github.com/RhuanMr)          | [Maciel Júnior](https://github.com/macieljuniormax)  | 03/06/2023        | 12/06/2023         |
+| Início: 24/05/2023 Término: 02/06/2023 | Ajustes de acordo com feedback da apresentação 4 | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 03/05/2023        | 04/05/2023         |
+| Início: 24/05/2023 Término: 05/06/2023 | Gravação e Edição da Apresentação                | [Clara Ribeiro](https://github.com/clara-ribeiro)    | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 06/06/2023        | 16/06/2023         |
+
+<div style="text-align: center">
+<p>Tabela 5:cronograma executado da etapa 5.1</p>
+</div>
+
+## Etapa 5.2
+
+Abaixo, na Tabela 6, estão especificadas as atividades programadas para serem executadas na segunda parte da quinta etapa de desenvolvimento do projeto, com seus respectivos autores e revisores:
+
+| Data limite para desenvolvimento       | Descrição da Atividade                             | Autor(es)                                            | Revisor                                              | Início da revisão | Término da revisão |
+| -------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- | ---------------------------------------------------- | ----------------- | ------------------ |
+| Início: 07/06/2023 Término: 10/06/2023 | Verificação da Etapa 1                             | [Maciel Júnior](https://github.com/macieljuniormax)  | [Débora Caires](https://github.com/deboracaires)     | 11/06/2023        | 21/06/2023         |
+| Início: 07/06/2023 Término: 10/06/2023 | Verificação da Etapa 2                             | [Arthur D'Assumpção](https://github.com/ArtAssLou)   | [Natan Santana](https://github.com/Neitan2001)       | 11/06/2023        | 21/06/2023         |
+| Início: 07/06/2023 Término: 10/06/2023 | Verificação da Etapa 3                             | [Gustavo Barbosa](https://github.com/brbsg)          | [Clara Ribeiro](https://github.com/clara-ribeiro)    | 11/06/2023        | 21/06/2023         |
+| Início: 07/06/2023 Término: 10/06/2023 | Verificação da Etapa 4                             | [Clara Ribeiro](https://github.com/clara-ribeiro)    | [Rhuan Marques](https://github.com/RhuanMr)          | 11/06/2023        | 16/06/2023         |
+| Início: 07/06/2023 Término: 12/06/2023 | Verificação da Etapa 5.1                           | [Gustavo Barbosa](https://github.com/brbsg)          | [Clara Ribeiro](https://github.com/clara-ribeiro)    | 14/06/2023        | 20/06/2023         |
+| Início: 07/06/2023 Término: 10/06/2023 | Ajustes de acordo com feedback da apresentação 5.1 | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 11/06/2023        | 28/06/2023         |
+| Início: 07/06/2023 Término: 13/06/2023 | Gravação e Edição da Apresentação                  | [Clara Ribeiro](https://github.com/clara-ribeiro)    | Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo | 14/06/2023        | 21/06/2023         |
+
+<div style="text-align: center">
+<p>Tabela 6: cronograma executado da etapa 5.2</p>
+</div>
+
 ## Tabela de Versionamento
 
 | Data       | Versão | Descrição                                        | Autor                                             | Revisor                                           |
@@ -91,3 +126,4 @@ Na tabela 4 está disponível o cronograma executado na quarta etapa do projeto.
 | 30/04/2023 | `4.0`  | Adição das data da entrega e revisão da etapa 2  | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 15/05/2023 | `5.0`  | Adição das data da entrega e revisão da etapa 3  | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 12/06/2023 | `6.0`  | Adição das data da entrega e revisão da etapa 4  | [Gustavo Barbosa](https://github.com/brbsg)       | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 28/06/2023 | `7.0`  | Adição das data da entrega e revisão da etapa 5  | [Gustavo Barbosa](https://github.com/brbsg)       | [Clara Ribeiro](https://github.com/clara-ribeiro) |
