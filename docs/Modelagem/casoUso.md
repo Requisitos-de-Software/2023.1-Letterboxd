@@ -46,30 +46,174 @@ O diagrama de casos de uso do fluxo de Críticas e Filmes pode ser acessado por 
 
 #### UC01
 
-A especificação do UC01 pode ser observador na tabela 1 a seguir.
+A especificação do UC01 pode ser observada na tabela 1 a seguir.
+
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC01 - Visualizar detalhes do filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Ao selecionar um filme, deverá ser mostrado todos os detalhes do filme selecionado</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário esteja na tela principal do aplicativo e aperte em um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">Todos os dados do filme devem estar visíveis para o usuário</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Apertar em um filme <br>
+    2 - Visualizar os detalhes do filme selecionado <br>
+    3 - Visualizar plataformas que possuem o filme disponível <br>
+    4 - Visualizar trilha sonora do filme <br>
+    5 - Visualizar atores e equipe do filme <br>
+    6 - Visualizar críticas de outros usuários sobre o filme <br>
+    7 - Visualizar artigos relacionados ao filme
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align:center">---</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle;">
+      <strong>Fluxo de Exceção 1: Não há críticas de outros usuários sobre o filme</strong><br>
+      O sistema exibe uma mensagem indicando que não há críticas de outros usuários sobre o filme.
+      <hr>
+      <strong>Fluxo de Exceção 2: Não há artigos relacionados ao filme</strong><br>
+      O sistema exibe uma mensagem indicando que não há artigos relacionados ao filme.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">IT16</td>
+  </tr>
+</table>
 
 <figure markdown>
-  ![Caso de uso 1](../assets/casosDeUso/l1uc01.png)
   <figcaption>Tabela 1: Especificação de caso 1</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC02
 
 A especificação do UC02 pode ser observador na tabela 2 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC02 - Visualizar plataformas que possuem o filme disponível</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Dentro da tela de detalhes, deve ser possível visualizar as plataformas 
+    que possuem o filme de acordo com a localização do usuário</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela 
+de detalhes de um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">Deve ser listado os plataformas que possuem o video para alugar, as que
+possuem para comprar e as que possuem para assistir</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Apertar na opção de "Where to watch" <br>
+    2 - Visualizar a lista de plataformas <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle;">
+    1 - Redirecionar para filme em uma plataforma disponivel
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle;">
+      <strong>Fluxo de Exceção 1: Nenhuma plataforma possui o filme disponível</strong><br>
+      O sistema exibe uma mensagem indicando que nenhuma plataforma possui o filme disponível.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">QST05</td>
+  </tr>
+</table>
 <figure markdown>
-  ![Caso de uso 2](../assets/casosDeUso/l1uc02.png)
   <figcaption>Tabela 2: Especificação de caso 2</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC03
 
 A especificação do UC03 pode ser observador na tabela 3 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC03 - Redirecionar para filme em uma plataforma disponível</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Ao clicar em uma das plataformas da lista, o aplicativo deve redirecionar o usuário para a página do filme no app ou site da plataforma selecionada</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário esteja na tela de visualização das plataformas disponíveis do
+filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O usuário deve ser redirecionado para a página do filme no app ou site da plataforma
+selecionada</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Apertar em uma das plataformas listadas <br>
+    2 - Redirecionar para a pagina do filme no app
+ou site da plataforma selecionada <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align: center;">
+    ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align: center;">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">ENT02</td>
+  </tr>
+</table>
 <figure markdown>
-  ![Caso de uso 3](../assets/casosDeUso/l1uc03.png)
   <figcaption>Tabela 3: Especificação de caso 3</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </figure>

@@ -8,8 +8,9 @@ theme:
   features:
     - content.code.copy
 markdown_extensions:
-  - attr_list 
+  - attr_list
   - md_in_html
+  - pymdownx.extra
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -22,4 +23,3 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-
