@@ -148,7 +148,7 @@ possuem para comprar e as que possuem para assistir</td>
   <tr>
     <td style="vertical-align: middle;">Fluxo de exceção</td>
     <td style="vertical-align: middle;">
-      <strong>Fluxo de Exceção 1: Nenhuma plataforma possui o filme disponível</strong><br>
+      <strong>Fluxo de Exceção: Nenhuma plataforma possui o filme disponível</strong><br>
       O sistema exibe uma mensagem indicando que nenhuma plataforma possui o filme disponível.
     </td>
   </tr>
@@ -328,9 +328,11 @@ A especificação do UC05 pode ser observador na tabela 5 a seguir.
 
 #### UC06
 
+A especificação do UC06 pode ser observador na tabela 6 a seguir.
+
 <table style="width: 100%;">
   <tr>
-    <th style="text-align: center;" colspan="2">UC05 - Avaliar atores do filme</th>
+    <th style="text-align: center;" colspan="2">UC06 - Avaliar atores do filme</th>
   </tr>
   <tr>
     <td style="vertical-align: middle;">Descrição</td>
@@ -372,10 +374,9 @@ ator ou atriz</td>
   </tr>
   <tr>
     <td style="vertical-align: middle;">Rastreabilidade</td>
-    <td style="vertical-align: middle; text-align:center">IT16</td>
+    <td style="vertical-align: middle; text-align:center">DOC52</td>
   </tr>
 </table>
-A especificação do UC06 pode ser observador na tabela 6 a seguir.
 
 <figure markdown>
   <figcaption>Tabela 6: Especificação de caso 6</figcaption>
@@ -386,8 +387,56 @@ A especificação do UC06 pode ser observador na tabela 6 a seguir.
 
 A especificação do UC07 pode ser observador na tabela 7 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC07 - Avaliar diretores do filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Ao clicar em um dos diretores da lista, o usuário poderá dar de 1 a 5 estrelas para o diretor ou diretora</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme e selecionado um diretor
+ou diretora</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">A avaliação do usuário será registrada no banco de dados</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar tela de detalhes do filme <br>
+    2 - Visualizar lista de atores e equipe do filme <br>
+    3 - Apertar em um diretor ou diretora <br>
+    4 - Avaliar o diretora ou diretora com 1 a 5
+estrelas <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align: center;">
+    ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align: center;">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">DOC53</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 7](../assets/casosDeUso/l1uc07.png)
   <figcaption>Tabela 7: Especificação de caso 7</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </figure>
@@ -396,28 +445,168 @@ A especificação do UC07 pode ser observador na tabela 7 a seguir.
 
 A especificação do UC08 pode ser observador na tabela 8 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC08 - Visualizar críticas de outros usuários sobre o filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Dentro da tela de detalhes deve ser possível visualizar todas as críticas de outros usuários sobre o filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O usuário poderá visualizar as críticas de outros usuários ordenado pela quantidade de curtidas das críticas</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar tela de detalhes do filme <br>
+    2 - Visualizar as três críticas mais curtidas <br>
+    3 - Apertar em "AlI Reviews" <br>
+    4 - Visualizar todas as criticas ordenadas
+por curtidas <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle;">
+    1 - Traduzir críticas que estão em idioma diferente do usuário <br>
+    2 - Comentar críticas feita por outros usuários <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle;">
+      <strong>Fluxo de Exceção: Não há críticas de outros usuários sobre o filme</strong><br>
+      O sistema exibe uma mensagem indicando que não há críticas de outros usuários sobre o filme.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">ST03</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 8](../assets/casosDeUso/l1uc08.png)
   <figcaption>Tabela 8: Especificação de caso 8</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC09
 
 A especificação do UC09 pode ser observador na tabela 9 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UCO9 - Traduzir críticas que estão em um idioma diferente do usuário</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Adicionar um botão de traduzir nas críticas que estejam em um idioma diferente do
+usuário</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário, Servidor</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário esteja visualizando uma
+crítica de algum filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">A tradução será feita pelo servidor e disponibilizada automaticamente para o
+usuário</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar uma crítica sobre algum filme em um idioma diferente <br>
+    2 - Apertar o botão de traduzir <br>
+    3 - Traduzir crítica (Servidor) <br>
+    4 - Visualizar a critca traduzida <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align:center">---</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align:center">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">ENT06</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 9](../assets/casosDeUso/l1uc09.png)
   <figcaption>Tabela 9: Especificação de caso 9</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC10
 
 A especificação do UC10 pode ser observador na tabela 10 a seguir.
 
+<table style="width: 100%;">
+
+  <tr>
+    <th style="text-align: center;" colspan="2">UC10 - Comentar críticas feita por outros usuários</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Adicionar um comentário em uma crítica de outro usuário</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário esteja visualizando uma crítica de algum filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O comentário criado pelo usuário será registrado no banco de dados e outros usuários poderão visualizá-lo</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar uma crítica sobre algum filme <br>
+    2 - Apertar no botão de comentário <br>
+    3 - Adicionar comentário na critica <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align:center">---</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align:center">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">QST02</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 10](../assets/casosDeUso/l1uc10.png)
   <figcaption>Tabela 10: Especificação de caso 10</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </figure>
