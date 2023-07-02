@@ -222,28 +222,162 @@ ou site da plataforma selecionada <br>
 
 A especificação do UC04 pode ser observador na tabela 4 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC04 - Visualizar trilha sonora do filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Dentro da tela de detalhes de um filme, deve ser possível verificar as informações da trilha sonora do filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O usuário deve visualizar as informações da trilha sonora do filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar tela de detalhes do filme <br>
+    2 - Visualizar informações da trilha sonora <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align: center;">
+    ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align: center;">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">DOC56</td>
+  </tr>
+</table>
 <figure markdown>
-  ![Caso de uso 4](../assets/casosDeUso/l1uc04.png)
   <figcaption>Tabela 4: Especificação de caso 4</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC05
 
 A especificação do UC05 pode ser observador na tabela 5 a seguir.
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC05 - Visualizar atores e equipe do filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Dentro da tela de detalhes deve ser possivel visualizar a lista de atores e equipe envolvida na produção do filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O usuário deve visualizar uma lista com todos os atores e equipe do filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar tela de detalhes do filme <br>
+    2 - Visualizar lista de atores e equipe do filme <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle;">
+    1 - Avaliar atores do filme <br>
+    2 - Avaliar diretores do filme <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align: center;">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">IT16</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 5](../assets/casosDeUso/l1uc05.png)
   <figcaption>Tabela 5: Especificação de caso 5</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </figure>
 
 #### UC06
 
+<table style="width: 100%;">
+  <tr>
+    <th style="text-align: center;" colspan="2">UC05 - Avaliar atores do filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Ao clicar em um dos atores da lista, o usuário poderá dar de 1 a 5 estrelas para o ator ou atriz</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme e selecionado um
+ator ou atriz</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">A avaliação do usuário será registrada no banco de dados</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar tela de detalhes do filme <br>
+    2 - Visualizar lista de atores e equipe do filme <br>
+    3 - Apertar em um ator ou atriz <br>
+    4 - Avaliar o ator ou atriz com 1 a 5 estrelas <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align: center;">
+    ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align: center;">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">IT16</td>
+  </tr>
+</table>
 A especificação do UC06 pode ser observador na tabela 6 a seguir.
 
 <figure markdown>
-  ![Caso de uso 6](../assets/casosDeUso/l1uc06.png)
   <figcaption>Tabela 6: Especificação de caso 6</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </figure>
