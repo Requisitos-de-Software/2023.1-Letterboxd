@@ -615,18 +615,110 @@ A especificação do UC10 pode ser observador na tabela 10 a seguir.
 
 A especificação do UC11 pode ser observador na tabela 11 a seguir.
 
+<table style="width: 100%;">
+
+  <tr>
+    <th style="text-align: center;" colspan="2">UC11 - Visualizar artigos relacionados ao filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Na tela de detalhes do filme selecionado, deve ser listado os artigos relacionados ao filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O usuário poderá visualizar e acessar os artigos relacionados ao filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar a tela de detalhes de um filme <br>
+    2 - Visualizar artigos relacionados <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align:center">---</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle;">
+      <strong>Fluxo de Exceção: Não há nenhum artigo relacionado ao filme</strong><br>
+      O sistema exibe uma mensagem indicando que não há nenhum artigo relacionado ao filme.
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">QST11</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 11](../assets/casosDeUso/l1uc11.png)
   <figcaption>Tabela 11: Especificação de caso 11</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC12
 
 A especificação do UC12 pode ser observador na tabela 12 a seguir.
 
+<table style="width: 100%;">
+
+  <tr>
+    <th style="text-align: center;" colspan="2">UC12 - Adcionar críticas sobre o filme</th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Ao acessar um filme, deve ser possivel adicionar uma critica com comentario, estrelas e emoção</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário tenha acessado a tela de detalhes de um filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">A crítica será registrada no banco de dados e os outros usuário poderão
+visualizá-la</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar a tela de detalhes de um filme <br>
+    2 - Apertar em "review" <br>
+    3 - Adicionar um comentário <br>
+    4 - Dar um valor de 1 a 5 em estrelas para o filme <br>
+    5 - Adicionar uma emoção <br>
+    6 - O filme é adicionado como um registro no diário <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align:center">---</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align:center">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">IT07</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 12](../assets/casosDeUso/l1uc12.png)
   <figcaption>Tabela 12: Especificação de caso 12</figcaption>
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
 </figure>
@@ -635,10 +727,59 @@ A especificação do UC12 pode ser observador na tabela 12 a seguir.
 
 A especificação do UC13 pode ser observador na tabela 13 a seguir.
 
+<table style="width: 100%;">
+
+  <tr>
+    <th style="text-align: center;" colspan="2">UC13 - Avaliar o filme de 1 a 5 estrelas
+  </th>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Descrição</td>
+    <td style="vertical-align: middle;">Durante a adição da avaliação, o usuário deve colocar um valor de 1 a 5 estrelas para o filme</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Atores</td>
+    <td style="vertical-align: middle;">Usuário, Sistema</td>
+  </tr> 
+  <tr>
+    <td style="vertical-align: middle;">Pré-Condição</td>
+    <td style="vertical-align: middle;">Dado que o usuário esteja fazendo uma
+critica</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Pós-Condição</td>
+    <td style="vertical-align: middle;">O valor da avaliação será registrada no banco de dados</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo Principal</td>
+    <td style="vertical-align: middle;">
+    1 - Acessar a tela de detalhes de um filme <br>
+    2 - Apertar em "review" <br>
+    3 - Adicionar um comentário <br>
+    4 - Dar um valor de 1 a 5 em estrelas para o filme <br>
+    5 - Adicionar uma emoção <br>
+    6 - Calcular avaliação média do filme com todas as avaliações (Sistema) <br>
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo alternativo</td>
+    <td style="vertical-align: middle; text-align:center">---</td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Fluxo de exceção</td>
+    <td style="vertical-align: middle; text-align:center">
+      ---
+    </td>
+  </tr>
+  <tr>
+    <td style="vertical-align: middle;">Rastreabilidade</td>
+    <td style="vertical-align: middle; text-align:center">IT07</td>
+  </tr>
+</table>
+
 <figure markdown>
-  ![Caso de uso 13](../assets/casosDeUso/l1uc13.png)
   <figcaption>Tabela 13: Especificação de caso 13</figcaption>
-  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+  <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana e Maciel Júnior</p>
 </figure>
 
 #### UC14
