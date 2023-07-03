@@ -21,18 +21,18 @@ Nas tabela 2, 3 e 4 a seguir está disponível o checklist desenvolvido durante 
 
 | Número     | Pergunta | Resposta |
 | ----------- | ----------- | ----------- | 
-| 1 | As histórias de usuário seguem o padrão de voz de usuário? | Sim |
-| 2 | As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?  | Sim |
-| 3 | As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário? | Sim |
-| 4 | As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?  | Sim |
-| 5 | As histórias de usuário possui o resultado da ação ou o valor de negócio (porque) de acordo com o modelo de voz de usuário? | Sim |
-| 6 | Nas história de usuário, o papel representa quem se beneficiará da funcionalidade, e não quem está solicitando a funcionalidade? | Sim |
-| 7 | Nas histórias de usuário, é usado um termo representando o perfil em vez do termo genérico "usuário"?  | ==Não== |
-| 8 | É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário?  | Sim |
-| 9 | Todas as histórias de usuário são independentes?  | Sim |
-| 10 | As histórias de usuária foram validadas como negociáveis e valiosas pelo PO? | ==Não== |
-| 11 | As histórias de usuário aparentam ser estimáveis e pequenas de modo que poderiam ser alocados à uma sprint? | Sim |
-| 12 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis? | Sim |
+| 1 | As histórias de usuário seguem o padrão de voz de usuário?² | Sim |
+| 2 | As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?²  | Sim |
+| 3 | As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário?² | Sim |
+| 4 | As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?²  | Sim |
+| 5 | As histórias de usuário possui o resultado da ação ou o valor de negócio (porque) de acordo com o modelo de voz de usuário?² | Sim |
+| 6 | Nas história de usuário, o papel representa quem se beneficiará da funcionalidade, e não quem está solicitando a funcionalidade?² | Sim |
+| 7 | Nas histórias de usuário, é usado um termo representando o perfil em vez do termo genérico "usuário"?²  | ==Não== |
+| 8 | É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário? (Autoria Própria)  | Sim |
+| 9 | Todas as histórias de usuário são independentes?²  | Sim |
+| 10 | As histórias de usuária foram validadas como negociáveis e valiosas pelo PO?² | ==Não== |
+| 11 | As histórias de usuário aparentam ser estimáveis e pequenas de modo que poderiam ser alocados à uma sprint?² | Sim |
+| 12 | As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis?² | Sim |
 <div style="text-align: center">
 <p>Tabela 2: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan, 2023)</p>
 </div>
@@ -41,11 +41,11 @@ Nas tabela 2, 3 e 4 a seguir está disponível o checklist desenvolvido durante 
 
 | Número     | Pergunta | Resposta |
 | ----------- | ----------- | ----------- | 
-| 13 | Foi usado uma metodologia para a construção do backlog? | Sim |
-| 14 | É explicado como a metodologia DEEP foi utilizada no backlog? | ==Não== |
-| 15 | O backlog possui épicos e temas bem definidos e descritos? | ==Não== |
-| 16 | O PO participou da construção e/ou da validação do backlog? | ==Não== |
-| 17 | Foi documentado se o PO pediu alguma mudança no backlog? | ==Não== |
+| 13 | Foi usado uma metodologia para a construção do backlog?³ | Sim |
+| 14 | É explicado como a metodologia DEEP foi utilizada no backlog? (Autoria Própria) | ==Não== |
+| 15 | O backlog possui épicos e temas bem definidos e descritos?³ | ==Não== |
+| 16 | O PO participou da construção e/ou da validação do backlog?³ | ==Não== |
+| 17 | Foi documentado se o PO pediu alguma mudança no backlog? (Autoria Própria) | ==Não== |
 <div style="text-align: center">
 <p>Tabela 3: Checklist de verificação do artefato "Backlog" (Fonte: Natan, 2023)</p>
 </div>
@@ -54,14 +54,14 @@ Nas tabela 2, 3 e 4 a seguir está disponível o checklist desenvolvido durante 
 
 | Número     | Pergunta | Resposta |
 | ----------- | ----------- | ----------- | 
-| 18 | Os softgoals NFR representam requisitos não-funcionais? | Sim |
-| 19 | Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização? | Sim |
-| 20 | Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento? | Sim |
-| 21 | Os softgoals NFR possuem um tipo e pode possuir um ou mais tópicos? | Sim |
-| 22 | Os tipos de contribuição seguem as definições apresentada na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados"? | Sim |
-| 23 | Os impactos foram corretamente propagados? | Sim |
-| 24 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência? | ==Não== |
-| 25 | Os diagramas documentados estão legíveis? | ==Não== |
+| 18 | Os softgoals NFR representam requisitos não-funcionais?¹ | Sim |
+| 19 | Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização?¹ | Sim |
+| 20 | Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento?¹ | Sim |
+| 21 | Os softgoals NFR possuem um tipo e pode possuir um ou mais tópicos?¹ | Sim |
+| 22 | Os tipos de contribuição seguem as definições apresentada na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados"?¹ | Sim |
+| 23 | Os impactos foram corretamente propagados?³ | Sim |
+| 24 | Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência?³ | ==Não== |
+| 25 | Os diagramas documentados estão legíveis?(Autoria Própria) | ==Não== |
 <div style="text-align: center">
 <p>Tabela 4: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan, 2023)</p>
 </div>
@@ -92,8 +92,15 @@ Quanto ao NFR Framework:
   <p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria</p>
 </figure>
 
+## Referência bibliográfica
+
+> - [1] SILVA, Reinaldo Antônio da. NFR4ES:Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Recife, 2019. Disponível em: <https://repositorio.ufpe.br/handle/123456789/34150#:~:text=Neste%20trabalho%20foi%20desenvolvido%20um,n%C3%A3o%2Dfuncionais%20em%20sistemas%20embarcados./> Lido em: 12 jun. 2023.
+> - [2] REINEHR, Sheila. Engenharia de Requisitos. Porto Alegre: Sagah, 2020. Lido em: 12 jun. 2023.
+> - [3] SALES, André Barros. Plano de ensino da disciplina. Disponível em: <a href="https://aprender3.unb.br">https://aprender3.unb.br</a>. Acesso em: 16 de junho de 2023.
+
 ## Tabela de Versionamento
 
 | Data | Versão | Descrição | Autor | Revisor |
 | ---- | ------ | --------- | ----- | ------- |
 | 12/06/2023 | `1.0`  | Documentação da execução da verificação | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 03/07/2023 | `2.0`  | Adição das referências | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
