@@ -402,28 +402,15 @@ Além da descrição, os critérios de aceitação são incluídos para definir 
 - Devo ser solicitado a confirmar minha decisão de desativar a conta, para evitar desativações acidentais.
 
 
+## Validação com o PO
 
+Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. A reunião ocorreu de forma remota na plataforma do Google Meet e teve um tempo de duração de 20 minutos. Pelo fato de o usuário ser leigo nos conceitos de software, foi feita uma explicação prévia sobre os termos técnicos abordados ao longo da reunião.
+Os principais pontos evidenciados foram:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- Abdicar da funcionalidade de chat, visto que, perderia um pouco do propósito de ser uma rede nichada e se assemelharia mais a uma rede social comum;
+- Um modelo de fórum já entende que seja mais compatível com a proposta da aplicação;
+- Busca pelo gosto é mais interessante que a busca pela localização;
+- Não acha necessário a feature de acompanhar o andamento de filmes e séries pela aplicação, visto que, nas plataformas de streaming já existem essa funcionalidade.
 
 ## Bibliografia
 
@@ -436,3 +423,4 @@ ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível
 | 21/05/2023 | `1.0`  | Documentação das 20 primeiras Histórias de Usuários | [Clara Ribeiro](https://github.com/clara-ribeiro),[Maciel Júnior](https://github.com/macieljuniormax) |  [Natan Santana](https://github.com/Neitan2001)       |
 | 24/05/2023 | `2.0`  | Documentação das últimas 10 Histórias de Usuários | [Arthur D'Assumpção](https://github.com/ArtAssLou) |    [Natan Santana](https://github.com/Neitan2001)     |
 | 20/06/2023 | `3.0`  | Correção do artefato de acordo com a verificação | [Natan Santana](https://github.com/Neitan2001) |    [Clara Ribeiro](https://github.com/clara-ribeiro)     |
+| 03/07/2023 | `4.0`  | Correção do artefato de acordo com a verificação, adição da validação do PO | [Natan Santana](https://github.com/Neitan2001) |    [Clara Ribeiro](https://github.com/clara-ribeiro)     |

@@ -79,7 +79,7 @@ Na figura 1 a seguir, tem-se um gráfico que representa de forma visual o percen
 | Especificação Suplementar|                           |                  | Não       |
 | Léxicos                 | Não se aplica             | Não se aplica    | Sim       |
 | Casos de Uso            |                           |                  | Não       |
-| Histórias de Usuário    |                           |                  | Não       |
+| Histórias de Usuário    | Natan                     | 20/06 e 03/07    | Sim       |
 | Backlog                 | Não se aplica             | Não se aplica    | Sim       |
 | NFR Framework           |                           |                  | Não       |
 | Checklist               |                           |                  | Não       |
