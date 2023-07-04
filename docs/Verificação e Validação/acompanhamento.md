@@ -48,6 +48,8 @@ Na Tabela 2 a seguir, consegue ser visto um panorama geral de todos os artefatos
 | Backlog                  | 4   | 0   | 0          |
 | NFR Framework            | 5   | 3   | 0          |
 | Checklist                | 4   | 5   | 0          |
+| Forward-from             | 3   | 0   | 2          |
+| Backwards-from           | 4   | 0   | 0          |
 
 <div style="text-align: center">
 <p>Tabela 2: Visão geral do checklist de todos os artefatos. (Fonte: Débora Moreira, 2023)</p>

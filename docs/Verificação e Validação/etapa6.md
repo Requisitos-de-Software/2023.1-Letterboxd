@@ -8,7 +8,6 @@ Este documento possui como objetivo documentar os resultados da verificação do
 | ----------- | ------------------------------------ |
 | Backward-From | `1.0`  |
 | Forward-From | `1.0`  |
-| Matriz Geral| `1.0`  |
 <div style="text-align: center">
 <p>Tabela 1: Artefatos avaliados da etapa 6</p>
 </div>
@@ -56,3 +55,7 @@ Nas tabelas 2 e 3 a seguir está disponível o checklist desenvolvido durante o 
 > - [1] SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 03 de julho de 2023.
 
 > - [2] POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamental. Acesso em: 03 de julho de 2023.
+
+| Data       | Versão | Descrição | Autor | Revisor|
+| ---------- | ------ | --------- | ------| -------|
+| 03/07/2023 | `1.0`  | Adiciona checklist | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
