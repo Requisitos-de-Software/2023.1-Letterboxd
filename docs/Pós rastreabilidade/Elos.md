@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Os elos de rastreabilidade, também conhecidos como links de rastreabilidade, são as conexões ou relações estabelecidas entre os artefatos e os requisitos de um sistema. Esses elos fornecem um meio de rastrear e rastrear a interdependência entre os elementos do projeto, permitindo compreender como os requisitos são implementados, testados e validados ao longo do ciclo de vida do sistema. Nessa página serão exibidos os elos de rastreabilidade do nosso projeto.
+Os elos de rastreabilidade, também conhecidos como links de rastreabilidade, são as conexões ou relações estabelecidas entre os artefatos e os requisitos de um sistema. Esses elos fornecem um meio de rastrear a interdependência entre os elementos do projeto, permitindo compreender como os requisitos são implementados, testados e validados ao longo do ciclo de vida do sistema. Nessa página serão exibidos os elos de rastreabilidade do nosso projeto.
 
 ## Metodologia
 
