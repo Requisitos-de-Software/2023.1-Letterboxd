@@ -32,7 +32,7 @@ Na tabela 2 a seguir está disponível o checklist desenvolvido durante o [plane
 | 11 | Possui linguagem de fácil entendimento para todos?¹ | Sim |
 
 <div style="text-align: center">
-<p>Tabela X: Checklist de verificação do artefato "Rich Picture"</p>
+<p>Tabela 2: Checklist de verificação do artefato "Rich Picture"</p>
 </div>
 
 ## Resultados
