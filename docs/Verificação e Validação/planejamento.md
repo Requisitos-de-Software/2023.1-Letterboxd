@@ -338,20 +338,51 @@ A tabela 17 a seguir possui as perguntas do checklist que será utilizado para f
 
 A tabela 18 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação da Etapa 5.
 
-| Número | Pergunta                                                                | Resposta |
-| ------ | ----------------------------------------------------------------------- | -------- |
-| 1      | As etapas possuem uma introdução mostrando oque será avaliado?          | não      |
-| 2      | Todas as etapas possuem Referência bibliográfica?                       | não      |
-| 3      | Todos os artefatos possuem checklist?                                   | sim      |
-| 4      | Cada uma das perguntas possuem referência bibliográfica?                | não      |
-| 5      | Os documentos descrevem a metodologia utilizada?                        | não      |
-| 6      | Há um resumo explicando os principais pontos de melhoria dos artefatos? | sim      |
-| 7      | Cada verificação possui uma análise simples de dados?                   | sim      |
-| 8      | Possuem tabela de versionamento?                                        | sim      |
-| 9      | Todas as Etapas foram verificadas?                                      | não      |
+| Número | Pergunta                                                                |
+| ------ | ----------------------------------------------------------------------- |
+| 1      | As etapas possuem uma introdução mostrando oque será avaliado?          |
+| 2      | Todas as etapas possuem Referência bibliográfica?                       |
+| 3      | Todos os artefatos possuem checklist?                                   |
+| 4      | Cada uma das perguntas possuem referência bibliográfica?                |
+| 5      | Os documentos descrevem a metodologia utilizada?                        |
+| 6      | Há um resumo explicando os principais pontos de melhoria dos artefatos? |
+| 7      | Cada verificação possui uma análise simples de dados?                   |
+| 8      | Possuem tabela de versionamento?                                        |
+| 9      | Todas as Etapas foram verificadas?                                      |
 
 <div style="text-align: center">
 <p>Tabela 18: Checklist de verificação do artefato "NFR Framework" (Fonte: Gustavo,2023)</p>
+</div>
+
+## Etapa 6
+
+Nas tabelas 19 e 20 a seguir estão as perguntas do checklist que será utilizado para fazer a verificação da Etapa 6.
+
+### Backward-From
+
+| Número     | Pergunta |
+| ----------- | ----------- |
+| 1 | A rastreabilidade backward-from liga os requisitos elicitados às suas fontes¹³.
+| 2 | Cada artefato está claramente identificado¹³.
+| 3 | Os artefatos estão alinhados com os requisitos correspondentes².
+| 4 | Os links entre requisitos e artefatos estão corretamente estabelecidos².
+
+<div style="text-align: center">
+<p>Tabela 19: Checklist de verificação do artefato "Backward-From"</p>
+</div>
+
+### Forward-From
+
+| Número     | Pergunta |
+| ----------- | ----------- |
+| 1 | A rastreabilidade forward-from liga requisitos a artefatos de desenho e implementação¹³.
+| 2 | Todos os artefatos relevantes estão listados na matriz, como protótipos, léxicos e cenários¹³.
+| 3 | Cada artefato está claramente identificado¹³.
+| 4 | Os artefatos estão alinhados com os requisitos correspondentes¹⁴.
+| 5 | Os links entre requisitos e artefatos estão corretamente estabelecidos¹⁴.
+
+<div style="text-align: center">
+<p>Tabela 20: Checklist de verificação do artefato "Forward-From"</p>
 </div>
 
 ## Referência bibliográfica
@@ -368,6 +399,9 @@ A tabela 18 a seguir possui as perguntas do checklist que será utilizado para f
 > - [10] SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07. Disponível em: Aprender3. Acesso em: 21 de junho de 2023.
 > - [11] WIEGERS Karl E. First Things First: Prioritizing Requirements. Setembro de 1999. Disponível em https://www.processimpact.com/articles/prioritizing.pdf. Acesso em 21 de junho de 2023.
 > - [12] Gerência e Qualidade de Software - Aula 06 - Técnica de revisão, Fábio Levy Siqueira. Disponível em: https://www.youtube.com/watch?v=nA1BVDd9GUE- Acesso em 12/06/2023
+> - [13] SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 03 de julho de 2023.
+> - [14] POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamental. Acesso em: 03 de julho de 2023.
+
 
 ## Tabela de Versionamento
 
@@ -376,4 +410,5 @@ A tabela 18 a seguir possui as perguntas do checklist que será utilizado para f
 | 16/06/2023 | `1.0`  | Criação do esqueleto do arquivo                      | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 16/06/2023 | `2.0`  | Adição do planejamento da verificação da etapa 4     | [Natan Santana](https://github.com/Neitan2001)    | [Clara Ribeiro](https://github.com/clara-ribeiro) |
 | 18/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 1 e 3 | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)    |
-| 21/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 2     | [Débora Moreira](https://github.com/deboracaires) |                                                   |
+| 21/06/2023 | `3.0`  | Adição do planejamento da verificação da etapa 2     | [Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| 03/07/2023 | `4.0`  | Adição do planejamento da verificação da etapa 6     | [Clara Ribeiro](https://github.com/clara-ribeiro) |[Natan Santana](https://github.com/Neitan2001)
