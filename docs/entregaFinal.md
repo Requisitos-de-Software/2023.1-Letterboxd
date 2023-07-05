@@ -73,7 +73,7 @@ Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no 
 
 </center>
 
-##  Referências
+###  Referências
 
 > - <a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <https://github.com>. Acesso em: 05 julho. 2023.
 > - <a id="ancora2"></a>[2] Telegram – a new era of messaging. Disponível em: <https://telegram.org>. Acesso em: 05 julho. 2023.
