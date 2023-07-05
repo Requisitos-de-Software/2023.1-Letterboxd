@@ -45,6 +45,52 @@ Além disso, por meio da execução do projeto, o grupo conseguiu identificar po
 
 ## Ferramentas
 
+<center>
+
+*Tabela 1: Ferramentas Utilizadas*
+
+</center>
+
+|Ferramenta| Onde Foi Usada |Finalidade |
+|:-:|-------|--------|
+|Github[¹](#ancora1)| Em toda a documentação do projeto  | O GitHub fui usado como repositório de todo o projeto|
+|Telegram[²](#ancora2)   | Usamos até 26 de Abril, quando a rede social caiu  | Usamos como ferramenta de comunicação|
+|Teams [³](#ancora3)    | Nas gravações de todas as  [Etapas](https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/) | Usado para gravar nossas entregas |
+|Miro[⁴](#ancora4)  | Na criação das  [Rich Pictures](https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/richPicture/)|Utilizado na criação das Richpictures|
+|Letterboxd[⁵](#ancora5)  | Ao longo de todo o projeto, como objeto de análise | Aplicativo escolhido como objeto de estudo para realizar o projeto. |
+|Youtube[⁶](#ancora6)    | No armazenamento da gravação de todas as [Etapas](https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/) | Usado para hospedarmos a gravçao de nossas entregas|
+|VSCode[⁷](#ancora7)  | Em todo o projeto | Utilizada para a escrita e formatação dos documentos markdown |
+|MKDocs[⁸](#ancora8)  | Ao longo de todo o projeto | Utilizado para gerar a documentação no Github Pages |
+Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no [Drive](https://drive.google.com/drive/u/0/folders/10828BMYIjA6fXBXGcHGQHAcPdEHbGyc1) | Usamos como ferramenta de armaenamento |
+|Figma [¹¹](#ancora10)   | Na criação da prototipação [avaliação do storyboard](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/) | Utilizada a criação dos prototipos |
+|Whatsapp [¹²](#ancora11) | Após o bloqueio da plataforma Telegram, migramos para o Whatsapp | Usamos como ferramenta de comunicação |
+|Google Forms[¹³](#ancora12) | Na elicitação do [perfil de usuário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/) | Utilizada para a criação do questionário online |
+|ThisPersonDoesn'tExist[¹⁴](#ancora13) | Na elicitação das [ personas](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/) | Utilizada para a geração das imagens das personas |
+
+<center>
+
+*Fonte: Arthur D’Assumpção, 2023*
+
+</center>
+
+##  Referências
+
+> - <a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <https://github.com>. Acesso em: 05 julho. 2023.
+> - <a id="ancora2"></a>[2] Telegram – a new era of messaging. Disponível em: <https://telegram.org>. Acesso em: 05 julho. 2023.
+> - <a id="ancora3"></a>[3] Aplicativo de Chat Interno e Trabalho Remoto | Microsoft Teams. Disponível em: <https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software>. Acesso em: 05 julho 2023.
+> - <a id="ancora4"></a>[4] MIRO. Disponível em: <https://miro.com/>. Acesso em: 05 julho 2023.
+> - <a id="ancora5"></a>[5] Letterboxd • Your life in film. Disponível em: <https://letterboxd.com>. Acesso em: 05 julho 2023.
+> - <a id="ancora6"></a>[6] YOUTUBE. YouTube. YouTube, 2022. Disponível em: <https://www.youtube.com> Acesso em: 05 julho. 2023.
+> - <a id="ancora7"></a>[7] MICROSOFT. Visual Studio Code. Disponível em: <https://code.visualstudio.com>. Acesso em: 05 julho. 2023.
+> - <a id="ancora8"></a>[8] MkDocs. Disponível em: <https://www.mkdocs.org>. Acesso em: 05 julho. 2023.
+> - <a id="ancora9"></a>[9] Meet Google Drive – One place for all your files. Disponível em: <https://drive.google.com/drive/>. Acesso em: 05 julho. 2023.
+> - <a id="ancora10"></a>[11] FIGMA. Figma. Disponível em: <https://www.figma.com/>. Acesso em: 05 julho 2023.
+> - <a id="ancora11"></a>[12] Whatsapp. Disponível em: <https://www.whatsapp.com/>. Acesso em: 05 julho 2023.
+> - <a id="ancora12"></a>[13] Google Forms. Disponível em: <https://docs.google.com/forms/>. Acesso em: 05 julho 2023.
+> - <a id="ancora13"></a>[14] This Person Does Not Exist. Disponível em: <https://thispersondoesnotexist.com/>. Acesso em: 05 julho. 2023.
+
+
+
 ## Apresentações
 
 ## Facilidades e Dificuldades
