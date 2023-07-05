@@ -172,6 +172,8 @@ Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projet
 
 ## Ferramentas
 
+Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 8 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato. 
+
 <center>
 
 *Tabela 8: Ferramentas Utilizadas*
