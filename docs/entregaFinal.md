@@ -62,7 +62,7 @@ Além disso, por meio da execução do projeto, o grupo conseguiu identificar po
 |VSCode[⁷](#ancora7)  | Em todo o projeto | Utilizada para a escrita e formatação dos documentos markdown |
 |MKDocs[⁸](#ancora8)  | Ao longo de todo o projeto | Utilizado para gerar a documentação no Github Pages |
 Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no [Drive](https://drive.google.com/drive/u/0/folders/10828BMYIjA6fXBXGcHGQHAcPdEHbGyc1) | Usamos como ferramenta de armaenamento |
-|Figma [¹¹](#ancora10)   | Na criação da prototipação [avaliação do storyboard](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/) | Utilizada a criação dos prototipos |
+|Figma [¹¹](#ancora10)   | Na criação da [Prototipação](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/) | Utilizada a criação dos prototipos |
 |Whatsapp [¹²](#ancora11) | Após o bloqueio da plataforma Telegram, migramos para o Whatsapp | Usamos como ferramenta de comunicação |
 |Google Forms[¹³](#ancora12) | Na elicitação do [perfil de usuário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/) | Utilizada para a criação do questionário online |
 |ThisPersonDoesn'tExist[¹⁴](#ancora13) | Na elicitação das [ personas](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/) | Utilizada para a geração das imagens das personas |
