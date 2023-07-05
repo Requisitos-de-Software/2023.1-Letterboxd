@@ -257,11 +257,11 @@ Na tabela 8 abaixo, estão descritos os responsáveis pela elaboração dos chec
 
 ## Ferramentas
 
-Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 8 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato. 
+Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 10 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato. 
 
 <center>
 
-*Tabela 8: Ferramentas Utilizadas*
+*Tabela 10: Ferramentas Utilizadas*
 
 </center>
 
