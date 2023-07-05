@@ -6,7 +6,7 @@ O Non-Functional Requirements Framework é uma abordagem para analisar, definir 
 
 ## Metodologia
 
-Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Interdependency Graph(SIG) para a implementação do NFR Framework. Cada categoria foi implemantada baseado no documento de especificação suplementar, que é visto nas imagens de 3 a 10.[²](#ancora2)
+Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Interdependency Graph(SIG) para a implementação do NFR Framework. Cada categoria foi implemantada baseado no documento de especificação suplementar, que é visto nas imagens de 3 a 10.[²](#ancora2). As tabelas de 2 à 5 representão os cartões de especificação para a reallização da ratreabilidade de requisitos.
 
 ## Legenda
 
@@ -24,8 +24,11 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 
 ## Requisitos não funcionais.
 
-| Identificador | Requisito                                                                                                                                                    | Tipo |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+| Identificador | Requisito | Tipo |
+| ------------- | ----------| ---- |
+| DOC31         | Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido | RNF |
+| DOC32         | Deve ser indicado ao usuário através da cor verde que o filme foi assistido | RNF |
+| DOC33         | Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes | RNF |
 | DOC61         | Deve garantir que o acesso à conta desativada seja impedido                                                                                                  | RNF  |
 | DOC62         | Deve garantir que o acesso à conta excluida seja impedido                                                                                                    | RNF  |
 | DOC63         | Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente                           | RNF  |
@@ -56,6 +59,24 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 
 ### Usabilidade
 
+#### Cartão de específicação
+
+| Identificador | Descrição | Prioridade | História | Justificativa |
+| ------------- | --------- | ---------- | -------- | ------------- |
+| DOC31 | Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC32 | Deve ser indicado ao usuário através da cor verde que o filme foi assistido | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC33 | Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC71 | Os dados do usuário devem ser atualizados em tempo real, sem a necessidade de atualizar a página ou fechar e abrir o aplicativo novamente | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC76 | Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| ENT04 | Traduzir interface do usuário para português | Baixa prioridade | 13/05/2023 | Não prejudica muito a navegação do aplicativo |
+| ENT05 | Registro no diário mais intuitivo e com menos cliques | Baixa prioridade | 13/05/2023 | Não prejudica muito a navegação do aplicativo |
+| IT20 | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| QST05 | Verificação de onde assistir o filme de acordo com o país do usuário | Alta prioridade | 13/05/2023 | Feature muito valiosa na hora de assistir um filme |
+
+<div style="text-align: center">
+<p>Tabela 2: Cartão de específicação Usabilidade (Fonte: Autor,2023)</p>
+</div>
+
 #### Sem Propagação
 
 ![Usabilidade](../assets/NFR/NFR-Usabilidade.jpg)
@@ -66,13 +87,30 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 
 #### Com Propagação
 
-![Propagação](../assets/NFR/NFR-Usabilidade.jpg)
+![Propagação](../assets/NFR/NFR-UsabilidadePro.jpg)
 
 <div style="text-align: center">
 <p>Imagem 4: NFR Usabilidade com propagação (Fonte: Autor, 2023)</p>
 </div>
 
 ### Confiabilidade
+
+#### Cartão de específicação
+
+| Identificador | Descrição | Prioridade | História | Justificativa |
+| ------------- | --------- | ---------- | -------- | ------------- |
+| DOC61 | Deve garantir que o acesso à conta desativada seja impedido | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC62 | Deve garantir que o acesso à conta excluida seja impedido | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC63 | Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC65 | Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC68 | Deve ser enviado um e-mail de confirmação para garantir que o endereço de e-mail associado à conta é válido | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC69 | Deve ter moderação para remover o conteúdo que viole a política de comunidade, sendo contra à diversidade e inclusão, com discursos de ódio e marginalização | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC73 | Deve ser mantida a privacidade das listas ou watchlists definidas como privadas, exceto para o próprio usuário | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC77 | Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+
+<div style="text-align: center">
+<p>Tabela 3: Cartão de específicação Confiabilidade (Fonte: Autor,2023)</p>
+</div>
 
 #### Sem Propagação
 
@@ -92,6 +130,19 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 
 ### Desempenho
 
+#### Cartão de específicação
+
+| Identificador | Descrição | Prioridade | História | Justificativa |
+| ------------- | --------- | ---------- | -------- | ------------- |
+| DOC64 | Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC67 | Deve ser atualizado automaticamente a avaliação do filme quando uma nova avaliação for adicionada | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC72 | O tempo de resposta do servidor deve ser rápido o suficiente para oferecer uma experiência de usuário satisfatória | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+| DOC72 | Deve ser limitado o tamanho máximo do arquivo de upload para 1 MB | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+
+<div style="text-align: center">
+<p>Tabela 4: Cartão de específicação Desempenho (Fonte: Autor,2023)</p>
+</div>
+
 #### Sem Propagação
 
 ![Usabilidade](../assets/NFR/NFR-Desempenho.jpg)
@@ -109,6 +160,16 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 </div>
 
 ### Suportabilidade
+
+#### Cartão de específicação
+
+| Identificador | Descrição | Prioridade | História | Justificativa |
+| ------------- | --------- | ---------- | -------- | ------------- |
+| DOC75 |Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes | Alta prioridade | 13/05/2023 | Funcionalidade já implementada, portanto é tida como Alta Prioridade |
+
+<div style="text-align: center">
+<p>Tabela 5: Cartão de específicação Suportabilidade (Fonte: Autor,2023)</p>
+</div>
 
 #### Sem Propagação
 
@@ -136,3 +197,4 @@ Após a elicitação dos requisitos, foi decidido a utilização do Softgoal Int
 | Data       | Versão | Descrição                | Autor                                                                                             | Revisor                                             |
 | ---------- | ------ | ------------------------ | ------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | 22/05/2023 | `1.0`  | Criação do NFR Framework | [Rhuan Marques](https://github.com/RhuanMr)</br> [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| 05/07/2023 | `1.1`  | Correção do NFR Framework | [Rhuan Marques](https://github.com/RhuanMr) | [Maciel Júnior](https://github.com/macieljuniormax) |
