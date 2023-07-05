@@ -76,7 +76,7 @@ Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projet
 | Questionário          | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
 | Entrevista            | [Débora Moreira](https://github.com/deboracaires) e [Natan Santana](https://github.com/Neitan2001)     | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
 | Storytelling          | [Rhuan Marques](https://github.com/RhuanMr)              | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Priorização           | [Débora Moreira](https://github.com/deboracaires)     | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
+| Priorização           | [Débora Moreira](https://github.com/deboracaires) e  [Clara Ribeiro](https://github.com/clara-ribeiro)     | [Natan Santana](https://github.com/Neitan2001)      |
 | Análise de documentos | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Natan Santana](https://github.com/Neitan2001)              |
 | Personas              | [Arthur D'Assumpção](https://github.com/ArtAssLou), [Débora Moreira](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001)         |
 | Vídeo de apresentação | [Natan Santana](https://github.com/Neitan2001)              | [Débora Moreira](https://github.com/deboracaires)             |
@@ -113,7 +113,6 @@ Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projet
 | Histórias de usuário  | [Clara Ribeiro](https://github.com/clara-ribeiro), [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)           |
 | Backlogs              | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)    | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
 | NFR framework         | [Rhuan Marques](https://github.com/RhuanMr) e [Débora Moreira](https://github.com/deboracaires)     | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Priorização           | [Débora Moreira](https://github.com/deboracaires)     | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
 | Vídeo de apresentação | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
 
 **Etapa 5.1:**
