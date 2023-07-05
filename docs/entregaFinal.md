@@ -2,7 +2,29 @@
 
 ## Aplicativo Selecionado
 
-## Planejamento dos recursos 
+O aplicativo escolhido foi o Letterboxd, que permite aos usuários acompanhar e revisar filmes e programas de televisão que assistem.
+
+No Letterboxd, os usuários podem criar listas de filmes, seguir outros usuários com interesses semelhantes, descobrir novos filmes e programas de televisão para assistir, ler e escrever resenhas sobre filmes e programas de televisão que já assistiram. Além disso, o site também permite que os usuários avaliem filmes e programas de televisão com notas de 0 a 5 estrelas.
+
+### Porque escolhemos o Letterboxd?
+
+No início do semestre foi pedido para que cada membro do grupo pesquisasse algum aplicativo e fizesse um Rich Picture. Os aplicativos foram:
+
+- Uber - Gustavo Barbosa
+- FGTS - Débora Caires
+- WebDiet - Natan Tavares
+- Apple Music - Maciel Júnior
+- Tinder - Rhuan Marques
+- Buser - Arthur D'Assumpção
+- Letterboxd - Clara Ribeiro
+
+A partir disso, avaliamos as características de cada aplicativo, analisamos as vantagens e desvantagnes de cada um e optamos pelo Letterboxd pelos seguintes motivos:
+
+- A existência de uma comunidade ativa de usuários na plataforma, o que nos permitiu descobrir novos filmes e programas de televisão com base nas avaliações e resenhas de outros cinéfilos.
+- Não encontramos nenhum impedimento em relação à engenharia reversa nos termos de uso do site, o que nos deu a liberdade de explorar e personalizar a plataforma da forma que desejamos.
+- Percebemos que havia espaço para aprimorar e acrescentar novas funcionalidades ao site, o que nos motivou a utilizar o Letterboxd e contribuir para o seu desenvolvimento.
+
+## Planejamento dos recursos
 
 ## Execução do projeto
 
@@ -47,162 +69,164 @@ Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projet
 
 <center>
 
-*Tabela 1: Artefatos desenvolvidos na etapa 1*
+_Tabela 1: Artefatos desenvolvidos na etapa 1_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Github Pages          | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)              |
-| Políticas             | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)              |
-| Cronograma            | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)              | [Natan Santana](https://github.com/Neitan2001)              |
-| Rich Picture          | [Débora Moreira](https://github.com/deboracaires)     | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
-| Ferramentas do projeto| [Maciel Júnior](https://github.com/macieljuniormax)             | [Rhuan Marques](https://github.com/RhuanMr)              |
-| Apresentação da equipe| [Arthur D'Assumpção](https://github.com/ArtAssLou)             | [Gustavo Barbosa](https://github.com/brbsg)            |
-| Checklist da entrega  | [Rhuan Marques](https://github.com/RhuanMr)              | [Débora Moreira](https://github.com/deboracaires)             |
-| App selecionado       | [Gustavo Barbosa](https://github.com/brbsg)            | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Vídeo de apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
+| Artefato               | Autor                                               | Revisor                                             |
+| ---------------------- | --------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| Github Pages           | [Natan Santana](https://github.com/Neitan2001)      | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| Políticas              | [Natan Santana](https://github.com/Neitan2001)      | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| Cronograma             | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001)      | [Natan Santana](https://github.com/Neitan2001) |
+| Rich Picture           | [Débora Moreira](https://github.com/deboracaires)   | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| Ferramentas do projeto | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr)         |
+| Apresentação da equipe | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | [Gustavo Barbosa](https://github.com/brbsg)         |
+| Checklist da entrega   | [Rhuan Marques](https://github.com/RhuanMr)         | [Débora Moreira](https://github.com/deboracaires)   |
+| App selecionado        | [Gustavo Barbosa](https://github.com/brbsg)         | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Vídeo de apresentação  | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
 
 **Etapa 2:**
 
 <center>
 
-*Tabela 2: Artefatos desenvolvidos na etapa 2*
+_Tabela 2: Artefatos desenvolvidos na etapa 2_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Questionário          | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
-| Entrevista            | [Débora Moreira](https://github.com/deboracaires) e [Natan Santana](https://github.com/Neitan2001)     | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
-| Storytelling          | [Rhuan Marques](https://github.com/RhuanMr)              | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Priorização           | [Débora Moreira](https://github.com/deboracaires) e  [Clara Ribeiro](https://github.com/clara-ribeiro)     | [Natan Santana](https://github.com/Neitan2001)      |
-| Análise de documentos | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Natan Santana](https://github.com/Neitan2001)              |
-| Personas              | [Arthur D'Assumpção](https://github.com/ArtAssLou), [Débora Moreira](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001)         |
-| Vídeo de apresentação | [Natan Santana](https://github.com/Neitan2001)              | [Débora Moreira](https://github.com/deboracaires)             |
-| Justificativa técnicas de priorização | [Arthur D'Assumpção](https://github.com/ArtAssLou)  | [Débora Moreira](https://github.com/deboracaires)         |
-| Introspecção          | [Maciel Júnior](https://github.com/macieljuniormax)             | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
-| Justificativa técnicas de elicitação | [Rhuan Marques](https://github.com/RhuanMr) | [Gustavo Barbosa](https://github.com/brbsg)           |
-| Perfil de usuário     | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
+| Artefato                              | Autor                                                                                                                                               | Revisor                                             |
+| ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Questionário                          | [Natan Santana](https://github.com/Neitan2001)                                                                                                      | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
+| Entrevista                            | [Débora Moreira](https://github.com/deboracaires) e [Natan Santana](https://github.com/Neitan2001)                                                  | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
+| Storytelling                          | [Rhuan Marques](https://github.com/RhuanMr)                                                                                                         | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Priorização                           | [Débora Moreira](https://github.com/deboracaires) e [Clara Ribeiro](https://github.com/clara-ribeiro)                                               | [Natan Santana](https://github.com/Neitan2001)      |
+| Análise de documentos                 | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                                                                   | [Natan Santana](https://github.com/Neitan2001)      |
+| Personas                              | [Arthur D'Assumpção](https://github.com/ArtAssLou), [Débora Moreira](https://github.com/deboracaires) e [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001)      |
+| Vídeo de apresentação                 | [Natan Santana](https://github.com/Neitan2001)                                                                                                      | [Débora Moreira](https://github.com/deboracaires)   |
+| Justificativa técnicas de priorização | [Arthur D'Assumpção](https://github.com/ArtAssLou)                                                                                                  | [Débora Moreira](https://github.com/deboracaires)   |
+| Introspecção                          | [Maciel Júnior](https://github.com/macieljuniormax)                                                                                                 | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
+| Justificativa técnicas de elicitação  | [Rhuan Marques](https://github.com/RhuanMr)                                                                                                         | [Gustavo Barbosa](https://github.com/brbsg)         |
+| Perfil de usuário                     | [Natan Santana](https://github.com/Neitan2001)                                                                                                      | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
 
 **Etapa 3:**
 
 <center>
 
-*Tabela 3: Artefatos desenvolvidos na etapa 3*
+_Tabela 3: Artefatos desenvolvidos na etapa 3_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Cenários              | [Rhuan Marques](https://github.com/RhuanMr)              | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
-| Léxicos               | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Natan Santana](https://github.com/Neitan2001)              |
-| Casos de uso          | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)    | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Especificação suplementar | [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Gustavo Barbosa](https://github.com/brbsg)           |
-| Vídeo de apresentação | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
+| Artefato                  | Autor                                                                                                    | Revisor                                             |
+| ------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| Cenários                  | [Rhuan Marques](https://github.com/RhuanMr)                                                              | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
+| Léxicos                   | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)      |
+| Casos de uso              | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)             | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Especificação suplementar | [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Gustavo Barbosa](https://github.com/brbsg)         |
+| Vídeo de apresentação     | [Natan Santana](https://github.com/Neitan2001)                                                           | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
 
 **Etapa 4:**
+
 <center>
 
-*Tabela 4: Artefatos desenvolvidos na etapa 4*
+_Tabela 4: Artefatos desenvolvidos na etapa 4_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Histórias de usuário  | [Clara Ribeiro](https://github.com/clara-ribeiro), [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)           |
-| Backlogs              | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)    | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
-| NFR framework         | [Rhuan Marques](https://github.com/RhuanMr) e [Débora Moreira](https://github.com/deboracaires)     | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Vídeo de apresentação | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
+| Artefato              | Autor                                                                                                                                                       | Revisor                                             |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| Histórias de usuário  | [Clara Ribeiro](https://github.com/clara-ribeiro), [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)      |
+| Backlogs              | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)                                                                | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| NFR framework         | [Rhuan Marques](https://github.com/RhuanMr) e [Débora Moreira](https://github.com/deboracaires)                                                             | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Vídeo de apresentação | [Natan Santana](https://github.com/Neitan2001)                                                                                                              | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
 
 **Etapa 5.1:**
+
 <center>
 
-*Tabela 5: Artefatos desenvolvidos na etapa 5.1*
+_Tabela 5: Artefatos desenvolvidos na etapa 5.1_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Verificação e Validação Etapa 1 Grupo 7 | [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)          |
-| Verificação e Validação Etapa 2 Grupo 7 | [Gustavo Barbosa](https://github.com/brbsg) | [Maciel Júnior](https://github.com/macieljuniormax)        |
-| Verificação e Validação Etapa 3 Grupo 7 | [Débora Moreira](https://github.com/deboracaires) | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
-| Verificação e Validação Etapa 4 Grupo 7 | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
-| Vídeo de apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Natan Santana](https://github.com/Neitan2001)              |
+| Artefato                                | Autor                                              | Revisor                                             |
+| --------------------------------------- | -------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| Verificação e Validação Etapa 1 Grupo 7 | [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)      |
+| Verificação e Validação Etapa 2 Grupo 7 | [Gustavo Barbosa](https://github.com/brbsg)        | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Verificação e Validação Etapa 3 Grupo 7 | [Débora Moreira](https://github.com/deboracaires)  | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| Verificação e Validação Etapa 4 Grupo 7 | [Natan Santana](https://github.com/Neitan2001)     | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| Vídeo de apresentação                   | [Clara Ribeiro](https://github.com/clara-ribeiro)  | [Natan Santana](https://github.com/Neitan2001)      |
 
 **Etapa 5.2:**
 
 <center>
 
-*Tabela 6: Artefatos desenvolvidos na etapa 5.2*
+_Tabela 6: Artefatos desenvolvidos na etapa 5.2_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Verificação e Validação Etapa 1 | [Clara Ribeiro](https://github.com/clara-ribeiro)          | [Natan Santana](https://github.com/Neitan2001)              |
-| Verificação e Validação Etapa 2 | [Débora Moreira](https://github.com/deboracaires)         | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Verificação e Validação Etapa 3 | [Clara Ribeiro](https://github.com/clara-ribeiro)          | [Natan Santana](https://github.com/Neitan2001)              |
-| Verificação e Validação Etapa 4 | [Natan Santana](https://github.com/Neitan2001)          | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
-| Verificação e Validação Etapa 5 | [Gustavo Barbosa](https://github.com/brbsg)        | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
-| Vídeo de apresentação | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Natan Santana](https://github.com/Neitan2001)              |
-| Prototipação          | [Maciel Júnior](https://github.com/macieljuniormax)             | [Arthur D'Assumpção](https://github.com/ArtAssLou)             |
-| Comprovação informal  | [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou)    | [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax)    |
+| Artefato                        | Autor                                                                                                    | Revisor                                                                                                  |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| Verificação e Validação Etapa 1 | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)                                                           |
+| Verificação e Validação Etapa 2 | [Débora Moreira](https://github.com/deboracaires)                                                        | [Maciel Júnior](https://github.com/macieljuniormax)                                                      |
+| Verificação e Validação Etapa 3 | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)                                                           |
+| Verificação e Validação Etapa 4 | [Natan Santana](https://github.com/Neitan2001)                                                           | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001) |
+| Verificação e Validação Etapa 5 | [Gustavo Barbosa](https://github.com/brbsg)                                                              | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001) |
+| Vídeo de apresentação           | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)                                                           |
+| Prototipação                    | [Maciel Júnior](https://github.com/macieljuniormax)                                                      | [Arthur D'Assumpção](https://github.com/ArtAssLou)                                                       |
+| Comprovação informal            | [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax) |
 
 **Etapa 6:**
+
 <center>
 
-*Tabela 7: Artefatos desenvolvidos na etapa 6*
+_Tabela 7: Artefatos desenvolvidos na etapa 6_
 
 </center>
 
-| Artefato              | Autor              | Revisor            |
-|-----------------------|--------------------|--------------------|
-| Backward-from         | [Natan Santana](https://github.com/Neitan2001)              | [Clara Ribeiro](https://github.com/clara-ribeiro)              |
-| Elos de Rastreabilidade | [Clara Ribeiro](https://github.com/clara-ribeiro)            | [Natan Santana](https://github.com/Neitan2001)              |
-| Forward-From          | [Clara Ribeiro](https://github.com/clara-ribeiro)              | [Natan Santana](https://github.com/Neitan2001)              |
-| Matriz Geral          | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Natan Santana](https://github.com/Neitan2001)      | [Maciel Júnior](https://github.com/macieljuniormax)             |
-| Vídeo de apresentação | [Maciel Júnior](https://github.com/macieljuniormax)             | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001)      |
-| Verificação e Validação Etapa 6 | [Clara Ribeiro](https://github.com/clara-ribeiro)     | [Natan Santana](https://github.com/Neitan2001)              |
-| Correção de artefatos | Todos              | Todos              |
-| Acompanhamento        | [Débora Moreira](https://github.com/deboracaires)             | [Maciel Júnior](https://github.com/macieljuniormax)             |
-
+| Artefato                        | Autor                                                                                              | Revisor                                             |
+| ------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| Backward-from                   | [Natan Santana](https://github.com/Neitan2001)                                                     | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
+| Elos de Rastreabilidade         | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                  | [Natan Santana](https://github.com/Neitan2001)      |
+| Forward-From                    | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                  | [Natan Santana](https://github.com/Neitan2001)      |
+| Matriz Geral                    | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Natan Santana](https://github.com/Neitan2001) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Vídeo de apresentação           | [Maciel Júnior](https://github.com/macieljuniormax)                                                | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
+| Verificação e Validação Etapa 6 | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                  | [Natan Santana](https://github.com/Neitan2001)      |
+| Correção de artefatos           | Todos                                                                                              | Todos                                               |
+| Acompanhamento                  | [Débora Moreira](https://github.com/deboracaires)                                                  | [Maciel Júnior](https://github.com/macieljuniormax) |
 
 ## Verificação e Validação
 
 ## Ferramentas
 
-Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 8 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato. 
+Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 8 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato.
 
 <center>
 
-*Tabela 8: Ferramentas Utilizadas*
+_Tabela 8: Ferramentas Utilizadas_
 
 </center>
 
-|Ferramenta| Onde Foi Usada |Finalidade |
-|:-:|-------|--------|
-|Github[¹](#ancora1)| Em toda a documentação do projeto  | O GitHub fui usado como repositório de todo o projeto|
-|Telegram[²](#ancora2)   | Usamos até 26 de Abril, quando a rede social caiu  | Usamos como ferramenta de comunicação|
-|Teams [³](#ancora3)    | Nas gravações de todas as  [Etapas](https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/) | Usado para gravar nossas entregas |
-|Miro[⁴](#ancora4)  | Na criação das  [Rich Pictures](https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/richPicture/)|Utilizado na criação das Richpictures|
-|Letterboxd[⁵](#ancora5)  | Ao longo de todo o projeto, como objeto de análise | Aplicativo escolhido como objeto de estudo para realizar o projeto. |
-|Youtube[⁶](#ancora6)    | No armazenamento da gravação de todas as [Etapas](https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/) | Usado para hospedarmos a gravçao de nossas entregas|
-|VSCode[⁷](#ancora7)  | Em todo o projeto | Utilizada para a escrita e formatação dos documentos markdown |
-|MKDocs[⁸](#ancora8)  | Ao longo de todo o projeto | Utilizado para gerar a documentação no Github Pages |
-Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no [Drive](https://drive.google.com/drive/u/0/folders/10828BMYIjA6fXBXGcHGQHAcPdEHbGyc1) | Usamos como ferramenta de armaenamento |
-|Figma [¹¹](#ancora10)   | Na criação da [Prototipação](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/) | Utilizada a criação dos prototipos |
-|Whatsapp [¹²](#ancora11) | Após o bloqueio da plataforma Telegram, migramos para o Whatsapp | Usamos como ferramenta de comunicação |
-|Google Forms[¹³](#ancora12) | Na elicitação do [perfil de usuário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/) | Utilizada para a criação do questionário online |
-|ThisPersonDoesn'tExist[¹⁴](#ancora13) | Na elicitação das [ personas](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/) | Utilizada para a geração das imagens das personas |
+|              Ferramenta               | Onde Foi Usada                                                                                                                                                               | Finalidade                                                          |
+| :-----------------------------------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+|          Github[¹](#ancora1)          | Em toda a documentação do projeto                                                                                                                                            | O GitHub fui usado como repositório de todo o projeto               |
+|         Telegram[²](#ancora2)         | Usamos até 26 de Abril, quando a rede social caiu                                                                                                                            | Usamos como ferramenta de comunicação                               |
+|          Teams [³](#ancora3)          | Nas gravações de todas as [Etapas](https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/)                                                                     | Usado para gravar nossas entregas                                   |
+|           Miro[⁴](#ancora4)           | Na criação das [Rich Pictures](https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/richPicture/)                                                         | Utilizado na criação das Richpictures                               |
+|        Letterboxd[⁵](#ancora5)        | Ao longo de todo o projeto, como objeto de análise                                                                                                                           | Aplicativo escolhido como objeto de estudo para realizar o projeto. |
+|         Youtube[⁶](#ancora6)          | No armazenamento da gravação de todas as [Etapas](https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/)                                                      | Usado para hospedarmos a gravçao de nossas entregas                 |
+|          VSCode[⁷](#ancora7)          | Em todo o projeto                                                                                                                                                            | Utilizada para a escrita e formatação dos documentos markdown       |
+|          MKDocs[⁸](#ancora8)          | Ao longo de todo o projeto                                                                                                                                                   | Utilizado para gerar a documentação no Github Pages                 |
+|       Google Drive[⁹](#ancora9)       | Usamos para armazenar videos, atas e documentos no [Drive](https://drive.google.com/drive/u/0/folders/10828BMYIjA6fXBXGcHGQHAcPdEHbGyc1)                                     | Usamos como ferramenta de armaenamento                              |
+|         Figma [¹¹](#ancora10)         | Na criação da [Prototipação](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/) | Utilizada a criação dos prototipos                                  |
+|       Whatsapp [¹²](#ancora11)        | Após o bloqueio da plataforma Telegram, migramos para o Whatsapp                                                                                                             | Usamos como ferramenta de comunicação                               |
+|      Google Forms[¹³](#ancora12)      | Na elicitação do [perfil de usuário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/)                                                | Utilizada para a criação do questionário online                     |
+| ThisPersonDoesn'tExist[¹⁴](#ancora13) | Na elicitação das [ personas](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/)                                                     | Utilizada para a geração das imagens das personas                   |
 
 <center>
 
-*Fonte: Arthur D’Assumpção, 2023*
+_Fonte: Arthur D’Assumpção, 2023_
 
 </center>
 
-###  Referências
+### Referências
 
 > - <a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <https://github.com>. Acesso em: 05 julho. 2023.
 > - <a id="ancora2"></a>[2] Telegram – a new era of messaging. Disponível em: <https://telegram.org>. Acesso em: 05 julho. 2023.
@@ -218,16 +242,13 @@ Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no 
 > - <a id="ancora12"></a>[13] Google Forms. Disponível em: <https://docs.google.com/forms/>. Acesso em: 05 julho 2023.
 > - <a id="ancora13"></a>[14] This Person Does Not Exist. Disponível em: <https://thispersondoesnotexist.com/>. Acesso em: 05 julho. 2023.
 
-
-
 ## Apresentações
 
 ## Facilidades e Dificuldades
 
-|    Data    | Versão |                                                   Descrição                                                    |                      Autor                      |                 Revisor                |
-|:----------:|:------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------:|
-| - |  `1.0`   | - | -| -|
-| 05/07/2023 |  `1.1`   | Criação o item Ferramentas | [Arthur D'Assumpção](https://github.com/ArtAssLou) | -|
-| 05/07/2023 |  `1.2`   | Adiciona item de artefatos | [Débora Moreira](https://github.com/deboracaires) | -|
-                                       |
-
+|    Data    | Versão |         Descrição          |                       Autor                        | Revisor |
+| :--------: | :----: | :------------------------: | :------------------------------------------------: | :-----: |
+|     -      | `1.0`  |             -              |                         -                          |    -    |
+| 05/07/2023 | `1.1`  | Criação o item Ferramentas | [Arthur D'Assumpção](https://github.com/ArtAssLou) |    -    |
+| 05/07/2023 | `1.2`  | Adiciona item de artefatos | [Débora Moreira](https://github.com/deboracaires)  |    -    |
+|            |
