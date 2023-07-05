@@ -94,3 +94,10 @@ Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no 
 ## Apresentações
 
 ## Facilidades e Dificuldades
+
+|    Data    | Versão |                                                   Descrição                                                    |                      Autor                      |                 Revisor                |
+|:----------:|:------:|:--------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------:|:-------------------------------------------:|
+| - |  `1.0`   | - | -| -|
+| 05/07/2023 |  `2.0`   | Criação o item Ferramentas | [Arthur D'Assumpção](https://github.com/ArtAssLou) | -|
+                                       |
+
