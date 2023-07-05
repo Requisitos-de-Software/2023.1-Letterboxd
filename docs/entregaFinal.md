@@ -271,6 +271,8 @@ Na tabela 8 abaixo, estão descritos os responsáveis pela elaboração dos chec
 |  Verificação (Grupo 6) - [Verificação do Grupo 7](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5.md) |       [Gustavo Barbosa](https://github.com/brbsg)           |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
 |  Verificação (Grupo 6) - [Backward-From](/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)            |   [Natan Santana](https://github.com/Neitan2001)         |
 |  Verificação (Grupo 6) - [Forward-From](/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)            |   [Natan Santana](https://github.com/Neitan2001)         |
+|  Validação (Grupo 6) - [Prototipação](/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md) |       [Maciel Júnior](https://github.com/macieljuniormax), [Clara Ribeiro](https://github.com/clara-ribeiro) e [Arthur D'Assumpção](https://github.com/ArtAssLou)           |   [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax)         |
+|  Validação (Grupo 6) - [Comprovação Informal](/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md) |       [Maciel Júnior](https://github.com/macieljuniormax) e [Clara Ribeiro](https://github.com/clara-ribeiro)          |   [Arthur D'Assumpção](https://github.com/ArtAssLou)        |
 
 <center>
 
