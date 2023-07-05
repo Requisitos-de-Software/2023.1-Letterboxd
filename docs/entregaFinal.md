@@ -244,6 +244,24 @@ _Fonte: Arthur D’Assumpção, 2023_
 
 ## Apresentações
 
+- Buser - Arthur D'Assumpção
+- Letterboxd - Clara Ribeiro
+- FGTS - Débora Caires
+- Uber - Gustavo Barbosa
+- Apple Music - Maciel Júnior
+- WebDiet - Natan Tavares
+- Tinder - Rhuan Marques
+
+| Apresentação | Participantes                                                                                                  | Link do Vídeo                                                           |
+| ------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 1            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 1](https://www.youtube.com/watch?v=BsANHSglTvc)   |
+| 2            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 2](https://www.youtube.com/watch?v=kStq8x0C3Dg)   |
+| 3            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 3](https://www.youtube.com/watch?v=IAKl1VXL_e4)   |
+| 4            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 4](https://www.youtube.com/watch?v=m3uRe1q4mlI)   |
+| 5            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares                | [Link da Apresentação 5.1](https://www.youtube.com/watch?v=YgK3oXHtTMk) |
+| 6            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares                | [Link da Apresentação 5.2](https://www.youtube.com/watch?v=FqlFZ1N5oSM) |
+| 7            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Maciel Júnior, Natan Tavares, Rhuan Marques                  | [Link da Apresentação 6](https://www.youtube.com/watch?v=12MAALPQpCA)   |
+
 ## Facilidades e Dificuldades
 
 |    Data    | Versão |         Descrição          |                       Autor                        | Revisor |
