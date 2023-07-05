@@ -170,6 +170,91 @@ Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projet
 
 ## Verificação e Validação
 
+A etapa de verificação e validação de requisitos é essencial para garantir a qualidade e alinhamento do trabalho realizado na engenharia de requisitos. Mesmo que se tenha cuidado ao elaborar as especificações, é comum que erros estejam presentes, e o autor pode ter dificuldade em perceber essas falhas devido a enviesamento. Por isso, contar com a avaliação de uma terceira pessoa ajuda a filtrar problemas e aprimorar a qualidade do trabalho (CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES, 2016)[¹⁵](#ancora15)
+
+Segundo Carlos Eduardo Vazquez e Guilherme Siqueira Simões (2016)[¹⁵](#ancora15), a verificação de requisitos envolve comparar os produtos da modelagem e especificação com modelos de referência, visando identificar não conformidades que possam ser justificadas ou corrigidas. É uma atividade interna à equipe de projeto, e é importante ressaltar que o próprio autor da especificação não deve realizar a verificação, pois sua análise pode ser enviesada.
+
+No contexto desse projeto, para a verificação de requisitos, foi utilizada a técnica de Fagan, que envolve a utilização de um checklist de erros mais comuns identificados em projetos. Essa abordagem permite comparar as especificações com modelos de referência e identificar possíveis não conformidades, garantindo que as especificações atendam aos padrões de qualidade exigidos.
+
+Já a validação de requisitos, de acordo com Carlos Eduardo Vazquez e Guilherme Siqueira Simões (2016)[¹⁵](#ancora15), é um trabalho que busca assegurar que todos os requisitos especificados estejam alinhados com as necessidades de negócio das partes interessadas no projeto. É fundamental garantir que a especificação defina o produto certo a ser desenvolvido, visando satisfazer o cliente.
+
+Existem várias técnicas que auxiliam na validação de requisitos, no projeto em questão foram utilizados protótipos, que foram validados com um usuário da plataforma através de uma entrevista e permitiu obter um feedback da solução proposta. Além disso, a validação informal também foi realizada, na qual uma mensagem por e-mail foi enviada à equipe da Letterboxd, solicitando uma avaliação dos artefatos criados.
+
+Na tabela 8 abaixo, estão descritos os responsáveis pela elaboração dos checklists de verificação do Grupo 7. Em seguida, na tabela 9, podemos verificar os responsáveis pelos artefatos de verificação e validação do nosso projeto (Grupo 6).
+
+<center>
+
+*Tabela 8: Autores e Revisores Verificação Grupo 7*
+
+</center>
+
+
+| Artefato              | Autor(es)              | Revisor(es)            |
+|:---------------------------------------------------------------------------------|:--------------------:|:--------------------:|
+|  Verificação (Grupo 7) - [Planejamento da Verificação](Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento.md) |       [Natan Santana](https://github.com/Neitan2001)              |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+|  Verificação (Grupo 7) - [Rich Picture](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1.md) |  [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax)  |   [Arthur D'Assumpção](https://github.com/ArtAssLou)            |
+|  Verificação (Grupo 7) - [Metodologia](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1.md) |  [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax)  |   [Arthur D'Assumpção](https://github.com/ArtAssLou)            |
+|  Verificação (Grupo 7) - [Cronograma](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1.md) |  [Arthur D'Assumpção](https://github.com/ArtAssLou) e [Maciel Júnior](https://github.com/macieljuniormax)  |   [Arthur D'Assumpção](https://github.com/ArtAssLou)            |
+|  Verificação (Grupo 7) - [Perfil de Usuário](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Personas](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Elicitação: BrainStorming](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Elicitação: Storytelling](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Priorização: Escala de três níveis](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Priorização: MosCow](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Priorização: Baseada em valor, custo e risco](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md) |       [Gustavo Barbosa](https://github.com/brbsg)              |   -           |
+|  Verificação (Grupo 7) - [Cenários](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 7) - [Léxico](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 7) - [Casos de uso](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 7) - [Especificação Suplementar](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 7) - [Histórias de Usuário](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4.md) |       [Natan Santana](https://github.com/Neitan2001)              |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+|  Verificação (Grupo 7) - [Backlog](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4.md) |       [Natan Santana](https://github.com/Neitan2001)              |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+|  Verificação (Grupo 7) - [NFR Framework](Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4.md) |       [Natan Santana](https://github.com/Neitan2001)              |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+
+<center>
+
+*Fonte: Autoria própria, Maciel Júnior*
+
+</center>
+
+
+
+
+<center>
+
+*Tabela 9: Autores e Revisores Verificação e Validação Grupo 6*
+
+</center>
+
+
+| Artefato              | Autor(es)              | Revisor(es)            |
+|:---------------------------------------------------------------------------------|:--------------------:|:--------------------:|
+|  Verificação (Grupo 6) - [Planejamento da Verificação](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento.md) |       [Natan Santana](https://github.com/Neitan2001), [Clara Ribeiro](https://github.com/clara-ribeiro) e [Débora Moreira](https://github.com/deboracaires)              |   [Natan Santana](https://github.com/Neitan2001) e [Clara Ribeiro](https://github.com/clara-ribeiro)        |
+|  Verificação (Grupo 6) - [Rich Picture](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1.md) |  [Clara Ribeiro](https://github.com/clara-ribeiro)  |   [Natan Santana](https://github.com/Neitan2001)         |
+|  Verificação (Grupo 6) - [Perfil de Usuário](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Personas](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Análise de documentos](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Entrevista](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Introspecção](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Priorização](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Questionário](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Storytelling](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2.md) |       [Débora Moreira](https://github.com/deboracaires)              |   -           |
+|  Verificação (Grupo 6) - [Cenários](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)              |   [Natan Santana](https://github.com/Neitan2001)           |
+|  Verificação (Grupo 6) - [Léxico](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)              |   [Natan Santana](https://github.com/Neitan2001)           |
+|  Verificação (Grupo 6) - [Casos de uso](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)              |   [Natan Santana](https://github.com/Neitan2001)           |
+|  Verificação (Grupo 6) - [Especificação Suplementar](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3.md) |          [Natan Santana](https://github.com/Neitan2001)           |   [Clara Ribeiro](https://github.com/clara-ribeiro)           |
+|  Verificação (Grupo 6) - [Histórias de Usuário](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4.md) |       [Natan Santana](https://github.com/Neitan2001)             |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+|  Verificação (Grupo 6) - [Backlog](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4.md) |       [Natan Santana](https://github.com/Neitan2001)           |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+|  Verificação (Grupo 6) - [Verificação do Grupo 7](Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5.md) |       [Gustavo Barbosa](https://github.com/brbsg)           |   [Clara Ribeiro](https://github.com/clara-ribeiro)            |
+|  Verificação (Grupo 6) - [Backward-From](/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)            |   [Natan Santana](https://github.com/Neitan2001)         |
+|  Verificação (Grupo 6) - [Forward-From](/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md) |       [Clara Ribeiro](https://github.com/clara-ribeiro)            |   [Natan Santana](https://github.com/Neitan2001)         |
+
+<center>
+
+*Fonte: Autoria própria, Maciel Júnior*
+
+</center>
+
+
 ## Ferramentas
 
 Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 8 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato. 
@@ -217,6 +302,7 @@ Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no 
 > - <a id="ancora11"></a>[12] Whatsapp. Disponível em: <https://www.whatsapp.com/>. Acesso em: 05 julho 2023.
 > - <a id="ancora12"></a>[13] Google Forms. Disponível em: <https://docs.google.com/forms/>. Acesso em: 05 julho 2023.
 > - <a id="ancora13"></a>[14] This Person Does Not Exist. Disponível em: <https://thispersondoesnotexist.com/>. Acesso em: 05 julho. 2023.
+> - <a id="ancora15"></a>[15] CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.
 
 
 
@@ -229,5 +315,6 @@ Google Drive[⁹](#ancora9)| Usamos para armazenar videos, atas e documentos no 
 | - |  `1.0`   | - | -| -|
 | 05/07/2023 |  `1.1`   | Criação o item Ferramentas | [Arthur D'Assumpção](https://github.com/ArtAssLou) | -|
 | 05/07/2023 |  `1.2`   | Adiciona item de artefatos | [Débora Moreira](https://github.com/deboracaires) | -|
+| 05/07/2023 |  `1.3`   | Adiciona verificação e validação  | [Débora Moreira](https://github.com/deboracaires) | -|
                                        |
 
