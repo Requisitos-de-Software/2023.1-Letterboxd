@@ -61,6 +61,51 @@ Além disso, por meio da execução do projeto, o grupo conseguiu identificar po
 
 ## Técnicas utilizadas
 
+| Etapa | Artefato | Técnica | Autor(es) | Revisor(es) | 
+| ----- | -------- | ------- | --------- | ----------- |
+| Planejamento | [Rich Picture](https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/richPicture) | Rich Pictire|[Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) | 
+| Planejamento | [Políticas](https://requisitos-de-software.github.io/2023.1-Letterboxd/politicas/) | Políticas | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Planejamento | [Cronograma](https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/cronograma/) | SCRUM | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Planejamento | [Ferramentas](https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/ferramentas/) | Não relacionada | [Maciel Júnior](https://github.com/macieljuniormax) | [Rhuan Marques](https://github.com/RhuanMr) |
+| Elicitação | [Análise de Documentos](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/) | Análise de Documentos | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Elicitação | [Entrevista](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/entrevista/) | Entrevista aberta | [Débora Caires](https://github.com/deboracaires) | [Natan Santana](https://github.com/Neitan2001) |
+| Elicitação | [Introspecção](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/introspeccao/) | Inquiry | [Maciel Júnior](https://github.com/macieljuniormax) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Elicitação | [Justificativa das técnicas de priorização](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/) | Não relacionada  | [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Débora Caires](https://github.com/deboracaires) |
+| Elicitação | [Justificativa das técnicas de Elicitação](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/) | Não relacionada  | [Rhuan Marques](https://github.com/RhuanMr) | [Gustavo Barbosa](https://github.com/brbsg) |
+| Elicitação | [Questionário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/) | [Natan Santana](https://github.com/Neitan2001)| Questionário | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Elicitação | Perfil de Usuário | [Perfil de Usuário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfilTabela/) | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Elicitação | [Personas](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/) | Role-Playing | [Arthur D'Assumpção](https://github.com/ArtAssLou), [Débora Caires](https://github.com/deboracaires) [Gustavo Barbosa](https://github.com/brbsg) | [Natan Santana](https://github.com/Neitan2001) |
+| Elicitação | [Storytelling](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/storytelling/) | Role-Playing | [Rhuan Marques](https://github.com/RhuanMr) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Priorização | [Priorização](https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/) | Priorização | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Priorização | [Requisitos Elicitados](https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/requisitos/) | Não relacionada | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Modelagem | [NFR](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/NFRFramework/) | NFR Framework |  [Rhuan Marques](https://github.com/RhuanMr) e [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Modelagem | [Casos de Uso](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/) | UML | [Natan Santana](https://github.com/Neitan2001) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Modelagem | [Cenários](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/cenarios/) | Cenários | [Rhuan Marques](https://github.com/RhuanMr) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Modelagem | [Especificação Suplementar](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/) | FURPS+ | [Maciel Júnior](https://github.com/macieljuniormax), [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Gustavo Barbosa](https://github.com/brbsg) |
+| Modelagem | [Léxicos](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/) | Léxico | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Modelagem | [Product Backlog](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/) | Scrum | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Modelagem | [Histórias de Usuário](https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/) | Scrum | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Maciel Júnior](https://github.com/macieljuniormax) | [Natan Santana](https://github.com/Neitan2001) |
+| Análise | [Acompanhamento](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/) | Verificação | [Débora Caires](https://github.com/deboracaires) | [Maciel Júnior](https://github.com/macieljuniormax) |
+| Análise | [Planejamento da Verificação](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/) | Verificação | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Análise |[ Verificação Etapa 1](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/) | Verificação | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Análise | [Verificação Etapa 2](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/)  | Verificação | [Débora Caires](https://github.com/deboracaires) | |
+| Análise | [Verificação Etapa 3](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/)  | Verificação | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Análise | [Verificação Etapa 4](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/) | Verificação | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Análise | [Verificação Etapa 5](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/) | Verificação | [Gustavo Barbosa](https://github.com/brbsg) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Análise | [Verificação Etapa 6](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/) | Verificação | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Análise | [Comprovação Informal](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/) | Validação | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur D'Assumpção](https://github.com/ArtAssLou) |
+| Análise | [Prototipação](https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/) | Validação | [Maciel Júnior](https://github.com/macieljuniormax) | [Arthur D'Assumpção](https://github.com/ArtAssLou) |
+| Pós rastreabilidade | [Backward-from](https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/BackwardFrom/) | Backward-from | [Natan Santana](https://github.com/Neitan2001) | [Clara Ribeiro](https://github.com/clara-ribeiro) |
+| Pós rastreabilidade | [Elos de Rastreabilidade](https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/Elos/) | Não relacionada | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Pós rastreabilidade | [Forward-From](https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/ForwardFrom/) | Forward-From | [Clara Ribeiro](https://github.com/clara-ribeiro) | [Natan Santana](https://github.com/Neitan2001) |
+| Pós rastreabilidade | [Matriz Geral](https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/MatrizGeral/) | Matriz Geral | [Clara Ribeiro](https://github.com/clara-ribeiro) e [Natan Santana](https://github.com/Neitan2001) | [Maciel Júnior](https://github.com/macieljuniormax) |
+
+<center>
+
+*Fonte: Autoria própria, Rhuan Marques*
+
+</center>
+
 ## Artefatos
 
 Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projeto separados por etapa. Nas tabelas de 1 a 7 podem ser visualizados de acordo com cada etapa, quais artefatos foram desenvolvidos, por quem esse artefato foi desenvolvido e por quem ele foi revisado.
