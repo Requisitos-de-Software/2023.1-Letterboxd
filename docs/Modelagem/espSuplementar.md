@@ -31,51 +31,79 @@ A seguir, são apresentados os requisitos do aplicativo letterboxd para cada cat
 ### 3.1. Funcionalidade (Functionality)
 A categoria funcionalidade enfoca os requisitos funcionais que foram elicitados utilizando as técnicas de análise de documento, introspecção, entrevista e questionário e podem ser conferidos [aqui](https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicitação/requisitos/).
 ### 3.2. Usabilidade (Usability)
+
+Como já citado acima, a categoria de usabilidade concentra-se nos requisitos relacionados à facilidade de uso, eficiência e satisfação do usuário ao interagir com o sistema. Na tabela 1 a seguir, são listados os requisitos que foram elicitados para essa categoria.
+
 | Identificador | Descrição | Requisito Relacionado |
 | :---: | :---: | :---: |
-| U01 | Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido | DOC31 |
-| U02 | Deve ser indicado ao usuário através da cor verde que o filme foi assistido | DOC32 |
-| U03 | Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes | DOC33 |
-| U04 | Os dados do usuário devem ser atualizados em tempo real, sem a necessidade de atualizar a página ou fechar e abrir o aplicativo novamente | DOC71 |
-| U05 | Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias	 | DOC76 |
-| U06 | Traduzir interface do usuário para português	 | ENT04 |
-| U07 | Registro no diário mais intuitivo e com menos cliques	 | ENT05 |
-| U08 | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas	 | IT20 |
-| U09 | Verificação de onde assistir o filme de acordo com o país do usuário	 | QST05 |
+| U01 | Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido | [DOC31](../Elicita%C3%A7%C3%A3o/analise.md) |
+| U02 | Deve ser indicado ao usuário através da cor verde que o filme foi assistido | [DOC32](../Elicita%C3%A7%C3%A3o/analise.md) |
+| U03 | Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes | [DOC33](../Elicita%C3%A7%C3%A3o/analise.md) |
+| U04 | Os dados do usuário devem ser atualizados em tempo real, sem a necessidade de atualizar a página ou fechar e abrir o aplicativo novamente | [DOC71](../Elicita%C3%A7%C3%A3o/analise.md) |
+| U05 | Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias	 | [DOC76](../Elicita%C3%A7%C3%A3o/analise.md) |
+| U06 | Traduzir interface do usuário para português	 | [ENT04](../Elicita%C3%A7%C3%A3o/entrevista.md) |
+| U07 | Registro no diário com menos cliques | [ENT05](../Elicita%C3%A7%C3%A3o/entrevista.md) |
+| U08 | O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas	 | [IT20](../Elicita%C3%A7%C3%A3o/introspeccao.md) |
+| U09 | Verificação de onde assistir o filme de acordo com o país do usuário	 | [QST05](../Elicita%C3%A7%C3%A3o/perfil.md) |
+
+<div style="text-align: center">
+<p>Tabela 1:  Requisitos da categoria usabilidade (Fonte: Autor, 2023)</p>
+</div>
 
 
 ### 3.3. Confiabilidade (Reliability)
+
+Como citado acima, a categoria de confiabilidade concentra-se nos requisitos relacionados à estabilidade, disponibilidade, tolerância a falhas e segurança do sistema. Na tabela 2 a seguir, são listados os requisitos que foram elicitados para essa categoria.
+
 | Identificador | Descrição | Requisito Relacionado |
 | :---: | :---: | :---: |
-| C01 | Deve garantir que o acesso à conta desativada seja impedido | DOC61 |
-| C02 | Deve garantir que o acesso à conta excluida seja impedido | DOC62 |
-| C03 | Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente | DOC63 |
-| C04 | Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço | DOC65 |
-| C05 | Deve ser enviado um e-mail de confirmação para garantir que o endereço de e-mail associado à conta é válido | DOC68 |
-| C06 | Deve ter moderação para remover o conteúdo que viole a política de comunidade, sendo contra à diversidade e inclusão, com discursos de ódio e marginalização | DOC69 |
-| C07 | Deve ser mantida a privacidade das listas ou watchlists definidas como privadas, exceto para o próprio usuário | DOC73 |
-| C08 | Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados | DOC77 |
+| C01 | Deve garantir que o acesso à conta desativada seja impedido | [DOC61](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C02 | Deve garantir que o acesso à conta excluida seja impedido | [DOC62](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C03 | Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente | [DOC63](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C04 | Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço | [DOC65](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C05 | Deve ser enviado um e-mail de confirmação para garantir que o endereço de e-mail associado à conta é válido | [DOC68](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C06 | Deve ter moderação para remover o conteúdo que viole a política de comunidade, sendo contra à diversidade e inclusão, com discursos de ódio e marginalização | [DOC69](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C07 | Deve ser mantida a privacidade das listas ou watchlists definidas como privadas, exceto para o próprio usuário | [DOC73](../Elicita%C3%A7%C3%A3o/analise.md) |
+| C08 | Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados | [DOC77](../Elicita%C3%A7%C3%A3o/analise.md) |
+
+<div style="text-align: center">
+<p>Tabela 2:  Requisitos da categoria confiabilidade (Fonte: Autor, 2023)</p>
+</div>
 
 ### 3.4. Desempenho (Performance)
+
+Como citado acima, a categoria de desempenho concentra-se nos requisitos relacionados à velocidade, eficiência e capacidade de resposta do sistema. Na tabela 3 a seguir, são listados os requisitos que foram elicitados para essa categoria.
+
 | Identificador | Descrição | Requisito Relacionado |
 | :---: | :---: | :---: |
-| D01 | Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário | DOC64 |
-| D02 | Deve ser atualizado automaticamente a avaliação do filme quando uma nova avaliação for adicionada | DOC67 |
-| D03 | O tempo de resposta do servidor deve ser rápido o suficiente para oferecer uma experiência de usuário satisfatória | DOC72 |
-| D04 | Deve ser limitado o tamanho máximo do arquivo de upload para 1 MB | DOC72 |
+| D01 | Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário | [DOC64](../Elicita%C3%A7%C3%A3o/analise.md) |
+| D02 | Deve ser atualizado automaticamente a avaliação do filme quando uma nova avaliação for adicionada | [DOC67](../Elicita%C3%A7%C3%A3o/analise.md) |
+| D03 | Tempo de resposta do servidor para uma experiência de usuário satisfatória | [DOC72](../Elicita%C3%A7%C3%A3o/analise.md) |
+| D04 | Deve ser limitado o tamanho máximo do arquivo de upload para 1 MB | [DOC72](../Elicita%C3%A7%C3%A3o/analise.md) |
+
+<div style="text-align: center">
+<p>Tabela 3:  Requisitos da categoria desempenho (Fonte: Autor, 2023)</p>
+</div>
 
 ### 3.5. Suportabilidade (Supportability)
+
+Como citado acima, a categoria de suportabilidade abrange os requisitos relacionados à capacidade do sistema de ser instalado, configurado, atualizado e executado em diferentes ambientes de forma eficiente e sem complicações. Na tabela 4 a seguir, são listados os requisitos que foram elicitados para essa categoria.
+
 | Identificador | Descrição | Requisito Relacionado |
 | :---: | :---: | :---: |
-| S01 | Deve ser exigido que os usuários insiram sua senha ao desativar a conta | DOC11 |
-| S02 | Deve existir a opção de solicitar a exclusão permanente da conta e de todos os dados associados | DOC12 |
-| S03 | Deve ser possível desativar contas de usuários | DOC13 |
-| S04 | Deve ser possível o usuário ter uma assinatura paga Pro | DOC34 |
-| S05 | Deve ser possível o usuário ter uma assinatura paga Patron | DOC35 |
-| S06 | Deve ser possível exportar todos os dados da conta do usuário, incluindo conteúdo excluído e avaliações para filmes excluídos, em um único arquivo zip de documentos CSV | DOC38 |
-| S07 | Deve ser possível importar filmes, classificações e listas de outros serviços por meio do formato CSV do Letterboxd | DOC39 |
-| S08 | Para usuários Patron ou Pro, não deve haver nenhuma publicidade no aplicativo | DOC42 |
-| S09 | Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes | DOC75 |
+| S01 | Deve ser exigido que os usuários insiram sua senha ao desativar a conta | [DOC11](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S02 | Deve existir a opção de solicitar a exclusão permanente da conta e de todos os dados associados | [DOC12](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S03 | Deve ser possível desativar contas de usuários | [DOC13](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S04 | Deve ser possível o usuário ter uma assinatura paga Pro | [DOC34](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S05 | Deve ser possível o usuário ter uma assinatura paga Patron | [DOC35](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S06 | Deve ser possível exportar todos os dados da conta do usuário, incluindo conteúdo excluído e avaliações para filmes excluídos, em um único arquivo zip de documentos CSV | [DOC38](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S07 | Deve ser possível importar filmes, classificações e listas de outros serviços por meio do formato CSV do Letterboxd | [DOC39](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S08 | Para usuários Patron ou Pro, não deve haver nenhuma publicidade no aplicativo | [DOC42](../Elicita%C3%A7%C3%A3o/analise.md) |
+| S09 | Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes | [DOC75](../Elicita%C3%A7%C3%A3o/analise.md) |
+
+<div style="text-align: center">
+<p>Tabela 4:  Requisitos da categoria suportabilidade (Fonte: Autor, 2023)</p>
+</div>
 
 ## 4. Referências Bibliográficas
 
@@ -89,9 +117,4 @@ A categoria funcionalidade enfoca os requisitos funcionais que foram elicitados 
 |    Data    | Versão |                            Descrição                             |                        Autores                        |                      Revisor                      |
 | :--------: | :----: | :--------------------------------------------------------------: | :-------------------------------------------------: | :-----------------------------------------------: |
 | 13/05/2023 | `1.0`  | Criação do documento de especificação suplementar | [Maciel Júnior](https://github.com/macieljuniormax), [ArtAssLou](https://github.com/ArtAssLou)  | [Gustavo Barbosa](https://github.com/brbsg) |
-
-
-
-
-
-
+| 02/07/2023 | `2.0`  | Correção documento | [Débora Moreira](https://github.com/deboracaires)  |  |
