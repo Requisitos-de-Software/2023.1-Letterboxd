@@ -70,6 +70,10 @@ A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/1VjwNN2Zx
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FqlFZ1N5oSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Reunião 26/06/2023
+
+A Ata pode ser acessar [nesse link](https://docs.google.com/document/d/11fNBNoxDprWwruTNXj1rEp0PmS87db3rFKlsYNPDimw/edit?usp=sharing).
+
 ## Etapa 6
 
 ### Apresentação Etapa 6
