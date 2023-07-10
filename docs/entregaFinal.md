@@ -249,7 +249,7 @@ _Tabela 3: Artefatos desenvolvidos na etapa 3_
 </center>
 
 | Artefato                  | Autor                                                                                                    | Revisor                                             |
-| ------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| ------------------------- | -------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | Cenários                  | [Rhuan Marques](https://github.com/RhuanMr)                                                              | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
 | Léxicos                   | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)      |
 | Casos de uso              | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)             | [Maciel Júnior](https://github.com/macieljuniormax) |
@@ -265,7 +265,7 @@ _Tabela 4: Artefatos desenvolvidos na etapa 4_
 </center>
 
 | Artefato              | Autor                                                                                                                                                       | Revisor                                             |
-| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | Histórias de usuário  | [Clara Ribeiro](https://github.com/clara-ribeiro), [Maciel Júnior](https://github.com/macieljuniormax) e [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)      |
 | Backlogs              | [Natan Santana](https://github.com/Neitan2001) e [Gustavo Barbosa](https://github.com/brbsg)                                                                | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
 | NFR framework         | [Rhuan Marques](https://github.com/RhuanMr) e [Débora Moreira](https://github.com/deboracaires)                                                             | [Maciel Júnior](https://github.com/macieljuniormax) |
@@ -280,7 +280,7 @@ _Tabela 5: Artefatos desenvolvidos na etapa 5.1_
 </center>
 
 | Artefato                                | Autor                                              | Revisor                                             |
-| --------------------------------------- | -------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| --------------------------------------- | -------------------------------------------------- | --------------------------------------------------- | 
 | Verificação e Validação Etapa 1 Grupo 7 | [Arthur D'Assumpção](https://github.com/ArtAssLou) | [Natan Santana](https://github.com/Neitan2001)      |
 | Verificação e Validação Etapa 2 Grupo 7 | [Gustavo Barbosa](https://github.com/brbsg)        | [Maciel Júnior](https://github.com/macieljuniormax) |
 | Verificação e Validação Etapa 3 Grupo 7 | [Débora Moreira](https://github.com/deboracaires)  | [Clara Ribeiro](https://github.com/clara-ribeiro)   | [Natan Santana](https://github.com/Neitan2001) |
@@ -296,7 +296,7 @@ _Tabela 6: Artefatos desenvolvidos na etapa 5.2_
 </center>
 
 | Artefato                        | Autor                                                                                                    | Revisor                                                                                                  |
-| ------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
 | Verificação e Validação Etapa 1 | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)                                                           |
 | Verificação e Validação Etapa 2 | [Débora Moreira](https://github.com/deboracaires)                                                        | [Maciel Júnior](https://github.com/macieljuniormax)                                                      |
 | Verificação e Validação Etapa 3 | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                        | [Natan Santana](https://github.com/Neitan2001)                                                           |
@@ -315,7 +315,7 @@ _Tabela 7: Artefatos desenvolvidos na etapa 6_
 </center>
 
 | Artefato                        | Autor                                                                                              | Revisor                                             |
-| ------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- |
+| ------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
 | Backward-from                   | [Natan Santana](https://github.com/Neitan2001)                                                     | [Clara Ribeiro](https://github.com/clara-ribeiro)   |
 | Elos de Rastreabilidade         | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                  | [Natan Santana](https://github.com/Neitan2001)      |
 | Forward-From                    | [Clara Ribeiro](https://github.com/clara-ribeiro)                                                  | [Natan Santana](https://github.com/Neitan2001)      |
@@ -479,3 +479,4 @@ _Fonte: Arthur D’Assumpção, 2023_
 | 05/07/2023 | `1.3`  | Adiciona App Selecionado e Apresentações |    [Gustavo Barbosa ](https://github.com/brbsg)     |    -    |
 | 05/07/2023 | `1.4`  |     Adiciona verificação e validação     | [Maciel Júnior](https://github.com/macieljuniormax) |    -    |
 | 05/07/2023 | `1.5`  |     Adiciona cronogramas                 | [Clara Ribeiro](https://github.com/clara-ribeiro) |    -    |
+| 10/07/2023 | `1.6`  | Correção layout das tabelas 3, 4, 5, 6 e 7                 | [Clara Ribeiro](https://github.com/clara-ribeiro) |    -    |
