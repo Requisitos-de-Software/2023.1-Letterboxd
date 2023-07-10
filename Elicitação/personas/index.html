@@ -1,0 +1,1594 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../perfilTabela/">
+      
+      
+        <link rel="next" href="../storytelling/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Personas - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#personas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Personas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Personas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Personas
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1introducao" class="md-nav__link">
+    1.Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2metodologia" class="md-nav__link">
+    2.Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3personas" class="md-nav__link">
+    3.Personas
+  </a>
+  
+    <nav class="md-nav" aria-label="3.Personas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-lucas-matheus" class="md-nav__link">
+    3.1 Lucas Matheus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-ana-luiza-santana" class="md-nav__link">
+    3.2 Ana Luiza Santana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-mauro-junior" class="md-nav__link">
+    3.3 Mauro Júnior
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-antipersona" class="md-nav__link">
+    4. Antipersona
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Antipersona">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-karen-silva" class="md-nav__link">
+    4.1 Karen Silva
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-referencias-bibliograficas" class="md-nav__link">
+    5. Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6tabela-de-versionamento" class="md-nav__link">
+    6.Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1introducao" class="md-nav__link">
+    1.Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2metodologia" class="md-nav__link">
+    2.Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3personas" class="md-nav__link">
+    3.Personas
+  </a>
+  
+    <nav class="md-nav" aria-label="3.Personas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-lucas-matheus" class="md-nav__link">
+    3.1 Lucas Matheus
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-ana-luiza-santana" class="md-nav__link">
+    3.2 Ana Luiza Santana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-mauro-junior" class="md-nav__link">
+    3.3 Mauro Júnior
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-antipersona" class="md-nav__link">
+    4. Antipersona
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Antipersona">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-karen-silva" class="md-nav__link">
+    4.1 Karen Silva
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-referencias-bibliograficas" class="md-nav__link">
+    5. Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6tabela-de-versionamento" class="md-nav__link">
+    6.Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="personas">Personas</h1>
+<h2 id="1introducao">1.Introdução</h2>
+<p>A técnica do uso de personas é utilizada com o objetivo de representar um grupo específico de usuários. Durante a etapa de elicitação de requisitos, esta técnica é bastante utilizada para que o time de desenvolvimento consiga manter o foco em um mesmo alvo, quando se diz respeito aos usuários. Com esta técnica, o foco principal é satisfazer os grupos de usuários reais.</p>
+<p>Uma persona, segundo Barbosa e Silva (2010)<a href="#ancora1">¹</a> é basicamente um personagem fictício criado com base nas características dos grupos de usuários reais. As personas em um projeto são criadas com base em processos investigativos, como questionários que buscam elicitar informações sobre os usuários. Ela tem como objetivo descrever um usuário típico do sistema.</p>
+<h2 id="2metodologia">2.Metodologia</h2>
+<p>Neste projeto, a metodologia aplicada para a coleta de dados dos usuários reais foi a aplicação de questionário. Esse foi enviado tanto em grupos da Universidade de Brasília quanto em comunidades de cinéfilos em plataformas, como o Facebook.</p>
+<p>A quantidade de personas criadas foi determinada com base no livro de Barbosa e Silva (2010)<a href="#ancora1">¹</a>, que recomendada a criação de 3 a 12 personas, garantindo pelo menos uma persona para cada papel de usuário. Além disso, algumas personas são definidas apenas para tornar claro que o sistema não está sendo projetado para elas; são as antipersonas. É enfatizada a importância de que o elenco de personas seja memorável e portanto, reduzido.</p>
+<p>Dessa forma, com objetivo de criar um elenco de personas que atenda a esses critérios, foram criadas 3 personas e 1 antipersona, cujas características foram baseadas nos elementos especificados por Barbosa e Silva (2010)<a href="#ancora1">¹</a>, que são:</p>
+<p>• Identidade: Nome, Sobrenome, Idade.</p>
+<p>• Status: defina se esta persona é primária, secundária, outro stakeholder ou representa um antiusuário do seu sistema.</p>
+<p>• Objetivos: descreve os objetivos da persona.</p>
+<p>• Habilidades: especialidade, grau de escolaridade, grau de familiaridade com tecnologia.</p>
+<p>• Tarefas: quais as tarefas básicas ou críticas que a persona realiza no sistema.</p>
+<p>• Relacionamentos: com quem a persona se relaciona.</p>
+<p>• Requisitos: necessidades da persona.</p>
+<p>• Expectativas: como a persona acredita que o produto funciona.</p>
+<h2 id="3personas">3.Personas</h2>
+<p>Todas as imagens abaixo representam pessoas fictícias criadas pelo site <a href="https://this-person-does-not-exist.com">This Person Does Not Exist</a>.</p>
+<h3 id="31-lucas-matheus">3.1 Lucas Matheus</h3>
+<p>Na Figura 1 temos a primeira persona, Lucas Matheus. Ele é um jovem de 19 anos, cursando Engenharia de Software. Seu objetivo principal é descobrir novos filmes e manter uma lista dos filmes que assistiu ou pretende assistir. Para isso, ele dedica parte do seu tempo lendo avaliações de filmes e seguindo cineastas, diretores e críticos de cinema nas redes sociais.</p>
+<figure>
+<p><img alt="LucasMatheus" src="../../assets/LucasMatheus_TPDNE.jpeg" width="250px" />
+  </p>
+<figcaption>Figura 1: Primeira Persona</figcaption>
+<p style="margin-top: -10px; font-size: 10px">Fonte: This Person Does Not Exist</p>
+</figure>
+<ol>
+<li>Nome: Lucas Matheus;</li>
+<li>Idade: 19 anos;</li>
+<li>Gênero: Masculino</li>
+<li>Estado-civil: Solteiro</li>
+<li>Educação: Ensino Médio completo</li>
+<li>Nível de renda familiar: 3 a 10 salários mínimos.</li>
+<li>Status: Persona Primária;</li>
+<li>Objetivos: Descobrir novos filmes e manter uma lista dos filmes que assistiu ou pretende assistir;</li>
+<li>Habilidades: Cursa Engenharia de Software e trabalha como desenvolvedor;</li>
+<li>Tarefas: Ler avaliações de filmes, adicionar filmes à sua lista de "assistidos" e "quero assistir";</li>
+<li>Relacionamentos: Segue cineastas, diretores e críticos de cinema;</li>
+<li>Requisitos: Recomendações de filmes personalizadas com base em seus interesses;</li>
+<li>Expectativas: Espera que a plataforma apresente recomendações de filmes pertinentes ao seu perfil.</li>
+</ol>
+<h3 id="32-ana-luiza-santana">3.2 Ana Luiza Santana</h3>
+<p>Na Figura 2 temos a segunda persona, Ana Luiza Santana. Ela é uma jovem de 26 anos, graduada em jornalismo e possui conhecimento intermediário em tecnologia, ou seja, possui facilidade em aprender a usar novas plataformas e aplicativos. Seu objetivo principal é manter uma lista dos filmes que assistiu ou pretende assistir e compartilhar suas opiniões sobre os filmes que assistiu.</p>
+<figure>
+<p><img alt="AnaLuizaSantana" src="../../assets/AnaLuizaSantana_TPDNE.jpeg" width="250px" />
+  </p>
+<figcaption>Figura 2: Segunda Persona</figcaption>
+<p style="margin-top: -10px; font-size: 10px">Fonte: This Person Does Not Exist</p>
+</figure>
+<ol>
+<li>Nome: Ana Luiza Santana;</li>
+<li>Idade: 26 anos;</li>
+<li>Gênero: Feminino</li>
+<li>Estado-civil: Solteira</li>
+<li>Educação: Ensino Superior completo</li>
+<li>Nível de renda familiar: 10 a 20 salários mínimos.</li>
+<li>Status: Persona Secundária;</li>
+<li>Objetivos: Manter uma lista dos filmes que assistiu e quer assistir e compartilhar suas opiniões sobre os filmes que assistiu;</li>
+<li>Habilidades: graduada em jornalismo e possui facilidade em aprender a usar novas plataformas e aplicativos;</li>
+<li>Tarefas: Buscar filmes para assistir, verificar as avaliações e opiniões de outros usuários sobre os filmes e escrever avaliações e comentários sobre os filmes que assistiu;</li>
+<li>Relacionamentos: Segue amigos e conhecidos na plataforma Letterboxd;</li>
+<li>Requisitos: Uma plataforma intuitiva e fácil de usar, recomendações de filmes personalizadas com base em seus interesses e comentários e avaliações de outros usuários;</li>
+<li>Expectativas: Espera que a plataforma seja uma comunidade engajada de usuários que compartilham suas opiniões e recomendam filmes uns aos outros.</li>
+</ol>
+<h3 id="33-mauro-junior">3.3 Mauro Júnior</h3>
+<p>Na Figura 3 temos a terceira persona, Mauro Junior. Ele é um jovem adulto de 33 anos que recentemente se casou e não tem filhos. Ele é apaixonado por filmes e adora assistir com sua esposa nas horas livres. Mauro é formado em administração e trabalha em uma empresa de tecnologia. Mauro procura no Letterboxd uma plataforma para descobrir novos filmes, avaliar e comentar sobre eles, além de interagir com outros usuários com interesses semelhantes aos seus.</p>
+<figure>
+<p><img alt="MauroJunior" src="../../assets/MauroJunior_TPDNE.jpeg" width="250px" />
+  </p>
+<figcaption>Figura 3: Terceira Persona</figcaption>
+<p style="margin-top: -10px; font-size: 10px">Fonte: This Person Does Not Exist</p>
+</figure>
+<ol>
+<li>Identidade: Mauro Junior, 33 anos;</li>
+<li>Idade: 33 anos;</li>
+<li>Gênero: Masculino</li>
+<li>Estado-civil: Casado</li>
+<li>Educação: Ensino Superior completo</li>
+<li>Nível de renda familiar: 10 a 20 salários mínimos.</li>
+<li>Status: Persona Primária;</li>
+<li>Objetivos: Mauro utiliza o Letterboxd para descobrir novos filmes para assistir com sua esposa e para registrar suas opiniões;</li>
+<li>Habilidades: Mauro possui graduação em Marketing e é familiarizado com tecnologia;</li>
+<li>Tarefas: Mauro utiliza o Letterboxd para buscar informações sobre filmes, ler críticas e avaliações, adicionar filmes à sua lista de desejos, registrar os filmes que assistiu e avaliá-los;</li>
+<li>Relacionamentos: Mauro é casado e utiliza o Letterboxd principalmente para encontrar novos filmes para assistir com sua esposa;</li>
+<li>Requisitos: Mauro busca uma plataforma fácil de usar, com uma grande variedade de filmes e informações relevantes e com a possibilidade de interagir com outros usuários;</li>
+<li>Expectativas: Mauro espera encontrar avaliações e críticas confiáveis, recomendações personalizadas com base em seus interesses e preferências;</li>
+</ol>
+<h2 id="4-antipersona">4. Antipersona</h2>
+<h3 id="41-karen-silva">4.1 Karen Silva</h3>
+<p>Na Figura 4, temos a Karen Silva. Ela é uma mulher de 70 anos que não tem interesse em assistir filmes. Ela é aposentada, gosta de gatos e teve quatro filhos ao longo de sua vida. Atualmente, dedica grande parte do seu tempo cuidando dos seus netos. Karen é uma pessoa que não se sente à vontade com tecnologia e pode ter dificuldades em usar o site. Ela acredita que assistir filmes é uma perda de tempo e, por isso, não tem expectativas em relação ao Letterboxd. Embora tenha um relacionamento próximo com seus filhos e netos, ela não tem amigos que utilizem o site.</p>
+<figure>
+<p><img alt="KarenSilva" src="../../assets/KarenSilva_TPDNE.jpeg" width="250px" />
+  </p>
+<figcaption>Figura 4: Primeira Antipersona</figcaption>
+<p style="margin-top: -10px; font-size: 10px">Fonte: This Person Does Not Exist</p>
+</figure>
+<ol>
+<li>Identidade: Karen Silva;</li>
+<li>Idade: 70 anos;</li>
+<li>Gênero: Feminino</li>
+<li>Estado-civil: Casada</li>
+<li>Educação: Ensino Médio completo</li>
+<li>Nível de renda familiar: 3 a 10 salários mínimos.</li>
+<li>Status: Antipersona;</li>
+<li>Objetivos: Não tem interesse em usar o site para descobrir ou avaliar filmes;</li>
+<li>Habilidades: Não é familiarizada com tecnologia e pode ter dificuldades em navegar no site;</li>
+<li>Tarefas: Não realiza tarefas no site;</li>
+<li>Relacionamentos: Tem um relacionamento próximo com seus filhos, netos e não tem amigos que utilizem o site;</li>
+<li>Requisitos: Não tem nenhum requisito para o site;</li>
+<li>Expectativas: Acredita que assistir filmes é uma perda de tempo.</li>
+</ol>
+<h2 id="5-referencias-bibliograficas">5. Referências Bibliográficas</h2>
+<blockquote>
+<p><a id="ancora1"></a> BARBOSA, S.; SILVA, B. Interação Humano-Computador. [s.l.] Elsevier Brasil, 2010. p. 176–180</p>
+</blockquote>
+<h2 id="6tabela-de-versionamento">6.Tabela de Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>24/04/2023</td>
+<td><code>1.0</code></td>
+<td>Criação V1 Personas</td>
+<td><a href="https://github.com/ArtAssLou">Arthur Loureiro</a>, <a href="https://github.com/deboracaires">Débora Caires</a>, <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>25/04/2023</td>
+<td><code>1.1</code></td>
+<td>Preenchimento segunda persona</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>25/04/2023</td>
+<td><code>1.2</code></td>
+<td>Preenchimento segunda persona e antipersona</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>25/04/2023</td>
+<td><code>1.3</code></td>
+<td>Correções pontuais</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>27/06/2023</td>
+<td><code>2.0</code></td>
+<td>Adiciona justificativa para quantidade de personas e corrige erros de digitação</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur Loureiro</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

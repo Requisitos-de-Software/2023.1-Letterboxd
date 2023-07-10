@@ -1,0 +1,1994 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../analise/">
+      
+      
+        <link rel="next" href="../introspeccao/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Entrevista - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#entrevista" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Entrevista
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Entrevista
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Entrevista
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escolha-do-metodo-laddering" class="md-nav__link">
+    Escolha do método - Laddering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-basico-para-a-tecnica" class="md-nav__link">
+    Guia básico para a técnica
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idealizacao" class="md-nav__link">
+    Idealização
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roteiro" class="md-nav__link">
+    Roteiro
+  </a>
+  
+    <nav class="md-nav" aria-label="Roteiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-das-entrevistas" class="md-nav__link">
+    Ambiente das entrevistas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#termo-de-consentimento" class="md-nav__link">
+    Termo de consentimento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perguntas-sobre-o-aplicativo" class="md-nav__link">
+    Perguntas sobre o aplicativo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teste-piloto" class="md-nav__link">
+    Teste Piloto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roteiro-final" class="md-nav__link">
+    Roteiro Final
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cronograma-das-entrevistas" class="md-nav__link">
+    Cronograma das entrevistas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado-das-entrevistas" class="md-nav__link">
+    Resultado das Entrevistas
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultado das Entrevistas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entrevista-1" class="md-nav__link">
+    Entrevista 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista-2" class="md-nav__link">
+    Entrevista 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista-3" class="md-nav__link">
+    Entrevista 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-elicitados" class="md-nav__link">
+    Requisitos Elicitados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav" aria-label="Introdução">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#escolha-do-metodo-laddering" class="md-nav__link">
+    Escolha do método - Laddering
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#guia-basico-para-a-tecnica" class="md-nav__link">
+    Guia básico para a técnica
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#idealizacao" class="md-nav__link">
+    Idealização
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roteiro" class="md-nav__link">
+    Roteiro
+  </a>
+  
+    <nav class="md-nav" aria-label="Roteiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ambiente-das-entrevistas" class="md-nav__link">
+    Ambiente das entrevistas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#termo-de-consentimento" class="md-nav__link">
+    Termo de consentimento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#perguntas-sobre-o-aplicativo" class="md-nav__link">
+    Perguntas sobre o aplicativo
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teste-piloto" class="md-nav__link">
+    Teste Piloto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roteiro-final" class="md-nav__link">
+    Roteiro Final
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cronograma-das-entrevistas" class="md-nav__link">
+    Cronograma das entrevistas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado-das-entrevistas" class="md-nav__link">
+    Resultado das Entrevistas
+  </a>
+  
+    <nav class="md-nav" aria-label="Resultado das Entrevistas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entrevista-1" class="md-nav__link">
+    Entrevista 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista-2" class="md-nav__link">
+    Entrevista 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista-3" class="md-nav__link">
+    Entrevista 3
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-elicitados" class="md-nav__link">
+    Requisitos Elicitados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias-bibliograficas" class="md-nav__link">
+    Referências Bibliográficas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="entrevista">Entrevista</h1>
+<hr />
+<h2 id="introducao">Introdução</h2>
+<p>As entrevistas são uma das técnicas mais utilizadas para a elicitação de requisitos de software. Elas são realizadas com o propósito de colher informações dos usuários ou de partes interessadas de uma forma mais estruturada e sistemática. As entrevistas permitem que o entrevistador faça perguntas, abertas ou fechadas, com o propósito de entender as necessidades e expectativas dos usuários. Além disso, elas permitem que o entrevistador faça perguntas que auxiliam na melhor compreensão das respostas dos usuários, trazendo uma maior precisão às respostas coletadas.</p>
+<h3 id="escolha-do-metodo-laddering">Escolha do método - Laddering</h3>
+<p>O método de laddering foi desenvolvido pelos pesquisadores americanos Reynolds e Gutman na década de 1970 [2]. Laddering é uma técnica qualitativa de pesquisa de mercado que tem como objetivo explorar as características do produto com as necessidades do usuário/cliente. Essa técnica se baseia na teoria de cadeias meio-fim. Por meio dessa técnica consegue-se identificar a rede de significados do consumidor, ou seja, é possível listar suas motivações e descontamentos com o produto utilizado [3].</p>
+<h3 id="guia-basico-para-a-tecnica">Guia básico para a técnica</h3>
+<p>O usuário do produto deve ser o foco principal para a produção do projeto [4]. Algumas das informações que têm interesse em ser obtidas dos usuários são:</p>
+<ol>
+<li>Por que o usuário usa esse aplicativo</li>
+<li>O que o usuário mais valoriza nesse produto;</li>
+<li>Por que alguns recursos são importantes para o usuário;</li>
+<li>Quais expectativas os usuários possuem em relação ao uso do aplicativo;</li>
+<li>Problemáticas e frustações com o aplicativo;</li>
+<li>Como que o produto pode auxiliar o usuário a alcançar seus objetivos.</li>
+</ol>
+<hr />
+<h2 id="idealizacao">Idealização</h2>
+<p>Foi aplicado um questionário com o intuito de alcançar os usuários do aplicativo. Na última parte do questionário, fizemos um levantamento dos usuários que teriam disponibilidade para participar de uma entrevista com os membros de nossa equipe.</p>
+<hr />
+<h2 id="roteiro">Roteiro</h2>
+<p>Com base no guia e nas técnicas de laddering citadas acima, o seguinte roteiro para as entrevistas foi criado:</p>
+<h3 id="ambiente-das-entrevistas">Ambiente das entrevistas</h3>
+<p>Por ser uma ferramenta já disponibilizada para os estudantes da Universidade de Brasília em sua versão premium, as entrevistas serão realizadas na plataforma Microsoft Teams (work or school). Pois dessa forma conseguimos armazenar as entrevistas gravadas de forma mais segura e simples.</p>
+<h3 id="termo-de-consentimento">Termo de consentimento</h3>
+<p>Antes de iniciar a entrevista, o entrevistador deve enviar via e-mail para o entrevistado e deixar claro também verbalmente o <a href="https://docs.google.com/document/d/1kc8w8nI-s5nouYe-1YQ0BmZwQoi3uKH_/edit?usp=sharing&amp;ouid=113936688363583144171&amp;rtpof=true&amp;sd=true">termo de consentimento</a>. Abaixo segue um guia de todas as informações e passo-a-passo a ser seguido pelo entrevistador.</p>
+<ol>
+<li>Deixar claro o propósito da entrevista e o nome do projeto em que ela será utilizada;</li>
+<li>Informar ao entrevistado que ele tem o direito de recusar a participação a entrevista ou desistir a qualquer momento sem penalidade ou qualquer consequência negativa;</li>
+<li>Deixar claro de que a entrevista será gravada e transcrita e pedir permissão ao entrevistado;</li>
+<li>Informar que todos os dados dele e da entrevista serão armazenados e protegidos e deixar claro quem terá acesso à essas informações;</li>
+<li>Deixar claro que caso seja da vontade do usuário ele pode solicitar que seus dados e sua entrevista sejam excluídos e informar como ele pode fazer isso;</li>
+<li>Pedir que o entrevistado leia o termo de consentimento apresentado pelo entrevistador e falar se dá o consentimento ou não.</li>
+</ol>
+<h3 id="perguntas-sobre-o-aplicativo">Perguntas sobre o aplicativo</h3>
+<p>Após o termo de consentimento ser assinado tanto pelo entrevistador como pelo entrevistado, o entrevistador deve se certificar de que a reunião esteja sendo gravada e então seguir para a próxima etapa que é composta pelas seguintes perguntas:</p>
+<ol>
+<li>Você pode me contar um pouco sobre por que você usa o aplicativo Letterboxd?</li>
+<li>O que você valoriza mais no aplicativo Letterboxd?</li>
+<li>Por que é importante para você ter esses recursos disponíveis no aplicativo?</li>
+<li>O que você espera do aplicativo Letterboxd no futuro?</li>
+<li>Você já teve alguma frustração ou problema ao usar o aplicativo?</li>
+<li>Como você acha que o aplicativo Letterboxd pode te ajudar a alcançar seus objetivos relacionados a filmes?</li>
+</ol>
+<hr />
+<h2 id="teste-piloto">Teste Piloto</h2>
+<p>O teste piloto (ou estudo-piloto) é a execução da entrevista a fim de avaliar os materiais necessários que foram especificados no planejamento e verficiar se as perguntas definidas estão confusas ou insuficientes para uma coleta de dados completa e de qualidade[5]. Mesmo sendo aconselhado realizar esse teste com usuários reais, o grupo optou por realizar entre os próprios membros por conta da quantidade limitada de usuários dispostos a participar de entrevistas. Os membros Natan Tavares Santana e Clara Ribeiro participaram do estudo-piloto no dia 25/06/2023, durante 12:09 até 12:15, na Faculdade Gama da UnB e o áudio do teste foi gravado. O áudio pode ser acessado por este <a href="https://drive.google.com/file/d/1QyUBMtJ3TJJw8_7q9IMlGees14Usxmwz/view?usp=sharing">link</a>.</p>
+<p>De acordo com a execução do teste, foi observado que as seguintes mudanças são necessárias:</p>
+<ol>
+<li>Adicionar algumas perguntas de quebra gelo a fim de deixar o usuário mais confortável</li>
+<li>Adicionar algumas perguntas que aprofundam no motivo de o usuário utilizar o aplicativo a fim de elicitar requisitos não-funcionais com a técnica Laddering</li>
+</ol>
+<h2 id="roteiro-final">Roteiro Final</h2>
+<p>Com os feedbacks coletados, a seguir será listado o roteiro final que será utilizado na execução das entrevistas:</p>
+<ol>
+<li>Qual seu nome?</li>
+<li>Quantos anos você tem?</li>
+<li>Qual a sua profissão?</li>
+<li>Por onde você ficou sabendo do questionário sobre o aplicativo Letterboxd?</li>
+<li>Há quanto tempo você usa o aplicativo Letterboxd?</li>
+<li>Você pode me contar um pouco sobre por que você usa o aplicativo Letterboxd?</li>
+<li>Por que é importante para você ter esses recursos disponíveis no aplicativo?</li>
+<li>O que você espera do aplicativo Letterboxd no futuro?</li>
+<li>Você já teve alguma frustração ou problema ao usar o aplicativo?</li>
+<li>O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos?</li>
+</ol>
+<h2 id="cronograma-das-entrevistas">Cronograma das entrevistas</h2>
+<table>
+<thead>
+<tr>
+<th>Entrevistado</th>
+<th>Dia</th>
+<th>Horário</th>
+<th>Local</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cairo</td>
+<td>25/04/2023</td>
+<td>14:30</td>
+<td>FGA</td>
+</tr>
+<tr>
+<td>Paola</td>
+<td>25/04/2023</td>
+<td>15:30</td>
+<td>Online via Microsoft Teams</td>
+</tr>
+<tr>
+<td>Vitória</td>
+<td>25/04/2023</td>
+<td>17:30</td>
+<td>Online via Microsoft Teams</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultado-das-entrevistas">Resultado das Entrevistas</h2>
+<p>Abaixo será documentado os resultados e os requisitos elicitados em cada uma das entrevistas. No total, foram realizadas 3 entrevistas e cada participante é uma pessoa que respondeu o <a href="../perfil/">questionário</a>, ou seja, fazem parte do perfil de usuário do aplicativo. O entrevistador das três entrevistas foi o membro do grupo Natan Tavares Santana.</p>
+<h3 id="entrevista-1">Entrevista 1</h3>
+<p>A primeira entrevista foi realizada com o Cairo presencialmente na FGA às 14:30 do dia 25/04/2023. Como a entrevista foi feita presencialmente em um lugar público, a fim de evitar que a imagem de outros alunos aparecessem na grravação, somente o áudio foi gravado. A gravação pode ser acessada por este <a href="https://drive.google.com/file/d/1_35SVYxZlh30VNNCFXS26POiK7IctW-b/view?usp=sharing">link</a>. Na Tabela 1 está registrado uma síntese das respostas para cada pergunta.</p>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Qual seu nome?</td>
+<td>Cairo</td>
+</tr>
+<tr>
+<td>Quantos anos você tem?</td>
+<td>20 anos</td>
+</tr>
+<tr>
+<td>Qual a sua profissão?</td>
+<td>Estudante</td>
+</tr>
+<tr>
+<td>Por onde você ficou sabendo do questionário sobre o aplicativo Letterboxd?</td>
+<td>Grupo do telegram da FGA</td>
+</tr>
+<tr>
+<td>Há quanto tempo você usa o aplicativo Letterboxd?</td>
+<td>Usou pela primeira vez em 2018 e parou de usar por um tempo pois nenhum amigo utilizava. Voltou a utilizar no fim do último semestre pois um amigo começou a utilizar. A interação com usuários é algo importante para Cairo</td>
+</tr>
+<tr>
+<td>Você pode me contar um pouco sobre por que você usa o aplicativo Letterboxd?</td>
+<td>Gosta de deixar registrado os filmes que já viu pois se esquece, fazer listas de filmes que quer ver, olha as críticas que outros fizeram e gosta de deixar comentários engraçados sobre os filmes que viu</td>
+</tr>
+<tr>
+<td>Por que é importante para você ter esses recursos disponíveis no aplicativo?</td>
+<td>Porque gosta de ter um histórico sobre o que fez e o Letterboxd ajuda a fazer esse diário para que possa consultar depois e recomendar filmes para amigos</td>
+</tr>
+<tr>
+<td>O que você espera do aplicativo Letterboxd no futuro?</td>
+<td>Espera que ele tenha mais usuários e as pessoas comecem a utilizar como uma rede social, virando uma alternativa para aplicativos como o "Twitter". Espera que tenha mais interação com outras pessoas</td>
+</tr>
+<tr>
+<td>Você já teve alguma frustração ou problema ao usar o aplicativo?</td>
+<td>A pouca popularidade do aplicativo desmotiva a utilização. Não tem tantos amigos que utilizam</td>
+</tr>
+<tr>
+<td>O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos?</td>
+<td>Não, o objetivo que o aplicativo não consegue ajudar o Cairo é na facilidade de acessar os filmes nas plataformas que possuem disponíveis assim como o google faz. Seria interessante se tivesse um comportamento semelhante ao Google em que se clica em uma das plataformas disponíveis e é redirecionado para o site ou aplicativo com o filme</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 1: Síntese das respostas da entrevista 1</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<p>De acordo com essas respostas, é possível sugerir dois novos requisitos para o aplicativo. Na tabela 2, o primeiro requisito busca ajudar na busca de amigos que estejam perto do usuário para motivá-lo a continuar usando o aplicativo e o segundo requisito busca ajudar no objetivo de acesso facilitado para assistir filmes.</p>
+<table>
+<thead>
+<tr>
+<th>Identificação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ENT01</td>
+<td>Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos</td>
+</tr>
+<tr>
+<td>ENT02</td>
+<td>Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 2: Requisitos elicitado na entrevista 1</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<h3 id="entrevista-2">Entrevista 2</h3>
+<p>A segunda entrevista foi realizada com a Paola online pelo Microsoft Teams às 15:30 do dia 25/04/2023. A entrevistada avisou que a Internet estava instável e que não iria conseguir ligar a câmera e o entrevistador Natan também manteve a câmera desligada para evitar problemas de conexão. O vídeo da gravação foi colocado no youtube e pode ser visualizado a seguir.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3IzH1aallWw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p>Na tabela 3 é possível observar a síntese das respostas para cada pergunta.</p>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Qual seu nome?</td>
+<td>Paola Líria</td>
+</tr>
+<tr>
+<td>Quantos anos você tem?</td>
+<td>36 anos</td>
+</tr>
+<tr>
+<td>Qual a sua profissão?</td>
+<td>Jornalista e Museóloga</td>
+</tr>
+<tr>
+<td>Por onde você ficou sabendo do questionário sobre o aplicativo Letterboxd?</td>
+<td>Por um grupo do professor de cinema Felipe Leão</td>
+</tr>
+<tr>
+<td>Há quanto tempo você usa o aplicativo Letterboxd?</td>
+<td>Desde 2019, utilizava antes o IMDB e depois migrou para o Letterboxd pois prefere a interface de usuário que é mais enxuta com menos informações</td>
+</tr>
+<tr>
+<td>Você pode me contar um pouco sobre por que você usa o aplicativo Letterboxd?</td>
+<td>Gosta de deixar registrado os filmes que já viu para se lembrar. Sempre fazia essas listas, até em caderno e Word e com um espaço designado para isso como o aplicativo Letterboxd fica mais fácil de lembrar</td>
+</tr>
+<tr>
+<td>Por que é importante para você ter esses recursos disponíveis no aplicativo?</td>
+<td>Pois ajuda a lembrar dos filmes que já viu e ajuda a descobrir novos filmes</td>
+</tr>
+<tr>
+<td>O que você espera do aplicativo Letterboxd no futuro?</td>
+<td>Espera que tenha uma facilidade maior para achar filmes já registrados no diário, como uma funcionalidade de busca. Também espera que o aplicativo tenha uma tradução para português</td>
+</tr>
+<tr>
+<td>Você já teve alguma frustração ou problema ao usar o aplicativo?</td>
+<td>Registro no diário não é intuitiva e demora aprender a utilizar essa funcionalidade</td>
+</tr>
+<tr>
+<td>O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos?</td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 3: Síntese das respostas da entrevista 2</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<p>Com as respostas das perguntas 8 e 9, é possível elicitar três novos requisitos. Essas novas funcionalidades serão listadas e descritas na tabela 4.</p>
+<table>
+<thead>
+<tr>
+<th>Identificação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ENT03</td>
+<td>Poder buscar filmes registrados no diário</td>
+</tr>
+<tr>
+<td>ENT04</td>
+<td>Traduzir interface do usuário para português</td>
+</tr>
+<tr>
+<td>ENT05</td>
+<td>Registro no diário mais intuitivo e com menos cliques</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 4: Requisitos elicitado na entrevista 2</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<h3 id="entrevista-3">Entrevista 3</h3>
+<p>A segunda entrevista foi realizada com a Vitória online pelo Microsoft Teams às 17:30 do dia 25/04/2023. A gravação da entrevista está no youtube e pode ser visualizada a seguir.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XbcktPwWFFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<p>Na tabela 5 é possível observar a síntese das respostas para cada pergunta.</p>
+<table>
+<thead>
+<tr>
+<th>Pergunta</th>
+<th>Resposta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Qual seu nome?</td>
+<td>Vitória</td>
+</tr>
+<tr>
+<td>Quantos anos você tem?</td>
+<td>23 anos</td>
+</tr>
+<tr>
+<td>Qual a sua profissão?</td>
+<td>Administradora</td>
+</tr>
+<tr>
+<td>Por onde você ficou sabendo do questionário sobre o aplicativo Letterboxd?</td>
+<td>Por meio dos membros Natan e Clara por whatsapp</td>
+</tr>
+<tr>
+<td>Há quanto tempo você usa o aplicativo Letterboxd?</td>
+<td>Desde 2017</td>
+</tr>
+<tr>
+<td>Você pode me contar um pouco sobre por que você usa o aplicativo Letterboxd?</td>
+<td>Gosta de manter um diário de filmes e assim poderia manter um registro detalhado dos filmes que já foram vistos</td>
+</tr>
+<tr>
+<td>Por que é importante para você ter esses recursos disponíveis no aplicativo?</td>
+<td>Pois sempre gostou de recomendar filmes, mas tinha dificuldade de lembrar as informações do filme como título, nome do diretor.</td>
+</tr>
+<tr>
+<td>O que você espera do aplicativo Letterboxd no futuro?</td>
+<td>Mais interações entre pessoas e os filmes, para ter cada vez mai compartilhamento de informação</td>
+</tr>
+<tr>
+<td>Você já teve alguma frustração ou problema ao usar o aplicativo?</td>
+<td>Sim, como o aplicativo é todo em inglês isso pode acabar afastando pessoas que não sabem muito de inglês. Poderia ter a função de traduzir texto dos outros usuários no próprio aplicativo</td>
+</tr>
+<tr>
+<td>O aplicativo Letterboxd te ajuda a alcançar todos os seus objetivos relacionados a filmes? Se não, quais objetivos não são atingidos?</td>
+<td>Sim</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 5: Síntese das respostas da entrevista 3</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<p>De acordo com a resposta da pergunta 9, é possível extrair um novo requisito. Na tabela 6, essa funcionalidade pode ser observada com mais detalhes.</p>
+<table>
+<thead>
+<tr>
+<th>Identificação</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ENT06</td>
+<td>Botão de traduzir nas críticas que estejam em um idioma diferente do usuário</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 6: Requisitos elicitado na entrevista 3</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<h2 id="requisitos-elicitados">Requisitos Elicitados</h2>
+<p>Na tabela 7, é possível observar todos os requisitos que foram elicitados por meio das entrevistas (6 novos requisitos no total).</p>
+<table>
+<thead>
+<tr>
+<th>Identificação</th>
+<th>Descrição</th>
+<th>Tipo do Requisito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ENT01</td>
+<td>Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>ENT02</td>
+<td>Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>ENT03</td>
+<td>Poder buscar filmes registrados no diário</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>ENT04</td>
+<td>Traduzir interface do usuário para português</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>ENT05</td>
+<td>Registro no diário mais intuitivo e com menos cliques</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>ENT06</td>
+<td>Botão de traduzir nas críticas que estejam em um idioma diferente do usuário</td>
+<td>RF</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 7: Requisitos elicitado pelas entrevistas</p>
+<p style="margin-top: -10px; font-size: 10px">Fonte: Autoria própria, Natan Santana</p>
+</div>
+
+<h2 id="referencias-bibliograficas">Referências Bibliográficas</h2>
+<blockquote>
+<p><a id="ancora1"></a> [1] LIMA, Rodrigo Pereira. Técnicas para levantamento de requisitos. DevMedia, 2011. Disponível em: <a href="https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151">https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151</a>. Acesso em: 22 abr. 2023.</p>
+<p><a id="ancora2"></a> [2] REYNOLDS, Thomas J.; GUTMAN, Jonathan. Laddering theory, method, analysis, and interpretation. Journal of advertising research, v. 28, n. 1, p. 11-31, 1988. Disponível em: <a href="http://www.thomasjreynolds.com/pdf/Reynolds.Laddering.Theory.Method.Analysis.pdf">http://www.thomasjreynolds.com/pdf/Reynolds.Laddering.Theory.Method.Analysis.pdf</a>. Acesso em: 22 abr. 2023.</p>
+<p><a id="ancora3"></a>[3]  MOURA, Marcelo Barros de; REZENDE, Solange Oliveira. Métodos de pesquisa para projetos de sistemas de informação. Rio de Janeiro: PUC-Rio, 2004. Disponível em: <a href="https://www.maxwell.vrac.puc-rio.br/19184/19184_4.PDF">https://www.maxwell.vrac.puc-rio.br/19184/19184_4.PDF</a>. Acesso em: 23 abr. 2023.</p>
+<p><a id="ancora4"></a> [4]  COOPER, Alan; REIMANN, Robert; CRONIN, Dave. About face 3: the essentials of interaction design. John Wiley &amp; Sons, 2007. Disponível em: <a href="https://www.slideshare.net/candjcn/wiley-about-face-3-the-essentials-of-interaction-design-may-2007">https://www.slideshare.net/candjcn/wiley-about-face-3-the-essentials-of-interaction-design-may-2007</a>. Acesso em: 23 abr. 2023.</p>
+<p><a id="ancora5"></a>[5] Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário, página 136. Autopublicação. ISBN: 978-65-00-19677-1.</p>
+</blockquote>
+<hr />
+<h2 id="tabela-de-versionamento">Tabela de versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>23/04/2023</td>
+<td><code>1.0</code></td>
+<td>Roteiro entrevista</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>25/04/2023</td>
+<td><code>2.0</code></td>
+<td>Adição do teste piloto</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>26/04/2023</td>
+<td><code>3.0</code></td>
+<td>Relato das entrevistas</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

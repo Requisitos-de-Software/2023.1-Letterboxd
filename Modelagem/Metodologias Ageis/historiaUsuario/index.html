@@ -1,0 +1,2126 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../backlog/">
+      
+      
+        <link rel="next" href="../../../Planejamento/app/">
+      
+      <link rel="icon" href="../../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Histórias de Usuários - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#historias-de-usuarios" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Histórias de Usuários
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Histórias de Usuários
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Histórias de Usuários
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-das-historias-de-usuarios" class="md-nav__link">
+    Especificação das Histórias de Usuários
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação das Histórias de Usuários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-encontrar-filmes-em-comum-na-watchlist-de-usuarios-pro" class="md-nav__link">
+    US01 - Encontrar filmes em comum na "watchlist" de usuários Pro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-sugestao-de-amigos-com-gostos-em-comum-para-usuarios-pro" class="md-nav__link">
+    US02 - Sugestão de amigos com gostos em comum para usuários Pro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-adicionar-artigos-relacionados-a-tela-de-detalhes-do-filme" class="md-nav__link">
+    US03 - Adicionar artigos relacionados à tela de detalhes do filme
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-reagir-com-diferentes-emocoes-aos-filmes" class="md-nav__link">
+    US04 - Reagir com diferentes emoções aos filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-sorteios-de-posteres-assinados-por-elenco-de-filmes-recentes-para-usuarios-pro" class="md-nav__link">
+    US05 - Sorteios de pôsteres assinados por elenco de filmes recentes para usuários Pro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-enviar-mensagens-para-outros-usuarios" class="md-nav__link">
+    US06 - Enviar mensagens para outros usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-sortear-filme-da-watchlist" class="md-nav__link">
+    US07 - Sortear filme da watchlist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us08-sincronizar-dados-de-servicos-de-streaming-com-o-aplicativo" class="md-nav__link">
+    US08 - Sincronizar dados de serviços de streaming com o aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-criar-e-participar-de-grupos-de-discussao" class="md-nav__link">
+    US09 - Criar e participar de grupos de discussão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us10-registro-no-diario-mais-intuitivo-e-com-menos-cliques" class="md-nav__link">
+    US10 - Registro no diário mais intuitivo e com menos cliques
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-possibilidade-de-fazer-o-acompanhamento-de-series-no-aplicativo" class="md-nav__link">
+    US11 - Possibilidade de fazer o acompanhamento de séries no aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-adicionar-categorias-para-filmes-series-e-animes" class="md-nav__link">
+    US12 - Adicionar categorias para filmes, séries e animes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13-geracao-de-lista-de-recomendacoes-de-filmes-em-comum-com-amigos" class="md-nav__link">
+    US13 - Geração de lista de recomendações de filmes em comum com amigos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-exibicao-da-quantidade-de-filmes-assistidos-no-perfil-do-usuario" class="md-nav__link">
+    US14 - Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15-exibicao-da-quantidade-de-horas-assistidas-no-perfil-do-usuario" class="md-nav__link">
+    US15 - Exibição da Quantidade de Horas Assistidas no Perfil do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us16-refatoracao-da-criacao-de-listas-para-maior-intuitividade-e-reducao-de-cliques" class="md-nav__link">
+    US16 - Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us17-aba-perto-de-voce-para-facilitar-a-busca-por-amigos-com-base-em-criticas-de-usuarios-locais" class="md-nav__link">
+    US17 - Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us18-comentarios-em-criticas-de-outros-usuarios" class="md-nav__link">
+    US18 - Comentários em Críticas de Outros Usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us19-notificacoes-de-artigos-de-filmes-nas-listas-dos-usuarios" class="md-nav__link">
+    US19 - Notificações de Artigos de Filmes nas Listas dos Usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20-deve-ser-possivel-registrar-usuarios-e-criar-contas" class="md-nav__link">
+    US20 - Deve ser possível registrar usuários e criar contas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us21-deve-ser-possivel-adicionar-filmes-assistidos" class="md-nav__link">
+    US21    - Deve ser possível adicionar filmes assistidos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us22-deve-ser-possivel-avaliar-filmes" class="md-nav__link">
+    US22 -  Deve ser possível avaliar filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us23-deve-ser-possivel-fazer-a-resenha-de-filmes" class="md-nav__link">
+    US23    - Deve ser possível fazer a resenha de filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us24-deve-ser-possivel-marcar-filmes-como-favoritos" class="md-nav__link">
+    US24 -  Deve ser possível marcar filmes como favoritos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us25-deve-ser-possivel-criar-listas-de-filmes" class="md-nav__link">
+    US25 -  Deve ser possível criar listas de filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us26-deve-ser-possivel-seguir-outros-usuarios" class="md-nav__link">
+    US26 -  Deve ser possível seguir outros usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us27-deve-ser-possivel-receber-notificacoes-sobre-lista-de-filmes-para-assistir" class="md-nav__link">
+    US27 -  Deve ser possível receber notificações sobre lista de filmes para assistir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us28-deve-ser-possivel-filtrar-resultados-por-servico-de-streaming" class="md-nav__link">
+    US28 -  Deve ser possível filtrar resultados por serviço de streaming
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us29-deve-ser-possivel-que-os-usuarios-desativem-suas-contas" class="md-nav__link">
+    US29    - Deve ser possível que os usuários desativem suas contas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validacao-com-o-po" class="md-nav__link">
+    Validação com o PO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#especificacao-das-historias-de-usuarios" class="md-nav__link">
+    Especificação das Histórias de Usuários
+  </a>
+  
+    <nav class="md-nav" aria-label="Especificação das Histórias de Usuários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01-encontrar-filmes-em-comum-na-watchlist-de-usuarios-pro" class="md-nav__link">
+    US01 - Encontrar filmes em comum na "watchlist" de usuários Pro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02-sugestao-de-amigos-com-gostos-em-comum-para-usuarios-pro" class="md-nav__link">
+    US02 - Sugestão de amigos com gostos em comum para usuários Pro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us03-adicionar-artigos-relacionados-a-tela-de-detalhes-do-filme" class="md-nav__link">
+    US03 - Adicionar artigos relacionados à tela de detalhes do filme
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04-reagir-com-diferentes-emocoes-aos-filmes" class="md-nav__link">
+    US04 - Reagir com diferentes emoções aos filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us05-sorteios-de-posteres-assinados-por-elenco-de-filmes-recentes-para-usuarios-pro" class="md-nav__link">
+    US05 - Sorteios de pôsteres assinados por elenco de filmes recentes para usuários Pro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06-enviar-mensagens-para-outros-usuarios" class="md-nav__link">
+    US06 - Enviar mensagens para outros usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us07-sortear-filme-da-watchlist" class="md-nav__link">
+    US07 - Sortear filme da watchlist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us08-sincronizar-dados-de-servicos-de-streaming-com-o-aplicativo" class="md-nav__link">
+    US08 - Sincronizar dados de serviços de streaming com o aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us09-criar-e-participar-de-grupos-de-discussao" class="md-nav__link">
+    US09 - Criar e participar de grupos de discussão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us10-registro-no-diario-mais-intuitivo-e-com-menos-cliques" class="md-nav__link">
+    US10 - Registro no diário mais intuitivo e com menos cliques
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11-possibilidade-de-fazer-o-acompanhamento-de-series-no-aplicativo" class="md-nav__link">
+    US11 - Possibilidade de fazer o acompanhamento de séries no aplicativo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us12-adicionar-categorias-para-filmes-series-e-animes" class="md-nav__link">
+    US12 - Adicionar categorias para filmes, séries e animes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13-geracao-de-lista-de-recomendacoes-de-filmes-em-comum-com-amigos" class="md-nav__link">
+    US13 - Geração de lista de recomendações de filmes em comum com amigos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14-exibicao-da-quantidade-de-filmes-assistidos-no-perfil-do-usuario" class="md-nav__link">
+    US14 - Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15-exibicao-da-quantidade-de-horas-assistidas-no-perfil-do-usuario" class="md-nav__link">
+    US15 - Exibição da Quantidade de Horas Assistidas no Perfil do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us16-refatoracao-da-criacao-de-listas-para-maior-intuitividade-e-reducao-de-cliques" class="md-nav__link">
+    US16 - Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us17-aba-perto-de-voce-para-facilitar-a-busca-por-amigos-com-base-em-criticas-de-usuarios-locais" class="md-nav__link">
+    US17 - Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us18-comentarios-em-criticas-de-outros-usuarios" class="md-nav__link">
+    US18 - Comentários em Críticas de Outros Usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us19-notificacoes-de-artigos-de-filmes-nas-listas-dos-usuarios" class="md-nav__link">
+    US19 - Notificações de Artigos de Filmes nas Listas dos Usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20-deve-ser-possivel-registrar-usuarios-e-criar-contas" class="md-nav__link">
+    US20 - Deve ser possível registrar usuários e criar contas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us21-deve-ser-possivel-adicionar-filmes-assistidos" class="md-nav__link">
+    US21    - Deve ser possível adicionar filmes assistidos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us22-deve-ser-possivel-avaliar-filmes" class="md-nav__link">
+    US22 -  Deve ser possível avaliar filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us23-deve-ser-possivel-fazer-a-resenha-de-filmes" class="md-nav__link">
+    US23    - Deve ser possível fazer a resenha de filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us24-deve-ser-possivel-marcar-filmes-como-favoritos" class="md-nav__link">
+    US24 -  Deve ser possível marcar filmes como favoritos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us25-deve-ser-possivel-criar-listas-de-filmes" class="md-nav__link">
+    US25 -  Deve ser possível criar listas de filmes
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us26-deve-ser-possivel-seguir-outros-usuarios" class="md-nav__link">
+    US26 -  Deve ser possível seguir outros usuários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us27-deve-ser-possivel-receber-notificacoes-sobre-lista-de-filmes-para-assistir" class="md-nav__link">
+    US27 -  Deve ser possível receber notificações sobre lista de filmes para assistir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us28-deve-ser-possivel-filtrar-resultados-por-servico-de-streaming" class="md-nav__link">
+    US28 -  Deve ser possível filtrar resultados por serviço de streaming
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us29-deve-ser-possivel-que-os-usuarios-desativem-suas-contas" class="md-nav__link">
+    US29    - Deve ser possível que os usuários desativem suas contas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validacao-com-o-po" class="md-nav__link">
+    Validação com o PO
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="historias-de-usuarios">Histórias de Usuários</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Uma história de usuário é um artefato utilizado no desenvolvimento de software para entender requisitos e necessidades dos usuários de forma concisa e compreensível. Ela descreve uma funcionalidade específica do sistema do ponto de vista do usuário, fornecendo uma narrativa simples e direta que descreve o que o usuário deseja alcançar ao interagir com o sistema.</p>
+<p>Uma história de usuário geralmente segue uma estrutura básica composta por três elementos principais: um título, uma descrição e critérios de aceitação. O título resume brevemente a funcionalidade ou objetivo que a história representa. A descrição detalha a funcionalidade ou necessidade do usuário, geralmente seguindo uma abordagem de linguagem natural e orientada ao valor. Os critérios de aceitação são condições específicas que devem ser atendidas para considerar a história completa e satisfatória.</p>
+<p>As histórias de usuário são frequentemente escritas em uma linguagem acessível e orientada para o usuário, evitando terminologias técnicas complexas. Elas são criadas em colaboração com os usuários finais ou stakeholders relevantes, permitindo uma compreensão clara das necessidades e expectativas dos usuários.</p>
+<p>História de usuário é um artefato essencial no desenvolvimento de software ágil, que descreve uma funcionalidade ou necessidade do usuário de forma simples e compreensível.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A metodologia utilizada para a criação das histórias de usuário baseou-se nos requisitos do aplicativo Letterboxd, que foram identificados e levantados como funcionalidades que ainda não foram implementadas.</p>
+<p>As histórias de usuário são uma forma eficiente de descrever essas funcionalidades de maneira clara e concisa, seguindo um formato padronizado. Cada história é escrita no formato: "Eu, como usuário, quero [o que], pelo [motivo]". Além disso, cada história é acompanhada por um título e critérios de aceitação. Cada história também terá um código identificador, que iniciará com US seguido por uma numeração.</p>
+<p>O título é uma breve descrição que resume a funcionalidade ou objetivo da história de usuário. Ele ajuda a identificar e diferenciar cada história no contexto geral do desenvolvimento do aplicativo Letterboxd.</p>
+<p>A descrição da história de usuário é uma narrativa que descreve a funcionalidade desejada ou a necessidade do usuário, sempre enfocando no valor que será entregue. Essa descrição é escrita de forma simples e acessível, evitando jargões técnicos complexos. O objetivo é garantir que todas as partes interessadas possam entender facilmente o que está sendo solicitado.</p>
+<p>Além da descrição, os critérios de aceitação são incluídos para definir as condições específicas que devem ser atendidas para considerar a história de usuário completa e satisfatória. Os critérios de aceitação são uma lista de verificações que ajudam a equipe de desenvolvimento a entender claramente o escopo da funcionalidade, os comportamentos esperados e os resultados desejados.</p>
+<h2 id="especificacao-das-historias-de-usuarios">Especificação das Histórias de Usuários</h2>
+<h3 id="us01-encontrar-filmes-em-comum-na-watchlist-de-usuarios-pro">US01 - Encontrar filmes em comum na "watchlist" de usuários Pro</h3>
+<p><strong>Título:</strong> Encontrar filmes em comum na "watchlist" de usuários Pro</p>
+<p><strong>Descricão:</strong> Eu, como assinante, quero ter a capacidade de encontrar filmes em comum na "watchlist" de dois ou mais usuários para descobrir quais filmes são do interesse de outras pessoas que possuem gostos semelhantes, permitindo-me explorar novas opções cinematográficas em comum.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>A funcionalidade de encontrar filmes em comum deve estar disponível apenas para usuários Pro.</li>
+<li>A busca por filmes em comum deve ser realizada entre dois ou mais usuários.</li>
+<li>Os resultados da busca devem mostrar os filmes que estão presentes na "watchlist" de todos os usuários envolvidos.</li>
+<li>A lista de filmes em comum deve ser apresentada de forma clara e organizada para facilitar a visualização e a tomada de decisões.</li>
+</ul>
+<h3 id="us02-sugestao-de-amigos-com-gostos-em-comum-para-usuarios-pro">US02 - Sugestão de amigos com gostos em comum para usuários Pro</h3>
+<p><strong>Título:</strong> Sugestão de amigos com gostos em comum para usuários Pro</p>
+<p><strong>Descricão:</strong> Eu, como assinante, desejo receber sugestões de amigos com base nos gostos cinematográficos em comum para poder trocar recomendações e descobrir novos filmes que provavelmente me agradarão.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>A funcionalidade de sugestão de amigos com gostos em comum deve estar disponível apenas para usuários Pro.</li>
+<li>As sugestões de amigos devem ser baseadas em interesses cinematográficos semelhantes.</li>
+<li>A lista de sugestões de amigos deve ser apresentada de forma clara, destacando os pontos em comum e fornecendo informações básicas sobre os usuários sugeridos.</li>
+<li>Deve haver uma opção para aceitar ou rejeitar as sugestões de amigos apresentadas.</li>
+</ul>
+<h3 id="us03-adicionar-artigos-relacionados-a-tela-de-detalhes-do-filme">US03 - Adicionar artigos relacionados à tela de detalhes do filme</h3>
+<p><strong>Título:</strong> Adicionar artigos relacionados à tela de detalhes do filme</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero ter acesso a artigos relacionados ao filme na tela de detalhes para poder aprofundar meu conhecimento e interesse sobre a obra cinematográfica.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>A seção de artigos relacionados deve ser exibida na tela de detalhes do filme.</li>
+<li>Os artigos relacionados devem ser pertinentes ao filme em questão, fornecendo informações adicionais relevantes.</li>
+<li>Os artigos devem ser apresentados de forma organizada, com títulos e resumos que facilitem a identificação e a escolha do usuário.</li>
+<li>Deve ser possível acessar o conteúdo completo do artigo selecionado para leitura adicional.</li>
+</ul>
+<h3 id="us04-reagir-com-diferentes-emocoes-aos-filmes">US04 - Reagir com diferentes emoções aos filmes</h3>
+<p><strong>Título:</strong> Reagir com diferentes emoções aos filmes</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, desejo ter a possibilidade de expressar minhas emoções ao assistir a um filme, podendo selecionar entre as opções de emoções disponíveis (como chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgado, confuso e tenso) para compartilhar e registrar minhas reações emocionais em relação aos filmes que assisto.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>Deve haver uma lista de emoções disponíveis para escolha, incluindo as opções: chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgado, confuso e tenso.</li>
+<li>O usuário deve ser capaz de selecionar a emoção desejada e associá-la ao filme específico.</li>
+<li>As emoções registradas devem ser exibidas de forma clara e visível na página do filme, permitindo que outros usuários vejam as reações emocionais.</li>
+<li>Deve ser possível atualizar ou remover a emoção registrada caso o usuário deseje.</li>
+</ul>
+<h3 id="us05-sorteios-de-posteres-assinados-por-elenco-de-filmes-recentes-para-usuarios-pro">US05 - Sorteios de pôsteres assinados por elenco de filmes recentes para usuários Pro</h3>
+<p><strong>Título:</strong> Sorteios de pôsteres assinados por elenco de filmes recentes para usuários Pro</p>
+<p><strong>Descricão:</strong> Eu, como assinante, gostaria de participar de sorteios exclusivos de pôsteres assinados pelo elenco de filmes recentes para ter a chance de obter itens colecionáveis exclusivos relacionados aos filmes que aprecio, além de recompensar minha fidelidade como assinante.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>A funcionalidade de sorteios de pôsteres assinados deve estar disponível apenas para usuários Pro.</li>
+<li>Os sorteios devem ser baseados em filmes recentes, proporcionando aos usuários a oportunidade de obter pôsteres assinados pelo elenco dessas produções.</li>
+<li>Os usuários Pro devem ser notificados sobre os sorteios disponíveis e como participar.</li>
+<li>Deve haver um sistema justo e transparente para a seleção do vencedor do sorteio, garantindo que todos os usuários Pro tenham uma chance igual de ganhar.</li>
+<li>Os pôsteres assinados devem ser enviados aos vencedores de forma segura e confiável, levando em consideração as diretrizes de envio de produtos colecionáveis.</li>
+</ul>
+<h3 id="us06-enviar-mensagens-para-outros-usuarios">US06 - Enviar mensagens para outros usuários</h3>
+<p><strong>Título:</strong> Enviar mensagens para outros usuários</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, desejo ter a capacidade de enviar mensagens para outros usuários para interagir, trocar recomendações ou discutir filmes com outras pessoas na plataforma.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>Deve haver um recurso de mensagens disponível para os usuários interagirem uns com os outros.</li>
+<li>Os usuários devem poder enviar mensagens para outros usuários da plataforma.</li>
+<li>Deve haver uma interface de mensagens intuitiva e fácil de usar.</li>
+<li>As mensagens devem ser entregues de forma confiável e em tempo real.</li>
+<li>Pode ser necessário implementar recursos de privacidade e segurança, como bloqueio de usuários indesejados ou relatórios de abuso.</li>
+</ul>
+<h3 id="us07-sortear-filme-da-watchlist">US07 - Sortear filme da watchlist</h3>
+<p><strong>Título:</strong> Sortear filme da watchlist</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, gostaria de ter a opção de sortear um filme da minha watchlist para me ajudar a decidir qual filme assistir quando estou indeciso ou quando quero experimentar algo novo.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O usuário deve ter uma watchlist de filmes a partir da qual o sorteio será realizado.</li>
+<li>Deve haver um botão de "Sortear Filme" disponível na página da watchlist.</li>
+<li>Ao clicar no botão de sorteio, um filme aleatório da watchlist do usuário deve ser selecionado.</li>
+<li>O filme sorteado deve ser apresentado de forma clara e visível, juntamente com informações básicas sobre o filme.</li>
+<li>O usuário deve ter a opção de realizar um novo sorteio, se desejar.</li>
+</ul>
+<h3 id="us08-sincronizar-dados-de-servicos-de-streaming-com-o-aplicativo">US08 - Sincronizar dados de serviços de streaming com o aplicativo</h3>
+<p><strong>Título:</strong> Sincronizar dados de serviços de streaming com o aplicativo</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, desejo ter a capacidade de sincronizar automaticamente os dados dos serviços de streaming que utilizo com o aplicativo para manter minha lista de filmes atualizada e evitar a necessidade de marcar manualmente cada filme assistido.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O aplicativo deve ter a capacidade de se integrar com serviços de streaming populares.</li>
+<li>Ao assistir a um filme em um serviço de streaming conectado, o aplicativo deve receber a notificação e atualizar automaticamente o status do filme para "Assistido" na lista do usuário.</li>
+<li>A sincronização dos dados deve ocorrer de forma rápida e confiável, refletindo com precisão os filmes assistidos nos serviços de streaming.</li>
+<li>Os usuários devem ter a opção de desativar a sincronização automática, caso prefiram marcar manualmente os filmes assistidos.</li>
+<li>Os filmes são adicionados automaticamente no diário com as informações do dia que foi assistido</li>
+</ul>
+<h3 id="us09-criar-e-participar-de-grupos-de-discussao">US09 - Criar e participar de grupos de discussão</h3>
+<p><strong>Título:</strong> Criar e participar de grupos de discussão</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, gostaria de ter a capacidade de criar e participar de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos para poder interagir com outros usuários que compartilham interesses similares e trocar opiniões, recomendações e análises sobre filmes.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>Os usuários devem ter a opção de criar grupos de discussão sobre temas específicos.</li>
+<li>Os grupos devem ser categorizados de acordo com gêneros cinematográficos, diretores, filmes clássicos ou outros critérios relevantes.</li>
+<li>Os usuários devem poder participar de grupos existentes, manifestando interesse e se juntando às discussões.</li>
+<li>Deve haver uma interface de grupos intuitiva, onde os usuários possam visualizar e explorar os grupos disponíveis.</li>
+<li>Os grupos de discussão devem ter recursos como tópicos, mensagens, notificações e opções de interação entre os participantes.</li>
+<li>Deve ser possível visualizar as últimas atividades e atualizações nos grupos em que o usuário está envolvido.</li>
+</ul>
+<h3 id="us10-registro-no-diario-mais-intuitivo-e-com-menos-cliques">US10 - Registro no diário mais intuitivo e com menos cliques</h3>
+<p><strong>Título:</strong> Registro no diário mais intuitivo e com menos cliques</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero que o processo de registro de um filme no diário seja mais intuitivo e requerendo menos cliques para que seja mais rápido e conveniente registrar um filme que assisti, permitindo-me manter um histórico completo das minhas experiências cinematográficas.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O processo de registro de um filme no diário deve ser simplificado, exigindo menos etapas e cliques por parte do usuário.</li>
+<li>Deve haver uma opção fácil de acesso para registrar um filme, seja na página de detalhes do filme ou em um local visível do aplicativo.</li>
+<li>As informações básicas do filme, como título e data de lançamento, devem ser preenchidas automaticamente, minimizando a necessidade de entrada manual.</li>
+<li>O usuário deve poder adicionar comentários ou avaliações ao registrar o filme, se desejar.</li>
+<li>O registro no diário deve ser concluído de forma rápida e responsiva, proporcionando uma experiência fluida ao usuário.</li>
+</ul>
+<h3 id="us11-possibilidade-de-fazer-o-acompanhamento-de-series-no-aplicativo">US11 - Possibilidade de fazer o acompanhamento de séries no aplicativo</h3>
+<p><strong>Título:</strong> Possibilidade de fazer o acompanhamento de séries no aplicativo.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero ter a capacidade de acompanhar séries no aplicativo, permitindo-me manter um registro organizado do meu progresso de visualização.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O usuário deve ser capaz de adicionar séries à "watchlist".</li>
+<li>O usuário deve poder atualizar as "watchlist", adicionando ou removendo séries.</li>
+<li>O usuário deve poder marcar episódios como assistidos nas séries da lista.</li>
+<li>Deve ser possível visualizar o progresso de visualização das séries.</li>
+<li>O aplicativo deve fornecer recursos de busca ou sugestões para ajudar o usuário a encontrar novas séries para adicionar à "watchlist".</li>
+</ul>
+<h3 id="us12-adicionar-categorias-para-filmes-series-e-animes">US12 - Adicionar categorias para filmes, séries e animes</h3>
+<p><strong>Título:</strong> Adicionar categorias para filmes, séries e animes.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero ter a opção de adicionar categorias para filmes, séries e animes no aplicativo, permitindo-me organizar e filtrar meu conteúdo de acordo com minhas preferências.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O aplicativo deve fornecer a funcionalidade de adicionar categorias para filmes, séries e animes.</li>
+<li>Deve ser possível associar várias categorias a um único item de mídia.</li>
+<li>O aplicativo deve oferecer opções de filtragem por categorias, permitindo que o usuário visualize apenas os itens de mídia relacionados a uma categoria específica.</li>
+<li>Deve ser possível editar e remover categorias.</li>
+</ul>
+<h3 id="us13-geracao-de-lista-de-recomendacoes-de-filmes-em-comum-com-amigos">US13 - Geração de lista de recomendações de filmes em comum com amigos</h3>
+<p><strong>Título:</strong> Geração de lista de recomendações de filmes em comum com amigos.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, desejo ter a capacidade de gerar uma lista de recomendações de filmes que sejam em comum entre mim e um amigo, facilitando a descoberta e compartilhamento de filmes de interesse mútuo.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O usuário deve ter a opção de selecionar um amigo específico com quem deseja gerar a lista de recomendações.</li>
+<li>O aplicativo deve analisar as preferências de filmes do usuário e do amigo, levando em consideração as classificações, histórico de visualização, listas de favoritos ou quaisquer outros dados relevantes.</li>
+<li>Com base na análise das preferências, o aplicativo deve gerar uma lista de filmes que sejam comuns tanto ao usuário quanto ao amigo.</li>
+<li>O usuário deve ter a opção de compartilhar a lista de recomendações com o amigo por meio do aplicativo ou outras plataformas de comunicação.</li>
+<li>O aplicativo deve atualizar dinamicamente a lista de recomendações com base em alterações nas preferências de filmes do usuário ou do amigo.</li>
+</ul>
+<h3 id="us14-exibicao-da-quantidade-de-filmes-assistidos-no-perfil-do-usuario">US14 - Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário</h3>
+<p><strong>Título:</strong> Exibição da Quantidade de Filmes Assistidos no Perfil do Usuário.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero que no meu perfil do aplicativo seja exibida a quantidade de filmes que já assisti, permitindo-me ter um registro visível e compartilhar minha atividade de visualização.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>No perfil do usuário, deve haver um campo ou seção dedicado para exibir a quantidade de filmes assistidos.</li>
+<li>A quantidade de filmes assistidos deve ser calculada com base no histórico de visualização do usuário no aplicativo.</li>
+<li>A exibição da quantidade de filmes assistidos deve ser atualizada automaticamente sempre que o usuário marcar um novo filme como assistido.</li>
+</ul>
+<h3 id="us15-exibicao-da-quantidade-de-horas-assistidas-no-perfil-do-usuario">US15 - Exibição da Quantidade de Horas Assistidas no Perfil do Usuário</h3>
+<p><strong>Título:</strong> Exibição da Quantidade de Horas Assistidas no Perfil do Usuário.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero que no meu perfil do aplicativo seja exibida a quantidade de horas que já assisti de conteúdo, permitindo-me ter uma visão clara do tempo de conteúdo visualizado.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>No perfil do usuário, deve haver um campo ou seção dedicado para exibir a quantidade de horas assistidas.</li>
+<li>A quantidade de horas assistidas deve ser calculada com base no histórico de visualização do usuário no aplicativo.</li>
+<li>A exibição da quantidade de horas assistidas deve ser atualizada automaticamente sempre que o usuário assistir a um novo conteúdo.</li>
+</ul>
+<h3 id="us16-refatoracao-da-criacao-de-listas-para-maior-intuitividade-e-reducao-de-cliques">US16 - Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques</h3>
+<p><strong>Título:</strong> Refatoração da Criação de Listas para Maior Intuitividade e Redução de Cliques.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, desejo que o processo de criação de listas no aplicativo seja mais simples e envolva menos cliques, proporcionando uma experiência mais intuitiva e eficiente.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O aplicativo deve oferecer uma interface simplificada para a criação de listas, com menos etapas e campos obrigatórios.</li>
+<li>O usuário deve poder acessar a função de criação de listas de maneira fácil e direta, sem a necessidade de navegar por várias telas ou menus.</li>
+<li>O aplicativo deve minimizar a quantidade de cliques necessários para criar uma lista.</li>
+</ul>
+<h3 id="us17-aba-perto-de-voce-para-facilitar-a-busca-por-amigos-com-base-em-criticas-de-usuarios-locais">US17 - Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais</h3>
+<p><strong>Título:</strong> Aba "Perto de Você" para Facilitar a Busca por Amigos com Base em Críticas de Usuários Locais.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero ter acesso a uma aba chamada "Perto de Você" no aplicativo, que exiba críticas de usuários na minha região, com o objetivo de facilitar a busca por amigos com interesses semelhantes e recomendações relevantes.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O aplicativo deve incluir uma aba dedicada chamada "Perto de Você" facilmente acessada na interface principal do aplicativo</li>
+<li>A aba "Perto de Você" deve exibir as críticas de usuários da mesma região geográfica do usuário atual, com base nas configurações de localização.</li>
+<li>A aba "Perto de Você" deve ser atualizada regularmente, garantindo que as críticas sejam relevantes e recentes para os usuários.</li>
+<li>O aplicativo deve fornecer uma opção de pesquisa na aba "Perto de Você" para permitir que os usuários encontrem críticas específicas ou procurem por amigos com base em seus interesses.</li>
+</ul>
+<h3 id="us18-comentarios-em-criticas-de-outros-usuarios">US18 - Comentários em Críticas de Outros Usuários</h3>
+<p><strong>Título:</strong> Comentários em Críticas de Outros Usuários.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero ter a capacidade de comentar nas críticas feitas por outros usuários no aplicativo, permitindo-me uma interação direta e possibilitando trocas de opiniões e discussões sobre o conteúdo avaliado.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O aplicativo deve fornecer a opção de comentar nas críticas feitas por outros usuários.</li>
+<li>Os usuários devem ter a possibilidade de visualizar os comentários feitos em cada crítica.</li>
+<li>Deve haver um limite razoável de caracteres para os comentários, a fim de manter a clareza e evitar abusos.</li>
+<li>Os usuários devem ter a opção de editar ou excluir seus próprios comentários, caso desejem fazer modificações ou remover o comentário por completo.</li>
+<li>O aplicativo deve notificar os usuários quando eles receberem novos comentários em suas críticas.</li>
+<li>Os comentários devem ser exibidos de forma organizada e em ordem cronológica.</li>
+</ul>
+<h3 id="us19-notificacoes-de-artigos-de-filmes-nas-listas-dos-usuarios">US19 - Notificações de Artigos de Filmes nas Listas dos Usuários</h3>
+<p><strong>Título:</strong> Notificações de Artigos de Filmes nas Listas dos Usuários.</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, quero receber notificações no aplicativo quando houver artigos relevantes sobre os filmes presentes nas minhas listas, permitindo-me manter-me atualizado e obter informações adicionais sobre os filmes do meu interesse.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>O aplicativo deve fornecer a opção de os usuários receberem notificações sobre artigos relacionados aos filmes presentes em suas listas.</li>
+<li>Os usuários devem ter a possibilidade de ativar ou desativar as notificações de artigos, de acordo com suas preferências.</li>
+<li>As notificações devem ser enviadas em tempo hábil, assim que um novo artigo relacionado a um filme em uma lista do usuário estiver disponível.</li>
+<li>Os usuários devem poder acessar diretamente o artigo mencionado na notificação, com um clique na notificação redirecionando-os para o conteúdo completo.</li>
+<li>O aplicativo deve respeitar as preferências de notificação dos usuários, permitindo que eles escolham o horário ou a frequência em que desejam receber as notificações.</li>
+<li>Os usuários devem ter a opção de gerenciar suas configurações de notificação, podendo ajustar ou desativar as notificações a qualquer momento.</li>
+</ul>
+<h3 id="us20-deve-ser-possivel-registrar-usuarios-e-criar-contas">US20 - Deve ser possível registrar usuários e criar contas</h3>
+<p><strong>Título:</strong> Deve ser possível registrar usuários e criar contas</p>
+<p><strong>Descricão:</strong> Eu, como um administrador de um sistema de gerenciamento de usuários, gostaria de registrar novos usuários e criar contas para que eles possam acessar os recursos do sistema.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>Como administrador, devo ter a capacidade de registrar um novo usuário fornecendo informações básicas, como nome, endereço de e-mail e senha.</li>
+<li>Após o registro, o sistema deve armazenar com segurança as informações do usuário, incluindo as credenciais de acesso.</li>
+<li>O sistema deve garantir que o endereço de e-mail fornecido seja único para cada usuário registrado.</li>
+</ul>
+<h3 id="us21-deve-ser-possivel-adicionar-filmes-assistidos">US21    - Deve ser possível adicionar filmes assistidos</h3>
+<p><strong>Título:</strong> Deve ser possível adicionar filmes assistidos</p>
+<p><strong>Descricão:</strong> Eu, como cinéfilo, gostaria de poder adicionar filmes que já assisti à minha lista de filmes assistidos para acompanhar meu histórico de visualização.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>Como usuário, devo ter a capacidade de pesquisar o título do filme que assisti para adicioná-lo à minha lista de filmes assistidos.</li>
+<li>O sistema deve fornecer uma ampla variedade de fontes de dados, como um banco de dados interno ou uma API externa, para que eu possa pesquisar o filme pelo título.</li>
+<li>Após selecionar o filme correto da lista de resultados, devo poder adicioná-lo à minha lista de filmes assistidos com um único clique ou toque.</li>
+</ul>
+<h3 id="us22-deve-ser-possivel-avaliar-filmes">US22 -  Deve ser possível avaliar filmes</h3>
+<p><strong>Título:</strong> Deve ser possível avaliar filmes</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de poder avaliar os filmes que assisti para expressar minha opinião sobre eles e ajudar a compartilhar recomendações com outros usuários.</p>
+<p><strong>Critérios de aceitação:</strong></p>
+<ul>
+<li>Como usuário, devo ter a capacidade de atribuir uma classificação numérica ou uma avaliação em formato de estrelas a um filme que assisti, indicando minha opinião sobre sua qualidade.</li>
+<li>O sistema deve exibir a classificação média dos usuários para cada filme, calculada com base nas avaliações recebidas.</li>
+<li>Devo ter a opção de fornecer um comentário ou uma resenha detalhada para acompanhar minha avaliação, compartilhando meus pensamentos e insights sobre o filme.</li>
+</ul>
+<h3 id="us23-deve-ser-possivel-fazer-a-resenha-de-filmes">US23    - Deve ser possível fazer a resenha de filmes</h3>
+<p><strong>Título:</strong> Deve ser possível fazer a resenha de filmes</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de poder escrever resenhas detalhadas sobre os filmes que assisti para compartilhar minhas opiniões e experiências com outros usuários.</p>
+<p><strong>Critérios de aceitação:</strong> </p>
+<ul>
+<li>Como usuário, devo ter a capacidade de escrever uma resenha para um filme específico, fornecendo uma análise detalhada da trama, desempenho dos atores, direção e outros aspectos relevantes.</li>
+<li>O sistema deve permitir que eu classifique minha resenha com base em critérios como qualidade, entretenimento, originalidade, etc.</li>
+<li>Devo ter a opção de adicionar tags ou palavras-chave à minha resenha, para facilitar a pesquisa e a descoberta de filmes com temas semelhantes.</li>
+</ul>
+<h3 id="us24-deve-ser-possivel-marcar-filmes-como-favoritos">US24 -  Deve ser possível marcar filmes como favoritos</h3>
+<p><strong>Título:</strong> Deve ser possível marcar filmes como favoritos</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de poder marcar filmes como favoritos para criar uma lista personalizada dos filmes que mais gosto e desejo acessar facilmente.</p>
+<p><strong>Critérios de aceitação:</strong> </p>
+<ul>
+<li>Como usuário, devo ter a capacidade de marcar um filme como favorito com um simples clique ou toque em um botão específico.</li>
+<li>O sistema deve fornecer feedback visual claro para confirmar que o filme foi adicionado à lista de favoritos com sucesso.</li>
+<li>O sistema deve permitir que eu adicione vários filmes à minha lista de favoritos, sem limitação de quantidade.</li>
+</ul>
+<h3 id="us25-deve-ser-possivel-criar-listas-de-filmes">US25 -  Deve ser possível criar listas de filmes</h3>
+<p><strong>Título:</strong> Deve ser possível criar listas de filmes</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de poder criar listas personalizadas de filmes para organizar e categorizar meus filmes de acordo com diferentes temas, gêneros ou qualquer critério que eu escolher.</p>
+<p><strong>Critérios de aceitação:</strong>  </p>
+<ul>
+<li>Como usuário, devo ter a capacidade de criar uma nova lista de filmes, fornecendo um nome descritivo para ela.</li>
+<li>O sistema deve permitir que eu adicione filmes à minha lista, selecionando-os a partir de uma pesquisa no banco de dados interno ou por meio de uma API externa.</li>
+<li>Devo ter a opção de adicionar múltiplos filmes à minha lista de uma só vez, caso eu queira adicionar vários filmes relacionados ao mesmo tema.</li>
+</ul>
+<h3 id="us26-deve-ser-possivel-seguir-outros-usuarios">US26 -  Deve ser possível seguir outros usuários</h3>
+<p><strong>Título:</strong> Deve ser possível seguir outros usuários</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de seguir outros cinéfilos para acompanhar suas atividades, descobrir novos filmes e compartilhar recomendações com base em seus interesses.</p>
+<p><strong>Critérios de aceitação:</strong> </p>
+<ul>
+<li>Como usuário, devo ter a capacidade de pesquisar e encontrar outros usuários dentro do aplicativo.</li>
+<li>O sistema deve exibir informações relevantes sobre os usuários, como nome de usuário, foto de perfil e uma breve descrição, para facilitar a identificação e a seleção de quem seguir.</li>
+<li>Devo ter a opção de seguir outros usuários com um simples clique ou toque em um botão específico.</li>
+</ul>
+<h3 id="us27-deve-ser-possivel-receber-notificacoes-sobre-lista-de-filmes-para-assistir">US27 -  Deve ser possível receber notificações sobre lista de filmes para assistir</h3>
+<p><strong>Título:</strong> Deve ser possível receber notificações sobre lista de filmes para assistir</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de receber notificações sobre listas de filmes para assistir, com base em categorias de interesse ou recomendações personalizadas, para descobrir novos filmes e acompanhar lançamentos relevantes.</p>
+<p><strong>Critérios de aceitação:</strong> </p>
+<ul>
+<li>Como usuário, devo ter a opção de habilitar as notificações sobre listas de filmes para assistir.</li>
+<li>O sistema deve fornecer diferentes categorias de interesse para que eu possa escolher quais tipos de filmes desejo receber notificações, como "Lançamentos", "Filmes de Ação", "Comédias", entre outras.</li>
+<li>Devo ter a capacidade de personalizar as configurações de notificação, como a frequência (diária, semanal) e o horário preferido para recebê-las.</li>
+</ul>
+<h3 id="us28-deve-ser-possivel-filtrar-resultados-por-servico-de-streaming">US28 -  Deve ser possível filtrar resultados por serviço de streaming</h3>
+<p><strong>Título:</strong> Deve ser possível filtrar resultados por serviço de streaming</p>
+<p><strong>Descricão:</strong> Eu, como um cinéfilo, gostaria de poder filtrar os resultados de pesquisa e listas de filmes por serviço de streaming, para encontrar rapidamente os filmes disponíveis em plataformas específicas às quais sou assinante.</p>
+<p><strong>Critérios de aceitação:</strong> </p>
+<ul>
+<li>Como usuário, devo ter a opção de selecionar um ou vários serviços de streaming populares, como Netflix, Amazon Prime Video, Disney+, entre outros.</li>
+<li>O sistema deve exibir os serviços de streaming disponíveis para seleção de forma clara e intuitiva.</li>
+<li>Devo poder aplicar o filtro de serviço de streaming durante a pesquisa por um filme específico ou ao navegar por uma lista de filmes em uma categoria ou tema.</li>
+</ul>
+<h3 id="us29-deve-ser-possivel-que-os-usuarios-desativem-suas-contas">US29    - Deve ser possível que os usuários desativem suas contas</h3>
+<p><strong>Título:</strong> Deve ser possível que os usuários desativem suas contas</p>
+<p><strong>Descricão:</strong>  Eu, como um cinéfilo, gostaria de ter a opção de desativar minha conta, caso decida não utilizar mais o aplicativo ou não deseje manter meus dados pessoais armazenados.</p>
+<p><strong>Critérios de aceitação:</strong> </p>
+<ul>
+<li>Como usuário, devo ter a capacidade de desativar minha conta a qualquer momento, através das configurações da minha conta no aplicativo.</li>
+<li>O sistema deve fornecer informações claras sobre as consequências da desativação da conta, como a exclusão permanente dos meus dados e a perda de acesso a todas as funcionalidades e informações do aplicativo.</li>
+<li>Devo ser solicitado a confirmar minha decisão de desativar a conta, para evitar desativações acidentais.</li>
+</ul>
+<h2 id="validacao-com-o-po">Validação com o PO</h2>
+<p>Uma reunião foi conduzida com um usuário da aplicação para validar as Histórias de usuário. Este usuário assumiu a função de PO, responsável por tomar decisões estratégicas em relação ao produto. A reunião ocorreu de forma remota na plataforma do Google Meet e teve um tempo de duração de 20 minutos. Pelo fato de o usuário ser leigo nos conceitos de software, foi feita uma explicação prévia sobre os termos técnicos abordados ao longo da reunião.
+Os principais pontos evidenciados foram:</p>
+<ul>
+<li>Abdicar da funcionalidade de chat, visto que, perderia um pouco do propósito de ser uma rede nichada e se assemelharia mais a uma rede social comum;</li>
+<li>Um modelo de fórum já entende que seja mais compatível com a proposta da aplicação;</li>
+<li>Busca pelo gosto é mais interessante que a busca pela localização;</li>
+<li>Não acha necessário a feature de acompanhar o andamento de filmes e séries pela aplicação, visto que, nas plataformas de streaming já existem essa funcionalidade.</li>
+</ul>
+<h2 id="bibliografia">Bibliografia</h2>
+<p>ATLASSIAN Histórias de usuários | Exemplos e template | Atlassian. Disponível em: https://www.atlassian.com/br/agile/project-management/user-stories. Acesso em: 21 maio 2023.</p>
+<h2 id="tabela-de-versionamento">Tabela de Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>21/05/2023</td>
+<td><code>1.0</code></td>
+<td>Documentação das 20 primeiras Histórias de Usuários</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a>,<a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>24/05/2023</td>
+<td><code>2.0</code></td>
+<td>Documentação das últimas 10 Histórias de Usuários</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>20/06/2023</td>
+<td><code>3.0</code></td>
+<td>Correção do artefato de acordo com a verificação</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>03/07/2023</td>
+<td><code>4.0</code></td>
+<td>Correção do artefato de acordo com a verificação, adição da validação do PO</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2189 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../Planejamento/richPicture/">
+      
+      
+        <link rel="next" href="../requisitos/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Priorização - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#priorizacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Priorização
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Priorização
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escala-de-tres-niveis" class="md-nav__link">
+    Escala de Três Níveis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-things-first" class="md-nav__link">
+    First Things First
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    Referência Bibliográfica
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escala-de-tres-niveis" class="md-nav__link">
+    Escala de Três Níveis
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-things-first" class="md-nav__link">
+    First Things First
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    Referência Bibliográfica
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="priorizacao">Priorização</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento apresenta as técnicas de priorização de requisitos utilizadas no processo de desenvolvimento do projeto. As técnicas de priorização são fundamentais para orientar o desenvolvimento do software e garantir que as funcionalidades mais importantes sejam implementadas em primeiro lugar.</p>
+<p>Duas técnicas de priorização foram utilizadas neste projeto: a Firts Things First <a href="#ancora1">¹</a> e a Escala de 3 Níveis <a href="#ancora2">²</a>. A técnica Firts Things First consiste em identificar os requisitos mais importantes, aqueles que têm maior impacto no usuário ou que são essenciais para o funcionamento do sistema, e priorizá-los em relação aos demais requisitos. Já a Escala de 3 níveis é uma técnica simples, na qual os requisitos são classificados em três categorias, de acordo com sua importância: alta, média e baixa prioridade.</p>
+<p>Ambas as técnicas foram aplicadas no processo de priorização dos requisitos do Letterboxd, com o objetivo de identificar e dar prioridade às funcionalidades mais importantes e garantir que elas fossem implementadas primeiro. A aplicação dessas técnicas permitiu uma gestão eficiente dos requisitos e garantiu que as prioridades do projeto fossem bem definidas.</p>
+<p>No decorrer deste documento, serão apresentados os requisitos do Letterboxd, classificados de acordo com a técnica de priorização utilizada. Isso permitirá uma melhor compreensão dos requisitos mais críticos e garantirá que o desenvolvimento do aplicativo atenda às necessidades dos usuários de forma mais eficiente.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A priorização foi feita com a presença de um usuário do aplicativo, que desempenhou o papel do stakeholder e foi realizada em uma reunião virtual na plataforma Teams. Essa reunião foi realizada com a <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/deboracaires">Débora Caires</a>, em conjunto com o usuário, no dia 28 de Abril de 2023, com início as 18:10 e término as 18:47.</p>
+<h2 id="escala-de-tres-niveis">Escala de Três Níveis</h2>
+<p>A primeira técnica de priorização de requisitos usada foi a de Escala de 3 níveis. Essa técnica foi aplicada em conjunto com um usuário, que desempenhou o papel de stakeholder, e utilizou os critérios de importância e urgência para classificar os requisitos em alta, média e baixa prioridade.</p>
+<p>A priorização dos requisitos foi realizada em uma reunião online, na qual os integrantes do grupo conduziram o processo, com o objetivo de garantir que as funcionalidades mais importantes do aplicativo fossem implementadas primeiro. A técnica de priorização Escala de 3 níveis permitiu que a equipe de desenvolvimento identificasse e priorizasse as funcionalidades mais críticas do ponto de vista do usuário, de forma clara e objetiva.</p>
+<p>A Escala de 3 níveis se baseia na ideia de que os requisitos podem ser classificados em três categorias de prioridade, de acordo com a importância e urgência de cada um. Os requisitos considerados importantes e urgentes foram classificados como alta prioridade, enquanto aqueles considerados importantes, mas não urgentes foram classificados como média prioridade. Já os requisitos considerados não importantes e não urgentes foram classificados como baixa prioridade.</p>
+<p>Os requisitos já implementados foram entendidos pela equipe de desenvolvimento do aplicativo como alta prioridade, portanto não iremos representá-los graficamente no quadro abaixo. Nós optamos por apresentar tais requisitos para os usuários a fim de terem uma referência dos requisitos que devem ser classificados como alta prioridade. Na Figura 1 podemos ver como os requisitos já implementados foram apresentados.</p>
+<figure>
+<p><img alt="Figura 1" src="../../assets/requisitos-implementados.png" />
+  </p>
+<figcaption>Figura 1: apresentação dos requisitos já implementados (Fonte: autor, 2023)</figcaption>
+</figure>
+<p>A Figura 2 apresenta a plataforma utilizada para essa priorização. Para uma melhor visualização do usuário, nós optamos por criar um quadro apontando os níveis de importância e urgência de cada quadrante, enquanto nos post-its está representado cada um dos requisitos não implementados da plataforma.</p>
+<figure>
+<p><img alt="Figura 2" src="../../assets/3-etapas.png" />
+  </p>
+<figcaption>Figura 2: apresentação dos requisitos a serem priorizados (Fonte: autor, 2023)</figcaption>
+</figure>
+<p>Na Figura 3 pode-se visualizar como o quadro ficou após a priorização ser concluída.</p>
+<figure>
+<p><img alt="Figura 3" src="../../assets/3-etapas-concluido.png" />
+  </p>
+<figcaption>Figura 3: priorização concluída (Fonte: autor, 2023)</figcaption>
+</figure>
+<p>Na Tabela 1 é apresentado os requisitos priorizados, com suas respectivas justificativas.</p>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Requisito</th>
+<th>Prioridade</th>
+<th>Justificativa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DOC51</td>
+<td>Deve ser possível fazer o acompanhamento de séries no aplicativo</td>
+<td>Alta prioridade</td>
+<td>A proposta do aplicativo é que seja possível fazer o acompanhamento das mídias consumidas, então deveria incluir o acompanhamento de séries</td>
+</tr>
+<tr>
+<td>QST03</td>
+<td>Mover um filme de uma lista para outra</td>
+<td>Alta prioridade</td>
+<td>Não ser possível fazer isso causa uma experiência ruim pro usuário</td>
+</tr>
+<tr>
+<td>DOC56</td>
+<td>Deve ser exibido a trilha sonora de cada filme</td>
+<td>Alta prioridade</td>
+<td>Essencial para fazer uma análise técnica do filme</td>
+</tr>
+<tr>
+<td>DOC52</td>
+<td>Deve ser possível avaliar os atores dos filmes</td>
+<td>Alta prioridade</td>
+<td>Essencial para fazer uma análise técnica do filme</td>
+</tr>
+<tr>
+<td>DOC53</td>
+<td>Deve ser possível avaliar o diretor dos filmes</td>
+<td>Alta prioridade</td>
+<td>Essencial para fazer uma análise técnica do filme</td>
+</tr>
+<tr>
+<td>QST09</td>
+<td>Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro"</td>
+<td>Alta prioridade</td>
+<td>Agregaria muito valor ao produto</td>
+</tr>
+<tr>
+<td>QST05</td>
+<td>Verificação de onde assistir o filme de acordo com o país do usuário</td>
+<td>Alta prioridade</td>
+<td>Feature muito valiosa na hora de assistir um filme</td>
+</tr>
+<tr>
+<td>ENT02</td>
+<td>Ao clicar no ícone da plataforma disponível, o usuário é redirecionado para o site ou aplicativo com o filme para assistir</td>
+<td>Alta prioridade</td>
+<td>Feature de alto valor para o usuário</td>
+</tr>
+<tr>
+<td>QST07</td>
+<td>Sugestão de amigos de acordo com gostos em comum, exclusivo para usuários "Pro"</td>
+<td>Alta prioridade</td>
+<td>Agrega muito valor para o usuário</td>
+</tr>
+<tr>
+<td>QST01</td>
+<td>Aba para visualizar listas curtidas, para ter fácil acesso à elas.</td>
+<td>Alta prioridade</td>
+<td>Os usuários gostariam de acessar as listas o mais rápido possível</td>
+</tr>
+<tr>
+<td>ENT03</td>
+<td>Poder buscar filmes registrados no diário</td>
+<td>Alta prioridade</td>
+<td>Feature básica de uma lista</td>
+</tr>
+<tr>
+<td>QST08</td>
+<td>Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro"</td>
+<td>Média prioridade</td>
+<td>Importante para formar uma interação social entre os usuários</td>
+</tr>
+<tr>
+<td>QST12</td>
+<td>Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva</td>
+<td>Média prioridade</td>
+<td>Melhora a experiência do usuário, mas não é urgente</td>
+</tr>
+<tr>
+<td>DOC57</td>
+<td>Deve ser possível que os usuários criem e participem de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos</td>
+<td>Média prioridade</td>
+<td>Importante para criar uma comunidade</td>
+</tr>
+<tr>
+<td>DOC54</td>
+<td>Deve ser possível reagir com uma emoção sentida no filme (chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgada, confusa, tensa)</td>
+<td>Média prioridade</td>
+<td>A falta não irá atrapalhar a experiência do usuário, mas a existência irá agregar valor</td>
+</tr>
+<tr>
+<td>QST06</td>
+<td>Mandar mensagens para outros usuários</td>
+<td>Média prioridade</td>
+<td>Facilitador de relações entre os usuários</td>
+</tr>
+<tr>
+<td>QST11</td>
+<td>Colocar artigos relacionados na tela de detalhes do filme</td>
+<td>Média prioridade</td>
+<td>Agrega valor às informações do filme</td>
+</tr>
+<tr>
+<td>DOC55</td>
+<td>Deve ser possível gerar uma lista de recomendações de filmes em comum do usuário e de mais um amigo</td>
+<td>Média prioridade</td>
+<td>Feature interessante, mas sem urgência</td>
+</tr>
+<tr>
+<td>DOC50</td>
+<td>Deve ser possível sincronizar os dados de serviços de streamings com os dados do aplicativo (quando um filme for assistido em um desses serviços, ele será automaticamente marcado como "Assistido" no aplicativo)</td>
+<td>Média prioridade</td>
+<td>Facilitador dos registros de filmes, mas sua ausência não trás muitos prejuízos</td>
+</tr>
+<tr>
+<td>QST13</td>
+<td>Sortear filme da watchlist</td>
+<td>Baixa prioridade</td>
+<td>É uma feature extra, não sendo essencial pra boa experiência dos usuários</td>
+</tr>
+<tr>
+<td>ENT06</td>
+<td>Botão de traduzir nas críticas que estejam em um idioma diferente do usuário</td>
+<td>Baixa prioridade</td>
+<td>Não é essencial para a navegação no aplicativo</td>
+</tr>
+<tr>
+<td>QST04</td>
+<td>Adicionar categorias para filmes, séries e animes</td>
+<td>Baixa prioridade</td>
+<td>Isso pode ser feito manualmente, criando listas</td>
+</tr>
+<tr>
+<td>ENT01</td>
+<td>Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos</td>
+<td>Baixa prioridade</td>
+<td>Feature usada por pequena parte dos usuários</td>
+</tr>
+<tr>
+<td>DOC58</td>
+<td>Deve ser exibido no perfil do usuário a quantidade de filmes assistidos pelo usuário</td>
+<td>Baixa prioridade</td>
+<td>Não é uma informação relevante</td>
+</tr>
+<tr>
+<td>DOC59</td>
+<td>Deve ser exibido no perfil do usuário a quantidade de horas assistidas pelo usuário</td>
+<td>Baixa prioridade</td>
+<td>Não é uma informação relevante</td>
+</tr>
+<tr>
+<td>QST10</td>
+<td>Notificar usuários sobre artigos de filmes que estiverem em suas listas</td>
+<td>Baixa prioridade</td>
+<td>Feature que irá agradar uma pequena parte dos usuários</td>
+</tr>
+<tr>
+<td>ST04</td>
+<td>Poder adicionar comentários para as críticas de outros usuários</td>
+<td>Baixa prioridade</td>
+<td>Não é uma função que irá agregar a todos os usuários</td>
+</tr>
+<tr>
+<td>ENT05</td>
+<td>Registro no diário mais intuitivo e com menos cliques</td>
+<td>Baixa prioridade</td>
+<td>A quantidade de cliques não é grande o suficiente para fazer com que o usuário desista da atividade</td>
+</tr>
+<tr>
+<td>ENT04</td>
+<td>Traduzir interface do usuário para português</td>
+<td>Baixa prioridade</td>
+<td>Não prejudica muito a navegação do aplicativo</td>
+</tr>
+<tr>
+<td>DOC01</td>
+<td>Deve ser possível registrar usuários e criar contas</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC02</td>
+<td>Deve ser possível adicionar filmes assistidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC03</td>
+<td>Deve ser possível avaliar filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC04</td>
+<td>Deve ser possível fazer a resenha de filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC05</td>
+<td>Deve ser possível marcar filmes como favoritos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC06</td>
+<td>Deve ser possível criar listas de filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC07</td>
+<td>Deve ser possível seguir outros usuários</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC08</td>
+<td>Deve ser possível receber notificações sobre lista de filmes para assistir</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC09</td>
+<td>Deve ser possível filtrar resultados por serviço de streaming</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC10</td>
+<td>Deve ser possível que os usuários desativem suas contas</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC11</td>
+<td>Deve ser exigido que os usuários insiram sua senha ao desativar a conta</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC12</td>
+<td>Deve existir a opção de solicitar a exclusão permanente da conta e de todos os dados associados</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC13</td>
+<td>Deve ser possível a remoção de um filme da lista de assistidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC14</td>
+<td>Deve ser possível a adição de entradas retrospectivas no diário para filmes marcados como assistidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC15</td>
+<td>Deve ser possível a classificação de um filme como "gostei"</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC16</td>
+<td>Deve ser possível a classificação de um filme com uma nota de avaliação entre 1 e 5</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC17</td>
+<td>Deve ser possível a edição de uma entrada de diário</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC18</td>
+<td>Deve ser possível a adição de uma avaliação para um filme já registrado</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC19</td>
+<td>Deve ser exibido uma média ponderada de avaliações de filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC20</td>
+<td>Deve ser exibido a lista de filmes semelhantes a um título específico</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC21</td>
+<td>Deve ser exibido os temas e "nanogêneros" de um filme</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC22</td>
+<td>Deve ser possível que o usuário siga outros usuários</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC23</td>
+<td>Deve ser possível que o usuário veja os filmes que seus amigos adicionem</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC24</td>
+<td>Deve ser possível que o usuário veja os comentários que seus amigos façam</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC25</td>
+<td>Deve ser possível a busca por contas para seguir</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC26</td>
+<td>Deve ser possível bloquear outros membros</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC27</td>
+<td>Deve ser possível que o usuário remova comentários feitos por outros membros em seu conteúdo</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC28</td>
+<td>Deve ser possível a formatação básica de texto em avaliações, como negrito, itálico, link e citação</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC29</td>
+<td>Deve ser possível ver as avaliações do usuário em atividades de amigos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC30</td>
+<td>Para usuários Patron, deve ser possível editar os posters dos filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC31</td>
+<td>Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC32</td>
+<td>Deve ser indicado ao usuário através da cor verde que o filme foi assistido</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC33</td>
+<td>Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC34</td>
+<td>Deve ser possível o usuário ter uma assinatura paga Pro</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC35</td>
+<td>Deve ser possível o usuário ter uma assinatura paga Patron</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC36</td>
+<td>Permitir que o usuário presenteie outra pessoa com uma assinatura</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC37</td>
+<td>Deve ser possível a transferência de assinaturas entre contas</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC38</td>
+<td>Deve ser possível exportar todos os dados da conta do usuário, incluindo conteúdo excluído e avaliações para filmes excluídos, em um único arquivo zip de documentos CSV</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC39</td>
+<td>Deve ser possível importar filmes, classificações e listas de outros serviços por meio do formato CSV do Letterboxd</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC40</td>
+<td>Para usuários Patron ou Pro, deve ser possível fixar até duas críticas no perfil</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC41</td>
+<td>Para usuários Patron ou Pro, deve ser possível fixar até duas listas de filmes no perfil</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC42</td>
+<td>Para usuários Patron ou Pro, não deve haver nenhuma publicidade no aplicativo</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC43</td>
+<td>Para usuários Patron ou Pro, deve haver uma página de status, contando com dados quantitativos de todos os filmes assistidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC44</td>
+<td>Para usuários Patron ou Pro, deve ser possível definir seus serviços de streaming preferidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC45</td>
+<td>Para usuários Patron ou Pro, deve ser possível filtrar os filmes com base nos serviços de streaming definidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC46</td>
+<td>Para usuários Patron ou Pro, deve ser enviado um e-mail quando um filme da sua lista de filmes ficar disponível em algum serviço de streaming que esteja definido</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC47</td>
+<td>Para usuários Patron ou Pro, deve ser possível filtrar o feed com base no tipo da atividade</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC48</td>
+<td>Para usuários Patron ou Pro, deve ter a opção de fixar críticas de filmes no perfil</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC49</td>
+<td>Para usuários Patron ou Pro, deve ser possível alterar o nome de usuário a cada 90 dias</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC61</td>
+<td>Deve garantir que o acesso à conta desativada seja impedido</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC62</td>
+<td>Deve garantir que o acesso à conta excluida seja impedido</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC63</td>
+<td>Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC64</td>
+<td>Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC65</td>
+<td>Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC66</td>
+<td>A média ponderada de avaliações de filmes deve considerar apenas uma avaliação por usuário</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC67</td>
+<td>Deve ser atualizado automaticamente a avaliação do filme quando uma nova avaliação for adicionada</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC68</td>
+<td>Deve ser enviado um e-mail de confirmação para garantir que o endereço de e-mail associado à conta é válido</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC69</td>
+<td>Deve ter moderação para remover o conteúdo que viole a política de comunidade, sendo contra à diversidade e inclusão, com discursos de ódio e marginalização</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC70</td>
+<td>Deve ser limitado a exposição de atividades de amigos de filmes assistidos há mais de duas semanas</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC71</td>
+<td>Os dados do usuário devem ser atualizados em tempo real, sem a necessidade de atualizar a página ou fechar e abrir o aplicativo novamente</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC72</td>
+<td>O tempo de resposta do servidor deve ser rápido o suficiente para oferecer uma experiência de usuário satisfatória</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC73</td>
+<td>Deve ser mantida a privacidade das listas ou watchlists definidas como privadas, exceto para o próprio usuário</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC74</td>
+<td>Deve ser limitado o tamanho máximo do arquivo de upload para 1 MB</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC75</td>
+<td>Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC76</td>
+<td>Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>DOC77</td>
+<td>Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT01</td>
+<td>Deve existir um tutorial exibindo as principais funcionalidades da plataforma quando o usuário acessá-la pela primeira vez</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT02</td>
+<td>O aplicativo deve permitir que o usuário se registre na plataforma com um email, um nome de usuário e uma senha</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT03</td>
+<td>O aplicativo deve permitir que o usuário faça login em sua conta usando seu nome de usuário ou email e senha</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT04</td>
+<td>O usuário deve ser capaz de redefinir sua senha</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT05</td>
+<td>A plataforma deve permitir que o usuário pesquise e encontre filmes pelo seu nome ou nome do diretor</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT06</td>
+<td>A plataforma deve permitir que o usuário pesquise e encontre listas, resenhas, atores, estúdios, outros membros, artigos de jornal e podcasts</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT07</td>
+<td>O usuário deve poder avaliar os filmes que assiste, em uma escala de classificação de 0 a 5 estrelas, e adicionar comentários e opiniões sobre os filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT08</td>
+<td>O usuário deve poder adicionar comentários sobre os filmes</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT09</td>
+<td>O aplicativo deve permitir que os usuários criem suas próprias listas de filmes, como "Curtidos", "Assistir mais tarde", ou uma lista personalizada</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT10</td>
+<td>O usuário deve poder compartilhar filmes, resenhas, listas e notícias em outras redes sociais, como Facebook, Twitter e Instagram</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT11</td>
+<td>O usuário deve poder visualizar e editar seus perfil, adicionar informações como foto de perfil, biografia, localização e filmes preferidos</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT12</td>
+<td>O usuário deve poder seguir e ser seguido por outros usuários</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT13</td>
+<td>O usuário deve ser capaz de ver suas listas, curtidas, likes, filmes assistidos, seguidores e pessoas que segue</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT14</td>
+<td>O usuário deve ter as opções de sair, desativar e deletar sua conta</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT15</td>
+<td>O aplicativo deve exibir estatísticas de um filme, como listas e notícias em que aparece, média das avaliações e membros que já asssitiram</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT16</td>
+<td>O aplicativo deve exibir informações um filme, como sinopse, trailer, atores, gênero, linguagem, estúdio e filmes relacionados</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT17</td>
+<td>O aplicativo exibir as atividades do usuário e de seus amigos na plataforma</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT18</td>
+<td>O usuário deve ser capaz de redefinir sua senha</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT19</td>
+<td>O usuário deve ser capaz de personalizar as notificações que recebe no aplicativo e em seu e-mail</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT20</td>
+<td>O usuário deve ser capaz de realizar algumas atividades sem ter um cadastro, como ver filmes e suas estatísticas, listas, notícias e resenhas</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT21</td>
+<td>Deve existir uma tela principal contento os filmes populares da semana</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT22</td>
+<td>Deve existir uma tela exibindo as resenhas populares</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT23</td>
+<td>Deve existir uma tela exibindo as listas populares da semana</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT24</td>
+<td>Deve existir uma tela exibindo notícias</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT25</td>
+<td>O aplicativo deve ter uma versão paga para não exibir anúncios</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>IT26</td>
+<td>O usuário deve conseguir ler os termos de uso e políticas de privacidade pelo aplicativo</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>ST01</td>
+<td>Poder visualizar um catálogo de filmes, para poder visualizar os filmes que a plataforma tem</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>ST02</td>
+<td>Poder pesquisar novos filmes na aba de pesquisa, para poder encontrar filmes que já sei o nome</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>ST03</td>
+<td>Poder visualizar a críticas de outros usuários, para poder ter um conhecimento prévio sobre o filme</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+<tr>
+<td>ST08</td>
+<td>Poder compartilhar minhas críticas em outras redes socias, para poder gerar mais visualização para minha crítica</td>
+<td>Alta prioridade</td>
+<td>Funcionalidade já implementada, portanto é tida como Alta Prioridade</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 1: priorização dos requisitos em alta, média e baixa prioridade</p>
+</div>
+
+<h2 id="first-things-first">First Things First</h2>
+<p>A técnica de priorização First Things First foi aplicada em conjunto com um usuário que desempenhou o papel de stakeholder. Para esta técnica, foi criada uma tabela que lista os requisitos elicitados para o projeto. Os requisitos avaliados foram somente os que não foram implementados ainda, pois entende-se que os que já foram implementados possuem uma alta prioridade. A tabela foi organizada de acordo com as colunas de riscos, custos, benefícios e penalidades relativas de cada requisito.</p>
+<p>O primeiro passo foi estimar o Benefício Relativo que cada requisito fornece ao cliente ou ao negócio, utilizando uma escala de 1 a 9, onde 1 representa o menos significativo e 9 o mais significativo. Este valor é subjetivo e pode variar de acordo com as necessidades do negócio ou do cliente.</p>
+<p>Em seguida, estimou-se a Penalidade Relativa que o negócio sofreria se o requisito não fosse incluído, utilizando a mesma escala de 1 a 9. Neste caso, é importante considerar os impactos que a ausência do requisito pode ter no negócio.</p>
+<p>A Coluna Valor Total foi calculada somando o Benefício Relativo multiplicado pelo Peso Benefício Relativo (que foi definido como 2) e a Penalidade Relativa multiplicada pelo Peso Penalidade Relativo (que foi definido como 1). O objetivo desta coluna é equilibrar os posicionamentos do cliente e do desenvolvedor.</p>
+<p>O próximo passo foi estimar o Custo Relativo de implementação de cada requisito, utilizando a escala de 1 a 9. É importante considerar que os custos podem variar de acordo com o tempo e recursos necessários para implementação de cada requisito.</p>
+<p>Outra coluna importante na tabela é o Risco Relativo, que foi estimado em uma escala de 1 a 9. Aqui, é importante considerar os riscos associados à implementação de cada requisito, como a possibilidade de atrasos, falhas e impactos na qualidade do produto.</p>
+<p>Por fim, a prioridade de cada requisito foi calculada usando a fórmula: Valor (%) / (Custo (%) _ Peso Custo + Risco (%) _ Peso Risco). Os Pesos Custo e Risco utilizados foram iguais a 1. A prioridade calculada é uma porcentagem, que leva em consideração o Valor Total, o Custo Relativo e o Risco Relativo de cada requisito.</p>
+<p>A lista de requisitos foi, então, ordenada em ordem decrescente de prioridade, sendo que os requisitos com as maiores prioridades devem ser implementados primeiro. Com essa técnica, é possível equilibrar os interesses do cliente e do desenvolvedor, além de garantir que os recursos sejam utilizados de maneira eficiente.</p>
+<p>O resultado da priorização pode ser visualizado na Figura 4:</p>
+<figure>
+<p><img alt="Figura 4" src="../../assets/tabela-ftf.png" />
+  </p>
+<figcaption>Figura 4: tabela utilizada na priorização First Things First (Fonte: autor, 2023)</figcaption>
+</figure>
+<p>A gravação da reunião em que foram realizadas as priorizacões pode ser encontrada clicando <a href="https://youtu.be/-rLBRrg-zt4">aqui</a>.</p>
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<blockquote>
+<p><a id="ancora1"></a>[1] KARL EUGENE WIEGERS; BEATTY, J. Software requirements. Redmond, Washington: Microsoft Press, 2015.
+<br/> <a id="ancora2"></a>[2] WIEGERS Karl E. First Things First: Prioritizing Requirements. Setembro de 1999. Disponível em <a href="https://www.processimpact.com/articles/prioritizing.pdf">https://www.processimpact.com/articles/prioritizing.pdf</a>. Acesso em 26 de abril de 2023.</p>
+</blockquote>
+<h2 id="tabela-de-versionamento">Tabela de Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>30/04/2023</td>
+<td><code>1.0</code></td>
+<td>Priorização dos requisitos elicitados</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

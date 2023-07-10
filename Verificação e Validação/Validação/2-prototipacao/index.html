@@ -1,0 +1,1718 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../1-comprovacao-informal/">
+      
+      
+      <link rel="icon" href="../../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Prototipação - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#prototipacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Prototipação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Prototipação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Prototipação
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-prototipacao" class="md-nav__link">
+    2. Prototipação
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Prototipação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-prototipo-01-sortear-filme" class="md-nav__link">
+    2.1 Protótipo 01 - Sortear Filme
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-prototipo-02-filmes-em-comum" class="md-nav__link">
+    2.2 Protótipo 02 - Filmes em Comum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-prototipo-03-grupos-de-discussao" class="md-nav__link">
+    2.3 Protótipo 03 - Grupos de Discussão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-prototipo-04-acompanhamento-de-series" class="md-nav__link">
+    2.4 Protótipo 04 - Acompanhamento de Séries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-prototipo-05-tempo-de-tela" class="md-nav__link">
+    2.5 Protótipo 05 - Tempo de Tela
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-prototipo-06-emocoes" class="md-nav__link">
+    2.6 Protótipo 06 - Emoções
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-prototipo-07-avaliacao-e-trilha-sonora" class="md-nav__link">
+    2.7 Protótipo 07 - Avaliação e Trilha Sonora
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-prototipo-08-traduzir-criticas" class="md-nav__link">
+    2.8 Protótipo 08 - Traduzir Críticas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-prototipo-09-sorteio-de-posteres" class="md-nav__link">
+    2.9 Protótipo 09 - Sorteio de Pôsteres
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-prototipo-10-artigos-relacionados" class="md-nav__link">
+    2.10 Protótipo 10 - Artigos Relacionados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-relato-do-usuario" class="md-nav__link">
+    4. Relato do usuario
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Relato do usuario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-introducao" class="md-nav__link">
+    4.1 Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-objetivos" class="md-nav__link">
+    4.2 Objetivos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-metologia" class="md-nav__link">
+    4.3 Metologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-gravacao-da-entrevista" class="md-nav__link">
+    4.4 Gravação da entrevista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-resultado-da-entrevista" class="md-nav__link">
+    4.5 Resultado da entrevista
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-referencias" class="md-nav__link">
+    5. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versao" class="md-nav__link">
+    6. Histórico de Versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-prototipacao" class="md-nav__link">
+    2. Prototipação
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Prototipação">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-prototipo-01-sortear-filme" class="md-nav__link">
+    2.1 Protótipo 01 - Sortear Filme
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-prototipo-02-filmes-em-comum" class="md-nav__link">
+    2.2 Protótipo 02 - Filmes em Comum
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-prototipo-03-grupos-de-discussao" class="md-nav__link">
+    2.3 Protótipo 03 - Grupos de Discussão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-prototipo-04-acompanhamento-de-series" class="md-nav__link">
+    2.4 Protótipo 04 - Acompanhamento de Séries
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-prototipo-05-tempo-de-tela" class="md-nav__link">
+    2.5 Protótipo 05 - Tempo de Tela
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-prototipo-06-emocoes" class="md-nav__link">
+    2.6 Protótipo 06 - Emoções
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#27-prototipo-07-avaliacao-e-trilha-sonora" class="md-nav__link">
+    2.7 Protótipo 07 - Avaliação e Trilha Sonora
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#28-prototipo-08-traduzir-criticas" class="md-nav__link">
+    2.8 Protótipo 08 - Traduzir Críticas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#29-prototipo-09-sorteio-de-posteres" class="md-nav__link">
+    2.9 Protótipo 09 - Sorteio de Pôsteres
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#210-prototipo-10-artigos-relacionados" class="md-nav__link">
+    2.10 Protótipo 10 - Artigos Relacionados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-relato-do-usuario" class="md-nav__link">
+    4. Relato do usuario
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Relato do usuario">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-introducao" class="md-nav__link">
+    4.1 Introdução
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-objetivos" class="md-nav__link">
+    4.2 Objetivos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#43-metologia" class="md-nav__link">
+    4.3 Metologia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#44-gravacao-da-entrevista" class="md-nav__link">
+    4.4 Gravação da entrevista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#45-resultado-da-entrevista" class="md-nav__link">
+    4.5 Resultado da entrevista
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-referencias" class="md-nav__link">
+    5. Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-historico-de-versao" class="md-nav__link">
+    6. Histórico de Versão
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="prototipacao">Prototipação</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>A prototipação, segundo SOMMERVILLE(2016)<a href="#ancora1">¹</a>, consiste em aprensentar um modelo executável do sistema aos clientes e usuários para que eles possam experimentar o sistema e decidir se ele atende às suas necessidades. Com esse objetivo, foram desenvolvidos, com base nos requisitos definidos na etapa de priorização, alguns protótipos que podem ser conferidos a seguir. A construção dos protótipos foi baseada em requisitos ainda não implementados pela plataforma e foi feita com o auxílio da plataforma Figma<a href="#ancora2">²</a>, que é uma ferramenta de design de interface de usuário com recursos de prototipagem.</p>
+<h2 id="2-prototipacao">2. Prototipação</h2>
+<p>Com base nos requisitos selecionados, foram desenvolvidos os protótipos abaixo. Para uma vizualização mais detalhada, é possível clicar em cima da imagem para ser redirecionado para a página do protótipo no Figma<a href="#ancora2">²</a>.</p>
+<h3 id="21-prototipo-01-sortear-filme">2.1 Protótipo 01 - Sortear Filme</h3>
+<p>O protótipo a seguir, representado pela Figura 1, tem como objetivo atender ao requisito QST13 (Sortear filme da watchlist). Para isso foi adicionado um botão na págin de Watchlist que, ao ser clicado, sorteia um filme da lista de filmes do usuário.</p>
+<p><center>
+    <figure markdown>
+    <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=23-3&amp;viewport=133%2C2365%2C0.29&amp;scaling=min-zoom" target="_blank"><img alt="Figura 1: Protótipo 1" src="../../../assets/prototipo1.gif" width="250px" /></a>
+    <figcaption>Figura 1: Protótipo 1</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
+    </figure>
+</center></p>
+<h3 id="22-prototipo-02-filmes-em-comum">2.2 Protótipo 02 - Filmes em Comum</h3>
+<p>O protótipo a seguir, representado pela Figura 2, tem como objetivo representar o requisito QST08 (Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro"). Para tal, foi adicionado na parte inferior da página de Watchlists a miniatura dos amigos do usuário. Ao clicar em um amigo, é exibida uma lista com os filmes em comum entre o usuário e o amigo selecionado.</p>
+<p><center>
+    <figure markdown>
+    <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=23-3&amp;viewport=133%2C2365%2C0.29&amp;scaling=min-zoom" target="_blank"><img alt="Figura 2: Protótipo 2" src="../../../assets/prototipo2.gif" width="250px" /></a>
+    <figcaption>Figura 2: Protótipo 2</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
+    </figure>
+</center></p>
+<h3 id="23-prototipo-03-grupos-de-discussao">2.3 Protótipo 03 - Grupos de Discussão</h3>
+<p>O protótipo a seguir, representado pela Figura 3, tem como objetivo representar o requisito DOC57 (Deve ser possível que os usuários criem e participem de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos). Dessa forma, foi adicionado na página inicial uma aba a mais. Ao clicar nessa aba, são exibidos alguns grupos que o usuário pode fazer parte. Ao clicar em um grupo, é exibida uma página com as informações do grupo e uma lista com alguns usuários que fazem parte do grupo.</p>
+<p><center>
+    <figure markdown>
+    <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=31-1148&amp;viewport=193%2C3121%2C0.41&amp;scaling=min-zoom" target="_blank"><img alt="Figura 3: Protótipo 3" src="../../../assets/prototipo3.gif" width="250px" /></a>
+    <figcaption>Figura 3: Protótipo 3</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
+    </figure>
+</center></p>
+<h3 id="24-prototipo-04-acompanhamento-de-series">2.4 Protótipo 04 - Acompanhamento de Séries</h3>
+<p>O protótipo a seguir, representado pela Figura 4, tem como objetivo representar o requisito DOC51 (Deve ser possível fazer o acompanhamento de séries no aplicativo). Para tal, foi adicionado na página inicial uma aba a mais. Ao clicar nessa aba, são exibidas algumas séries que o usuário pode acompanhar.</p>
+<p><center>
+    <figure markdown>
+    <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=31-1148&amp;viewport=193%2C3121%2C0.41&amp;scaling=min-zoom" target="_blank"><img alt="Figura 4: Protótipo 4" src="../../../assets/prototipo4.gif" width="250px" /></a>
+    <figcaption>Figura 4: Protótipo 4</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
+    </figure>
+</center></p>
+<h3 id="25-prototipo-05-tempo-de-tela">2.5 Protótipo 05 - Tempo de Tela</h3>
+<p>O protótipo a seguir, representado pela Figura 5, tem como objetivo representar os requisitos DOC58 (Deve ser exibido no perfil do usuário a quantidade de filmes assistidos pelo usuário) e DOC59 (Deve ser exibido no perfil do usuário a quantidade de horas assistidas pelo usuário). Para isso foram adicionados dois quadros na página de perfil do usuário, um com a quantidade de filmes assistidos e outro com a quantidade de horas assistidas.</p>
+<p><center>
+    <figure markdown>
+     <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=31-1809&amp;viewport=199%2C2839%2C0.41&amp;scaling=min-zoom" target="_blank"><img alt="Figura 5: Protótipo 5" src="../../../assets/prototipo5.jpg" width="250px" /></a>
+    <figcaption>Figura 5: Protótipo 5</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Maciel Júnior</p>
+    </figure>
+</center></p>
+<h3 id="26-prototipo-06-emocoes">2.6 Protótipo 06 - Emoções</h3>
+<p>O protótipo a seguir, representado pela Figura 6, tem como objetivo representar os requisitos DOC54 (Deve ser possível reagir com uma emoção sentida no filme (chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgada, confusa, tensa)). Para isso na tela de avaliar um filme, foi adicionado um atalho que leva para uma página onde o usuário pode avaliar o filme com estrelas e escolher dentre diversas opções de emoções.</p>
+<p><center>
+    <figure markdown>
+     <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=68-125&amp;viewport=-2037%2C4806%2C0.64&amp;scaling=min-zoom&amp;starting-point-node-id=68%3A125" target="_blank"><img alt="Figura 6: Protótipo 6" src="../../../assets/prototipo6.gif" width="250px" /></a>
+    <figcaption>Figura 6: Protótipo 6</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
+    </figure>
+</center></p>
+<h3 id="27-prototipo-07-avaliacao-e-trilha-sonora">2.7 Protótipo 07 - Avaliação e Trilha Sonora</h3>
+<p>O protótipo a seguir, representado pela Figura 7, foi desenvolvido para representar os requisitos DOC52 (Deve ser possível avaliar os atores dos filmes), DOC53 (Deve ser possível avaliar o diretor dos filmes) e DOC56 (Deve ser exibido a trilha sonora de cada filme). Para tal, foi adicionado na página aba "Cast" estrelas ao lado dos nomes dos atores, atrizes e diretores para que o usuário possa avaliar o trabalho de cada um. Além disso, foi criada uma nova aba, onde ficará a trilha sonora do filme.</p>
+<p><center>
+    <figure markdown>
+     <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=68-132&amp;viewport=-2331%2C5439%2C0.79&amp;scaling=min-zoom&amp;starting-point-node-id=68%3A125" target="_blank"><img alt="Figura 7: Protótipo 7" src="../../../assets/prototipo7.jpg" width="250px" /></a>
+    <figcaption>Figura 7: Protótipo 7</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
+    </figure>
+</center></p>
+<h3 id="28-prototipo-08-traduzir-criticas">2.8 Protótipo 08 - Traduzir Críticas</h3>
+<p>O protótipo a seguir, representado pela Figura 8, foi desenvolvido para representar o requisito ENT06 (Botão de traduzir nas críticas que estejam em um idioma diferente do usuário). Desta forma, foi adicionado um botão de tradução na página da crítica do filme, pelo qual usuário poderá traduzir as críticas que não estiverem no seu idioma.</p>
+<p><center>
+    <figure markdown>
+     <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=68-168&amp;viewport=-2331%2C5439%2C0.79&amp;scaling=min-zoom&amp;starting-point-node-id=68%3A125" target="_blank"><img alt="Figura 8: Protótipo 8" src="../../../assets/prototipo8.jpg" width="250px" /></a>
+    <figcaption>Figura 8: Protótipo 8</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
+    </figure>
+</center></p>
+<h3 id="29-prototipo-09-sorteio-de-posteres">2.9 Protótipo 09 - Sorteio de Pôsteres</h3>
+<p>O protótipo a seguir, representado pela Figura 9, foi desenvolvido para representar o requisito QST09 (Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro"). Desta forma, foi adicionado na página do filme, um botão, pelo qual o usuário pode se inscrever para participar do sorteio.</p>
+<p><center>
+    <figure markdown>
+     <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=68-171&amp;viewport=-2331%2C5439%2C0.79&amp;scaling=min-zoom&amp;starting-point-node-id=68%3A125" target="_blank"><img alt="Figura 9: Protótipo 9" src="../../../assets/prototipo9.jpg" width="250px" /></a>
+    <figcaption>Figura 9: Protótipo 9</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
+    </figure>
+</center></p>
+<h3 id="210-prototipo-10-artigos-relacionados">2.10 Protótipo 10 - Artigos Relacionados</h3>
+<p>O protótipo a seguir, representado pela Figura 10, foi desenvolvido para representar o requisito QST11 (Colocar artigos relacionados na tela de detalhes do filme). Desta forma, foi adicionado na página do filme, uma seção de artigos relacionados, n qual o usuário poderá ler artigos relacionados ao filme.</p>
+<p><center>
+    <figure markdown>
+     <a href="https://www.figma.com/proto/uGlVKaZ4MEnLvRxQ4L9bYR/Prot%C3%B3tipos-Letterboxd?page-id=0%3A1&amp;type=design&amp;node-id=68-175&amp;viewport=-2445%2C5341%2C0.79&amp;scaling=min-zoom&amp;starting-point-node-id=68%3A125" target="_blank"><img alt="Figura 10: Protótipo 10" src="../../../assets/prototipo10.jpg" width="250px" /></a>
+    <figcaption>Figura 10: Protótipo 10</figcaption>
+    <p style="margin-top: -10px; font-size: 10px">Autor: Clara Marcelino</p>
+    </figure>
+</center></p>
+<h2 id="4-relato-do-usuario">4. Relato do usuario</h2>
+<h3 id="41-introducao">4.1 Introdução</h3>
+<p>A entrevista da Prototipação foi feita a partir de uma entrevista online da plataforma teams, a qual foi apresentado os prototipos feitos no Figma e o usuario nos forneceu suas impressões sobre os prototipos criados.</p>
+<h3 id="42-objetivos">4.2 Objetivos</h3>
+<p>O objetivo da entrevista foi validar se o produto da prototipação atende aos requisitos eleicitados com usuarios e suas impressões sobre.</p>
+<h3 id="43-metologia">4.3 Metologia</h3>
+<p>A metodologia utilizada para a avaliação foi a entrevista. A entrevista foi realizada por um membro do grupo. Na entrevista foram apresentadas questões acerca das políticas de termos de consentimento, uma pequena introdução acerca do nosso projeto e que o entrevistado teria total liberdade de não responder caso fosse solicitado.</p>
+<h3 id="44-gravacao-da-entrevista">4.4 Gravação da entrevista</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wDJx6E0gotc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<h3 id="45-resultado-da-entrevista">4.5 Resultado da entrevista</h3>
+<ul>
+<li>Protótipo 01 - Sortear Filme: Usuario teve facilidade em reconhecer como essa funcionalidade opera e gostou de como a funcionalidade de sortear o filme pode ser aplicada.</li>
+<li>Protótipo 02 - Filmes em Comum: Usuario teve facilidade em reconhecer como essa funcionalidade opera, usuario questionou sobre como seria feita a seleção de filmes em comum com seus amigos e sugeriu a ideia do uso de IAs para achar filmes em comum e também sugeriu a possibilidade a função virar um esquema de encontros por meio de gostos por filmes em comum.</li>
+<li>Protótipo 03 - Grupos de Discussão: Usuario teve facilidade em reconhecer como essa funcionalidade opera e aprovou o prototipo. O usuario elogiou as possibilidades com o requisito, como o app virar uma especie de rede social.</li>
+<li>Protótipo 04 - Acompanhamento de Séries: Usuario teve facilidade em reconhecer como essa funcionalidade opera.</li>
+<li>Protótipo 06 - Emoções: Usuario teve facilidade em reconhecer como essa funcionalidade opera e gostou das possiblidades de ter novas reações</li>
+</ul>
+<h2 id="5-referencias">5. Referências</h2>
+<blockquote>
+<ul>
+<li><a id="ancora1"></a>[1] SOMMERVILLE, I. Software engineering. 10.ed. Harlow: Pearson Education, 2016 p.77</li>
+<li><a id="ancora2"></a>[2] Figma. Disponível em: <a href="https://www.figma.com">https://www.figma.com</a>. Acesso em: 18 jun. 2023.</li>
+</ul>
+</blockquote>
+<h2 id="6-historico-de-versao">6. Histórico de Versão</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor</th>
+<th align="center">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">18/06/2023</td>
+<td align="center"><code>1.0</code></td>
+<td align="center">Criação do documento de validação e protótipos</td>
+<td align="center"><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur Loureiro</a></td>
+</tr>
+<tr>
+<td align="center">20/06/2023</td>
+<td align="center"><code>2.0</code></td>
+<td align="center">Criação do item Relato do usuario</td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur Loureiro</a></td>
+<td align="center"><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["content.code.copy"], "search": "../../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>
