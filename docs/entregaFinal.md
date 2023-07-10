@@ -479,4 +479,4 @@ _Fonte: Arthur D’Assumpção, 2023_
 | 05/07/2023 | `1.3`  | Adiciona App Selecionado e Apresentações |    [Gustavo Barbosa ](https://github.com/brbsg)     |    -    |
 | 05/07/2023 | `1.4`  |     Adiciona verificação e validação     | [Maciel Júnior](https://github.com/macieljuniormax) |    -    |
 | 05/07/2023 | `1.5`  |     Adiciona cronogramas                 | [Clara Ribeiro](https://github.com/clara-ribeiro) |    -    |
-| 10/07/2023 | `1.6`  | Correção layout das tabelas 3, 4, 5, 6 e 7                 | [Clara Ribeiro](https://github.com/clara-ribeiro) |    -    |
+| 10/07/2023 | `1.6`  | Correção layout das tabelas 3, 4, 5, 6 e 7                 | [Maciel Júnior](https://github.com/macieljuniormax) |    -    |
