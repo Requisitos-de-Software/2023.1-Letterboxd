@@ -440,7 +440,93 @@ _Fonte: Arthur D’Assumpção, 2023_
 
 </center>
 
-### Referências
+## Apresentações
+
+| Apresentação | Participantes                                                                                                  | Link do Vídeo                                                           |
+| ------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 1            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 1](https://www.youtube.com/watch?v=BsANHSglTvc)   |
+| 2            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 2](https://www.youtube.com/watch?v=kStq8x0C3Dg)   |
+| 3            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 3](https://www.youtube.com/watch?v=IAKl1VXL_e4)   |
+| 4            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 4](https://www.youtube.com/watch?v=m3uRe1q4mlI)   |
+| 5.1          | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 5.1](https://www.youtube.com/watch?v=YgK3oXHtTMk) |
+| 5.2          | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares                | [Link da Apresentação 5.2](https://www.youtube.com/watch?v=FqlFZ1N5oSM) |
+| 6            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Maciel Júnior, Natan Tavares,                                | [Link da Apresentação 6](https://www.youtube.com/watch?v=12MAALPQpCA)   |
+
+## Facilidades e Dificuldades
+### Natan Santana
+
+Facilidades:
+
+- Todo o grupo conseguiu ter um contato inicial com a engenharia de requisitos
+- Consegui ver conteúdos que são aplicados na prática no meu estágio, agregando a minha experiência profissional
+- Tivemos bastante contato com os usuários do aplicativo, o que nos deu uma visão muito boa do uso do app e de melhorias
+
+Dificuldades:
+
+- Tivemos muita dificuldade para organizar as atividades entre os membros do grupo
+- Difícil achar um tempo em comum com todos os grupos para se reunir
+
+### Clara Marcelino
+
+Facilidades:
+
+Os conteúdos exibidos na disciplina abrangeram bem mais técnicas que eu havia imaginado, incluindo não só a elicitação de requisitos propriamente dita, mas também diversos contextos em que esses requisitos serão utilizados. Também gostei da disposição do professor André para o esclarecimento das dúvidas que tivemos durante todo o desenvolvimento do projeto.
+
+Dificuldades:
+
+O principal obstáculo no desenvolvimento da disciplina fomos nós mesmos. Enquanto grupo, nós não conseguimos nos organizar de forma satisfatória para ter reuniões periódicas, o que prejudicou no desenvolvimento dos artefatos, pois não nos comunicamos da melhor forma. Essa falta de comunicação nos rendeu episódios em que artefatos foram feitos em cima da hora e por isso não foram executados como deveriam e também não tiveram revisores. Além disso, também houve sobrecarga de alguns membros do grupo.
+
+### Maciel Junior
+
+Facilidades:
+
+- Fiquei surpreso com a profundidade do conteúdo da disciplina, superando minhas expectativas.
+- A dinâmica da disciplina, com entregas curtas, facilitou bastante, evitando o acúmulo de trabalho.
+- Disponibilidade de algumas aulas para desenvolvimento do projeto, já que é um horário em que todos os membros estão presentes.
+
+Dificuldades:
+
+- Tivemos dificuldades para organizar as atividades entre os membros.
+- Infelizmente, lidamos com a procrastinação, o que resultou em algumas entregas feitas em cima da hora.
+
+### Gustavo Barbosa
+
+Facilidades:
+
+- A disciplina demonstrou o quão importante é seguir de forma rigorosa o processo de elicitação de requisitos de software 
+- Entregas graduais e incrementais permitiram ter um melhor entendimento do conteúdo
+
+Dificuldades:
+
+- Dificuldade de combinar horário com os demais membros da equipe
+- Algumas entregas foram deixadas para serem feitas em cima da hora
+
+### Arthur D'Assumpção
+
+Facilidades:
+
+- Aplicação da matéria em meu trabalho, que resultou em uma boa entrega 
+- O grupo com certeza foi o ponto alto de tudo.
+- O aprendizado com documentação 
+
+Dificuldades:
+
+- Subestimar algumas entregas
+- Os prazos e as rotinas 
+- Horários em comum para trabalho em equipe
+
+### Débora Caires
+
+Facilidades:
+
+- A disciplina foi muito importante para o meu desenvolvimento profissional, muito se fala sobre elicitação de requisitos mas pouco é visto sobre a sua real importância. Acredito que no meu caso por ter aplicado também os conhecimentos aprendidos na disciplina em meu estágio enquanto estava cursando a disciplina foi crucial para enxergar mais ainda a importância da disciplina.
+- A experiência em grupo nessa disciplina que tive foi incrível. Tivemos nossos altos e baixos mas sempre demos o nosso melhor para entregar tudo.
+
+Dificuldades:
+
+-  Acredito que por todos os membros do grupo terem atividades fora a universidade, em alguns momentos isso pesou. Mas o que realmente atrapalhou foi em alguns momentos a falta de compromisso com prazos, o que fez com que para alguns membros do grupo ficassem mais responsabilidades em alguns momentos.
+
+## Referências
 
 > - <a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <https://github.com>. Acesso em: 05 julho. 2023.
 > - <a id="ancora2"></a>[2] Telegram – a new era of messaging. Disponível em: <https://telegram.org>. Acesso em: 05 julho. 2023.
@@ -457,19 +543,7 @@ _Fonte: Arthur D’Assumpção, 2023_
 > - <a id="ancora13"></a>[14] This Person Does Not Exist. Disponível em: <https://thispersondoesnotexist.com/>. Acesso em: 05 julho. 2023.
 > - <a id="ancora15"></a>[15] CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.
 
-## Apresentações
-
-| Apresentação | Participantes                                                                                                  | Link do Vídeo                                                           |
-| ------------ | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| 1            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 1](https://www.youtube.com/watch?v=BsANHSglTvc)   |
-| 2            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 2](https://www.youtube.com/watch?v=kStq8x0C3Dg)   |
-| 3            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 3](https://www.youtube.com/watch?v=IAKl1VXL_e4)   |
-| 4            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 4](https://www.youtube.com/watch?v=m3uRe1q4mlI)   |
-| 5.1          | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques | [Link da Apresentação 5.1](https://www.youtube.com/watch?v=YgK3oXHtTMk) |
-| 5.2          | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares                | [Link da Apresentação 5.2](https://www.youtube.com/watch?v=FqlFZ1N5oSM) |
-| 6            | Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Maciel Júnior, Natan Tavares,                                | [Link da Apresentação 6](https://www.youtube.com/watch?v=12MAALPQpCA)   |
-
-## Facilidades e Dificuldades
+## Tabela de versionamento
 
 |    Data    | Versão |                Descrição                 |                        Autor                        | Revisor |
 | :--------: | :----: | :--------------------------------------: | :-------------------------------------------------: | :-----: |
@@ -480,3 +554,4 @@ _Fonte: Arthur D’Assumpção, 2023_
 | 05/07/2023 | `1.4`  |     Adiciona verificação e validação     | [Maciel Júnior](https://github.com/macieljuniormax) |    -    |
 | 05/07/2023 | `1.5`  |     Adiciona cronogramas                 | [Clara Ribeiro](https://github.com/clara-ribeiro) |    -    |
 | 10/07/2023 | `1.6`  | Correção layout das tabelas 3, 4, 5, 6 e 7                 | [Maciel Júnior](https://github.com/macieljuniormax) |    -    |
+| 12/07/2023 | `1.7`  | Facilidades e dificuldades                 | [Clara Ribeiro](https://github.com/clara-ribeiro) |    -    |
