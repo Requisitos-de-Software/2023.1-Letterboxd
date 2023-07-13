@@ -1,0 +1,3481 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../cronogramaExecutado/">
+      
+      
+        <link rel="next" href="../politicas/">
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Entrega Final - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#entrega-final" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Entrega Final
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Entrega Final
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Entrega Final
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aplicativo-selecionado" class="md-nav__link">
+    Aplicativo Selecionado
+  </a>
+  
+    <nav class="md-nav" aria-label="Aplicativo Selecionado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#porque-escolhemos-o-letterboxd" class="md-nav__link">
+    Porque escolhemos o Letterboxd?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planejamento-dos-recursos" class="md-nav__link">
+    Planejamento dos recursos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#execucao-do-projeto" class="md-nav__link">
+    Execução do projeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-alcancados" class="md-nav__link">
+    Resultados alcançados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnicas-utilizadas" class="md-nav__link">
+    Técnicas utilizadas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artefatos" class="md-nav__link">
+    Artefatos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacao-e-validacao" class="md-nav__link">
+    Verificação e Validação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ferramentas" class="md-nav__link">
+    Ferramentas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apresentacoes" class="md-nav__link">
+    Apresentações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facilidades-e-dificuldades" class="md-nav__link">
+    Facilidades e Dificuldades
+  </a>
+  
+    <nav class="md-nav" aria-label="Facilidades e Dificuldades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#natan-santana" class="md-nav__link">
+    Natan Santana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clara-marcelino" class="md-nav__link">
+    Clara Marcelino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maciel-junior" class="md-nav__link">
+    Maciel Junior
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gustavo-barbosa" class="md-nav__link">
+    Gustavo Barbosa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arthur-dassumpcao" class="md-nav__link">
+    Arthur D'Assumpção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debora-caires" class="md-nav__link">
+    Débora Caires
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#aplicativo-selecionado" class="md-nav__link">
+    Aplicativo Selecionado
+  </a>
+  
+    <nav class="md-nav" aria-label="Aplicativo Selecionado">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#porque-escolhemos-o-letterboxd" class="md-nav__link">
+    Porque escolhemos o Letterboxd?
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#planejamento-dos-recursos" class="md-nav__link">
+    Planejamento dos recursos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#execucao-do-projeto" class="md-nav__link">
+    Execução do projeto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados-alcancados" class="md-nav__link">
+    Resultados alcançados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tecnicas-utilizadas" class="md-nav__link">
+    Técnicas utilizadas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#artefatos" class="md-nav__link">
+    Artefatos
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verificacao-e-validacao" class="md-nav__link">
+    Verificação e Validação
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ferramentas" class="md-nav__link">
+    Ferramentas
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#apresentacoes" class="md-nav__link">
+    Apresentações
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#facilidades-e-dificuldades" class="md-nav__link">
+    Facilidades e Dificuldades
+  </a>
+  
+    <nav class="md-nav" aria-label="Facilidades e Dificuldades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#natan-santana" class="md-nav__link">
+    Natan Santana
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#clara-marcelino" class="md-nav__link">
+    Clara Marcelino
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#maciel-junior" class="md-nav__link">
+    Maciel Junior
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gustavo-barbosa" class="md-nav__link">
+    Gustavo Barbosa
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#arthur-dassumpcao" class="md-nav__link">
+    Arthur D'Assumpção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debora-caires" class="md-nav__link">
+    Débora Caires
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="entrega-final">Entrega Final</h1>
+<h2 id="aplicativo-selecionado">Aplicativo Selecionado</h2>
+<p>O aplicativo escolhido foi o Letterboxd, que permite aos usuários acompanhar e revisar filmes e programas de televisão que assistem.</p>
+<p>No Letterboxd, os usuários podem criar listas de filmes, seguir outros usuários com interesses semelhantes, descobrir novos filmes e programas de televisão para assistir, ler e escrever resenhas sobre filmes e programas de televisão que já assistiram. Além disso, o site também permite que os usuários avaliem filmes e programas de televisão com notas de 0 a 5 estrelas.</p>
+<h3 id="porque-escolhemos-o-letterboxd">Porque escolhemos o Letterboxd?</h3>
+<p>No início do semestre foi pedido para que cada membro do grupo pesquisasse algum aplicativo e fizesse um Rich Picture. Os aplicativos foram:</p>
+<ul>
+<li>Uber - Gustavo Barbosa</li>
+<li>FGTS - Débora Caires</li>
+<li>WebDiet - Natan Tavares</li>
+<li>Apple Music - Maciel Júnior</li>
+<li>Tinder - Rhuan Marques</li>
+<li>Buser - Arthur D'Assumpção</li>
+<li>Letterboxd - Clara Ribeiro</li>
+</ul>
+<p>A partir disso, avaliamos as características de cada aplicativo, analisamos as vantagens e desvantagnes de cada um e optamos pelo Letterboxd pelos seguintes motivos:</p>
+<ul>
+<li>A existência de uma comunidade ativa de usuários na plataforma, o que nos permitiu descobrir novos filmes e programas de televisão com base nas avaliações e resenhas de outros cinéfilos.</li>
+<li>Não encontramos nenhum impedimento em relação à engenharia reversa nos termos de uso do site, o que nos deu a liberdade de explorar e personalizar a plataforma da forma que desejamos.</li>
+<li>Percebemos que havia espaço para aprimorar e acrescentar novas funcionalidades ao site, o que nos motivou a utilizar o Letterboxd e contribuir para o seu desenvolvimento.</li>
+</ul>
+<h2 id="planejamento-dos-recursos">Planejamento dos recursos</h2>
+<p>A fase de planejamento do projeto foi essencial para a organização da equipe para a confecção dos artefatos solicitados no decorrer do semestre. Na primeira fase, nós planejamos um <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/cronograma/">cronograma de atividades</a> contendo uma data prevista para confecção e revisão de cada artefato, assim como os artefatos previstos com seus respectivos autores e revisores. O planejamento foi utilizado como um guia durante todo o projeto, mesmo quando foi necessário fazer alterações nas datas ou até mesmo nas pessoas responsáveis por cada artefato. Para melhor rastrear tais mudanças, o <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/cronogramaExecutado/">cronograma executado</a> foi atualizado após cada entrega com as mudanças necessárias.</p>
+<p>Abaixo está especificado cada entrega com uma tabela mostrando o planejamento dos artefatos assim como a real execução. Estará destacado em amarelo as modificações do cronograma executado.</p>
+<details class="etapa1">
+<summary>Etapa1</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Configurar GitHub Pages</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Início: 07/04/2023 Término: 10/04/2023</td>
+<td>Início: 07/04/2023 Término: 09/04/2023</td>
+<td>11/04/2023</td>
+<td>11/04/2023</td>
+</tr>
+<tr>
+<td>Políticas</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Início: 10/04/2023 Término: 11/04/2023</td>
+<td>Início: 10/04/2023 Término: 11/04/2023</td>
+<td>14/04/2023</td>
+<td>11/04/2023</td>
+</tr>
+<tr>
+<td>Criação do cronograma</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td>Início: 10/04/2023 Término: 11/04/2023</td>
+<td>Início: 10/04/2023 Término: 11/04/2023</td>
+<td>13/04/2023</td>
+<td>12/04/2023</td>
+</tr>
+<tr>
+<td>Apresentação da equipe</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>Início: 10/04/2023 Término: <mark>15/04/2023</mark></td>
+<td>14/04/2023</td>
+<td><mark>16/04/2023</mark></td>
+</tr>
+<tr>
+<td>App Selecionado</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>Início: 10/04/2023 Término: <mark>14/04/2023</mark></td>
+<td>14/04/2023</td>
+<td><mark>16/04/2023</mark></td>
+</tr>
+<tr>
+<td>Ferramentas do projeto</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>14/04/2023</td>
+<td><mark>16/04/2023</mark></td>
+</tr>
+<tr>
+<td>Adicionar Rich Pictures Individuais</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>Início: 10/04/2023 Término: <mark>14/04/2023</mark></td>
+<td>14/04/2023</td>
+<td><mark>16/04/2023</mark></td>
+</tr>
+<tr>
+<td>Checklist da entrega</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>Início: 10/04/2023 Término: 13/04/2023</td>
+<td>14/04/2023</td>
+<td><mark>15/04/2023</mark></td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 10/04/2023 Término: 15/04/2023</td>
+<td>Início: 10/04/2023 Término: <mark>16/04/2023</mark></td>
+<td>17/04/2023</td>
+<td>16/04/2023</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="etapa2">
+<summary>Etapa2</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Criação do questionário de perfil dos usuários</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Início: 17/04/2023 Término: 18/04/2023</td>
+<td>Início: 17/04/2023 Término: 18/04/2023</td>
+<td>19/04/2023</td>
+<td>19/04/2023</td>
+</tr>
+<tr>
+<td>Planejamento da entrevista</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td>Início: 17/04/2023 Término: 22/04/2023</td>
+<td>Início: 17/04/2023 Término: <mark>23/04/2023</mark></td>
+<td>24/04/2023</td>
+<td>24/04/2023</td>
+</tr>
+<tr>
+<td>Relato do questionário de Perfil dos Usuários</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Início: 21/04/2023 Término: 22/04/2023</td>
+<td>Início: 21/04/2023 Término: 22/04/2023</td>
+<td>24/04/2023</td>
+<td>24/04/2023</td>
+</tr>
+<tr>
+<td>Justificativa das técnicas de elicitação</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td>Início: 17/04/2023 Término: 24/04/2023</td>
+<td>Início: 17/04/2023 Término: 24/04/2023</td>
+<td>26/04/2023</td>
+<td>26/04/2023</td>
+</tr>
+<tr>
+<td>Justificativa das técnicas de priorização</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td>Início: 17/04/2023 Término: 23/04/2023</td>
+<td>Início: 17/04/2023 Término: <mark>27/04/2023</mark></td>
+<td>25/04/2023</td>
+<td><mark>30/04/2023</mark></td>
+</tr>
+<tr>
+<td>Elicitação por introspecção</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Início: 17/04/2023 Término: 23/04/2023</td>
+<td>Início: 17/04/2023 Término: 22/04/2023</td>
+<td>25/04/2023</td>
+<td><mark>26/04/2023</mark></td>
+</tr>
+<tr>
+<td>Elicitação por Análise de Documentos</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td>Início: 17/04/2023 Término: 23/04/2023</td>
+<td>Início: 22/04/2023 Término: <mark>25/04/2023</mark></td>
+<td>25/04/2023</td>
+<td><mark>26/04/2023</mark></td>
+</tr>
+<tr>
+<td>Teste piloto da entrevista</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a>, <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Início: 17/04/2023 Término: 23/04/2023</td>
+<td>Início: 22/04/2023 Término: <mark>25/04/2023</mark></td>
+<td>25/04/2023</td>
+<td>25/04/2023</td>
+</tr>
+<tr>
+<td>Personas</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a>, <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a>, <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td>Início: 22/04/2023 Término: 24/04/2023</td>
+<td>Início: 22/04/2023 Término: <mark>25/04/2023</mark></td>
+<td>26/04/2023</td>
+<td>25/04/2023</td>
+</tr>
+<tr>
+<td>Ajustes de acordo com feedback da apresentação 1</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 17/04/2023 Término: 25/04/2023</td>
+<td>Início: 17/04/2023 Término: <mark>30/04/2023</mark></td>
+<td>29/04/2023</td>
+<td><mark>30/04/2023</mark></td>
+</tr>
+<tr>
+<td>Elicitação por Storytelling</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td>Início: 24/04/2023 Término: 26/04/2023</td>
+<td>Início: 24/04/2023 Término: 26/04/2023</td>
+<td>28/04/2023</td>
+<td>28/04/2023</td>
+</tr>
+<tr>
+<td>Elicitação por Entrevista</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a>, <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a>, <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td>Início: 24/04/2023 Término: 26/04/2023</td>
+<td>Início: 24/04/2023 Término: 26/04/2023</td>
+<td>27/04/2023</td>
+<td>26/04/2023</td>
+</tr>
+<tr>
+<td>Priorização: Three Level-Scale</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a>, <a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a>, <a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><mark><a href="https://github.com/macieljuniormax">Maciel Júnior</a></mark></td>
+<td>Início: 26/04/2023 Término: 28/04/2023</td>
+<td>Início: 26/04/2023 Término: <mark>30/04/2023</mark></td>
+<td>29/04/2023</td>
+<td>29/04/2023</td>
+</tr>
+<tr>
+<td>Priorização: First Things First (FTF)</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><mark><a href="https://github.com/macieljuniormax">Maciel Júnior</a></mark></td>
+<td>Início: 26/04/2023 Término: 28/04/2023</td>
+<td>Início: 26/04/2023 Término: <mark>30/04/2023</mark></td>
+<td>29/04/2023</td>
+<td><mark>30/04/2023</mark></td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 29/04/2023 Término: 30/04/2023</td>
+<td>Início: 29/04/2023 Término: 30/04/2023</td>
+<td>01/05/2023</td>
+<td>01/05/2023</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="etapa3">
+<summary>Etapa3</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cenários</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td>Início: 01/05/2023 Término: 11/05/2023</td>
+<td><mark>Início: 01/05/2023 Término: 13/05/2023</mark></td>
+<td>14/05/2023</td>
+<td><mark>15/05/2023</mark></td>
+</tr>
+<tr>
+<td>Léxico</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td>Início: 01/05/2023 Término: 11/05/2023</td>
+<td><mark>Início: 01/05/2023 Término: 14/05/2023</mark></td>
+<td>14/05/2023</td>
+<td><mark>15/05/2023</mark></td>
+</tr>
+<tr>
+<td>Casos de uso</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td>Início: 01/05/2023 Término: 11/05/2023</td>
+<td><mark>Início: 01/05/2023 Término: 15/05/2023</mark></td>
+<td>14/05/2023</td>
+<td><mark>15/05/2023</mark></td>
+</tr>
+<tr>
+<td>Especificação Suplementar</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td>Início: 01/05/2023 Término: 11/05/2023</td>
+<td><mark>Início: 01/05/2023 Término: 14/05/2023</mark></td>
+<td>14/05/2023</td>
+<td><mark>15/05/2023</mark></td>
+</tr>
+<tr>
+<td>Ajustes de acordo com feedback da apresentação 2</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 01/05/2023 Término: 12/05/2023</td>
+<td><mark>Início: 01/05/2023 Término: 15/05/2023</mark></td>
+<td>14/04/2023</td>
+<td><mark>15/05/2023</mark></td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 01/05/2023 Término: 15/05/2023</td>
+<td><mark>Início: 01/05/2023 Término: 16/05/2023</mark></td>
+<td>16/05/2023</td>
+<td>16/05/2023</td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="etapa4">
+<summary>Etapa4</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Histórias de Usuário</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a> e <a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td>Início: 17/05/2023 Término: 20/05/2023</td>
+<td><mark>Início: 17/05/2023 Término: 21/05/2023</mark></td>
+<td>22/05/2023</td>
+<td><mark>23/05/2023</mark></td>
+</tr>
+<tr>
+<td>Backlog</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td>Início: 17/05/2023 Término: 20/05/2023</td>
+<td><mark>Início: 17/05/2023 Término: 24/05/2023</mark></td>
+<td>22/05/2023</td>
+<td><mark>24/05/2023</mark></td>
+</tr>
+<tr>
+<td>NFR Framework</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td>Início: 17/05/2023 Término: 20/05/2023</td>
+<td><mark>Início: 17/05/2023 Término: 23/05/2023</mark></td>
+<td>22/05/2023</td>
+<td><mark>23/05/2023</mark></td>
+</tr>
+<tr>
+<td>Ajustes de acordo com feedback da apresentação 3</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 17/05/2023 Término: 20/05/2023</td>
+<td><mark>Início: 17/05/2023 Término: 20/05/2023</mark></td>
+<td>22/05/2023</td>
+<td><mark>23/05/2023</mark></td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 17/05/2023 Término: 23/05/2023</td>
+<td><mark>Início: 17/05/2023 Término: 24/05/2023</mark></td>
+<td>24/06/2023</td>
+<td><mark>24/05/2023</mark></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="etapa51">
+<summary>Etapa51</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verificação do Etapa 1 do Grupo 7</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><mark><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></mark></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><mark><a href="https://github.com/macieljuniormax">Maciel Júnior</a></mark></td>
+<td>Início: 24/05/2023 Término: 02/06/2023</td>
+<td><mark>Início: 24/05/2023 Término: 14/06/2023</mark></td>
+<td>04/06/2023</td>
+<td><mark>14/06/2023</mark></td>
+</tr>
+<tr>
+<td>Verificação do Etapa 2 do Grupo 7</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><mark><a href="https://github.com/brbsg">Gustavo Barbosa</a></mark></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td>-</td>
+<td>Início: 24/05/2023 Término: 02/06/2023</td>
+<td><mark>Início: 24/05/2023 Término: 13/06/2023</mark></td>
+<td>04/06/2023</td>
+<td><mark>14/06/2023</mark></td>
+</tr>
+<tr>
+<td>Verificação do Etapa 3 do Grupo 7</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><mark><a href="https://github.com/RhuanMr">Rhuan Marques</a></mark></td>
+<td>Início: 24/05/2023 Término: 02/06/2023</td>
+<td><mark>Início: 24/05/2023 Término: 14/06/2023</mark></td>
+<td>04/06/2023</td>
+<td><mark>14/06/2023</mark></td>
+</tr>
+<tr>
+<td>Verificação do Etapa 4 do Grupo 7</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td>Início: 24/05/2023 Término: 02/06/2023</td>
+<td><mark>Início: 24/05/2023 Término: 12/06/2023</mark></td>
+<td>04/06/2023</td>
+<td><mark>14/06/2023</mark></td>
+</tr>
+<tr>
+<td>Ajustes de acordo com feedback da apresentação 4</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 24/05/2023 Término: 02/06/2023</td>
+<td><mark>Início: 24/05/2023 Término: 02/06/2023</mark></td>
+<td>04/05/2023</td>
+<td>04/05/2023</td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 24/05/2023 Término: 05/06/2023</td>
+<td><mark>Início: 24/05/2023 Término: 15/06/2023</mark></td>
+<td>06/06/2023</td>
+<td><mark>15/06/2023</mark></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="etapa52">
+<summary>Etapa52</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verificação da Etapa 1</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td>Início: 07/06/2023 Término: 10/06/2023</td>
+<td><mark>Início: 16/06/2023 Término: 18/06/2023</mark></td>
+<td><mark>12/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td>Verificação da Etapa 2</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><mark><a href="https://github.com/deboracaires">Débora Caires</a></mark></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td>-</td>
+<td>Início: 07/06/2023 Término: 10/06/2023</td>
+<td><mark>Início: 16/06/2023 Término: 18/06/2023</mark></td>
+<td><mark>12/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td>Verificação da Etapa 3</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><mark>[<a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td>Início: 07/06/2023 Término: 10/06/2023</td>
+<td><mark>Início: 16/06/2023 Término: 18/06/2023</mark></td>
+<td><mark>12/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td>Verificação da Etapa 4</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td>Início: 07/06/2023 Término: 10/06/2023</td>
+<td><mark>Início: 16/06/2023 Término: 20/06/2023</mark></td>
+<td><mark>12/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td><mark>Verificação da Etapa 5.1</mark></td>
+<td>-</td>
+<td><mark><a href="https://github.com/brbsg">Gustavo Barbosa</a></mark></td>
+<td>-</td>
+<td>==<a href="https://github.com/clara-ribeiro==">Clara Ribeiro</a></td>
+<td>-</td>
+<td>-</td>
+<td><mark>Início: 16/06/2023 Término: 18/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td><mark>Validação Protótipos</mark></td>
+<td>-</td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark>, <mark><a href="https://github.com/RhuanMr">Rhuan Marques</a></mark> e <mark><a href="https://github.com/macieljuniormax">Maciel Júnior</a></mark></td>
+<td>-</td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a>, <a href="https://github.com/RhuanMr">Rhuan Marques</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></mark></td>
+<td>-</td>
+<td><mark>Início: 16/06/2023 Término: 10/06/2023</mark></td>
+<td><mark>Início: 16/06/2023 Término: 18/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td><mark>Validação Informal</mark></td>
+<td>-</td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark> e <mark><a href="https://github.com/macieljuniormax">Maciel Júnior</a></mark></td>
+<td>-</td>
+<td><mark><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></mark></td>
+<td>-</td>
+<td>-</td>
+<td><mark>Início: 16/06/2023 Término: 18/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td>Ajustes de acordo com feedback da apresentação 5.1</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 07/06/2023 Término: 10/06/2023</td>
+<td><mark>Início: 16/06/2023 Término: 21/06/2023</mark></td>
+<td><mark>12/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 07/06/2023 Término: 13/06/2023</td>
+<td><mark>Início: 16/06/2023 Término: 21/06/2023</mark></td>
+<td><mark>14/06/2023</mark></td>
+<td><mark>20/06/2023</mark></td>
+</tr>
+</tbody>
+</table>
+</details>
+<details class="etapa6">
+<summary>Etapa6</summary>
+<table>
+<thead>
+<tr>
+<th>Descrição da Atividade</th>
+<th>Autor(es)</th>
+<th>Autor(es) Executado</th>
+<th>Revisor</th>
+<th>Revisor Executado</th>
+<th>Data prevista</th>
+<th>Data executada</th>
+<th>Revisão programada</th>
+<th>Revisão Executada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Foward-From</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td>Início: 14/06/2023 Término: 16/06/2023</td>
+<td><mark>Início: 14/06/2023 Término: 27/06/2023</mark></td>
+<td>18/06/2023</td>
+<td><mark>27/06/2023</mark></td>
+</tr>
+<tr>
+<td>Backward-From</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><mark><a href="https://github.com/Neitan2001">Natan Santana</a></mark></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><mark><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></mark></td>
+<td>Início: 14/06/2023 Término: 16/06/2023</td>
+<td><mark>Início: 14/06/2023 Término: 27/06/2023</mark></td>
+<td>18/06/2023</td>
+<td><mark>27/06/2023</mark></td>
+</tr>
+<tr>
+<td>Ajustes de acordo com feedback da apresentação 5.2</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 14/06/2023 Término: 16/06/2023</td>
+<td><mark>Início: 14/06/2023 Término: 27/06/2023</mark></td>
+<td>18/06/2023</td>
+<td><mark>27/06/2023</mark></td>
+</tr>
+<tr>
+<td>Gravação e Edição da Apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Maciel, Clara, Rhuan, Arthur, Natan, Débora, Gustavo</td>
+<td>Início: 14/06/2023 Término: 19/06/2023</td>
+<td><mark>Início: 14/06/2023 Término: 28/06/2023</mark></td>
+<td>20/06/2023</td>
+<td><mark>28/06/2023</mark></td>
+</tr>
+</tbody>
+</table>
+</details>
+<h2 id="execucao-do-projeto">Execução do projeto</h2>
+<p>Para a execução desse projeto, em cada etapa o grupo realizou alguma atividade referente à engenharia de requisitos a fim de captar, especificar e analisar funconalidades novas e existentes do aplicativo Letterboxd.</p>
+<p>A <ins>primeira etapa</ins> do projeto foi mais focada no planejamento. O grupo <ins>selecionou o aplicativo</ins> que serveria de estudo para a matéria, fez o <ins>cronograma planejado</ins>, listou as <ins>ferramentas</ins> que seriam utilizadas e realizou o <ins>Rich Picture</ins> do aplicativo selecionado.</p>
+<p>Na <ins>segunda etapa</ins>, foi realizado as atividades relacionadas à Elicitação e Priorização de requisitos. Para o grupo ter um conhecimento maior do aplicativo e de seus usuários, foi captado o <ins>perfil de usuário</ins> por meio de um questionário e foi feito um conjunto de <ins>personas</ins> com base no perfil. Além disso, foi executado 5 técnicas para elecitar requisitos, sendo elas: <ins>Análise de Documentos, Entrevista, Instrospecção, Questionário, Storytelling</ins>. Com os requisitos coletados, foi realizado a priorização por meio de duas técnicas: <ins>Escala de três níveis</ins> e <ins>First Things First</ins>.</p>
+<p>Depois que os requisitos foram coletados e priorizados, foi realizado a modelagem dos mesmo na <ins>terceira etapa</ins> do projeto. 4 técnias foram utilizadas para realizar essa modelagem: <ins>Casos de Uso</ins>, <ins>Cenários</ins>, <ins>Léxicos</ins> e <ins>Especificação Suplementar</ins>.</p>
+<p>A <ins>quarta etapa</ins> também teve o foco na modelagem, mas utilizando técnicas mais conhecidas e utilizadas dentro do desenvolvimento ágil. O grupo realizou 3 técnicas de modelagem ágil, sendo elas: <ins>Histórias de Usuário</ins>, <ins>Product Backlog</ins> e <ins>NFR Framework</ins>.</p>
+<p>A <ins>quinta etapa</ins> foi dividida em 5.1 e 5.2. A primeira parte foi realizado a verificação dos artefatos do grupo 7 e a segunda parte foi a verificação e validação dos artefatos do próprio grupo. Com essas duas etapas, foi construído uma lista de correções que permitiram uma melhoria e evolução dos artefatos realizados durante o projeto.</p>
+<p>Por fim, a <ins>sexta etapa</ins> teve como foco a pós-rastreabilidade e foi realizado a <ins>matriz geral</ins> de rastreabilidade dos requisitos. Isso permite que qualquer um interessado pelo projeto possa ver a origem e os resultados finais dos requisitos do projeto.</p>
+<h2 id="resultados-alcancados">Resultados alcançados</h2>
+<p>O objetivo da disciplina de Requisitos foi plenamente alcançado por meio do projeto desenvolvido em grupo neste semestre. Os alunos do grupo tiveram a oportunidade de aprender e aplicar os conceitos, ferramentas e técnicas fundamentais da Engenharia de Requisitos em um projeto real, atual e colaborativo. Eles compreenderam a importância dos requisitos de software e adquiriram habilidades práticas na identificação, análise e documentação de requisitos, utilizando diversas técnicas e ferramentas relevantes para essa área. Como resultado, os alunos consolidaram seu conhecimento teórico ao vivenciar na prática a relevância dos requisitos na Engenharia de Software.</p>
+<p>Além disso, por meio da execução do projeto, o grupo conseguiu identificar possíveis melhorias no aplicativo Letterboxd e desenvolver os documentos necessários para a implementação dessas melhorias. Foi identificado que faltava funcionalidades que permitissem uma maior interação entre cinéfilos do mundo todo e com isso o grupo captou novos requisitos que atacassem esse problema. Os requisitos captados foram modelados e refinados até chegar em um protótipo final, sendo eles:</p>
+<ul>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#21-prototipo-01-sortear-filme">Sortear filme</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#22-prototipo-02-filmes-em-comum">Filmes em comum</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#23-prototipo-03-grupos-de-discussao">Grupos de discussão</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#24-prototipo-04-acompanhamento-de-series">Acompanhamento de séries</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#25-prototipo-05-tempo-de-tela">Tempo de tela</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#26-prototipo-06-emocoes">Avaliar com emoções</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#27-prototipo-07-avaliacao-e-trilha-sonora">Avaliação e Trilha Sonora</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#28-prototipo-08-traduzir-criticas">Traduzir Críticas</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#29-prototipo-09-sorteio-de-posteres">Sorteio de Pôsteres</a></li>
+<li><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#210-prototipo-10-artigos-relacionados">Artigos Relacionados</a></li>
+</ul>
+<h2 id="tecnicas-utilizadas">Técnicas utilizadas</h2>
+<table>
+<thead>
+<tr>
+<th>Etapa</th>
+<th>Artefato</th>
+<th>Técnica</th>
+<th>Autor(es)</th>
+<th>Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Planejamento</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/richPicture">Rich Picture</a></td>
+<td>Rich Pictire</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Planejamento</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/politicas/">Políticas</a></td>
+<td>Políticas</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Planejamento</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/cronograma/">Cronograma</a></td>
+<td>SCRUM</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Planejamento</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/ferramentas/">Ferramentas</a></td>
+<td>Não relacionada</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/">Análise de Documentos</a></td>
+<td>Análise de Documentos</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/entrevista/">Entrevista</a></td>
+<td>Entrevista aberta</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/introspeccao/">Introspecção</a></td>
+<td>Inquiry</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/">Justificativa das técnicas de priorização</a></td>
+<td>Não relacionada</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/">Justificativa das técnicas de Elicitação</a></td>
+<td>Não relacionada</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/">Questionário</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td>Questionário</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td>Perfil de Usuário</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfilTabela/">Perfil de Usuário</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/">Personas</a></td>
+<td>Role-Playing</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a>, <a href="https://github.com/deboracaires">Débora Caires</a> <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Elicitação</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/storytelling/">Storytelling</a></td>
+<td>Role-Playing</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Priorização</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/">Priorização</a></td>
+<td>Priorização</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Priorização</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/requisitos/">Requisitos Elicitados</a></td>
+<td>Não relacionada</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/NFRFramework/">NFR</a></td>
+<td>NFR Framework</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a> e <a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/">Casos de Uso</a></td>
+<td>UML</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/cenarios/">Cenários</a></td>
+<td>Cenários</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/">Especificação Suplementar</a></td>
+<td>FURPS+</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a>, <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/">Léxicos</a></td>
+<td>Léxico</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/">Product Backlog</a></td>
+<td>Scrum</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Modelagem</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/">Histórias de Usuário</a></td>
+<td>Scrum</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/">Acompanhamento</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/">Planejamento da Verificação</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/"> Verificação Etapa 1</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Verificação Etapa 2</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/deboracaires">Débora Caires</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/">Verificação Etapa 3</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/">Verificação Etapa 4</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/">Verificação Etapa 5</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/">Verificação Etapa 6</a></td>
+<td>Verificação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/">Comprovação Informal</a></td>
+<td>Validação</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+<tr>
+<td>Análise</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/">Prototipação</a></td>
+<td>Validação</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+<tr>
+<td>Pós rastreabilidade</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/BackwardFrom/">Backward-from</a></td>
+<td>Backward-from</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Pós rastreabilidade</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/Elos/">Elos de Rastreabilidade</a></td>
+<td>Não relacionada</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Pós rastreabilidade</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/ForwardFrom/">Forward-From</a></td>
+<td>Forward-From</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Pós rastreabilidade</td>
+<td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/P%C3%B3s%20rastreabilidade/MatrizGeral/">Matriz Geral</a></td>
+<td>Matriz Geral</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p><em>Fonte: Autoria própria, Rhuan Marques</em></p>
+<p></center></p>
+<h2 id="artefatos">Artefatos</h2>
+<p>Nessa seção, serão apresentados todos os artefatos desenvolvidos nesse projeto separados por etapa. Nas tabelas de 1 a 7 podem ser visualizados de acordo com cada etapa, quais artefatos foram desenvolvidos, por quem esse artefato foi desenvolvido e por quem ele foi revisado.</p>
+<p><strong>Etapa 1:</strong></p>
+<p><center></p>
+<p><em>Tabela 1: Artefatos desenvolvidos na etapa 1</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Github Pages</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Políticas</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Cronograma</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Rich Picture</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Ferramentas do projeto</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+</tr>
+<tr>
+<td>Apresentação da equipe</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+</tr>
+<tr>
+<td>Checklist da entrega</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+</tr>
+<tr>
+<td>App selecionado</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Etapa 2:</strong></p>
+<p><center></p>
+<p><em>Tabela 2: Artefatos desenvolvidos na etapa 2</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Questionário</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Entrevista</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a> e <a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Storytelling</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Priorização</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Análise de documentos</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Personas</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a>, <a href="https://github.com/deboracaires">Débora Moreira</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+</tr>
+<tr>
+<td>Justificativa técnicas de priorização</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+</tr>
+<tr>
+<td>Introspecção</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Justificativa técnicas de elicitação</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+</tr>
+<tr>
+<td>Perfil de usuário</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Etapa 3:</strong></p>
+<p><center></p>
+<p><em>Tabela 3: Artefatos desenvolvidos na etapa 3</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cenários</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Léxicos</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Casos de uso</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Especificação suplementar</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a> e <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Etapa 4:</strong></p>
+<p><center></p>
+<p><em>Tabela 4: Artefatos desenvolvidos na etapa 4</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Histórias de usuário</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a>, <a href="https://github.com/macieljuniormax">Maciel Júnior</a> e <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Backlogs</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>NFR framework</td>
+<td><a href="https://github.com/RhuanMr">Rhuan Marques</a> e <a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Etapa 5.1:</strong></p>
+<p><center></p>
+<p><em>Tabela 5: Artefatos desenvolvidos na etapa 5.1</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verificação e Validação Etapa 1 Grupo 7</td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 2 Grupo 7</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 3 Grupo 7</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 4 Grupo 7</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Etapa 5.2:</strong></p>
+<p><center></p>
+<p><em>Tabela 6: Artefatos desenvolvidos na etapa 5.2</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Verificação e Validação Etapa 1</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 2</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 3</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 4</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 5</td>
+<td><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Prototipação</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+<tr>
+<td>Comprovação informal</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a> e <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Etapa 6:</strong></p>
+<p><center></p>
+<p><em>Tabela 7: Artefatos desenvolvidos na etapa 6</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th>Artefato</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Backward-from</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Elos de Rastreabilidade</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Forward-From</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Matriz Geral</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td>Vídeo de apresentação</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>Verificação e Validação Etapa 6</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>Correção de artefatos</td>
+<td>Todos</td>
+<td>Todos</td>
+</tr>
+<tr>
+<td>Acompanhamento</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="verificacao-e-validacao">Verificação e Validação</h2>
+<p>A etapa de verificação e validação de requisitos é essencial para garantir a qualidade e alinhamento do trabalho realizado na engenharia de requisitos. Mesmo que se tenha cuidado ao elaborar as especificações, é comum que erros estejam presentes, e o autor pode ter dificuldade em perceber essas falhas devido a enviesamento. Por isso, contar com a avaliação de uma terceira pessoa ajuda a filtrar problemas e aprimorar a qualidade do trabalho (CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES, 2016)<a href="#ancora15">¹⁵</a></p>
+<p>Segundo Carlos Eduardo Vazquez e Guilherme Siqueira Simões (2016)<a href="#ancora15">¹⁵</a>, a verificação de requisitos envolve comparar os produtos da modelagem e especificação com modelos de referência, visando identificar não conformidades que possam ser justificadas ou corrigidas. É uma atividade interna à equipe de projeto, e é importante ressaltar que o próprio autor da especificação não deve realizar a verificação, pois sua análise pode ser enviesada.</p>
+<p>No contexto desse projeto, para a verificação de requisitos, foi utilizada a técnica de Fagan, que envolve a utilização de um checklist de erros mais comuns identificados em projetos. Essa abordagem permite comparar as especificações com modelos de referência e identificar possíveis não conformidades, garantindo que as especificações atendam aos padrões de qualidade exigidos.</p>
+<p>Já a validação de requisitos, de acordo com Carlos Eduardo Vazquez e Guilherme Siqueira Simões (2016)<a href="#ancora15">¹⁵</a>, é um trabalho que busca assegurar que todos os requisitos especificados estejam alinhados com as necessidades de negócio das partes interessadas no projeto. É fundamental garantir que a especificação defina o produto certo a ser desenvolvido, visando satisfazer o cliente.</p>
+<p>Existem várias técnicas que auxiliam na validação de requisitos, no projeto em questão foram utilizados protótipos, que foram validados com um usuário da plataforma através de uma entrevista e permitiu obter um feedback da solução proposta. Além disso, a validação informal também foi realizada, na qual uma mensagem por e-mail foi enviada à equipe da Letterboxd, solicitando uma avaliação dos artefatos criados.</p>
+<p>Na tabela 8 abaixo, estão descritos os responsáveis pela elaboração dos checklists de verificação do Grupo 7. Em seguida, na tabela 9, podemos verificar os responsáveis pelos artefatos de verificação e validação do nosso projeto (Grupo 6).</p>
+<p><center></p>
+<p><em>Tabela 8: Autores e Revisores Verificação Grupo 7</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th align="left">Artefato</th>
+<th align="center">Autor(es)</th>
+<th align="center">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/">Planejamento da Verificação</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/">Rich Picture</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/">Metodologia</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/">Cronograma</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Perfil de Usuário</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Personas</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Elicitação: BrainStorming</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Elicitação: Storytelling</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Priorização: Escala de três níveis</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Priorização: MosCow</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/">Priorização: Baseada em valor, custo e risco</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/">Cenários</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/">Léxico</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/">Casos de uso</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/">Especificação Suplementar</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/">Histórias de Usuário</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/">Backlog</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 7) - <a href="../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/">NFR Framework</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p><em>Fonte: Autoria própria, Maciel Júnior</em></p>
+<p></center></p>
+<p><center></p>
+<p><em>Tabela 9: Autores e Revisores Verificação e Validação Grupo 6</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th align="left">Artefato</th>
+<th align="center">Autor(es)</th>
+<th align="center">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/">Planejamento da Verificação</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a>, <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/">Rich Picture</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Perfil de Usuário</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Personas</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Análise de documentos</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Entrevista</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Introspecção</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Priorização</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Questionário</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/">Storytelling</a></td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/">Cenários</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/">Léxico</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/">Casos de uso</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/">Especificação Suplementar</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/">Histórias de Usuário</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/">Backlog</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/">Verificação do Grupo 7</a></td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md">Backward-From</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td align="left">Verificação (Grupo 6) - <a href="/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md">Forward-From</a></td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td align="left">Validação (Grupo 6) - <a href="/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md">Prototipação</a></td>
+<td align="center"><a href="https://github.com/macieljuniormax">Maciel Júnior</a>, <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a> e <a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a> e <a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+</tr>
+<tr>
+<td align="left">Validação (Grupo 6) - <a href="/docs/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6.md">Comprovação Informal</a></td>
+<td align="center"><a href="https://github.com/macieljuniormax">Maciel Júnior</a> e <a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p><em>Fonte: Autoria própria, Maciel Júnior</em></p>
+<p></center></p>
+<h2 id="ferramentas">Ferramentas</h2>
+<p>Nessa seção, serão apresentados todos as ferramentas usadas no projeto. Na tabela 10 podem ser visualizados de acordo com cada ferramenta, onde foi usada e a finalidade do artefato.</p>
+<p><center></p>
+<p><em>Tabela 10: Ferramentas Utilizadas</em></p>
+<p></center></p>
+<table>
+<thead>
+<tr>
+<th align="center">Ferramenta</th>
+<th>Onde Foi Usada</th>
+<th>Finalidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Github<a href="#ancora1">¹</a></td>
+<td>Em toda a documentação do projeto</td>
+<td>O GitHub fui usado como repositório de todo o projeto</td>
+</tr>
+<tr>
+<td align="center">Telegram<a href="#ancora2">²</a></td>
+<td>Usamos até 26 de Abril, quando a rede social caiu</td>
+<td>Usamos como ferramenta de comunicação</td>
+</tr>
+<tr>
+<td align="center">Teams <a href="#ancora3">³</a></td>
+<td>Nas gravações de todas as <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/">Etapas</a></td>
+<td>Usado para gravar nossas entregas</td>
+</tr>
+<tr>
+<td align="center">Miro<a href="#ancora4">⁴</a></td>
+<td>Na criação das <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Planejamento/richPicture/">Rich Pictures</a></td>
+<td>Utilizado na criação das Richpictures</td>
+</tr>
+<tr>
+<td align="center">Letterboxd<a href="#ancora5">⁵</a></td>
+<td>Ao longo de todo o projeto, como objeto de análise</td>
+<td>Aplicativo escolhido como objeto de estudo para realizar o projeto.</td>
+</tr>
+<tr>
+<td align="center">Youtube<a href="#ancora6">⁶</a></td>
+<td>No armazenamento da gravação de todas as <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/reunioes/">Etapas</a></td>
+<td>Usado para hospedarmos a gravçao de nossas entregas</td>
+</tr>
+<tr>
+<td align="center">VSCode<a href="#ancora7">⁷</a></td>
+<td>Em todo o projeto</td>
+<td>Utilizada para a escrita e formatação dos documentos markdown</td>
+</tr>
+<tr>
+<td align="center">MKDocs<a href="#ancora8">⁸</a></td>
+<td>Ao longo de todo o projeto</td>
+<td>Utilizado para gerar a documentação no Github Pages</td>
+</tr>
+<tr>
+<td align="center">Google Drive<a href="#ancora9">⁹</a></td>
+<td>Usamos para armazenar videos, atas e documentos no <a href="https://drive.google.com/drive/u/0/folders/10828BMYIjA6fXBXGcHGQHAcPdEHbGyc1">Drive</a></td>
+<td>Usamos como ferramenta de armaenamento</td>
+</tr>
+<tr>
+<td align="center">Figma <a href="#ancora10">¹¹</a></td>
+<td>Na criação da <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/">Prototipação</a></td>
+<td>Utilizada a criação dos prototipos</td>
+</tr>
+<tr>
+<td align="center">Whatsapp <a href="#ancora11">¹²</a></td>
+<td>Após o bloqueio da plataforma Telegram, migramos para o Whatsapp</td>
+<td>Usamos como ferramenta de comunicação</td>
+</tr>
+<tr>
+<td align="center">Google Forms<a href="#ancora12">¹³</a></td>
+<td>Na elicitação do <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/">perfil de usuário</a></td>
+<td>Utilizada para a criação do questionário online</td>
+</tr>
+<tr>
+<td align="center">ThisPersonDoesn'tExist<a href="#ancora13">¹⁴</a></td>
+<td>Na elicitação das <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/personas/"> personas</a></td>
+<td>Utilizada para a geração das imagens das personas</td>
+</tr>
+</tbody>
+</table>
+<p><center></p>
+<p><em>Fonte: Arthur D’Assumpção, 2023</em></p>
+<p></center></p>
+<h2 id="apresentacoes">Apresentações</h2>
+<table>
+<thead>
+<tr>
+<th>Apresentação</th>
+<th>Participantes</th>
+<th>Link do Vídeo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques</td>
+<td><a href="https://www.youtube.com/watch?v=BsANHSglTvc">Link da Apresentação 1</a></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques</td>
+<td><a href="https://www.youtube.com/watch?v=kStq8x0C3Dg">Link da Apresentação 2</a></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques</td>
+<td><a href="https://www.youtube.com/watch?v=IAKl1VXL_e4">Link da Apresentação 3</a></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques</td>
+<td><a href="https://www.youtube.com/watch?v=m3uRe1q4mlI">Link da Apresentação 4</a></td>
+</tr>
+<tr>
+<td>5.1</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares, Rhuan Marques</td>
+<td><a href="https://www.youtube.com/watch?v=YgK3oXHtTMk">Link da Apresentação 5.1</a></td>
+</tr>
+<tr>
+<td>5.2</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Gustavo Barbosa, Maciel Júnior, Natan Tavares</td>
+<td><a href="https://www.youtube.com/watch?v=FqlFZ1N5oSM">Link da Apresentação 5.2</a></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Arthur D'Assumpção, Débora Caires, Clara Ribeiro, Maciel Júnior, Natan Tavares,</td>
+<td><a href="https://www.youtube.com/watch?v=12MAALPQpCA">Link da Apresentação 6</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="facilidades-e-dificuldades">Facilidades e Dificuldades</h2>
+<h3 id="natan-santana">Natan Santana</h3>
+<p>Facilidades:</p>
+<ul>
+<li>Todo o grupo conseguiu ter um contato inicial com a engenharia de requisitos</li>
+<li>Consegui ver conteúdos que são aplicados na prática no meu estágio, agregando a minha experiência profissional</li>
+<li>Tivemos bastante contato com os usuários do aplicativo, o que nos deu uma visão muito boa do uso do app e de melhorias</li>
+</ul>
+<p>Dificuldades:</p>
+<ul>
+<li>Tivemos muita dificuldade para organizar as atividades entre os membros do grupo</li>
+<li>Difícil achar um tempo em comum com todos os grupos para se reunir</li>
+</ul>
+<h3 id="clara-marcelino">Clara Marcelino</h3>
+<p>Facilidades:</p>
+<p>Os conteúdos exibidos na disciplina abrangeram bem mais técnicas que eu havia imaginado, incluindo não só a elicitação de requisitos propriamente dita, mas também diversos contextos em que esses requisitos serão utilizados. Também gostei da disposição do professor André para o esclarecimento das dúvidas que tivemos durante todo o desenvolvimento do projeto.</p>
+<p>Dificuldades:</p>
+<p>O principal obstáculo no desenvolvimento da disciplina fomos nós mesmos. Enquanto grupo, nós não conseguimos nos organizar de forma satisfatória para ter reuniões periódicas, o que prejudicou no desenvolvimento dos artefatos, pois não nos comunicamos da melhor forma. Essa falta de comunicação nos rendeu episódios em que artefatos foram feitos em cima da hora e por isso não foram executados como deveriam e também não tiveram revisores. Além disso, também houve sobrecarga de alguns membros do grupo.</p>
+<h3 id="maciel-junior">Maciel Junior</h3>
+<p>Facilidades:</p>
+<ul>
+<li>Fiquei surpreso com a profundidade do conteúdo da disciplina, superando minhas expectativas.</li>
+<li>A dinâmica da disciplina, com entregas curtas, facilitou bastante, evitando o acúmulo de trabalho.</li>
+<li>Disponibilidade de algumas aulas para desenvolvimento do projeto, já que é um horário em que todos os membros estão presentes.</li>
+</ul>
+<p>Dificuldades:</p>
+<ul>
+<li>Tivemos dificuldades para organizar as atividades entre os membros.</li>
+<li>Infelizmente, lidamos com a procrastinação, o que resultou em algumas entregas feitas em cima da hora.</li>
+</ul>
+<h3 id="gustavo-barbosa">Gustavo Barbosa</h3>
+<p>Facilidades:</p>
+<ul>
+<li>A disciplina demonstrou o quão importante é seguir de forma rigorosa o processo de elicitação de requisitos de software </li>
+<li>Entregas graduais e incrementais permitiram ter um melhor entendimento do conteúdo</li>
+</ul>
+<p>Dificuldades:</p>
+<ul>
+<li>Dificuldade de combinar horário com os demais membros da equipe</li>
+<li>Algumas entregas foram deixadas para serem feitas em cima da hora</li>
+</ul>
+<h3 id="arthur-dassumpcao">Arthur D'Assumpção</h3>
+<p>Facilidades:</p>
+<ul>
+<li>Aplicação da matéria em meu trabalho, que resultou em uma boa entrega </li>
+<li>O grupo com certeza foi o ponto alto de tudo.</li>
+<li>O aprendizado com documentação </li>
+</ul>
+<p>Dificuldades:</p>
+<ul>
+<li>Subestimar algumas entregas</li>
+<li>Os prazos e as rotinas </li>
+<li>Horários em comum para trabalho em equipe</li>
+</ul>
+<h3 id="debora-caires">Débora Caires</h3>
+<p>Facilidades:</p>
+<ul>
+<li>A disciplina foi muito importante para o meu desenvolvimento profissional, muito se fala sobre elicitação de requisitos mas pouco é visto sobre a sua real importância. Acredito que no meu caso por ter aplicado também os conhecimentos aprendidos na disciplina em meu estágio enquanto estava cursando a disciplina foi crucial para enxergar mais ainda a importância da disciplina.</li>
+<li>A experiência em grupo nessa disciplina que tive foi incrível. Tivemos nossos altos e baixos mas sempre demos o nosso melhor para entregar tudo.</li>
+</ul>
+<p>Dificuldades:</p>
+<ul>
+<li>Acredito que por todos os membros do grupo terem atividades fora a universidade, em alguns momentos isso pesou. Mas o que realmente atrapalhou foi em alguns momentos a falta de compromisso com prazos, o que fez com que para alguns membros do grupo ficassem mais responsabilidades em alguns momentos.</li>
+</ul>
+<h2 id="referencias">Referências</h2>
+<blockquote>
+<ul>
+<li><a id="ancora1"></a>[1] GITHUB. Build software better, together. Disponível em: <a href="https://github.com">https://github.com</a>. Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora2"></a>[2] Telegram – a new era of messaging. Disponível em: <a href="https://telegram.org">https://telegram.org</a>. Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora3"></a>[3] Aplicativo de Chat Interno e Trabalho Remoto | Microsoft Teams. Disponível em: <a href="https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software">https://www.microsoft.com/pt-br/microsoft-teams/group-chat-software</a>. Acesso em: 05 julho 2023.</li>
+<li><a id="ancora4"></a>[4] MIRO. Disponível em: <a href="https://miro.com/">https://miro.com/</a>. Acesso em: 05 julho 2023.</li>
+<li><a id="ancora5"></a>[5] Letterboxd • Your life in film. Disponível em: <a href="https://letterboxd.com">https://letterboxd.com</a>. Acesso em: 05 julho 2023.</li>
+<li><a id="ancora6"></a>[6] YOUTUBE. YouTube. YouTube, 2022. Disponível em: <a href="https://www.youtube.com">https://www.youtube.com</a> Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora7"></a>[7] MICROSOFT. Visual Studio Code. Disponível em: <a href="https://code.visualstudio.com">https://code.visualstudio.com</a>. Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora8"></a>[8] MkDocs. Disponível em: <a href="https://www.mkdocs.org">https://www.mkdocs.org</a>. Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora9"></a>[9] Meet Google Drive – One place for all your files. Disponível em: <a href="https://drive.google.com/drive/">https://drive.google.com/drive/</a>. Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora10"></a>[11] FIGMA. Figma. Disponível em: <a href="https://www.figma.com/">https://www.figma.com/</a>. Acesso em: 05 julho 2023.</li>
+<li><a id="ancora11"></a>[12] Whatsapp. Disponível em: <a href="https://www.whatsapp.com/">https://www.whatsapp.com/</a>. Acesso em: 05 julho 2023.</li>
+<li><a id="ancora12"></a>[13] Google Forms. Disponível em: <a href="https://docs.google.com/forms/">https://docs.google.com/forms/</a>. Acesso em: 05 julho 2023.</li>
+<li><a id="ancora13"></a>[14] This Person Does Not Exist. Disponível em: <a href="https://thispersondoesnotexist.com/">https://thispersondoesnotexist.com/</a>. Acesso em: 05 julho. 2023.</li>
+<li><a id="ancora15"></a>[15] CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.</li>
+</ul>
+</blockquote>
+<h2 id="tabela-de-versionamento">Tabela de versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Descrição</th>
+<th align="center">Autor</th>
+<th align="center">Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">-</td>
+<td align="center"><code>1.0</code></td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">05/07/2023</td>
+<td align="center"><code>1.1</code></td>
+<td align="center">Criação o item Ferramentas</td>
+<td align="center"><a href="https://github.com/ArtAssLou">Arthur D'Assumpção</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">05/07/2023</td>
+<td align="center"><code>1.2</code></td>
+<td align="center">Adiciona item de artefatos</td>
+<td align="center"><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">05/07/2023</td>
+<td align="center"><code>1.3</code></td>
+<td align="center">Adiciona App Selecionado e Apresentações</td>
+<td align="center"><a href="https://github.com/brbsg">Gustavo Barbosa </a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">05/07/2023</td>
+<td align="center"><code>1.4</code></td>
+<td align="center">Adiciona verificação e validação</td>
+<td align="center"><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">05/07/2023</td>
+<td align="center"><code>1.5</code></td>
+<td align="center">Adiciona cronogramas</td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">10/07/2023</td>
+<td align="center"><code>1.6</code></td>
+<td align="center">Correção layout das tabelas 3, 4, 5, 6 e 7</td>
+<td align="center"><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">12/07/2023</td>
+<td align="center"><code>1.7</code></td>
+<td align="center">Facilidades e dificuldades</td>
+<td align="center"><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["content.code.copy"], "search": "../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

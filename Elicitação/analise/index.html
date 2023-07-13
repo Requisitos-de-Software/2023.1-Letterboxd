@@ -1,0 +1,1777 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../reunioes/">
+      
+      
+        <link rel="next" href="../entrevista/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Análise de Documentos - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analise-de-documentos" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Análise de Documentos
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Análise de Documentos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Análise de Documentos
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-resultados" class="md-nav__link">
+    3. Resultados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-bibliografia" class="md-nav__link">
+    4. Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tabela-de-versionamento" class="md-nav__link">
+    5. Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introducao" class="md-nav__link">
+    1. Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-metodologia" class="md-nav__link">
+    2. Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-resultados" class="md-nav__link">
+    3. Resultados
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-bibliografia" class="md-nav__link">
+    4. Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-tabela-de-versionamento" class="md-nav__link">
+    5. Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="analise-de-documentos">Análise de Documentos</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>A elicitação de requisitos é uma atividade fundamental no processo de desenvolvimento de software, que visa entender as necessidades e expectativas dos usuários e stakeholders para identificar e especificar os requisitos que o sistema deve atender. Existem diversas técnicas e metodologias para realizar essa atividade, e uma delas é a análise de documentos.</p>
+<p>A análise de documentos é uma técnica que consiste na revisão de documentos existentes para extrair informações relevantes sobre o domínio do problema e os requisitos do sistema. Esses documentos podem incluir manuais, relatórios, especificações técnicas, normas, regulamentos, entre outros.</p>
+<p>A utilização da técnica de análise de documentos para elicitação de requisitos apresenta diversas vantagens. Em primeiro lugar, ela permite que a equipe de desenvolvimento tenha uma visão mais ampla do domínio do problema, compreendendo as particularidades do contexto em que o sistema será utilizado. Além disso, a análise de documentos pode ajudar a identificar requisitos que não foram inicialmente considerados, bem como a validar requisitos já especificados.</p>
+<p>Outro benefício da análise de documentos é a possibilidade de reduzir custos e tempo na elicitação de requisitos, uma vez que muitas informações relevantes já podem estar documentadas e prontamente disponíveis. Isso pode acelerar o processo de desenvolvimento e aumentar a eficiência da equipe.</p>
+<p>Por essas razões, a análise de documentos é uma técnica amplamente utilizada para elicitação de requisitos, especialmente em projetos complexos e em que há grande quantidade de informações documentadas. Nós optamos por utilizar tanto técnicas que não precisam de interação com o usuário, como a de análise de documentos, quanto técnicas feitas em conjunto com o usuário, como entrevistas, para enriquecer o processo de elicitação de requisitos e garantir a qualidade e a completude da especificação dos requisitos.</p>
+<h2 id="2-metodologia">2. Metodologia</h2>
+<p>A fonte utilizada para a análise de documentos foi o site <a href="https://letterboxd.com/">Letterboxd</a>. O site contém uma grande quantidade de documentação, incluindo informações sobre suas funcionalidades, sua interface de usuário e seus recursos.</p>
+<p>No contexto deste artefato, nos baseamos em um documento específico encontrado no Letterboxd, que foi o FAQ de perguntas. Essa seção forneceu um conjunto abrangente de perguntas e respostas que nos auxiliaram na compreensão detalhada do funcionamento e das características do site. Dessa forma, foi possível identificar seus recursos, funcionalidades, limitações e problemas existentes. Essa análise forneceu informações valiosas sobre o que os usuários querem e precisam, bem como sobre como aprimorar ou expandir um sistema ou aplicativo.</p>
+<p>No caso do Letterboxd, a análise de documentos foi extremamente útil. O site é uma plataforma madura e estabelecida, com uma ampla base de usuários e muita documentação disponível. Isso permitiu que fossem identificadas funcionalidades importantes para os usuários, bem como opiniões e sugestões para melhorias no site. Além disso, a análise também possibilitou a identificação de recursos e funcionalidades em potencial que ainda não foram implementados no aplicativo, mas que poderiam ser valiosos para os usuários.</p>
+<p>A análise de documentos do Letterboxd permitiu obter uma compreensão mais aprofundada do que os usuários esperam e precisam de uma plataforma de avaliação e compartilhamento de filmes. A partir dessas informações, será possível desenvolver um aplicativo mais completo e satisfatório para os usuários.</p>
+<h2 id="3-resultados">3. Resultados</h2>
+<p>Os resultados obtidos com a análise de documentos foi registrada na Tabela 1, exibida abaixo, em que <em>Identificador</em> é um código para marcar que a fonte desse requisito foi a análise de documentos e o <em>Tipo</em> se refere a requisitos funcionais (RF) ou requisitos não funcionais (RNF).</p>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Requisito</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DOC01</td>
+<td>Deve ser possível registrar usuários e criar contas</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC02</td>
+<td>Deve ser possível adicionar filmes assistidos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC03</td>
+<td>Deve ser possível avaliar filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC04</td>
+<td>Deve ser possível fazer a resenha de filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC05</td>
+<td>Deve ser possível marcar filmes como favoritos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC06</td>
+<td>Deve ser possível criar listas de filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC07</td>
+<td>Deve ser possível seguir outros usuários</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC08</td>
+<td>Deve ser possível receber notificações sobre lista de filmes para assistir</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC09</td>
+<td>Deve ser possível filtrar resultados por serviço de streaming</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC10</td>
+<td>Deve ser possível que os usuários desativem suas contas</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC11</td>
+<td>Deve ser exigido que os usuários insiram sua senha ao desativar a conta</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC12</td>
+<td>Deve existir a opção de solicitar a exclusão permanente da conta e de todos os dados associados</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC13</td>
+<td>Deve ser possível a remoção de um filme da lista de assistidos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC14</td>
+<td>Deve ser possível a adição de entradas retrospectivas no diário para filmes marcados como assistidos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC15</td>
+<td>Deve ser possível a classificação de um filme como "gostei"</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC16</td>
+<td>Deve ser possível a classificação de um filme com uma nota de avaliação entre 1 e 5</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC17</td>
+<td>Deve ser possível a edição de uma entrada de diário</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC18</td>
+<td>Deve ser possível a adição de uma avaliação para um filme já registrado</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC19</td>
+<td>Deve ser exibido uma média ponderada de avaliações de filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC20</td>
+<td>Deve ser exibido a lista de filmes semelhantes a um título específico</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC21</td>
+<td>Deve ser exibido os temas e "nanogêneros" de um filme</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC22</td>
+<td>Deve ser possível que o usuário siga outros usuários</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC23</td>
+<td>Deve ser possível que o usuário veja os filmes que seus amigos adicionem</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC24</td>
+<td>Deve ser possível que o usuário veja os comentários que seus amigos façam</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC25</td>
+<td>Deve ser possível a busca por contas para seguir</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC26</td>
+<td>Deve ser possível bloquear outros membros</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC27</td>
+<td>Deve ser possível que o usuário remova comentários feitos por outros membros em seu conteúdo</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC28</td>
+<td>Deve ser possível a formatação básica de texto em avaliações, como negrito, itálico, link e citação</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC29</td>
+<td>Deve ser possível ver as avaliações do usuário em atividades de amigos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC30</td>
+<td>Para usuários Patron, deve ser possível editar os posters dos filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC31</td>
+<td>Deve ser indicado ao usuário através da cor branca que o filme ainda não foi assistido</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC32</td>
+<td>Deve ser indicado ao usuário através da cor verde que o filme foi assistido</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC33</td>
+<td>Deve ser indicado ao usuário através da cor azul que o filme está na sua lista de filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC34</td>
+<td>Deve ser possível o usuário ter uma assinatura paga Pro</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC35</td>
+<td>Deve ser possível o usuário ter uma assinatura paga Patron</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC36</td>
+<td>Permitir que o usuário presenteie outra pessoa com uma assinatura</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC37</td>
+<td>Deve ser possível a transferência de assinaturas entre contas</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC38</td>
+<td>Deve ser possível exportar todos os dados da conta do usuário, incluindo conteúdo excluído e avaliações para filmes excluídos, em um único arquivo zip de documentos CSV</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC39</td>
+<td>Deve ser possível importar filmes, classificações e listas de outros serviços por meio do formato CSV do Letterboxd</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC40</td>
+<td>Para usuários Patron ou Pro, deve ser possível fixar até duas críticas no perfil</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC41</td>
+<td>Para usuários Patron ou Pro, deve ser possível fixar até duas listas de filmes no perfil</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC42</td>
+<td>Para usuários Patron ou Pro, não deve haver nenhuma publicidade no aplicativo</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC43</td>
+<td>Para usuários Patron ou Pro, deve haver uma página de status, contando com dados quantitativos de todos os filmes assistidos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC44</td>
+<td>Para usuários Patron ou Pro, deve ser possível definir seus serviços de streaming preferidos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC45</td>
+<td>Para usuários Patron ou Pro, deve ser possível filtrar os filmes com base nos serviços de streaming definidos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC46</td>
+<td>Para usuários Patron ou Pro, deve ser enviado um e-mail quando um filme da sua lista de filmes ficar disponível em algum serviço de streaming que esteja definido</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC47</td>
+<td>Para usuários Patron ou Pro, deve ser possível filtrar o feed com base no tipo da atividade</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC48</td>
+<td>Para usuários Patron ou Pro, deve ter a opção de fixar críticas de filmes no perfil</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC49</td>
+<td>Para usuários Patron ou Pro, deve ser possível alterar o nome de usuário a cada 90 dias</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC50</td>
+<td>Deve ser possível sincronizar os dados de serviços de streamings com os dados do aplicativo (quando um filme for assistido em um desses serviços, ele será automaticamente marcado como "Assistido" no aplicativo)</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC51</td>
+<td>Deve ser possível fazer o acompanhamento de séries no aplicativo</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC52</td>
+<td>Deve ser possível avaliar os atores dos filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC53</td>
+<td>Deve ser possível avaliar o diretor dos filmes</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC54</td>
+<td>Deve ser possível reagir com uma emoção sentida no filme (chocado, frustrado, triste, reflexivo, comovido, entretido, assustado, entediado, empolgada, confusa, tensa)</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC55</td>
+<td>Deve ser possível gerar uma lista de recomendações de filmes em comum do usuário e de mais um amigo</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC56</td>
+<td>Deve ser exibido a trilha sonora de cada filme</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC57</td>
+<td>Deve ser possível que os usuários criem e participem de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC58</td>
+<td>Deve ser exibido no perfil do usuário a quantidade de filmes assistidos pelo usuário</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC59</td>
+<td>Deve ser exibido no perfil do usuário a quantidade de horas assistidas pelo usuário</td>
+<td>RF</td>
+</tr>
+<tr>
+<td>DOC61</td>
+<td>Deve garantir que o acesso à conta desativada seja impedido</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC62</td>
+<td>Deve garantir que o acesso à conta excluida seja impedido</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC63</td>
+<td>Deve garantir que os dados associados a contas desativadas sejam protegidos durante o período de desativação e exclusão permanente</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC64</td>
+<td>Deve ser enviado o link de reativação e o link de exclusão permanente imediatamente após a solicitação do usuário</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC65</td>
+<td>Deve ser garantido que a conta seja desativada, excluída permanentemente e reativada de acordo com as solicitações do usuário e sem interrupções no serviço</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC66</td>
+<td>A média ponderada de avaliações de filmes deve considerar apenas uma avaliação por usuário</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC67</td>
+<td>Deve ser atualizado automaticamente a avaliação do filme quando uma nova avaliação for adicionada</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC68</td>
+<td>Deve ser enviado um e-mail de confirmação para garantir que o endereço de e-mail associado à conta é válido</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC69</td>
+<td>Deve ter moderação para remover o conteúdo que viole a política de comunidade, sendo contra à diversidade e inclusão, com discursos de ódio e marginalização</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC70</td>
+<td>Deve ser limitado a exposição de atividades de amigos de filmes assistidos há mais de duas semanas</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC71</td>
+<td>Os dados do usuário devem ser atualizados em tempo real, sem a necessidade de atualizar a página ou fechar e abrir o aplicativo novamente</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC72</td>
+<td>O tempo de resposta do servidor deve ser rápido o suficiente para oferecer uma experiência de usuário satisfatória</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC73</td>
+<td>Deve ser mantida a privacidade das listas ou watchlists definidas como privadas, exceto para o próprio usuário</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC74</td>
+<td>Deve ser limitado o tamanho máximo do arquivo de upload para 1 MB</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC75</td>
+<td>Os dados de filmes do Letterboxd devem ser retirados do The Movie Database (TMDb), uma base de dados colaborativa de informações relacionadas a filmes</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC76</td>
+<td>Aceitar diversas opções de pagamento, como cartões de crédito, PayPal e transferências bancárias</td>
+<td>RNF</td>
+</tr>
+<tr>
+<td>DOC77</td>
+<td>Quando a assinatura expirar, todos os benefícios das contas Pro e Patron devem ser bloqueados</td>
+<td>RNF</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 1: requisitos elicitados com a análise de documentos <br/> Fonte: Autoria própria, 2023</p>
+</div>
+
+<h2 id="4-bibliografia">4. Bibliografia</h2>
+<p>CARLOS EDUARDO VAZQUEZ; GUILHERME SIQUEIRA SIMÕES. Engenharia de Requisitos. [s.l.] Brasport, 2016.</p>
+<p>Guia facetado de técnicas elicitação de requisitos. Disponível em: <a href="https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-analise-de-documentos">https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-analise-de-documentos</a>. Acesso em: 21 abr. 2023.</p>
+<p>Letterboxd Frequent questions. Disponível em: <a href="https://letterboxd.com/about/faq/">https://letterboxd.com/about/faq/</a>. Acesso em: 21 abr. 2023.</p>
+<h2 id="5-tabela-de-versionamento">5. Tabela de Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>25/04/2023</td>
+<td><code>1.0</code></td>
+<td>Elicitação por análise de documentos</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>27/06/2023</td>
+<td><code>2.0</code></td>
+<td>Adiciona o documento específico utilizado</td>
+<td><a href="https://github.com/macieljuniormax">Maciel Júnior</a></td>
+<td><a href="https://github.com/ArtAssLou">Arthur Loureiro</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

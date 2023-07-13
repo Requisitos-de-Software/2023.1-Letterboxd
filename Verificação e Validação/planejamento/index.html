@@ -1,0 +1,2658 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../etapa6/">
+      
+      
+        <link rel="next" href="../Valida%C3%A7%C3%A3o/1-comprovacao-informal/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Planejamento da Verificação - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#planejamento-da-verificacao" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Planejamento da Verificação
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/Elos/" class="md-nav__link">
+        Elos de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../P%C3%B3s%20rastreabilidade/MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Planejamento da Verificação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Planejamento da Verificação
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-1" class="md-nav__link">
+    Etapa 1
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rich-picture" class="md-nav__link">
+    Rich Picture
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-2" class="md-nav__link">
+    Etapa 2
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perfil-de-usuario" class="md-nav__link">
+    Perfil de Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personas" class="md-nav__link">
+    Personas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-de-documentos" class="md-nav__link">
+    Análise de Documentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista" class="md-nav__link">
+    Entrevista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introspeccao" class="md-nav__link">
+    Introspecção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorizacao-escala-de-tres-niveis" class="md-nav__link">
+    Priorização - Escala de Três Níveis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questionario" class="md-nav__link">
+    Questionário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storytelling" class="md-nav__link">
+    Storytelling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorizacao-first-things-first" class="md-nav__link">
+    Priorização - First Things First
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-3" class="md-nav__link">
+    Etapa 3
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    Cenários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexicos" class="md-nav__link">
+    Léxicos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso" class="md-nav__link">
+    Diagrama de Casos de Uso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especificacao-suplementar" class="md-nav__link">
+    Especificação Suplementar
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-4" class="md-nav__link">
+    Etapa 4
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    Histórias de Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog" class="md-nav__link">
+    Backlog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-framework" class="md-nav__link">
+    NFR Framework
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-5" class="md-nav__link">
+    Etapa 5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-6" class="md-nav__link">
+    Etapa 6
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backward-from" class="md-nav__link">
+    Backward-From
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forward-from" class="md-nav__link">
+    Forward-From
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    Referência bibliográfica
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-1" class="md-nav__link">
+    Etapa 1
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 1">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rich-picture" class="md-nav__link">
+    Rich Picture
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-2" class="md-nav__link">
+    Etapa 2
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 2">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#perfil-de-usuario" class="md-nav__link">
+    Perfil de Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personas" class="md-nav__link">
+    Personas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analise-de-documentos" class="md-nav__link">
+    Análise de Documentos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#entrevista" class="md-nav__link">
+    Entrevista
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introspeccao" class="md-nav__link">
+    Introspecção
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorizacao-escala-de-tres-niveis" class="md-nav__link">
+    Priorização - Escala de Três Níveis
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#questionario" class="md-nav__link">
+    Questionário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storytelling" class="md-nav__link">
+    Storytelling
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priorizacao-first-things-first" class="md-nav__link">
+    Priorização - First Things First
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-3" class="md-nav__link">
+    Etapa 3
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 3">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cenarios" class="md-nav__link">
+    Cenários
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexicos" class="md-nav__link">
+    Léxicos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagrama-de-casos-de-uso" class="md-nav__link">
+    Diagrama de Casos de Uso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#especificacao-suplementar" class="md-nav__link">
+    Especificação Suplementar
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-4" class="md-nav__link">
+    Etapa 4
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 4">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historias-de-usuario" class="md-nav__link">
+    Histórias de Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backlog" class="md-nav__link">
+    Backlog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nfr-framework" class="md-nav__link">
+    NFR Framework
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-5" class="md-nav__link">
+    Etapa 5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etapa-6" class="md-nav__link">
+    Etapa 6
+  </a>
+  
+    <nav class="md-nav" aria-label="Etapa 6">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#backward-from" class="md-nav__link">
+    Backward-From
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#forward-from" class="md-nav__link">
+    Forward-From
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    Referência bibliográfica
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="planejamento-da-verificacao">Planejamento da Verificação</h1>
+<h2 id="introducao">Introdução</h2>
+<p>O presente documento tem como objetivo realizar uma análise criteriosa dos artefatos produzidos pelo próprio grupo responsável pela avaliação do aplicativo Letterboxd, a fim de identificar possíveis áreas de aprimoramento em seu projeto. Essa verificação tem como propósito contribuir para o aperfeiçoamento da qualidade e eficiência do trabalho realizado pela equipe, sem qualquer intenção de depreciar ou menosprezar suas conquistas. Adotando uma abordagem fundamentada em conhecimentos acadêmicos, buscar-se-á uma avaliação minuciosa dos elementos apresentados, visando fornecer recomendações construtivas embasadas para a otimização do projeto.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>A metodologia de verificação de Fagan, utilizando checklist, é um processo estruturado e sistemático para identificar e corrigir erros em um produto de software. Essa abordagem é composta por diferentes fases, incluindo a preparação, reunião de verificação, correção e acompanhamento dos erros encontrados.</p>
+<p>Na fase de preparação, uma equipe é selecionada para realizar a verificação do produto. São definidos os critérios de aceitação, estabelecendo quais aspectos serão verificados e os padrões a serem seguidos. Além disso, uma checklist é elaborada, contendo uma lista de possíveis erros a serem procurados durante a verificação.</p>
+<p>A reunião de verificação é o próximo passo, no qual a equipe revisa o produto utilizando a checklist como guia. Cada item da lista é verificado individualmente, buscando identificar erros e discrepâncias em relação aos critérios estabelecidos. Durante essa fase, é importante que os participantes se concentrem na identificação de problemas e não na solução imediata.</p>
+<p>Após a reunião de verificação, a fase de correção se inicia. Os erros encontrados são registrados e comunicados à equipe responsável pelo desenvolvimento do produto. Essa equipe é encarregada de corrigir os erros e realizar as alterações necessárias para atender aos critérios de aceitação estabelecidos. É importante que haja uma comunicação clara entre a equipe de verificação e a equipe de desenvolvimento para garantir que os erros sejam corrigidos de forma eficaz.</p>
+<p>Por fim, vem a fase de acompanhamento dos erros encontrados. Nessa etapa, é verificado se as correções foram efetuadas adequadamente e se os erros foram eliminados. A equipe de verificação pode realizar uma nova revisão do produto para verificar se os problemas foram resolvidos corretamente. Caso sejam encontrados novos erros ou se as correções não forem satisfatórias, o ciclo de correção e acompanhamento pode ser repetido até que o produto atinja os critérios de qualidade estabelecidos.</p>
+<p>Em resumo, a metodologia de verificação de Fagan, utilizando checklist, consiste em uma abordagem estruturada que envolve fases de preparação, reunião de verificação, correção e acompanhamento dos erros encontrados. Esse processo contribui para a identificação e solução de problemas, garantindo a qualidade do produto de software [12].</p>
+<h2 id="etapa-1">Etapa 1</h2>
+<p>Os checklists a seguir abordam os artefatos entregues na Entrega 1, sendo eles: Rich Picture, Escolha do Aplicativo, Cronograma de Atividades e Ferramentas do Projeto.</p>
+<h3 id="rich-picture">Rich Picture</h3>
+<p>A tabela 1 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Rich Picture.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Possui palavras-chave para compreender a situação?⁴</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Possui imagens e diagramas para representar os conceitos e relacionementos?⁴</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Possui mais imagens e diagramas do que palavras?⁴</td>
+</tr>
+<tr>
+<td>4</td>
+<td>É compreensível para quem não possui conhecimento da aplicação/do problema?⁴</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui atores com legendas descritivas?⁴</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Possui operações? (Geralmente são ações que estão escritas dentro de uma elipse)⁴</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui armazenamento de dados? (também conhecido como tabelas)⁴</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Possui setas?⁴</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Possui o limite do sistema?⁴</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Os componentes possuem explicação?⁴</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Possui linguagem de fácil entendimento para todos?⁴</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 1: Checklist de verificação do artefato "Rich Picture"</p>
+</div>
+
+<h2 id="etapa-2">Etapa 2</h2>
+<p>Na etapa 2, foram desenvolvidos os seguintes artefatos: Perfil de Usuário, Personas, Análise de Documentos, Entrevista, Instrospecção, Priorização, Questionário e Storytelling. Os checklists a seguir abordam esses artefatos.</p>
+<h3 id="perfil-de-usuario">Perfil de Usuário</h3>
+<p>A Tabela 2 possui as perguntas do checklist para a verificação do artefato Perfil de Usuário. Todas elas foram retiradas da outra etapa de <a href="/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md">verificação</a> deste artefato em outra equipe.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Os dados foram obtidos por meio de pesquisas, entrevistas, observação ou análise de dados existentes?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Os usuários foram agrupados em segmentos com base em características comuns?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Foram criadas personas fictícias que representem perfis típicos de usuários, com base nas informações coletadas</td>
+</tr>
+<tr>
+<td>4</td>
+<td>As porcentagens de usuários em cada segmento foram determinadas?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 2: Checklist de verificação do artefato "Perfil de Usuário"</p>
+</div>
+
+<h3 id="personas">Personas</h3>
+<p>A Tabela 3 possui as perguntas do checklist para a verificação do artefato Personas. Todas elas também foram retiradas da outra etapa de <a href="/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md">verificação</a> deste artefato em outra equipe.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Foram identificados os objetivos e as tarefas que os usuários desejam realizar ao interagir com o sistema ou produto?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>As personas contém Nome, Idade, Gênero, Status, Objetivos, Habilidades, Relacionamentos, Requisitos e Expectativas?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Possui entre 3 a 12 personas?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Possui justificativa do número de personas?</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui uma pelo menos uma antipersona?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 3: Checklist de verificação do artefato "Personas"</p>
+</div>
+
+<h3 id="analise-de-documentos">Análise de Documentos</h3>
+<p>A Tabela 4 possui as perguntas do checklist para a verificação do artefato Análise de Documentos.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Foi feita uma análise preliminar para selecionar os documentos mais relevantes para a coleta dos requisitos?⁹</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Foram listados quais documentos foram analisados?⁹</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Foram elicitados requisitos funcionais?⁹</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Foram elicitados requisitos não funcionais?⁹</td>
+</tr>
+<tr>
+<td>5</td>
+<td>A classificação dos requisitos está correta?⁹</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 4: Checklist de verificação do artefato "Análise de Documentos"</p>
+</div>
+
+<h3 id="entrevista">Entrevista</h3>
+<p>A Tabela 5 possui as perguntas do checklist para a verificação do artefato Entrevista.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Foi utilizada alguma metodologia para o planejamento da entrevista?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Foi apresentado um roteiro para a entrevista?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Foi aplicado um termo de consentimento, para o devido uso das informações coletadas, aos entrevistados?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Foi realizado algum teste piloto?</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Os entrevistados eram usuários da plataforma em estudo?</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Foram escritos resumos das entrevistas?</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Os requisitos elicitados foram documentados?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 5: Checklist de verificação do artefato "Entrevista". Fonte: Débora, 2023</p>
+</div>
+
+<h3 id="introspeccao">Introspecção</h3>
+<p>A Tabela 6 possui as perguntas do checklist para a verificação do artefato Introspecção.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Foram levantados comportamentos esperados do aplicativo?¹⁰</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cada comportamento esperado possui um cenário de utilização completo?¹⁰</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Foram elicitados requisitos funcionais?¹⁰</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Foram elicitados requisitos não funcionais?¹⁰</td>
+</tr>
+<tr>
+<td>5</td>
+<td>A classificação dos requisitos está correta?¹⁰</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 6: Checklist de verificação do artefato "Introspecção"</p>
+</div>
+
+<h3 id="priorizacao-escala-de-tres-niveis">Priorização - Escala de Três Níveis</h3>
+<p>A Tabela 7 possui as perguntas do checklist para a verificação do artefato Priorização - Escala de Três Níveis. Todas elas também foram retiradas da outra etapa de <a href="/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md">verificação</a> deste artefato em outra equipe.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A priorização levou em consideração os critérios importância e urgência?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Os níveis de priorização foram divididos em Alta, Média e Baixa?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>O modelo de quadrante utilizado para classificar os requisitos foi visualmente intuitivo e facilmente compreensível para os stakeholders?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>As dependências entre requisitos foram consideradas no processo de ranqueamento e priorização, garantindo que requisitos dependentes tenham prioridades consistentes?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 7: Checklist de verificação do artefato "Priorização - Escala de Três Níveis"</p>
+</div>
+
+<h3 id="questionario">Questionário</h3>
+<p>A Tabela 8 possui as perguntas do checklist para a verificação do artefato Questionário.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Foi aplicado um termo de consentimento?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Foram aplicadas perguntas referente ao uso da plataforma?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Foram aplicadas perguntas referentes a quais recursos os usuários utilizam?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Foram elicitados requisitos funcionais e não funcionais?</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Os resultados do questionário foram devidamente documentados?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 8: Checklist de verificação do artefato "Questionário"</p>
+</div>
+
+<h3 id="storytelling">Storytelling</h3>
+<p>A Tabela 9 possui as perguntas do checklist para a verificação do artefato Storytelling. Todas elas também foram retiradas da outra etapa de <a href="/docs/Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2.md">verificação</a> deste artefato em outra equipe.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Os registros da atividade de priorização dos requisitos foram adequadamente documentados?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>As histórias conseguem comunicar claramente a visão e as necessidades dos usuários para os membros da equipe de desenvolvimento?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>O Storytelling incorpora elementos emocionais e contextuais para criar empatia e compreensão dos usuários e suas necessidades?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>O Storytelling aborda as restrições e limitações do sistema, fornecendo informações importantes para a equipe de desenvolvimento considerar durante a implementação?</td>
+</tr>
+<tr>
+<td>5</td>
+<td>As histórias do Storytelling foram validadas e verificadas por meio de revisões e feedback dos stakeholders relevantes para garantir sua precisão e adequação?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 9: Checklist de verificação do artefato "Storytelling"</p>
+</div>
+
+<h3 id="priorizacao-first-things-first">Priorização - First Things First</h3>
+<p>A Tabela 10 possui as perguntas do checklist para a verificação do artefato Priorização - First Things First.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A técnica foi aplicada em conjunto com um usuário real da plataforma? ¹¹</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Foram utilizados requisitos funcionais e não funcionais?¹¹</td>
+</tr>
+<tr>
+<td>3</td>
+<td>O benefício relativo foi estimado?¹¹</td>
+</tr>
+<tr>
+<td>4</td>
+<td>A penalidade relativa foi estimada?¹¹</td>
+</tr>
+<tr>
+<td>5</td>
+<td>O resultado foi devidamente documentado? ¹¹</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 10: Checklist de verificação do artefato "Priorização - First Things First"</p>
+</div>
+
+<h2 id="etapa-3">Etapa 3</h2>
+<p>Os checklists a seguir abordam os artefatos entregues na Entrega 3, sendo eles: Cenários, Léxicos, Diagrama de Casos de Uso e Especificação Suplementar.</p>
+<h3 id="cenarios">Cenários</h3>
+<p>A tabela 11 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Cenários.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Os cenários possuem título?⁸</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Os cenários possuem metas/objetivos?⁸</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os cenários possuem contexto?⁸</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Os cenários possuem atores?⁸</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Os cenários possuem recursos?⁸</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Os cenários possuem exceção?⁸</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Os cenários possuem episódios?⁸</td>
+</tr>
+<tr>
+<td>8</td>
+<td>O título do cenário é de fácil compreensão?⁶</td>
+</tr>
+<tr>
+<td>9</td>
+<td>As situações descritas são relevantes para o uso do sistema?⁶</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Os léxicos estão presentes nos cenários?⁶</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 11: Checklist de verificação do artefato "Cenários"</p>
+</div>
+
+<h3 id="lexicos">Léxicos</h3>
+<p>A tabela 12 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Léxicos.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Os símbolos possuem noção (o significado so símbolo)?⁸</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Os símbolos possuem impacto (o efeito do símbolo na aplicação)?⁸</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os símbolos possuem sinônimos?⁸</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Os símbolos possuem tipo (verbo/objeto/estado)?⁸</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 12: Checklist de verificação do artefato "Léxicos"</p>
+</div>
+
+<h3 id="diagrama-de-casos-de-uso">Diagrama de Casos de Uso</h3>
+<p>A tabela 13 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Diagrama de Casos de Uso.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Utiliza verbos no infinitivo?⁷</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Possui um fluxo principal?⁵</td>
+</tr>
+<tr>
+<td>3</td>
+<td>O fluxo principal representa o modo “default”/padrão que o ator irá usar a funcionalidade?⁵</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Possui fluxo alternativo, quando aplicável?⁵</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui fluxo de excessão, quando aplicável?⁵</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Há relacionamentos extend e include?⁵</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui atores?⁷</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Possui sistemas?⁷</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Possui metas?⁷</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Possui as atividades e variantes usadas para atingir as metas?⁷</td>
+</tr>
+<tr>
+<td>11</td>
+<td>O ator principal está ao lado esquerdo do sistema?⁷</td>
+</tr>
+<tr>
+<td>12</td>
+<td>O usuário está fora das fronteiras da aplicação?⁷</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Os casos especificados são de requisitos funcionais?⁷</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Os casos de uso são representados com um formato oval na horizontal e representa os diferentes usos que um usuários pode ter?⁷</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 13: Checklist de verificação do artefato "Diagrama de Casos de Uso"</p>
+</div>
+
+<h3 id="especificacao-suplementar">Especificação Suplementar</h3>
+<p>A tabela 14 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Especificação Suplementar.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>O modelo adotado na especificação é o FURPS?⁵</td>
+</tr>
+<tr>
+<td>2</td>
+<td>É possível testar os requisitos analisados?⁵</td>
+</tr>
+<tr>
+<td>3</td>
+<td>A especificação explicita a funcionalidade do requisito?⁵</td>
+</tr>
+<tr>
+<td>4</td>
+<td>A especificação explicita a usabilidade do requisito?⁵</td>
+</tr>
+<tr>
+<td>5</td>
+<td>A especificação explicita a confiabilidade do requisito?⁵</td>
+</tr>
+<tr>
+<td>6</td>
+<td>A especificação explicita a performance do requisito?⁵</td>
+</tr>
+<tr>
+<td>7</td>
+<td>A especificação explicita a suportabilidade do requisito?⁵</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 14: Checklist de verificação do artefato "Especificação Suplementar"</p>
+</div>
+
+<h2 id="etapa-4">Etapa 4</h2>
+<p>Os seguintes checklists de verificação foi retirada do planejamento da verificação dos artefatos do Grupo 7, o qual pode ser acessado por este <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/">link</a>, e adaptado a fim de conter perguntas que refletem às metodologias utilizadas na criação dos artefatos do aplicativo Letterboxd. O avaliador responsável por esta adaptação é o Natan Tavares Santana e os resultados da execução da verificação de acordo com esse checklist pode ser verificada nesse <a href="../etapa4/">link</a>.</p>
+<h3 id="historias-de-usuario">Histórias de Usuário</h3>
+<p>A tabela 15 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Histórias de Usuário.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>As histórias de usuário seguem o padrão de voz de usuário?²</td>
+</tr>
+<tr>
+<td>2</td>
+<td>As histórias de usuário estão escritas em primeira pessoa de acordo com o modelo de voz do usuário?²</td>
+</tr>
+<tr>
+<td>3</td>
+<td>As histórias de usuário possui o papel (quem) de acordo com o modelo de voz de usuário?²</td>
+</tr>
+<tr>
+<td>4</td>
+<td>As histórias de usuário possui a ação (o que) de acordo com o modelo de voz de usuário?²</td>
+</tr>
+<tr>
+<td>5</td>
+<td>As histórias de usuário possui o resultado da ação ou o valor de negócio (porque) de acordo com o modelo de voz de usuário?²</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Nas história de usuário, o papel representa quem se beneficiará da funcionalidade, e não quem está solicitando a funcionalidade?²</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Nas histórias de usuário, é usado um termo representando o perfil em vez do termo genérico "usuário"?²</td>
+</tr>
+<tr>
+<td>8</td>
+<td>É explicado o papel dos stakeholders quanto a criação e/ou validação das histórias de usuário? (autoria pŕopria)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>As histórias de usuário possuem critérios de aceitação os quais permitem que elas sejam testáveis?²</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 15: Checklist de verificação do artefato "Histórias de Usuário" (Fonte: Natan,2023)</p>
+</div>
+
+<h3 id="backlog">Backlog</h3>
+<p>A tabela 16 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de Backlog.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>Foi usado uma metodologia para a construção do backlog?³</td>
+</tr>
+<tr>
+<td>11</td>
+<td>O backlog possui épicos e temas bem definidos e descritos?³</td>
+</tr>
+<tr>
+<td>12</td>
+<td>O PO participou da construção e/ou da validação do backlog?³</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Foi documentado se o PO pediu alguma mudança no backlog?³</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 16: Checklist de verificação do artefato "Backlog" (Fonte: Natan,2023)</p>
+</div>
+
+<h3 id="nfr-framework">NFR Framework</h3>
+<p>A tabela 17 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação do artefato de NFR Framework.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>14</td>
+<td>Os softgoals NFR representam requisitos não-funcionais?¹</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Os softgoals de operacionalização representam soluções de implementação para satisfazer softgoals NFR ou outros softgoals de operacionalização?¹</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Os softgoal de afirmação fornecem as razões para as decisões de desenvolvimento?¹</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Os softgoals NFR possuem um tipo e pode possuir um ou mais tópicos?¹</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Os tipos de contribuição seguem as definições apresentada na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados"?¹</td>
+</tr>
+<tr>
+<td>19</td>
+<td>Os impactos foram corretamente propagados?³</td>
+</tr>
+<tr>
+<td>20</td>
+<td>Foi construído cartões de especificação de acordo com o modelo apresentado na dissertação "NFR4ES: Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados" ou de alguma outra referência?¹</td>
+</tr>
+<tr>
+<td>21</td>
+<td>Os diagramas documentados estão legíveis? (autoria própria)</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 17: Checklist de verificação do artefato "NFR Framework" (Fonte: Natan,2023)</p>
+</div>
+
+<h2 id="etapa-5">Etapa 5</h2>
+<p>A tabela 18 a seguir possui as perguntas do checklist que será utilizado para fazer a verificação da Etapa 5.</p>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>As etapas possuem uma introdução mostrando oque será avaliado?</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Todas as etapas possuem Referência bibliográfica?</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Todos os artefatos possuem checklist?</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cada uma das perguntas possuem referência bibliográfica?</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Os documentos descrevem a metodologia utilizada?</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Há um resumo explicando os principais pontos de melhoria dos artefatos?</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Cada verificação possui uma análise simples de dados?</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Possuem tabela de versionamento?</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Todas as Etapas foram verificadas?</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 18: Checklist de verificação do artefato "NFR Framework" (Fonte: Gustavo,2023)</p>
+</div>
+
+<h2 id="etapa-6">Etapa 6</h2>
+<p>Nas tabelas 19 e 20 a seguir estão as perguntas do checklist que será utilizado para fazer a verificação da Etapa 6.</p>
+<h3 id="backward-from">Backward-From</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A rastreabilidade backward-from liga os requisitos elicitados às suas fontes¹³.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Cada artefato está claramente identificado¹³.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os artefatos estão alinhados com os requisitos correspondentes².</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Os links entre requisitos e artefatos estão corretamente estabelecidos².</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 19: Checklist de verificação do artefato "Backward-From"</p>
+</div>
+
+<h3 id="forward-from">Forward-From</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Pergunta</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A rastreabilidade forward-from liga requisitos a artefatos de desenho e implementação¹³.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Todos os artefatos relevantes estão listados na matriz, como protótipos, léxicos e cenários¹³.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Cada artefato está claramente identificado¹³.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Os artefatos estão alinhados com os requisitos correspondentes¹⁴.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Os links entre requisitos e artefatos estão corretamente estabelecidos¹⁴.</td>
+</tr>
+</tbody>
+</table>
+<div style="text-align: center">
+<p>Tabela 20: Checklist de verificação do artefato "Forward-From"</p>
+</div>
+
+<h2 id="referencia-bibliografica">Referência bibliográfica</h2>
+<blockquote>
+<ul>
+<li>[1] SILVA, Reinaldo Antônio da. NFR4ES:Um Catálogo de Requisitos Não-Funcionais para Sistemas Embarcados. Recife, 2019. Disponível em: <a href="https://repositorio.ufpe.br/handle/123456789/34150#:~:text=Neste%20trabalho%20foi%20desenvolvido%20um,n%C3%A3o%2Dfuncionais%20em%20sistemas%20embarcados./">https://repositorio.ufpe.br/handle/123456789/34150#:~:text=Neste%20trabalho%20foi%20desenvolvido%20um,n%C3%A3o%2Dfuncionais%20em%20sistemas%20embarcados./</a> Lido em: 12 jun. 2023.</li>
+<li>[2] REINEHR, Sheila. Engenharia de Requisitos. Porto Alegre: Sagah, 2020. Lido em: 12 jun. 2023.</li>
+<li>[3] SALES, André Barros. Plano de ensino da disciplina. Disponível em: <a href="https://aprender3.unb.br">https://aprender3.unb.br</a>. Acesso em: 16 de junho de 2023.</li>
+<li>[4] Introducing Rich Pictures - Rich Picture Drawing Guidelines. Disponível em: <a href="https://aprender3.unb.br/">https://aprender3.unb.br/</a>. Acessado em: 16 de junho de 2023</li>
+<li>[5] “Requisitos – Aula 11”, Milene Serrano e Maurício Serrano. Disponível em: <a href="https://aprender3.unb.br/">https://aprender3.unb.br/</a> Acesso em: 16 de junho de 2023.</li>
+<li>[6] Leite, J.C.S.d.P., Rossi, G., Balaguer, F. et al. Enhancing a requirements baseline with scenarios. Requirements Eng 2, 44–53 (1997)</li>
+<li>[7] Diagrama de caso de uso UML: O que é, como fazer e exemplos. Disponível em: <a href="https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml">https://www.lucidchart.com/pages/pt/diagrama-de-caso-de-uso-uml</a>.</li>
+<li>[8] “Requisitos – Aula 10”, Milene Serrano e Maurício Serrano. Disponível em: <a href="https://aprender3.unb.br/">https://aprender3.unb.br/</a> Acesso em: 16 de junho de 2023.</li>
+<li>[9] ANÁLISE DE DOCUMENTOS. In: RETRAINING - Guia de Engenharia de Requisitos. [S.l.], [s.d.]. Disponível em: https://retraining.inf.ufsc.br/guia/app/classificacoes/tecnicas-de-elicitacao-de-requisitos/entidades/tecnicas-de-elicitacao-de-requisitos-analise-de-documentos. Acesso em: 21 jun. 2023.</li>
+<li>[10] SERRANO, Maurício; SERRANO, Milene; Requisitos - Aula 07. Disponível em: Aprender3. Acesso em: 21 de junho de 2023.</li>
+<li>[11] WIEGERS Karl E. First Things First: Prioritizing Requirements. Setembro de 1999. Disponível em https://www.processimpact.com/articles/prioritizing.pdf. Acesso em 21 de junho de 2023.</li>
+<li>[12] Gerência e Qualidade de Software - Aula 06 - Técnica de revisão, Fábio Levy Siqueira. Disponível em: https://www.youtube.com/watch?v=nA1BVDd9GUE- Acesso em 12/06/2023</li>
+<li>[13] SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: https://www-di.inf.puc-rio.br/~julio/rastre.pdf. Acesso em: 03 de julho de 2023.</li>
+<li>[14] POHL, Klaus; RUPP, Chris. Requirements Engineering Fundamental. Acesso em: 03 de julho de 2023.</li>
+</ul>
+</blockquote>
+<h2 id="tabela-de-versionamento">Tabela de Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16/06/2023</td>
+<td><code>1.0</code></td>
+<td>Criação do esqueleto do arquivo</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>16/06/2023</td>
+<td><code>2.0</code></td>
+<td>Adição do planejamento da verificação da etapa 4</td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>18/06/2023</td>
+<td><code>3.0</code></td>
+<td>Adição do planejamento da verificação da etapa 1 e 3</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+<tr>
+<td>21/06/2023</td>
+<td><code>3.0</code></td>
+<td>Adição do planejamento da verificação da etapa 2</td>
+<td><a href="https://github.com/deboracaires">Débora Moreira</a></td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+</tr>
+<tr>
+<td>03/07/2023</td>
+<td><code>4.0</code></td>
+<td>Adição do planejamento da verificação da etapa 6</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>

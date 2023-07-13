@@ -1,0 +1,2077 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../BackwardFrom/">
+      
+      
+        <link rel="next" href="../ForwardFrom/">
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.18">
+    
+    
+      
+        <title>Elos de Rastreabilidade - Requisitos - Letterboxd</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.26e3688c.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ecc896b0.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#elos-de-rastreabilidade" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-header__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Requisitos - Letterboxd
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Elos de Rastreabilidade
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Requisitos - Letterboxd" class="md-nav__button md-logo" aria-label="Requisitos - Letterboxd" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Requisitos - Letterboxd
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Introdução
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cronogramaExecutado/" class="md-nav__link">
+        Cronograma Executado
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entregaFinal/" class="md-nav__link">
+        Entrega Final
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../politicas/" class="md-nav__link">
+        Políticas
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../reunioes/" class="md-nav__link">
+        Reuniões e Apresentações
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/analise/" class="md-nav__link">
+        Análise de Documentos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/entrevista/" class="md-nav__link">
+        Entrevista
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/justificativa_%20priorizacao/" class="md-nav__link">
+        Justificativa das técnicas de priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/justificativa_elecita%C3%A7%C3%A3o/" class="md-nav__link">
+        Justificativa das técnicas de Elicitação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/perfil/" class="md-nav__link">
+        Questionário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/perfilTabela/" class="md-nav__link">
+        Perfil de Usuário
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Elicita%C3%A7%C3%A3o/storytelling/" class="md-nav__link">
+        Storytelling
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/NFRFramework/" class="md-nav__link">
+        NFR Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/casoUso/" class="md-nav__link">
+        Casos de Uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/cenarios/" class="md-nav__link">
+        Cenários
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/espSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/lexicos/" class="md-nav__link">
+        Léxicos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7_6" id="__nav_7_6_label" tabindex="0">
+          Metodologias Ageis
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_6">
+          <span class="md-nav__icon md-icon"></span>
+          Metodologias Ageis
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/backlog/" class="md-nav__link">
+        Product Backlog
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Modelagem/Metodologias%20Ageis/historiaUsuario/" class="md-nav__link">
+        Histórias de Usuários
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+          Planejamento
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          Planejamento
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/app/" class="md-nav__link">
+        App do projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/cronograma/" class="md-nav__link">
+        Cronograma de atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/ferramentas/" class="md-nav__link">
+        Ferramentas do Projeto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Planejamento/richPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/priorizacao/" class="md-nav__link">
+        Priorização
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Prioriza%C3%A7%C3%A3o/requisitos/" class="md-nav__link">
+        Requisitos Elicitados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+          Pós rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          Pós rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../BackwardFrom/" class="md-nav__link">
+        Backward-from
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Elos de Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Elos de Rastreabilidade
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-1" class="md-nav__link">
+    Elo de Rastreabilidade 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-2" class="md-nav__link">
+    Elo de Rastreabilidade 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-3" class="md-nav__link">
+    Elo de Rastreabilidade 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-4" class="md-nav__link">
+    Elo de Rastreabilidade 4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-5" class="md-nav__link">
+    Elo de Rastreabilidade 5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-6" class="md-nav__link">
+    Elo de Rastreabilidade 6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-7" class="md-nav__link">
+    Elo de Rastreabilidade 7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-8" class="md-nav__link">
+    Elo de Rastreabilidade 8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-9" class="md-nav__link">
+    Elo de Rastreabilidade 9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-10" class="md-nav__link">
+    Elo de Rastreabilidade 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-11" class="md-nav__link">
+    Elo de Rastreabilidade 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-12" class="md-nav__link">
+    Elo de Rastreabilidade 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-13" class="md-nav__link">
+    Elo de Rastreabilidade 13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-14" class="md-nav__link">
+    Elo de Rastreabilidade 14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-15" class="md-nav__link">
+    Elo de Rastreabilidade 15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-16" class="md-nav__link">
+    Elo de Rastreabilidade 16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-17" class="md-nav__link">
+    Elo de Rastreabilidade 17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-18" class="md-nav__link">
+    Elo de Rastreabilidade 18
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ForwardFrom/" class="md-nav__link">
+        Forward-From
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../MatrizGeral/" class="md-nav__link">
+        Matriz Geral
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="0">
+          Verificação Grupo 7
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação Grupo 7
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/execucaoEtapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20Grupo%207/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="0">
+          Verificação e Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          Verificação e Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/acompanhamento/" class="md-nav__link">
+        Acompanhamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa1/" class="md-nav__link">
+        Verificação Etapa 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa2/" class="md-nav__link">
+        Verificação Etapa 2
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa3/" class="md-nav__link">
+        Verificação Etapa 3
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa4/" class="md-nav__link">
+        Verificação Etapa 4
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa5/" class="md-nav__link">
+        Verificação Etapa 5
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/etapa6/" class="md-nav__link">
+        Verificação Etapa 6
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/planejamento/" class="md-nav__link">
+        Planejamento da Verificação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12_9" id="__nav_12_9_label" tabindex="0">
+          Validação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_12_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_12_9">
+          <span class="md-nav__icon md-icon"></span>
+          Validação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/1-comprovacao-informal/" class="md-nav__link">
+        Comprovação Informal
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/" class="md-nav__link">
+        Prototipação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav" aria-label="Metodologia">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-1" class="md-nav__link">
+    Elo de Rastreabilidade 1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-2" class="md-nav__link">
+    Elo de Rastreabilidade 2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-3" class="md-nav__link">
+    Elo de Rastreabilidade 3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-4" class="md-nav__link">
+    Elo de Rastreabilidade 4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-5" class="md-nav__link">
+    Elo de Rastreabilidade 5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-6" class="md-nav__link">
+    Elo de Rastreabilidade 6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-7" class="md-nav__link">
+    Elo de Rastreabilidade 7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-8" class="md-nav__link">
+    Elo de Rastreabilidade 8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-9" class="md-nav__link">
+    Elo de Rastreabilidade 9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-10" class="md-nav__link">
+    Elo de Rastreabilidade 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-11" class="md-nav__link">
+    Elo de Rastreabilidade 11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-12" class="md-nav__link">
+    Elo de Rastreabilidade 12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-13" class="md-nav__link">
+    Elo de Rastreabilidade 13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-14" class="md-nav__link">
+    Elo de Rastreabilidade 14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-15" class="md-nav__link">
+    Elo de Rastreabilidade 15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-16" class="md-nav__link">
+    Elo de Rastreabilidade 16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-17" class="md-nav__link">
+    Elo de Rastreabilidade 17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo-de-rastreabilidade-18" class="md-nav__link">
+    Elo de Rastreabilidade 18
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bibliografia" class="md-nav__link">
+    Bibliografia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-versionamento" class="md-nav__link">
+    Tabela de Versionamento
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="elos-de-rastreabilidade">Elos de Rastreabilidade</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Os elos de rastreabilidade, também conhecidos como links de rastreabilidade, são as conexões ou relações estabelecidas entre os artefatos e os requisitos de um sistema. Esses elos fornecem um meio de rastrear a interdependência entre os elementos do projeto, permitindo compreender como os requisitos são implementados, testados e validados ao longo do ciclo de vida do sistema. Nessa página serão exibidos os elos de rastreabilidade do nosso projeto.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>O meta-modelo utilizado como base para a realização dos elos classifica as informações rastreadas em quatro categorias: ambiental, organizacional, gerencial e desenvolvimento (TORANZO, 2002). Para a realização desse projeto da disciplina de requisitos, todas as informações rastreadas pertencem à categoria de desenvolvimento.</p>
+<p>Neste meta-modelo, o suporte à rastreabilidade identifica os seguintes tipos:</p>
+<ul>
+<li>satisfação: indica que a classe de origem tem dependência de satisfação com classe de destino;</li>
+<li>recurso: indica que a classe de origem tem dependência de recurso com classe de destino;</li>
+<li>responsabilidade: registra a participação, responsabilidade e ação de pessoas sobre artefatos (no caso do nosso projeto, não se aplica);</li>
+<li>representação: captura a representação ou modelagem dos requisitos em outras linguagens;</li>
+<li>alocado: classe de origem está relacionada à classe de destino, que representa um subsistema;</li>
+<li>agregação: indica composição de elementos.</li>
+</ul>
+<p>Os elos de rastreabilidade foram aplicados apenas nos requisitos não implementados pelo aplicativo Letterboxd, estando a maioria prototipados.</p>
+<h3 id="elo-de-rastreabilidade-1">Elo de Rastreabilidade 1</h3>
+<details>
+  <summary>Requisito: Encontrar filmes em comum na "watchlist" de dois ou mais usuários, exclusivos para usuários "Pro"</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+      <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST08</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc12_1">Casos de Uso 12</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#35-suportabilidade-supportability">Especificação Suplementar S04</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#35-suportabilidade-supportability">Especificação Suplementar S05</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us01-encontrar-filmes-em-comum-na-watchlist-de-usuarios-pro">História de Usuário US01</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#22-prototipo-02-filmes-em-comum">Protótipo 02</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#31-tema-1-watchlist">Tema: Watchlist</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-2-watchlist">Léxico 2</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-2">Elo de Rastreabilidade 2</h3>
+<details>
+  <summary>Requisito: Sortear filme da watchlist</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+      <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST13</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc13_1">Casos de Uso 13</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us07-sortear-filme-da-watchlist">História de Usuários 07</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#21-prototipo-01-sortear-filme">Protótipo 01</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#31-tema-1-watchlist">Tema: Watchlist</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-2-watchlist">Léxico 2</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-3">Elo de Rastreabilidade 3</h3>
+<details>
+  <summary>Requisito: Mandar mensagens para outros usuários</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+      <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST06</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us06-enviar-mensagens-para-outros-usuarios">História de Usuários US06</a></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#32-tema-2-interacao-social">Tema: Interação Social</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-8-followers">Léxico 8</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-4">Elo de Rastreabilidade 4</h3>
+<details>
+  <summary>Requisito: Deve ser possível que os usuários criem e participem de grupos de discussão sobre temas específicos, como gêneros cinematográficos, diretores e filmes clássicos</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+      <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/#3-resultados" target='_blank'>DOC57</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us09-criar-e-participar-de-grupos-de-discussao">História de Usuários US09</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#23-prototipo-03-grupos-de-discussao">Protótipo 03</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#32-tema-2-interacao-social">Tema: Interação Social</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td>-</td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-5">Elo de Rastreabilidade 5</h3>
+<details>
+  <summary>Requisito: Comentar críticas feitas por outros usuários</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+      <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST02</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us05-sorteios-de-posteres-assinados-por-elenco-de-filmes-recentes-para-usuarios-pro">História de Usuários US18</a></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#32-tema-2-interacao-social">Tema: Interação Social</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-6-comment">Léxico 6</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-6">Elo de Rastreabilidade 6</h3>
+<details>
+  <summary>Requisito: Sorteios de pôsteres assinados por elenco de filmes recentes, exclusivo para usuários "Pro"</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST09</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us05-sorteios-de-posteres-assinados-por-elenco-de-filmes-recentes-para-usuarios-pro">História de Usuários 05</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#29-prototipo-09-sorteio-de-posteres">Protótipo 09</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#32-tema-2-interacao-social">Tema: Interação Social</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td>-</td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-7">Elo de Rastreabilidade 7</h3>
+<details>
+  <summary>Requisito: Sugestão de amigos de acordo com gostos em comum, exclusivo para usuários "Pro"</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST07</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us02-sugestao-de-amigos-com-gostos-em-comum-para-usuarios-pro">História de Usuários 02</a></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#32-tema-2-interacao-social">Tema: Interação Social</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-8-followers">Léxico 8</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-8">Elo de Rastreabilidade 8</h3>
+<details>
+  <summary>Requisito: Aba "Perto de você" que mostre as críticas de usuários na região a fim de facilitar a busca por amigos </summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/entrevista/" target='_blank'>ENT01</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us17-aba-perto-de-voce-para-facilitar-a-busca-por-amigos-com-base-em-criticas-de-usuarios-locais">História de Usuários US17</a></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#32-tema-2-interacao-social">Tema: Interação Social</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-8-followers">Léxico 8</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-9">Elo de Rastreabilidade 9</h3>
+<details>
+  <summary>Requisito: Colocar artigos relacionados na tela de detalhes do filme</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST11</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc11">Casos de Uso 11</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us03-adicionar-artigos-relacionados-a-tela-de-detalhes-do-filme"> </a>História de Usuários US03 </a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#210-prototipo-10-artigos-relacionados">Protótipo 10</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#33-tema-3-midias">Tema: Mídias</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-3-review">Léxico 3</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-10">Elo de Rastreabilidade 10</h3>
+<details>
+  <summary>Requisito:  Deve ser possível reagir com uma emoção sentida no filme</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/#3-resultados" target='_blank'>DOC54</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us04-reagir-com-diferentes-emocoes-aos-filmes">História de Usuários US04</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#26-prototipo-06-emocoes">Protótipo 06</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#33-tema-3-midias">Tema: Mídias</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-15-rate">Léxico 15</a>td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-11">Elo de Rastreabilidade 11</h3>
+<details>
+  <summary>Requisito: Deve ser possível fazer o acompanhamento de séries no aplicativo</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/#3-resultados" target='_blank'>DOC51</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us11-possibilidade-de-fazer-o-acompanhamento-de-series-no-aplicativo
+      ">História de Usuários US11</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#24-prototipo-04-acompanhamento-de-series">Protótipo 04</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#33-tema-3-midias">Tema: Mídias</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-5-watched">Léxico 5</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-12">Elo de Rastreabilidade 12</h3>
+<details>
+  <summary>Requisito: Adicionar categorias para filmes, séries e animes</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST04</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us12-adicionar-categorias-para-filmes-series-e-animes">História de Usuários US12</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#24-prototipo-04-acompanhamento-de-series">Protótipo 04</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#33-tema-3-midias">Tema: Mídias</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-5-watched">Léxico 5</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-13">Elo de Rastreabilidade 13</h3>
+<details>
+  <summary>Requisito: Refatorar a criação de listas para diminuir a quantidade de cliques necessária e ficar mais intuitiva</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+      <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST12</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc04_1">Casos de Uso 04</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc10_1">NFR Usabilidade</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#31-funcionalidade-functionality">Especificação Suplementar U08</a><br/> <a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#31-funcionalidade-functionality">Especificação Suplementar U03</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#33-confiabilidade-reliability">Especificação Suplementar C07</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#35-suportabilidade-supportability">Especificação Suplementar S07</a><br/></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us16-refatoracao-da-criacao-de-listas-para-maior-intuitividade-e-reducao-de-cliques">História de Usuários US16</a><br/></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#34-tema-4-registro-de-filmes">Tema: Registro de filmes</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-7-list">Léxico 7</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-14">Elo de Rastreabilidade 14</h3>
+<details>
+  <summary>Requisito: Notificar usuários sobre artigos de filmes que estiverem em suas listas</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/perfil/" target='_blank'>QST10</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc14_1">Casos de Uso 14</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us19-notificacoes-de-artigos-de-filmes-nas-listas-dos-usuarios">História de Usuários US19</a></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#34-tema-4-registro-de-filmes">Tema: Registro de filmes</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-3-review">Léxico 3</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-7-list">Léxico 7<br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-9-notifications">Léxico 9</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-15">Elo de Rastreabilidade 15</h3>
+<details>
+  <summary>Requisito: Deve ser possível sincronizar os dados de serviços de streamings com os dados do aplicativo</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/#3-resultados" target='_blank'>DOC50</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc06_1">Casos de Uso 06</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/espSuplementar/#31-funcionalidade-functionality">Especificação Suplementar U07</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us08-sincronizar-dados-de-servicos-de-streaming-com-o-aplicativo">História de Usuários US08</a></td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#34-tema-4-registro-de-filmes">Tema: Registro de filmes</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-5-watched">Léxico 5</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-16">Elo de Rastreabilidade 16</h3>
+<details>
+  <summary>Requisito: Registro no diário mais intuitivo e com menos cliques</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/entrevista/" target='_blank'>ENT05</a></td>
+      <td>Desenvolvimento</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc10_1">Casos de Uso 10</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/casoUso/#uc10_1">NFR Usabilidade</a></td> <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us10-registro-no-diario-mais-intuitivo-e-com-menos-cliques"> História de Usuários 10 </a></td>  
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#34-tema-4-registro-de-filmes">Tema: Registro de filmes</a><br/><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Prioriza%C3%A7%C3%A3o/priorizacao/#first-things-first">Priorização: First Things First e Escala de Três Níveis</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-5-watched">Léxico 5</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-17">Elo de Rastreabilidade 17</h3>
+<details>
+  <summary>Requisito: Deve ser exibido no perfil do usuário a quantidade de filmes assistidos pelo usuário </summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/#3-resultados" target='_blank'>DOC58</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us14-exibicao-da-quantidade-de-filmes-assistidos-no-perfil-do-usuario">História de Usuários US14</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#25-prototipo-05-tempo-de-tela">Protótipo 05</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#35-tema-5-gerenciamento-da-conta">Tema: Gerenciamento da conta</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-5-watched">Léxico 5</a></td>
+    </tr>
+  </table>
+</details>
+
+<h3 id="elo-de-rastreabilidade-18">Elo de Rastreabilidade 18</h3>
+<details>
+  <summary>Requisito: Deve ser exibido no perfil do usuário a quantidade de horas assistidas pelo usuário</summary>
+  <table>
+    <tr>
+      <th>Artefato Analisado</th>
+      <th>Classificação</th>
+      <th>Satisfação</th>
+      <th>Recurso</th>
+      <th>Representação</th>
+      <th>Alocado</th>
+       <th>Agregação</th>
+    </tr>
+    <tr>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Elicita%C3%A7%C3%A3o/analise/#3-resultados" target='_blank'>DOC59</a></td>
+      <td>Desenvolvimento</td>
+      <td>-</td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/historiaUsuario/#us15-exibicao-da-quantidade-de-horas-assistidas-no-perfil-do-usuario">História de Usuários US15</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Verifica%C3%A7%C3%A3o%20e%20Valida%C3%A7%C3%A3o/Valida%C3%A7%C3%A3o/2-prototipacao/#25-prototipo-05-tempo-de-tela">Protótipo 05</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/Metodologias%20Ageis/backlog/#35-tema-5-gerenciamento-da-conta">Tema: Gerenciamento da conta</a></td>
+      <td><a href="https://requisitos-de-software.github.io/2023.1-Letterboxd/Modelagem/lexicos/#lexico-5-watched">Léxico 5</a></td>
+    </tr>
+  </table>
+</details>
+
+<h2 id="bibliografia">Bibliografia</h2>
+<ul>
+<li>SAYÃO, Miriam; LEITE, Julio. Rastreabilidade de Requisitos. PUC-Rio: Departamento de Informática, ISSN 0103-9741, Rio de Janeiro, 2005. Disponível em: <a href="https://www-di.inf.puc-rio.br/~julio/rastre.pdf">https://www-di.inf.puc-rio.br/~julio/rastre.pdf</a>. Acesso em: 04 de jul de 2023.</li>
+<li>Toranzo, M.; Castro, J. &amp; Mello, E. "Uma proposta para melhorar o rastreamento de requisitos". In: WER02 - Workshop em Engenharia de Requisitos, Valencia, Espanha, Novembro 11-12, 2002.</li>
+</ul>
+<h2 id="tabela-de-versionamento">Tabela de Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+<th>Revisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>03/07/2023</td>
+<td><code>1.0</code></td>
+<td>Adição dos elos</td>
+<td><a href="https://github.com/clara-ribeiro">Clara Ribeiro</a></td>
+<td><a href="https://github.com/Neitan2001">Natan Santana</a></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy"], "search": "../../assets/javascripts/workers/search.74e28a9f.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.220ee61c.min.js"></script>
+      
+    
+  </body>
+</html>
